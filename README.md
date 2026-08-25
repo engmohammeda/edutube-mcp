@@ -1,5 +1,7 @@
 # Edutube MCP
 
+🌐 **Project site (GitHub Pages): https://engmohammeda.github.io/edutube-mcp/** — includes a live explorer of real extracted lessons.
+
 **Turn YouTube playlists and videos into structured lessons, analyses, frames and quizzes — with Google Gemini and automatic model rotation.**
 
 MCP stdio server + CLI for AI agents and LMS pipelines. Paste a playlist URL and get back per-lesson JSON: verbatim dialogue with Arabic translations, key expressions, vocabulary, cultural/pronunciation notes, and a 10-question quiz — extracted from the actual audio **and** visuals, not just captions.
