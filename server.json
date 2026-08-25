@@ -1,0 +1,64 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.engmohammeda/edutube-mcp",
+  "description": "Edutube MCP: turn YouTube playlists and videos into structured lessons, analyses, frames and quizzes with Google Gemini and automatic model rotation",
+  "repository": {
+    "url": "https://github.com/engmohammeda/edutube-mcp",
+    "source": "github"
+  },
+  "version": "0.4.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@engmohammeda/edutube-mcp",
+      "version": "0.4.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Google Gemini API key.",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "GEMINI_API_KEY"
+        },
+        {
+          "description": "YouTube Data API v3 key (optional; speeds playlist import and enables get_youtube_video_metadata).",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": true,
+          "name": "YOUTUBE_API_KEY"
+        },
+        {
+          "description": "Optional Gemini model override.",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "name": "GEMINI_MODEL"
+        },
+        {
+          "description": "Optional comma-separated model rotation order for free-tier quota pools.",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "name": "GEMINI_MODEL_ROTATION"
+        },
+        {
+          "description": "Optional default directory for extracted lesson JSON files.",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "name": "EDUTUBE_OUTPUT_DIR"
+        },
+        {
+          "description": "Optional path to a yt-dlp executable.",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "name": "YT_DLP_PATH"
+        }
+      ]
+    }
+  ]
+}
