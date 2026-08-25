@@ -9,7 +9,7 @@ import path from "node:path";
 import type { GoogleGenAI } from "@google/genai";
 
 import type { AnalysisExecutionContext } from "./analysis.js";
-import { extractLessonFromVideo, lessonLooksValid } from "./lesson.js";
+import { extractLessonFromVideo, lessonLooksValid, type CoursePreset } from "./lesson.js";
 import { resolvePlaylistEntries, type PlaylistEntry } from "./playlist.js";
 import type { AnalysisSessionStore } from "./session-store.js";
 
@@ -36,6 +36,7 @@ export type EdutubeRunResult = {
 export type EdutubeRunOptions = {
   url: string;
   outputDir: string;
+  course?: CoursePreset;
   maxVideos?: number;
   model?: string;
   chunkModel?: string;
@@ -102,6 +103,7 @@ export async function runLessonExtraction(
           youtubeUrl: `https://www.youtube.com/watch?v=${entry.videoId}`,
           position,
           fallbackTitle: entry.title ?? undefined,
+          course: options.course,
           model: options.model,
           chunkModel: options.chunkModel,
           finalModel: options.finalModel,

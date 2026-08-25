@@ -56,7 +56,7 @@ function printUsage() {
     "Usage:",
     "  edutube-mcp          Start the MCP stdio server",
     "  edutube-mcp setup    Save config for npm/global usage",
-    "  edutube-mcp extract <playlist-or-video-url> [--out DIR] [--max N] [--model M]",
+    "  edutube-mcp extract <playlist-or-video-url> [--out DIR] [--max N] [--model M] [--course conversation|phonetics]",
     "                       Extract structured lessons from a playlist/video without an MCP client",
     "  edutube-mcp --help   Show this help",
   ].join("\n"));
@@ -95,6 +95,7 @@ async function runExtract(argv) {
       url,
       outputDir: flagValue(argv, "--out") || process.env.EDUTUBE_OUTPUT_DIR || "edutube-output",
       maxVideos: Number(flagValue(argv, "--max") || 50),
+      course: flagValue(argv, "--course"),
       model: flagValue(argv, "--model"),
     },
     context

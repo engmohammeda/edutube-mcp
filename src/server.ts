@@ -1024,6 +1024,7 @@ export function createServer(options: CreateServerOptions = {}): McpServer {
               {
                 url: input.url,
                 outputDir: input.outputDir || process.env.EDUTUBE_OUTPUT_DIR || "edutube-output",
+                course: input.course,
                 maxVideos: input.maxVideos,
                 model: input.model,
                 chunkModel: input.chunkModel,

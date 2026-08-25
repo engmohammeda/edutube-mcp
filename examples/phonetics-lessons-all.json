@@ -1,0 +1,2685 @@
+[
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 1,
+      "title": "تعلم الإنجليزية من الصفر حرفيا مع كورس الصوتيات وتعلم كيفية النطق الصحيح للحروف"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "/e/",
+          "description": "لإنتاج صوت /e/، افتح فمك قليلاً للأسفل مع كسرة خفيفة. الفم ليس مفتوحًا بالكامل ولا مقفولًا."
+        },
+        {
+          "symbol": "/ɪ/",
+          "description": "لإنتاج صوت /ɪ/، ضع شفتيك في وضعية تشبه الابتسامة مع كسرة أعمق، وهو أقرب للكسرة العربية."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "sit",
+          "word2": "set"
+        },
+        {
+          "word1": "sick",
+          "word2": "sack"
+        },
+        {
+          "word1": "bin",
+          "word2": "ben"
+        },
+        {
+          "word1": "bid",
+          "word2": "bed"
+        },
+        {
+          "word1": "lip",
+          "word2": "lep"
+        },
+        {
+          "word1": "pin",
+          "word2": "pen"
+        }
+      ],
+      "practice_scripts": [
+        "Listen carefully to distinguish between the short 'i' and short 'e' sounds.",
+        "Practice repeating words containing these sounds to improve pronunciation.",
+        "Use the provided examples to train your ear for accurate sound identification.",
+        "Record yourself and compare your pronunciation to the native speaker's.",
+        "Focus on the mouth and tongue positions for each sound as explained.",
+        "Practice distinguishing between 'sit' and 'set', 'sick' and 'sack', 'bin' and 'ben', 'bid' and 'bed', 'lip' and 'lep', 'pin' and 'pen'."
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "phonetics",
+        "meaning": "علم الصوتيات، وهو دراسة أصوات الكلام.",
+        "example_en": "This course teaches English phonetics.",
+        "example_ar": "هذا الكورس يعلم الصوتيات الإنجليزية."
+      },
+      {
+        "word": "shadowing",
+        "meaning": "تقنية لتعلم اللغة عن طريق محاكاة ما يقوله المتحدث الأصلي.",
+        "example_en": "Shadowing is a great way to improve pronunciation.",
+        "example_ar": "الظلال (المحاكاة) طريقة رائعة لتحسين النطق."
+      }
+    ],
+    "lesson_notes": [
+      "يجب على المتحدثين العرب الانتباه إلى الفرق الدقيق بين صوت /e/ القصير وصوت /ɪ/ القصير، حيث يمكن أن يؤدي الخلط بينهما إلى تغيير معنى الكلمة.",
+      "صوت /e/ يتطلب فتح فم أقل من الكسرة العربية، بينما صوت /ɪ/ أقرب للكسرة العربية ولكنه يتطلب وضعية ابتسامة خفيفة."
+    ],
+    "quiz": [
+      {
+        "type": "true_false",
+        "question": "لتنطق صوت /e/، يجب أن تفتح فمك كثيراً مثلما تفعل عند نطق حرف الألف المفتوح.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "خطأ",
+        "explanation_ar": "صوت /e/ يتطلب فتحة فم خفيفة وكسرة غير عميقة، وليس فتحة فم كبيرة."
+      },
+      {
+        "type": "true_false",
+        "question": "صوت /ɪ/ في اللغة الإنجليزية قريب من الكسرة في اللغة العربية.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "صحيح",
+        "explanation_ar": "صوت /ɪ/ يتميز بوضعية تشبه الابتسامة وهو أقرب في صوته للكسرة العربية."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "sit",
+        "options": [
+          "sit",
+          "set",
+          "sat",
+          "sect"
+        ],
+        "answer": "sit",
+        "explanation_ar": "الكلمة الصحيحة هي 'sit' وتنطق بصوت /ɪ/ القصير."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "set",
+        "options": [
+          "sit",
+          "set",
+          "sat",
+          "sect"
+        ],
+        "answer": "set",
+        "explanation_ar": "الكلمة الصحيحة هي 'set' وتنطق بصوت /e/ القصير."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "bin",
+        "options": [
+          "bin",
+          "ben",
+          "ban",
+          "bean"
+        ],
+        "answer": "bin",
+        "explanation_ar": "الكلمة الصحيحة هي 'bin' وتنطق بصوت /ɪ/ القصير."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "ben",
+        "options": [
+          "bin",
+          "ben",
+          "ban",
+          "bean"
+        ],
+        "answer": "ben",
+        "explanation_ar": "الكلمة الصحيحة هي 'ben' وتنطق بصوت /e/ القصير."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "lip",
+        "options": [
+          "lip",
+          "lep",
+          "lap",
+          "leap"
+        ],
+        "answer": "lip",
+        "explanation_ar": "الكلمة الصحيحة هي 'lip' وتنطق بصوت /ɪ/ القصير."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "lep",
+        "options": [
+          "lip",
+          "lep",
+          "lap",
+          "leap"
+        ],
+        "answer": "lep",
+        "explanation_ar": "الكلمة الصحيحة هي 'lep' وتنطق بصوت /e/ القصير."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "sick",
+        "options": [
+          "sick",
+          "sack",
+          "sock",
+          "seek"
+        ],
+        "answer": "sick",
+        "explanation_ar": "الكلمة الصحيحة هي 'sick' وتنطق بصوت /ɪ/ القصير."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "sack",
+        "options": [
+          "sick",
+          "sack",
+          "sock",
+          "seek"
+        ],
+        "answer": "sack",
+        "explanation_ar": "الكلمة الصحيحة هي 'sack' وتنطق بصوت /æ/ والذي يختلف عن /ɪ/ و /e/."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 2,
+      "title": "تعلم نطق الحروف الانجليزية بشكل صحيح"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "/æ/",
+          "description": "صوت حرف a القصير. افتح فمك بشكل متوسط مع إرجاع اللسان للخلف قليلاً لأسفل، وهو صوت مسترخٍ يشبه الحركات البطيئة."
+        },
+        {
+          "symbol": "/ɛ/",
+          "description": "صوت حرف e القصير. يتطلب وضعية فم أكثر تشنجاً وطاقة، حيث يتم شد عضلات الفم قليلاً للخارج."
+        },
+        {
+          "symbol": "/ɪ/",
+          "description": "صوت حرف i القصير. الفم يكون مفتوحاً قليلاً جداً واللسان يرتفع نحو سقف الحلق، صوت خاطف وسريع."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "Pat",
+          "word2": "Pet"
+        },
+        {
+          "word1": "Bad",
+          "word2": "Bed"
+        },
+        {
+          "word1": "Pan",
+          "word2": "Pen"
+        },
+        {
+          "word1": "Sit",
+          "word2": "Sat"
+        }
+      ],
+      "practice_scripts": [
+        "Jan will sit next to the bed.",
+        "The bad pen is in the pan.",
+        "He met the cat on the mat."
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Lazy",
+        "meaning": "كسول أو مسترخٍ",
+        "example_en": "The cat is lazy today.",
+        "example_ar": "القطة كسولة اليوم."
+      },
+      {
+        "word": "Energetic",
+        "meaning": "نشيط أو مليء بالطاقة",
+        "example_en": "She is very energetic in class.",
+        "example_ar": "هي نشيطة جداً في الفصل."
+      }
+    ],
+    "lesson_notes": [
+      "يعاني المتحدثون بالعربية من خلط أصوات الحروف المتحركة القصيرة ببعضها، لذا يجب التركيز على وضعية الفم.",
+      "استخدام المرآة ضروري جداً لمقارنة حركة فمك بحركة فم المعلم.",
+      "صوت /æ/ غالباً ما ينطقه العرب كألف ممدودة، وهو خطأ، يجب أن يكون الصوت قصيراً ومسترخياً."
+    ],
+    "quiz": [
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Pat",
+        "options": [
+          "Pat",
+          "Pet",
+          "Pot",
+          "Put"
+        ],
+        "answer": "Pat",
+        "explanation_ar": "صوت /æ/ في Pat يحتاج فماً مفتوحاً أكثر من صوت /ɛ/ في Pet."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Bed",
+        "options": [
+          "Bad",
+          "Bed",
+          "Bid",
+          "Bud"
+        ],
+        "answer": "Bed",
+        "explanation_ar": "صوت /ɛ/ في Bed يتميز بشد بسيط في عضلات الفم."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Sit",
+        "options": [
+          "Sat",
+          "Set",
+          "Sit",
+          "Sot"
+        ],
+        "answer": "Sit",
+        "explanation_ar": "صوت /ɪ/ هو صوت قصير جداً يحدث بفتح بسيط للفم."
+      },
+      {
+        "type": "true_false",
+        "question": "هل يجب شد عضلات الفم عند نطق صوت /æ/ القصير؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "صوت /æ/ هو صوت مسترخٍ ولا يتطلب شد عضلات الفم مثل أصوات أخرى."
+      },
+      {
+        "type": "true_false",
+        "question": "هل يعتبر استخدام المرآة مفيداً لتعلم مخارج الحروف؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "صح",
+        "explanation_ar": "المرآة تساعدك على رؤية حركة لسانك وشكل فمك ومطابقتها مع المعلم."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Pan",
+        "options": [
+          "Pan",
+          "Pen",
+          "Pin",
+          "Pun"
+        ],
+        "answer": "Pan",
+        "explanation_ar": "Pan يحتوي على صوت /æ/ القصير المسترخي."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Pen",
+        "options": [
+          "Pan",
+          "Pen",
+          "Pin",
+          "Pawn"
+        ],
+        "answer": "Pen",
+        "explanation_ar": "Pen يحتوي على صوت /ɛ/ الذي يتطلب طاقة أكبر من صوت /æ/."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Bad",
+        "options": [
+          "Bad",
+          "Bed",
+          "Bid",
+          "Bade"
+        ],
+        "answer": "Bad",
+        "explanation_ar": "صوت /æ/ هو صوت حرف a القصير."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Sat",
+        "options": [
+          "Set",
+          "Sat",
+          "Sit",
+          "Suit"
+        ],
+        "answer": "Sat",
+        "explanation_ar": "Sat تستخدم صوت /æ/."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Pet",
+        "options": [
+          "Pat",
+          "Pet",
+          "Pit",
+          "Pot"
+        ],
+        "answer": "Pet",
+        "explanation_ar": "Pet تستخدم صوت /ɛ/."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 3,
+      "title": "الفرق بين حرفي P و B وأصوات الحروف المتحركة"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "/p/",
+          "description": "صوت انفجاري يخرج فيه هواء قوي مع إغلاق الشفتين وعدم حدوث اهتزاز في الحنجرة (صوت مهموس)."
+        },
+        {
+          "symbol": "/b/",
+          "description": "صوت انفجاري مع إغلاق الشفتين مع حدوث اهتزاز في الحنجرة (صوت مجهور)."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "Pat",
+          "word2": "Bat"
+        },
+        {
+          "word1": "Cup",
+          "word2": "Cop"
+        },
+        {
+          "word1": "Pig",
+          "word2": "Big"
+        }
+      ],
+      "practice_scripts": [
+        "This pig has a big hot mug.",
+        "Pack your bags for the trip.",
+        "Put the cup on the cop car."
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Mug",
+        "meaning": "كوب كبير ذو مقبض",
+        "example_en": "I drink coffee from my big mug.",
+        "example_ar": "أنا أشرب القهوة من كوبي الكبير."
+      },
+      {
+        "word": "Cop",
+        "meaning": "شرطي",
+        "example_en": "The cop stopped the car.",
+        "example_ar": "أوقف الشرطي السيارة."
+      }
+    ],
+    "lesson_notes": [
+      "يخطئ المتحدث العربي بخلط صوتي P و B لعدم وجود فرق بينهما في اللغة العربية، لذا يجب التركيز على خروج الهواء.",
+      "استخدم ورقة أمام فمك؛ إذا تحركت الورقة عند النطق فأنت تنطق P بشكل صحيح.",
+      "يجب مراقبة حركة الشفاه في المرآة للتأكد من مطابقة وضع الفم لما هو مشروح."
+    ],
+    "quiz": [
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Pat",
+        "options": [
+          "Pat",
+          "Bat",
+          "Pet",
+          "Bet"
+        ],
+        "answer": "Pat",
+        "explanation_ar": "كلمة Pat تبدأ بصوت P الانفجاري الذي يخرج معه هواء."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Big",
+        "options": [
+          "Pig",
+          "Big",
+          "Bug",
+          "Bag"
+        ],
+        "answer": "Big",
+        "explanation_ar": "كلمة Big تبدأ بصوت B المجهور الذي يحدث اهتزازاً في الحنجرة."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Cup",
+        "options": [
+          "Cup",
+          "Cop",
+          "Cap",
+          "Cab"
+        ],
+        "answer": "Cup",
+        "explanation_ar": "صوت حرف U القصير يتطلب وضعاً معيناً للشفاه يختلف عن صوت O."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Cop",
+        "options": [
+          "Cup",
+          "Cop",
+          "Cap",
+          "Cab"
+        ],
+        "answer": "Cop",
+        "explanation_ar": "صوت حرف O المفتوح يختلف عن صوت U القصير."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Pig",
+        "options": [
+          "Pig",
+          "Big",
+          "Bag",
+          "Peg"
+        ],
+        "answer": "Pig",
+        "explanation_ar": "كلمة Pig تبدأ بصوت P المهموس."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Bat",
+        "options": [
+          "Pat",
+          "Bat",
+          "Bit",
+          "But"
+        ],
+        "answer": "Bat",
+        "explanation_ar": "كلمة Bat تبدأ بصوت B المجهور."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Pack",
+        "options": [
+          "Pack",
+          "Back",
+          "Pick",
+          "Buck"
+        ],
+        "answer": "Pack",
+        "explanation_ar": "كلمة Pack تبدأ بصوت P الانفجاري."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Back",
+        "options": [
+          "Pack",
+          "Back",
+          "Beck",
+          "Book"
+        ],
+        "answer": "Back",
+        "explanation_ar": "كلمة Back تبدأ بصوت B المجهور."
+      },
+      {
+        "type": "true_false",
+        "question": "هل صوت /p/ يعتبر صوتاً مجهوراً (Voiced)؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "صوت /p/ هو صوت مهموس (Voiceless) لا يهتز معه الحنجرة."
+      },
+      {
+        "type": "true_false",
+        "question": "هل يجب أن تخرج كمية كبيرة من الهواء عند نطق /b/؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "الهواء القوي يخرج مع صوت /p/ وليس /b/."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 4,
+      "title": "اختبار تقييمي للمستوى الأول"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "/p/",
+          "description": "صوت انفجاري يُنطق بإغلاق الشفتين بقوة ثم إطلاق الهواء فجأة مع عدم اهتزاز الأحبال الصوتية."
+        },
+        {
+          "symbol": "/b/",
+          "description": "صوت انفجاري يشبه /p/ لكن مع اهتزاز الأحبال الصوتية أثناء نطق الصوت."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "Pack",
+          "word2": "Back"
+        },
+        {
+          "word1": "Pat",
+          "word2": "Bat"
+        },
+        {
+          "word1": "Pear",
+          "word2": "Bear"
+        }
+      ],
+      "practice_scripts": [
+        "The pack back is on the track.",
+        "Big bears eat pears in the park.",
+        "Practice makes perfect progress every day."
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Assessment",
+        "meaning": "عملية تقييم أو اختبار للمستوى",
+        "example_en": "This assessment helps identify your weak points.",
+        "example_ar": "هذا التقييم يساعد في تحديد نقاط ضعفك."
+      },
+      {
+        "word": "Shadowing",
+        "meaning": "تقنية المحاكاة أو ترديد الكلام خلف المتحدث",
+        "example_en": "Shadowing is great for improving pronunciation.",
+        "example_ar": "تقنية المحاكاة ممتازة لتحسين النطق."
+      }
+    ],
+    "lesson_notes": [
+      "يخلط الكثير من العرب بين صوتي P و B لأن حرف P غير موجود في الأبجدية العربية، لذا يجب التركيز على خروج الهواء.",
+      "تذكر أن صوت P هو صوت مهموس لا يهتز معه الحنجرة، بينما B صوت مجهور.",
+      "لا تهتم للدرجة النهائية في الاختبار بقدر اهتمامك بمعرفة أماكن الخطأ لتصحيحها."
+    ],
+    "quiz": [
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Pack",
+        "options": [
+          "Pack",
+          "Back",
+          "Bat",
+          "Pat"
+        ],
+        "answer": "Pack",
+        "explanation_ar": "كلمة Pack تبدأ بصوت P الانفجاري بدون اهتزاز أحبال صوتية."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Bear",
+        "options": [
+          "Pear",
+          "Bear",
+          "Beer",
+          "Peer"
+        ],
+        "answer": "Bear",
+        "explanation_ar": "كلمة Bear تبدأ بصوت B المجهور الذي يصاحبه اهتزاز في الأحبال الصوتية."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Pat",
+        "options": [
+          "Bat",
+          "Pat",
+          "Pad",
+          "Bad"
+        ],
+        "answer": "Pat",
+        "explanation_ar": "Pat تبدأ بصوت مهموس يخرج معه كمية هواء واضحة."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Back",
+        "options": [
+          "Pack",
+          "Back",
+          "Beck",
+          "Peck"
+        ],
+        "answer": "Back",
+        "explanation_ar": "كلمة Back تبدأ بصوت B المجهور."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Pear",
+        "options": [
+          "Bear",
+          "Pear",
+          "Bare",
+          "Pair"
+        ],
+        "answer": "Pear",
+        "explanation_ar": "Pear تبدأ بصوت P الذي يحتاج دفع هواء قوي."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Bat",
+        "options": [
+          "Pat",
+          "Bat",
+          "Bet",
+          "Pet"
+        ],
+        "answer": "Bat",
+        "explanation_ar": "Bat كلمة تبدأ بصوت B المجهور."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Peck",
+        "options": [
+          "Peck",
+          "Beck",
+          "Pack",
+          "Back"
+        ],
+        "answer": "Peck",
+        "explanation_ar": "صوت P يختلف عن B في خروج الهواء."
+      },
+      {
+        "type": "true_false",
+        "question": "هل يعتبر صوت /p/ صوتاً مجهوراً (Voiced)؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "صوت /p/ هو صوت مهموس (Unvoiced) لا تهتز معه الأحبال الصوتية."
+      },
+      {
+        "type": "true_false",
+        "question": "عند نطق صوت /b/ يجب أن تهتز الأحبال الصوتية.",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "صح",
+        "explanation_ar": "صوت /b/ هو صوت مجهور، لذا يجب أن تهتز الأحبال الصوتية عند نطقه."
+      },
+      {
+        "type": "true_false",
+        "question": "خروج كمية كبيرة من الهواء عند نطق /p/ علامة على النطق الصحيح.",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "صح",
+        "explanation_ar": "نعم، دفع الهواء سمة أساسية لصوت P."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 5,
+      "title": "شرح الأصوات المركبة (Diphthongs)"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "AI",
+          "description": "صوت مركب يبدأ بفتحة الفم المريحة وينتهي بكسرة خفيفة، يخرج من منتصف الفم."
+        },
+        {
+          "symbol": "OA",
+          "description": "صوت يبدأ بضم الشفاه دائرياً ثم يتحرك نحو الداخل مع تضييق الفتحة."
+        },
+        {
+          "symbol": "IE",
+          "description": "صوت يبدأ بابتسامة خفيفة (كسرة) ثم يتحرك نحو وضعية الفم المفتوح قليلاً (شوا)."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "Pain",
+          "word2": "Pen"
+        },
+        {
+          "word1": "Boat",
+          "word2": "Bat"
+        },
+        {
+          "word1": "Seed",
+          "word2": "Side"
+        }
+      ],
+      "practice_scripts": [
+        "I fail to see a green soap floats.",
+        "I paid a geek to paint a toast seed in dried oats."
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Diphthong",
+        "meaning": "ثنائي الصوت، صوت مركب ينتج عن دمج صوتين متحركين.",
+        "example_en": "The sound in 'boy' is a common diphthong.",
+        "example_ar": "الصوت في كلمة 'boy' هو ثنائي صوت شائع."
+      },
+      {
+        "word": "Shadowing",
+        "meaning": "تقنية المحاكاة، تكرار ما تسمعه فور سماعه.",
+        "example_en": "Shadowing helps improve your pronunciation.",
+        "example_ar": "المحاكاة تساعد في تحسين نطقك."
+      }
+    ],
+    "lesson_notes": [
+      "يخطئ العرب غالباً في دمج الصوت المركب، حاول أن تجعل الانتقال بين الحرفين سلساً وليس منفصلاً.",
+      "تجنب قراءة الـ Diphthongs كحرفين منفصلين تماماً، بل هما كتلة صوتية واحدة.",
+      "استخدم مرآة للتأكد من حركة الشفاه عند نطق أصوات الضم مثل OA."
+    ],
+    "quiz": [
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Pain",
+        "options": [
+          "Pain",
+          "Pen",
+          "Pan",
+          "Pin"
+        ],
+        "answer": "Pain",
+        "explanation_ar": "الكلمة تحتوي على صوت AI المركب وليس صوت الفتحة المفردة."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Boat",
+        "options": [
+          "Boat",
+          "Bat",
+          "Bet",
+          "Bit"
+        ],
+        "answer": "Boat",
+        "explanation_ar": "الكلمة تحتوي على صوت OA المركب الذي يحتاج لضم الشفاه."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Seed",
+        "options": [
+          "Seed",
+          "Side",
+          "Sad",
+          "Sod"
+        ],
+        "answer": "Seed",
+        "explanation_ar": "صوت الـ ee يختلف عن الـ diphthong الموجود في كلمة side."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Paid",
+        "options": [
+          "Paid",
+          "Ped",
+          "Pad",
+          "Pod"
+        ],
+        "answer": "Paid",
+        "explanation_ar": "الكلمة تحتوي على الصوت المركب AI."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Float",
+        "options": [
+          "Float",
+          "Flat",
+          "Flet",
+          "Flit"
+        ],
+        "answer": "Float",
+        "explanation_ar": "صوت OA هو المكون الأساسي في هذه الكلمة."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Toast",
+        "options": [
+          "Toast",
+          "Test",
+          "Tast",
+          "Tost"
+        ],
+        "answer": "Toast",
+        "explanation_ar": "الكلمة تنتهي بصوت مركب يحتاج لضم الشفاه."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Dried",
+        "options": [
+          "Dried",
+          "Dred",
+          "Drad",
+          "Drod"
+        ],
+        "answer": "Dried",
+        "explanation_ar": "هذا الصوت مركب يبدأ بفتحة وينتهي بكسرة."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Oats",
+        "options": [
+          "Oats",
+          "Eats",
+          "Its",
+          "Ats"
+        ],
+        "answer": "Oats",
+        "explanation_ar": "تبدأ الكلمة بصوت الـ OA المركب."
+      },
+      {
+        "type": "true_false",
+        "question": "هل الـ Diphthong هو صوت واحد ناتج عن دمج حرفين متحركين؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "صح",
+        "explanation_ar": "تعريف الـ Diphthong هو ثنائي الصوت، أي دمج صوتين متحركين في مقطع واحد."
+      },
+      {
+        "type": "true_false",
+        "question": "هل نطق الأصوات المركبة يتطلب ثبات الفم في وضعية واحدة؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "الأصوات المركبة تتطلب تحريك الفم أو الشفاه من وضعية إلى أخرى أثناء النطق."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 6,
+      "title": "تعلم نطق الحروف الانجليزية بشكل صحيح"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "/t/ & /d/",
+          "description": "كلا الصوتين لهما نفس مخرج النطق (طرف اللسان يلمس سقف الفم خلف الأسنان)، الفرق أن /t/ صوت مهموس يحتاج خروج كمية هواء أقوى، بينما /d/ صوت مجهور يعتمد على اهتزاز الأوتار الصوتية."
+        },
+        {
+          "symbol": "/ɔːr/",
+          "description": "يتطلب تقريب الشفاه قليلاً مع تراجع اللسان للخلف، وتطويل الصوت ليعطي نغمة الـ R المميزة."
+        },
+        {
+          "symbol": "/ŋ/",
+          "description": "يتم نطق هذا الصوت عن طريق رفع مؤخرة اللسان لتلامس سقف الحلق الرخو، مع خروج الهواء من الأنف وليس من الفم."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "Toast",
+          "word2": "Doast"
+        },
+        {
+          "word1": "Team",
+          "word2": "Deem"
+        },
+        {
+          "word1": "Join",
+          "word2": "Coin"
+        },
+        {
+          "word1": "Soil",
+          "word2": "Toil"
+        }
+      ],
+      "practice_scripts": [
+        "I paid a geek to paint a toast seed in dried oats",
+        "Jack is happy but his friends are sad",
+        "The noisy boy joined the soil project"
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Geek",
+        "meaning": "شخص مهووس بشيء معين أو تقني",
+        "example_en": "He is a computer geek.",
+        "example_ar": "هو مهووس بالحاسوب."
+      },
+      {
+        "word": "Join",
+        "meaning": "ينضم أو يشارك",
+        "example_en": "Can I join the team?",
+        "example_ar": "هل يمكنني الانضمام للفريق؟"
+      },
+      {
+        "word": "Soil",
+        "meaning": "التربة",
+        "example_en": "The soil is very dry.",
+        "example_ar": "التربة جافة جداً."
+      }
+    ],
+    "lesson_notes": [
+      "تجنب الإسراع في النطق؛ الاستماع بتركيز أهم من سرعة الأداء.",
+      "ملاحظة أن وجود حرف L بعد بعض الأصوات مثل 'Oi' يغير من طريقة النطق ويحتاج لمد خفيف للصوت.",
+      "لا تخلط بين قوة دفع الهواء في حرف T عن حرف D."
+    ],
+    "quiz": [
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Toast",
+        "options": [
+          "Toast",
+          "Doast",
+          "Tost",
+          "Dost"
+        ],
+        "answer": "Toast",
+        "explanation_ar": "الكلمة بدأت بصوت T القوي والمهموس."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Deem",
+        "options": [
+          "Teem",
+          "Deem",
+          "Team",
+          "Dim"
+        ],
+        "answer": "Deem",
+        "explanation_ar": "هذه الكلمة تعتمد على اهتزاز الحبال الصوتية في حرف D."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Join",
+        "options": [
+          "Join",
+          "Coin",
+          "Joy",
+          "Joil"
+        ],
+        "answer": "Join",
+        "explanation_ar": "صوت J يتم نطقه بضغط اللسان في وسط سقف الحلق."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Soil",
+        "options": [
+          "Soil",
+          "Toil",
+          "Soyl",
+          "Toyl"
+        ],
+        "answer": "Soil",
+        "explanation_ar": "هذا الصوت ينتهي بـ L مفخمة قليلاً مع مد الصوت."
+      },
+      {
+        "type": "true_false",
+        "question": "هل صوت /ŋ/ يتم نطقه بخروج الهواء من الفم؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "صوت /ŋ/ يخرج الهواء فيه من الأنف وليس الفم."
+      },
+      {
+        "type": "true_false",
+        "question": "هل مخرج حرفي T و D في الفم متشابه؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "صح",
+        "explanation_ar": "كلا الحرفين يلمس فيهما اللسان نفس المنطقة خلف الأسنان العلوية."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Coin",
+        "options": [
+          "Coin",
+          "Join",
+          "Coy",
+          "Joinn"
+        ],
+        "answer": "Coin",
+        "explanation_ar": "الكلمة بدأت بصوت الكاف المنطوقة بوضوح."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Toil",
+        "options": [
+          "Toil",
+          "Soil",
+          "Toyl",
+          "Toy"
+        ],
+        "answer": "Toil",
+        "explanation_ar": "الكلمة بدأت بصوت T القوي."
+      },
+      {
+        "type": "true_false",
+        "question": "هل حرف D يحتاج دفع هواء قوي مثل T؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "حرف T هو الذي يحتاج لدفع هواء قوي، أما D فيعتمد على الاهتزاز."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Geek",
+        "options": [
+          "Geek",
+          "Seek",
+          "Deek",
+          "Peek"
+        ],
+        "answer": "Geek",
+        "explanation_ar": "كلمة Geek تبدأ بصوت G المجهور."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 7,
+      "title": "الفرق بين أصوات ch و sh و oo و TH"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "/ʃ/",
+          "description": "صوت الشين الإنجليزية، يتم إنتاجه بجعل اللسان قريباً من سقف الحلق مع دفع الهواء بدون اهتزاز الأحبال الصوتية."
+        },
+        {
+          "symbol": "/tʃ/",
+          "description": "صوت مركب يبدأ بلمس طرف اللسان لسقف الحلق ثم إطلاق الهواء فجأة مع دفع اللسان للخلف."
+        },
+        {
+          "symbol": "/uː/",
+          "description": "صوت الواو الطويل، يتم بضم الشفتين للأمام ورفع مؤخرة اللسان مع بقاء الصوت لفترة أطول."
+        },
+        {
+          "symbol": "/θ/ & /ð/",
+          "description": "صوت الثاء والذال، يتم بوضع طرف اللسان بين الأسنان أو خلف الأسنان مباشرة مع دفع الهواء."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "Ship",
+          "word2": "Chip"
+        },
+        {
+          "word1": "Sheep",
+          "word2": "Cheap"
+        },
+        {
+          "word1": "Thin",
+          "word2": "Fin"
+        },
+        {
+          "word1": "With",
+          "word2": "Width"
+        }
+      ],
+      "practice_scripts": [
+        "The fool sat on a stool and looked at the ship.",
+        "Cheap chips are eaten by the thin man with the thin cat."
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Stool",
+        "meaning": "كرسي بدون ظهر",
+        "example_en": "He sat on a small wooden stool.",
+        "example_ar": "جلس على كرسي صغير بدون ظهر."
+      },
+      {
+        "word": "Fool",
+        "meaning": "أحمق أو شخص غبي",
+        "example_en": "Don't be a fool and listen to me.",
+        "example_ar": "لا تكن أحمق واستمع إلي."
+      }
+    ],
+    "lesson_notes": [
+      "يخلط المتعلمون العرب غالباً بين /ʃ/ و /tʃ/ بسبب تأثرهم ببعض اللغات الأخرى مثل الفرنسية.",
+      "لا توجد قاعدة ثابتة لنطق الـ oo، لذا يجب الاعتماد على الاستماع وتكرار الكلمة بسياقها.",
+      "صوت الـ TH ينطق غالباً مثل الثاء أو الذال العربية ويجب إخراج اللسان قليلاً للحصول على نطق صحيح."
+    ],
+    "quiz": [
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Ship",
+        "options": [
+          "Ship",
+          "Chip",
+          "Sheep",
+          "Cheap"
+        ],
+        "answer": "Ship",
+        "explanation_ar": "كلمة Ship تبدأ بصوت الشين /ʃ/ الهادئ، بينما Chip تبدأ بصوت مركب /tʃ/."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Cheap",
+        "options": [
+          "Sheep",
+          "Ship",
+          "Chip",
+          "Cheap"
+        ],
+        "answer": "Cheap",
+        "explanation_ar": "كلمة Cheap تحتوي على صوت الـ /tʃ/ الطويل."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Thin",
+        "options": [
+          "Thin",
+          "Fin",
+          "Sin",
+          "Tin"
+        ],
+        "answer": "Thin",
+        "explanation_ar": "صوت الـ TH في Thin يتطلب وضع اللسان بين الأسنان لإنتاج صوت الثاء."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Stool",
+        "options": [
+          "Stool",
+          "School",
+          "Full",
+          "Fool"
+        ],
+        "answer": "Stool",
+        "explanation_ar": "كلمة Stool تعني كرسي بدون ظهر وتستخدم في الأمثلة للتدريب على مخارج الحروف."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "With",
+        "options": [
+          "With",
+          "Wick",
+          "Wish",
+          "Wit"
+        ],
+        "answer": "With",
+        "explanation_ar": "تنتهي كلمة With بصوت الـ TH المجهور."
+      },
+      {
+        "type": "true_false",
+        "question": "هل يعتبر صوت الـ ch صوتاً بسيطاً أم مركباً؟",
+        "word_to_speak": null,
+        "options": [
+          "بسيط",
+          "مركب"
+        ],
+        "answer": "مركب",
+        "explanation_ar": "صوت الـ ch مركب لأنه يبدأ بملامسة اللسان ثم إطلاق الهواء."
+      },
+      {
+        "type": "true_false",
+        "question": "هل يجب دائماً إخراج اللسان بين الأسنان عند نطق TH؟",
+        "word_to_speak": null,
+        "options": [
+          "نعم",
+          "لا، يمكن وضعه خلف الأسنان"
+        ],
+        "answer": "لا، يمكن وضعه خلف الأسنان",
+        "explanation_ar": "يمكنك إخراج اللسان بين الأسنان أو وضعه خلف الأسنان مباشرة للحصول على نفس الصوت."
+      },
+      {
+        "type": "true_false",
+        "question": "هل هناك قاعدة ثابتة لنطق oo في اللغة الإنجليزية؟",
+        "word_to_speak": null,
+        "options": [
+          "نعم",
+          "لا"
+        ],
+        "answer": "لا",
+        "explanation_ar": "لا توجد قاعدة ثابتة لنطق oo، لذا يفضل التعلم من خلال السياق."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Fool",
+        "options": [
+          "Full",
+          "Fool",
+          "Fall",
+          "Fill"
+        ],
+        "answer": "Fool",
+        "explanation_ar": "Fool تحتوي على صوت الواو الطويل."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Chip",
+        "options": [
+          "Ship",
+          "Chip",
+          "Sheep",
+          "Cheap"
+        ],
+        "answer": "Chip",
+        "explanation_ar": "Chip تبدأ بصوت مركب قصير."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 8,
+      "title": "قواعد الحروف المتحركة المركبة ونطق er و ar"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "/ue/",
+          "description": "يتم نطقها كصوت طويل للحرف المتحرك، حيث يظهر الحرف الأول صوته بوضوح بينما يظل الثاني صامتاً."
+        },
+        {
+          "symbol": "/er/",
+          "description": "يتم نطقها بوضع اللسان في منتصف الفم دون ملامسة سقف الحلق، مع تدوير طفيف للشفتين والتركيز على صوت الراء المفخمة."
+        },
+        {
+          "symbol": "/ar/",
+          "description": "يتم فتح الفم بشكل واسع وعميق مع دفع اللسان للخلف قليلاً لإخراج صوت الراء بشكل واضح."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "Bert",
+          "word2": "Bat"
+        },
+        {
+          "word1": "Farm",
+          "word2": "Firm"
+        },
+        {
+          "word1": "Barn",
+          "word2": "Born"
+        }
+      ],
+      "practice_scripts": [
+        "When two vowels hang out, the first one does the talking and the second one does the walking.",
+        "Bert can't be quiet. He is a loud person.",
+        "The farm has a barn with a big yard."
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Digraph",
+        "meaning": "حرفان يصدران صوتاً واحداً",
+        "example_en": "The combination 'ai' is a vowel digraph.",
+        "example_ar": "تركيبة 'ai' هي دمج حرفين متحركين."
+      },
+      {
+        "word": "Yard",
+        "meaning": "فناء أو حديقة المنزل",
+        "example_en": "The children are playing in the yard.",
+        "example_ar": "الأطفال يلعبون في الفناء."
+      },
+      {
+        "word": "Barn",
+        "meaning": "حظيرة",
+        "example_en": "The cows are inside the barn.",
+        "example_ar": "الأبقار داخل الحظيرة."
+      }
+    ],
+    "lesson_notes": [
+      "احذر من نطق الراء العربية التي تعتمد على تكرار اللسان، فالراء الإنجليزية صوت ثابت لا يكرر.",
+      "تذكر دائماً قاعدة الحروف المتحركة المركبة: الأول ينطق باسمه، والثاني صامت.",
+      "عند نطق 'ar'، تأكد من فتح الفم جيداً، وإلا سيختلط الصوت مع 'er'."
+    ],
+    "quiz": [
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Bert",
+        "options": [
+          "Bert",
+          "Bat",
+          "Bet",
+          "Bit"
+        ],
+        "answer": "Bert",
+        "explanation_ar": "تم نطق صوت /er/ بوضوح في كلمة Bert."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Farm",
+        "options": [
+          "Firm",
+          "Form",
+          "Farm",
+          "Fame"
+        ],
+        "answer": "Farm",
+        "explanation_ar": "كلمة Farm تحتوي على صوت /ar/ بفتحة فم واسعة."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Barn",
+        "options": [
+          "Born",
+          "Burn",
+          "Barn",
+          "Bin"
+        ],
+        "answer": "Barn",
+        "explanation_ar": "التمييز بين Barn و Born يعتمد على حركة الفم."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Yard",
+        "options": [
+          "Yard",
+          "Yard",
+          "Word",
+          "Ward"
+        ],
+        "answer": "Yard",
+        "explanation_ar": "Yard تحتوي على صوت /ar/."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Quiet",
+        "options": [
+          "Quite",
+          "Quiet",
+          "Quit",
+          "Quilt"
+        ],
+        "answer": "Quiet",
+        "explanation_ar": "Quiet هي الكلمة الصحيحة التي تتضمن صوت الـ ue."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Loud",
+        "options": [
+          "Load",
+          "Loud",
+          "Led",
+          "Lad"
+        ],
+        "answer": "Loud",
+        "explanation_ar": "صوت الـ ou يتم نطقه بشكل مدمج."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Firm",
+        "options": [
+          "Farm",
+          "Firm",
+          "Form",
+          "Fume"
+        ],
+        "answer": "Firm",
+        "explanation_ar": "Firm تحتوي على صوت /er/."
+      },
+      {
+        "type": "true_false",
+        "question": "هل يجب ملامسة اللسان لسقف الحلق عند نطق صوت /er/؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "عند نطق /er/ يظل اللسان في منتصف الفم دون ملامسة."
+      },
+      {
+        "type": "true_false",
+        "question": "في قاعدة الحروف المتحركة المركبة، هل ينطق الحرف الثاني دائماً؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "القاعدة تقول الأول يتحدث والثاني يصمت."
+      },
+      {
+        "type": "true_false",
+        "question": "هل حرفا Qu يصدران صوتاً واحداً يشبه kw؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "صح",
+        "explanation_ar": "نعم، هما يشكلان صوتاً واحداً كما تم شرحه."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 9,
+      "title": "نطق حرف R في اللغة الانجليزية"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "/r/",
+          "description": "صوت الراء الإنجليزي يختلف عن العربي؛ طرف اللسان يرتفع نحو سقف الحلق دون أن يلمسه، والشفاه تتخذ شكلاً دائرياً مضموماً قليلاً، مع إخراج الصوت من الحلق."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "Read",
+          "word2": "Lead"
+        },
+        {
+          "word1": "Right",
+          "word2": "Light"
+        },
+        {
+          "word1": "Race",
+          "word2": "Lace"
+        }
+      ],
+      "practice_scripts": [
+        "The rabbit ran around the red rocket rapidly.",
+        "Mother is working on her project over the water.",
+        "Try to pronounce the r sound clearly in every word."
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Rabbit",
+        "meaning": "أرنب",
+        "example_en": "The rabbit is eating a carrot.",
+        "example_ar": "الأرنب يأكل جزرة."
+      },
+      {
+        "word": "Rocket",
+        "meaning": "صاروخ",
+        "example_en": "The rocket went into space.",
+        "example_ar": "انطلق الصاروخ إلى الفضاء."
+      },
+      {
+        "word": "Mother",
+        "meaning": "أم",
+        "example_en": "My mother is very kind.",
+        "example_ar": "أمي عطوفة جداً."
+      }
+    ],
+    "lesson_notes": [
+      "احذر من تحويل صوت R إلى صوت L؛ هما مختلفان تماماً في مخرج الحرف.",
+      "في اللهجة الأمريكية، يتم نطق حرف R دائماً، على عكس اللهجة البريطانية التي قد تحذفه في نهاية الكلمة.",
+      "استخدم تمرين الملعقة لتشعر بوضعية لسانك الصحيحة بعيداً عن سقف الحلق.",
+      "لا تخجل من المبالغة في ضم شفتيك عند التدريب؛ هذا يساعد عضلات وجهك على التعود."
+    ],
+    "quiz": [
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Read",
+        "options": [
+          "Read",
+          "Lead",
+          "Reed",
+          "Lied"
+        ],
+        "answer": "Read",
+        "explanation_ar": "كلمة Read تبدأ بصوت R الذي يتطلب عدم ملامسة اللسان لسقف الحلق."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Right",
+        "options": [
+          "Light",
+          "Right",
+          "Rite",
+          "Late"
+        ],
+        "answer": "Right",
+        "explanation_ar": "تم نطق صوت R بوضوح في بداية الكلمة."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Race",
+        "options": [
+          "Lace",
+          "Race",
+          "Raise",
+          "Case"
+        ],
+        "answer": "Race",
+        "explanation_ar": "تتميز Race بصوت R القوي الذي لا يلامس اللسان فيه الأسنان العلوية."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Rabbit",
+        "options": [
+          "Rabbit",
+          "Labit",
+          "Wabbit",
+          "Rabid"
+        ],
+        "answer": "Rabbit",
+        "explanation_ar": "تتطلب Rabbit حركة دائرية للشفاه مع صوت R الواضح."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Rocket",
+        "options": [
+          "Locket",
+          "Rocket",
+          "Rock",
+          "Lock"
+        ],
+        "answer": "Rocket",
+        "explanation_ar": "صوت R يختلف تماماً عن صوت L في بداية الكلمة."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Mother",
+        "options": [
+          "Mothe",
+          "Mother",
+          "Mothed",
+          "Moth"
+        ],
+        "answer": "Mother",
+        "explanation_ar": "صوت R في نهاية الكلمة الأمريكية يظهر بوضوح مع ضم الشفاه."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Red",
+        "options": [
+          "Led",
+          "Red",
+          "Read",
+          "Wed"
+        ],
+        "answer": "Red",
+        "explanation_ar": "صوت R يبرز بوضوح في كلمة Red."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Over",
+        "options": [
+          "Ovel",
+          "Over",
+          "Ove",
+          "Ovar"
+        ],
+        "answer": "Over",
+        "explanation_ar": "تأكد من ضم الشفاه عند نطق R في نهاية كلمة Over."
+      },
+      {
+        "type": "true_false",
+        "question": "هل يجب أن يلمس طرف اللسان سقف الحلق عند نطق حرف R؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "يجب أن يرتفع اللسان نحو سقف الحلق دون ملامسته."
+      },
+      {
+        "type": "true_false",
+        "question": "هل تتغير وضعية الشفاه عند نطق حرف R؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "صح",
+        "explanation_ar": "تأخذ الشفاه شكلاً دائرياً مضموماً يساعد في إخراج صوت R بشكل صحيح."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 10,
+      "title": "قواعد نطق الحروف المتحركة المتبوعة بـ e"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "/R/",
+          "description": "يتم نطق الـ R بتكوير الشفتين قليلاً مع سحب اللسان للخلف دون أن يلمس سقف الحلق، مع التركيز على جعل الصوت رخيماً."
+        },
+        {
+          "symbol": "/u:/",
+          "description": "صوت طويل يخرج من خلال ضم الشفتين بشكل دائري ضيق، مع دفع الهواء بقوة من الحلق."
+        },
+        {
+          "symbol": "/i:/",
+          "description": "صوت طويل يتم نطقه بجعل الفم في وضع الابتسامة الخفيفة مع تقريب اللسان من سقف الحلق الأمامي."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "Huge",
+          "word2": "Hedge"
+        },
+        {
+          "word1": "Rude",
+          "word2": "Road"
+        },
+        {
+          "word1": "Cute",
+          "word2": "Coat"
+        },
+        {
+          "word1": "Tune",
+          "word2": "Tone"
+        }
+      ],
+      "practice_scripts": [
+        "When two vowels hang out, the first one does the talking and the second one does the walking.",
+        "June played a tune on her flute.",
+        "The duke helped the king to rule.",
+        "Don't worry about it. I can download the movie for you."
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Hike",
+        "meaning": "المشي لمسافات طويلة في الطبيعة",
+        "example_en": "I love to hike in the mountains.",
+        "example_ar": "أحب أن أتمشى في الجبال."
+      },
+      {
+        "word": "Huge",
+        "meaning": "ضخم جداً",
+        "example_en": "The elephant is a huge animal.",
+        "example_ar": "الفيل حيوان ضخم."
+      },
+      {
+        "word": "Flute",
+        "meaning": "آلة الناي الموسيقية",
+        "example_en": "She plays the flute beautifully.",
+        "example_ar": "هي تعزف على الناي بشكل جميل."
+      },
+      {
+        "word": "Duke",
+        "meaning": "دوق (لقب نبيل)",
+        "example_en": "The duke lives in a big castle.",
+        "example_ar": "الدوق يعيش في قلعة كبيرة."
+      }
+    ],
+    "lesson_notes": [
+      "قاعدة حرفي العلة: عندما يظهر حرفا علة متتاليان في الكلمة، الحرف الأول ينطق باسمه (Long vowel) والثاني يبقى صامتاً.",
+      "تجنب نطق الـ R مثل الراء العربية؛ لا تلمس اللسان بسقف الحلق.",
+      "في جملة Don't worry about it، يتم دمج الكلمات لتصبح نغمة واحدة بدلاً من نطق كل كلمة بشكل منفصل."
+    ],
+    "quiz": [
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Huge",
+        "options": [
+          "Huge",
+          "Hedge",
+          "Hog",
+          "Hug"
+        ],
+        "answer": "Huge",
+        "explanation_ar": "صوت الـ u: يختلف عن صوت الـ e القصيرة في Hedge."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Rude",
+        "options": [
+          "Rude",
+          "Road",
+          "Red",
+          "Ride"
+        ],
+        "answer": "Rude",
+        "explanation_ar": "كلمة Rude تحتوي على صوت u: الطويل."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Tune",
+        "options": [
+          "Tune",
+          "Tone",
+          "Ten",
+          "Tin"
+        ],
+        "answer": "Tune",
+        "explanation_ar": "Tune تعتمد على ضم الشفتين لصوت الـ u الطويل."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Cute",
+        "options": [
+          "Cute",
+          "Coat",
+          "Cat",
+          "Cot"
+        ],
+        "answer": "Cute",
+        "explanation_ar": "Cute تتطلب حركة الشفتين الدائرية للـ u."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Same",
+        "options": [
+          "Same",
+          "Sum",
+          "Sam",
+          "Some"
+        ],
+        "answer": "Same",
+        "explanation_ar": "قاعدة العلة: حرف a ينطق باسمه لوجود e في آخر الكلمة."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Hike",
+        "options": [
+          "Hike",
+          "Hack",
+          "Hook",
+          "Huck"
+        ],
+        "answer": "Hike",
+        "explanation_ar": "حرف i ينطق i: بسبب وجود e في نهاية الكلمة."
+      },
+      {
+        "type": "true_false",
+        "question": "هل يلمس اللسان سقف الحلق عند نطق حرف الـ R الإنجليزي؟",
+        "word_to_speak": null,
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "اللسان يجب أن يسحب للخلف دون لمس سقف الحلق لإنتاج صوت الـ R الصحيح."
+      },
+      {
+        "type": "true_false",
+        "question": "هل الصمت هو صفة الحرف الثاني عندما يظهر حرفا علة متتاليان؟",
+        "word_to_speak": null,
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "القاعدة تقول: الأول ينطق والثاني يصمت."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Pure",
+        "options": [
+          "Pure",
+          "Poor",
+          "Peer",
+          "Pair"
+        ],
+        "answer": "Pure",
+        "explanation_ar": "كلمة Pure تحتوي على صوت الـ u: بوضوح."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Cape",
+        "options": [
+          "Cape",
+          "Cap",
+          "Cup",
+          "Cop"
+        ],
+        "answer": "Cape",
+        "explanation_ar": "نطق حرف a باسمه يتحقق بوجود الـ e في النهاية."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 11,
+      "title": "قواعد نطق النهاية ed وكتابة مقطع le"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "/id/",
+          "description": "ينطق مقطع ed كصوت إضافي /id/ إذا كان الفعل ينتهي بصوت /t/ أو /d/."
+        },
+        {
+          "symbol": "/t/ and /d/ variations",
+          "description": "إذا كان الفعل ينتهي بصوت مهموس تنطق ed كـ /t/، وإذا كان مجهوراً (يهتز معه الحلق) تنطق ed كـ /d/."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "Wanted",
+          "word2": "Waited"
+        },
+        {
+          "word1": "Liked",
+          "word2": "Lived"
+        }
+      ],
+      "practice_scripts": [
+        "He wanted to play with the dog.",
+        "She looked at the cat and talked to it.",
+        "The table was painted by the man."
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Voiced",
+        "meaning": "صوت مجهور ينتج عنه اهتزاز في الحبال الصوتية.",
+        "example_en": "The sound 'z' is a voiced sound.",
+        "example_ar": "صوت حرف الزاي هو صوت مجهور."
+      },
+      {
+        "word": "Voiceless",
+        "meaning": "صوت مهموس لا يصاحبه اهتزاز في الحبال الصوتية.",
+        "example_en": "The sound 's' is a voiceless sound.",
+        "example_ar": "صوت حرف السين هو صوت مهموس."
+      }
+    ],
+    "lesson_notes": [
+      "لا تعتمد على شكل الحرف المكتوب، بل اعتمد دائماً على الصوت الذي تسمعه في نهاية الكلمة.",
+      "الحروف المهموسة لا تهز الحبال الصوتية، لذا لا تحاول الضغط عليها لتجعلها مجهورة.",
+      "قاعدة تكرار الحرف قبل المقطع le تعتمد بشكل أساسي على طول الصوت المتحرك (قصير أم طويل)."
+    ],
+    "quiz": [
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Wanted",
+        "options": [
+          "Wanted",
+          "Want",
+          "Wants",
+          "Wanting"
+        ],
+        "answer": "Wanted",
+        "explanation_ar": "كلمة Wanted تنتهي بصوت /t/ لذا تنطق /id/."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Liked",
+        "options": [
+          "Like",
+          "Liked",
+          "Likes",
+          "Liking"
+        ],
+        "answer": "Liked",
+        "explanation_ar": "لأن الصوت الأخير في Like مهموس، تنطق ed كـ /t/."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Played",
+        "options": [
+          "Play",
+          "Plays",
+          "Played",
+          "Playing"
+        ],
+        "answer": "Played",
+        "explanation_ar": "صوت /y/ مجهور، لذا تنطق ed كـ /d/."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Added",
+        "options": [
+          "Add",
+          "Added",
+          "Adds",
+          "Adding"
+        ],
+        "answer": "Added",
+        "explanation_ar": "بما أن الفعل ينتهي بـ d، يجب إضافة مقطع id."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Watched",
+        "options": [
+          "Watch",
+          "Watched",
+          "Watches",
+          "Watching"
+        ],
+        "answer": "Watched",
+        "explanation_ar": "الفعل ينتهي بصوت مهموس /ch/، فتنطق ed كـ /t/."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Called",
+        "options": [
+          "Call",
+          "Called",
+          "Calls",
+          "Calling"
+        ],
+        "answer": "Called",
+        "explanation_ar": "صوت /l/ مجهور، لذا تنطق ed كـ /d/."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Needed",
+        "options": [
+          "Need",
+          "Needs",
+          "Needed",
+          "Needing"
+        ],
+        "answer": "Needed",
+        "explanation_ar": "الفعل ينتهي بـ d، لذا نضيف المقطع id."
+      },
+      {
+        "type": "true_false",
+        "question": "الحروف المجهورة هي التي لا تهز الحبال الصوتية.",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "الحروف المجهورة هي التي تهز الحبال الصوتية."
+      },
+      {
+        "type": "true_false",
+        "question": "نطق ed يعتمد على الحرف المكتوب وليس الصوت.",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "النطق يعتمد دائماً على الصوت الأخير في الفعل."
+      },
+      {
+        "type": "true_false",
+        "question": "الفعل المنتهي بصوت /t/ ينطق معه ed كـ /id/.",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "صح",
+        "explanation_ar": "هذه قاعدة أساسية لتسهيل نطق الـ ed بعد أصوات الـ t والـ d."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 12,
+      "title": "قواعد نطق حرف C وحالات الحروف الصامتة"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "/s/",
+          "description": "يُنطق حرف C كصوت /s/ إذا جاء بعده حروف E أو I أو Y (قاعدة Earn It Yourself)."
+        },
+        {
+          "symbol": "/k/",
+          "description": "يُنطق حرف C كصوت /k/ في بقية الحالات التي لا يتبعها E أو I أو Y."
+        },
+        {
+          "symbol": "/silent b/",
+          "description": "حرف B يكون صامتاً إذا جاء بعد حرف M في نهاية الكلمة."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "Cell",
+          "word2": "Call"
+        },
+        {
+          "word1": "City",
+          "word2": "Cut"
+        },
+        {
+          "word1": "Bomb",
+          "word2": "Bob"
+        },
+        {
+          "word1": "Comb",
+          "word2": "Come"
+        }
+      ],
+      "practice_scripts": [
+        "The city center is cold today.",
+        "Climb the mountain with care.",
+        "Please don't comb your hair near the bomb."
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Center",
+        "meaning": "المنتصف أو المركز",
+        "example_en": "The school is in the center of the city.",
+        "example_ar": "المدرسة في مركز المدينة."
+      },
+      {
+        "word": "Climb",
+        "meaning": "يتسلق",
+        "example_en": "I want to climb the big mountain.",
+        "example_ar": "أريد تسلق الجبل الكبير."
+      }
+    ],
+    "lesson_notes": [
+      "تذكر دائماً قاعدة 'Earn It Yourself' (E, I, Y) لضبط نطق حرف C.",
+      "حرف B الصامت ليس دائماً قاعدة مطلقة، انتبه للاستثناءات في الكلمات المركبة مثل Subtitle.",
+      "لا تمد صوت /aw/ بشكل مبالغ فيه، فالنطق الصحيح يتطلب اختصاراً بسيطاً في المد."
+    ],
+    "quiz": [
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Cell",
+        "options": [
+          "Cell",
+          "Call",
+          "Cat",
+          "Cot"
+        ],
+        "answer": "Cell",
+        "explanation_ar": "حرف C متبوع بـ E لذا يُنطق /s/."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Comb",
+        "options": [
+          "Comb",
+          "Come",
+          "Cone",
+          "Coin"
+        ],
+        "answer": "Comb",
+        "explanation_ar": "حرف B هنا صامت لأنه جاء بعد M في نهاية الكلمة."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "City",
+        "options": [
+          "City",
+          "Kitty",
+          "Cutie",
+          "Cuty"
+        ],
+        "answer": "City",
+        "explanation_ar": "حرف C متبوع بـ I لذا يُنطق /s/."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Climb",
+        "options": [
+          "Climb",
+          "Clime",
+          "Climbly",
+          "Cline"
+        ],
+        "answer": "Climb",
+        "explanation_ar": "حرف B في نهاية الكلمة بعد M يكون صامتاً."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Cycle",
+        "options": [
+          "Cycle",
+          "Cicle",
+          "Sycle",
+          "Kyle"
+        ],
+        "answer": "Cycle",
+        "explanation_ar": "حرف C متبوع بـ Y لذا يُنطق /s/."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Cat",
+        "options": [
+          "Cat",
+          "Sat",
+          "Chat",
+          "Fat"
+        ],
+        "answer": "Cat",
+        "explanation_ar": "حرف C ليس متبوعاً بـ E,I,Y لذا يُنطق /k/."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Lamb",
+        "options": [
+          "Lamb",
+          "Lamp",
+          "Lam",
+          "Lame"
+        ],
+        "answer": "Lamb",
+        "explanation_ar": "حرف B صامت بعد M."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Ice",
+        "options": [
+          "Ice",
+          "Ike",
+          "Ise",
+          "Eyes"
+        ],
+        "answer": "Ice",
+        "explanation_ar": "حرف C متبوع بـ E يُنطق /s/."
+      },
+      {
+        "type": "true_false",
+        "question": "هل حرف B يُنطق دائماً إذا جاء بعد حرف M؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "حرف B يكون صامتاً في نهاية الكلمة إذا سبقته M."
+      },
+      {
+        "type": "true_false",
+        "question": "هل حرف C يُنطق دائماً كصوت /k/؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "يُنطق كـ /s/ إذا جاء بعده E, I, أو Y."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 13,
+      "title": "كلمات انجليزية صعبة النطق باللهجة الامريكية واللهجة البريطانية"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "D + G",
+          "description": "في كلمة Judgment، يمتزج صوت الـ D مع الـ G ليخلق صوتاً واحداً يشبه الـ 'ج' العربية، حيث يتلاشى نطق الـ D بشكل مستقل ليخرج الصوت انسيابياً."
+        },
+        {
+          "symbol": "T + R",
+          "description": "في كلمة Literature، يلتصق صوت الـ T بصوت الـ R ليصبح النطق الأمريكي أقرب إلى 'تشر' (Chr)، مما يجعل الكلمة تبدو بلفظ مدمج وسريع."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "Won't",
+          "word2": "Want"
+        },
+        {
+          "word1": "Word",
+          "word2": "World"
+        }
+      ],
+      "practice_scripts": [
+        "Pneumonoultramicroscopicsilicovolcanoconiosis",
+        "Antidisestablishmentarianism",
+        "Hesperopithecus haroldcookii"
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Intoxicating",
+        "meaning": "مُسكر أو مبهج لدرجة فقدان الوعي",
+        "example_en": "The music was intoxicating.",
+        "example_ar": "كانت الموسيقى مُسكرة."
+      },
+      {
+        "word": "Consciousness",
+        "meaning": "الوعي أو الإدراك",
+        "example_en": "He lost consciousness.",
+        "example_ar": "فقد الوعي."
+      },
+      {
+        "word": "Personification",
+        "meaning": "التجسيد أو التشخيص",
+        "example_en": "This is a perfect personification of courage.",
+        "example_ar": "هذا تجسيد مثالي للشجاعة."
+      }
+    ],
+    "lesson_notes": [
+      "لا تعتمد على القواعد دائماً في نطق الكلمات الصعبة، أحياناً تحتاج لخدع لسانك لضبط الصوت.",
+      "تقسيم الكلمات الطويلة إلى مقاطع صغيرة هو مفتاح نطقها بطلاقة.",
+      "تجنب محاولة نطق الكلمة الطويلة دفعة واحدة، ابدأ بالمقاطع ثم ادمجها تدريجياً.",
+      "المتحدث العربي يجد صعوبة في الانتقال السريع بين الأصوات الساكنة المتتالية، التوقف البسيط قد يساعد."
+    ],
+    "quiz": [
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Won't",
+        "options": [
+          "Won't",
+          "Want",
+          "Went",
+          "Wait"
+        ],
+        "answer": "Won't",
+        "explanation_ar": "الفرق في حركة الشفاه؛ في Won't تضم الشفاه أكثر من Want."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "World",
+        "options": [
+          "Word",
+          "World",
+          "Work",
+          "Worn"
+        ],
+        "answer": "World",
+        "explanation_ar": "كلمة World تتطلب لمس اللسان لسقف الحلق عند الـ L، بينما Word تنتهي بـ D."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Judgment",
+        "options": [
+          "Judgment",
+          "Judge",
+          "Judging",
+          "Judged"
+        ],
+        "answer": "Judgment",
+        "explanation_ar": "تتطلب الكلمة دمج صوت الـ D مع الـ G."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Literature",
+        "options": [
+          "Literal",
+          "Literature",
+          "Literary",
+          "Literacy"
+        ],
+        "answer": "Literature",
+        "explanation_ar": "النطق الأمريكي يدمج الـ T مع الـ R."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Consciousness",
+        "options": [
+          "Conscience",
+          "Conscious",
+          "Consciousness",
+          "Consciously"
+        ],
+        "answer": "Consciousness",
+        "explanation_ar": "لاحظ المقطع الأخير -ness بوضوح."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Suggestion",
+        "options": [
+          "Suggest",
+          "Suggested",
+          "Suggestion",
+          "Suggesting"
+        ],
+        "answer": "Suggestion",
+        "explanation_ar": "هناك توقف بسيط بين الـ S و الـ G."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Although",
+        "options": [
+          "Although",
+          "Always",
+          "Altogether",
+          "Along"
+        ],
+        "answer": "Although",
+        "explanation_ar": "يختلف نطق TH بين اللهجات."
+      },
+      {
+        "type": "true_false",
+        "question": "هل يعتبر تقسيم الكلمة الطويلة إلى مقاطع صوتية وسيلة فعالة لتحسين النطق؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "صح",
+        "explanation_ar": "تجزئة الكلمة تمنع تعب اللسان وتسهل الحفظ والنطق."
+      },
+      {
+        "type": "true_false",
+        "question": "هل يجب دائماً نطق كل حرف في الكلمة الإنجليزية كما يكتب؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "الإنجليزية ليست لغة صوتية بحتة، فكثير من الحروف قد تختفي أو تندمج (مثل الـ D في Judgment)."
+      },
+      {
+        "type": "true_false",
+        "question": "هل تؤثر حركة اللسان في نطق كلمة World؟",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "صح",
+        "explanation_ar": "اللسان يجب أن يلمس سقف الحلق لنطق حرف الـ L."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "phonetics",
+      "course_name_ar": "الصوتيات",
+      "level": 1,
+      "lesson_no": 14,
+      "title": "اختبار المستوى الأول"
+    },
+    "lesson_content": {
+      "focus_sounds": [
+        {
+          "symbol": "/ŋ/",
+          "description": "صوت أنفي يخرج الهواء من الأنف وليس الفم، يرتفع فيه خلف اللسان ليلمس سقف الحلق الرخو."
+        }
+      ],
+      "minimal_pairs": [
+        {
+          "word1": "Sing",
+          "word2": "Sink"
+        },
+        {
+          "word1": "Bang",
+          "word2": "Bank"
+        }
+      ],
+      "practice_scripts": [
+        "There you go, much better.",
+        "Sleep for a while.",
+        "Let's crawl quietly outside."
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Crawl",
+        "meaning": "الزحف على اليدين والركبتين",
+        "example_en": "The baby started to crawl.",
+        "example_ar": "بدأ الطفل في الزحف."
+      },
+      {
+        "word": "Quietly",
+        "meaning": "بهدوء أو بصمت",
+        "example_en": "Please walk quietly.",
+        "example_ar": "من فضلك امشِ بهدوء."
+      }
+    ],
+    "lesson_notes": [
+      "يجب الانتباه للفرق بين صوت ng وصوت nk لضمان النطق الصحيح للكلمات.",
+      "لا تعتمد على الشكل الكتابي للكلمة، بل اعتمد على استماعك للأصوات المكونة لها.",
+      "تكرار الجمل التدريبية هو المفتاح الوحيد لتقوية عضلات الفم."
+    ],
+    "quiz": [
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Sing",
+        "options": [
+          "Sing",
+          "Sink",
+          "Sang",
+          "Sank"
+        ],
+        "answer": "Sing",
+        "explanation_ar": "صوت ng ينتهي بصوت أنفي مستمر بينما nk ينتهي بتوقف عند حرف k."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Bang",
+        "options": [
+          "Bang",
+          "Bank",
+          "Bung",
+          "Bunk"
+        ],
+        "answer": "Bang",
+        "explanation_ar": "كلمة Bang تنتهي بصوت g أنفي واضح."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Crawl",
+        "options": [
+          "Crawl",
+          "Call",
+          "Crowl",
+          "Cool"
+        ],
+        "answer": "Crawl",
+        "explanation_ar": "الكلمة تعني الزحف وتم نطقها بوضوح."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Quietly",
+        "options": [
+          "Quiet",
+          "Quite",
+          "Quietly",
+          "Quickly"
+        ],
+        "answer": "Quietly",
+        "explanation_ar": "انتبه للنهاية ly في الكلمة."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Better",
+        "options": [
+          "Better",
+          "Bitter",
+          "Batter",
+          "Butter"
+        ],
+        "answer": "Better",
+        "explanation_ar": "يتم نطق حرف e بوضوح في بداية الكلمة."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Outside",
+        "options": [
+          "Inside",
+          "Outside",
+          "Aside",
+          "Upside"
+        ],
+        "answer": "Outside",
+        "explanation_ar": "الكلمة تعني في الخارج."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "Sleep",
+        "options": [
+          "Sleep",
+          "Slip",
+          "Slept",
+          "Slap"
+        ],
+        "answer": "Sleep",
+        "explanation_ar": "حرف i المزدوج يمد الصوت."
+      },
+      {
+        "type": "audio_quiz",
+        "question": "استمع واختر الكلمة الصحيحة التي سمعتها",
+        "word_to_speak": "While",
+        "options": [
+          "While",
+          "Will",
+          "Well",
+          "Wall"
+        ],
+        "answer": "While",
+        "explanation_ar": "كلمة تعبر عن فترة من الزمن."
+      },
+      {
+        "type": "true_false",
+        "question": "صوت ng يتم إخراجه عن طريق الفم فقط",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "صوت ng هو صوت أنفي يمر الهواء فيه عبر الأنف."
+      },
+      {
+        "type": "true_false",
+        "question": "اللسان يلمس سقف الحلق الرخو عند نطق صوت ng",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation_ar": "نعم، هذه هي الطريقة الصحيحة لإنتاج هذا الصوت."
+      }
+    ]
+  }
+]
