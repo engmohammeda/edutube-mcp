@@ -23,6 +23,7 @@ import {
   ModelRotator,
   isQuotaError,
   isSchemaUnsupportedError,
+  listGeminiApiKeys,
   parseRetrySeconds,
 } from "./model-rotation.js";
 import { validateJsonObjectAgainstSchema } from "./json-schema.js";
@@ -612,11 +613,14 @@ export async function countTokensForRequest(
   }
   parts.push({ text: params.prompt });
 
-  // LOCAL PATCH: rotate models on quota errors for token counting too.
-  const rotator = new ModelRotator(params.model, process.env.GEMINI_API_KEY || "");
+  // LOCAL PATCH: rotate keys+models on quota errors for token counting too.
+  let keys = listGeminiApiKeys();
+  if (keys.length === 0) keys = [""]; // no env keys (tests): use the provided client as-is
+  const rotator = new ModelRotator(params.model, keys);
+  const clients = new Map<string, GoogleGenAI>();
   for (;;) {
-    const model = await rotator.pick();
-    if (!model) {
+    const pick = await rotator.pick();
+    if (!pick) {
       const last = rotator.getLastError();
       if (last instanceof DiagnosticError) throw last;
       throw new DiagnosticError({
@@ -625,16 +629,17 @@ export async function countTokensForRequest(
         stage: context.stage,
         message: context.failureMessage,
         retryable: true,
-        cause: last ?? new Error("All Gemini models are quota-exhausted or unavailable."),
+        cause: last ?? new Error("All Gemini keys/models are quota-exhausted or unavailable."),
         details: { ...context.details, model: params.model, rotationExhausted: true },
       });
     }
-    rotator.markTried(model);
+    const aiForAttempt =
+      pick.key === keys[0] ? ai : (clients.get(pick.key) ?? clients.set(pick.key, createAiClientWithApiKey(pick.key)).get(pick.key)!);
     try {
       const response = await runGeminiCall(
         () =>
-          ai.models.countTokens({
-            model,
+          aiForAttempt.models.countTokens({
+            model: pick.model,
             contents: [{ role: "user", parts }],
             config: createHttpConfig(context.timeoutMs ?? TOKEN_COUNT_TIMEOUT_MS, context.abortSignal),
           }),
@@ -646,7 +651,7 @@ export async function countTokensForRequest(
           failureMessage: context.failureMessage,
           strategyRequested: context.strategyRequested,
           strategyAttempted: context.strategyAttempted,
-          model,
+          model: pick.model,
           inputMode: context.inputMode,
           responseMode: context.responseMode,
           details: context.details,
@@ -654,12 +659,12 @@ export async function countTokensForRequest(
           abortSignal: context.abortSignal,
         }
       );
-      rotator.markSuccess(model);
+      rotator.markSuccess(pick.model);
       return response.totalTokens ?? 0;
     } catch (error) {
       rotator.setLastError(error);
       if (isQuotaError(error)) {
-        rotator.markQuotaExhausted(model, parseRetrySeconds(error));
+        rotator.markQuotaExhausted(pick.model, pick.key, parseRetrySeconds(error));
         continue;
       }
       throw error;
@@ -802,10 +807,13 @@ export async function generateStructuredJson(
   },
   context: GenerationContext
 ): Promise<JsonObject> {
-  const rotator = new ModelRotator(params.model, process.env.GEMINI_API_KEY || "");
+  let keys = listGeminiApiKeys();
+  if (keys.length === 0) keys = [""]; // no env keys (tests): use the provided client as-is
+  const rotator = new ModelRotator(params.model, keys);
+  const clients = new Map<string, GoogleGenAI>();
   for (;;) {
-    const model = await rotator.pick();
-    if (!model) {
+    const pick = await rotator.pick();
+    if (!pick) {
       const last = rotator.getLastError();
       if (last instanceof DiagnosticError) throw last;
       throw new DiagnosticError({
@@ -816,33 +824,42 @@ export async function generateStructuredJson(
         retryable: true,
         strategyRequested: context.strategyRequested,
         strategyAttempted: context.strategyAttempted,
-        cause: last ?? new Error("All Gemini models are quota-exhausted or unavailable."),
+        cause: last ?? new Error("All Gemini keys/models are quota-exhausted or unavailable."),
         details: { ...context.details, model: params.model, rotationExhausted: true },
       });
     }
-    rotator.markTried(model);
+    const isPrimary = pick.key === keys[0];
+    const aiForAttempt =
+      isPrimary && pick.model === params.model
+        ? ai
+        : isPrimary
+          ? ai
+          : (clients.get(pick.key) ?? clients.set(pick.key, createAiClientWithApiKey(pick.key)).get(pick.key)!);
     const attemptParams =
-      model === params.model ? params : { ...params, model, cachedContent: undefined };
+      pick.model === params.model && isPrimary
+        ? params
+        : { ...params, model: pick.model, cachedContent: undefined };
     try {
-      const result = await generateStructuredJsonOnce(ai, attemptParams, context);
-      if (model !== params.model) {
+      const result = await generateStructuredJsonOnce(aiForAttempt, attemptParams, context);
+      if (pick.model !== params.model || !isPrimary) {
         context.logger.info("gemini.model_rotated", {
           stage: context.stage,
           from: params.model,
-          to: model,
+          to: pick.model,
+          keyIndex: keys.indexOf(pick.key),
         });
       }
-      rotator.markSuccess(model);
+      rotator.markSuccess(pick.model);
       return result;
     } catch (error) {
       rotator.setLastError(error);
       if (isAbortError(error)) throw error;
       if (isSchemaUnsupportedError(error)) {
-        rotator.markSchemaUnsupported(model);
+        rotator.markSchemaUnsupported(pick.model);
         continue;
       }
       if (isQuotaError(error)) {
-        rotator.markQuotaExhausted(model, parseRetrySeconds(error));
+        rotator.markQuotaExhausted(pick.model, pick.key, parseRetrySeconds(error));
         continue;
       }
       throw error;

@@ -1,15 +1,16 @@
-// LOCAL PATCH (agent-env feature): automatic cross-model rotation.
-// Every Gemini model has its own free-tier quota pool. When one model returns
-// RESOURCE_EXHAUSTED (429), the rotator transparently switches to the next
-// available model so long batches can keep running. The model catalogue is
-// discovered live from the Gemini API, so future models (e.g. gemini-3.6-flash,
-// gemini-3.7-*) join the rotation without code changes.
+// LOCAL PATCH (agent-env feature): automatic cross-key + cross-model rotation.
+// Every (API key, model) pair has its own free-tier quota pool. When a pair
+// returns RESOURCE_EXHAUSTED (429), the rotator transparently switches to the
+// next available pair so long batches can keep running. The model catalogue is
+// discovered live from the Gemini API (per key), so future models
+// (e.g. gemini-3.6-flash, gemini-3.7-*) join the rotation without code changes.
+// Configure extra keys with GEMINI_API_KEYS=key2,key3 (GEMINI_API_KEY stays primary).
 import process from "node:process";
 
 const CACHE_TTL_MS = 10 * 60_000;
 
-let discoveredCache: { at: number; models: string[] } | null = null;
-const exhaustedUntil = new Map<string, number>();
+let discoveredCache: { at: number; key: string; models: string[] } | null = null;
+const exhaustedUntil = new Map<string, number>(); // `${key}::${model}` -> ts
 const schemaUnsupported = new Set<string>();
 let preferredModel: string | null = null;
 
@@ -56,6 +57,23 @@ export function parseRetrySeconds(error: unknown): number | null {
   return m ? Math.ceil(Number(m[1])) : null;
 }
 
+export function listGeminiApiKeys(): string[] {
+  const primary = process.env.GEMINI_API_KEY?.trim() || "";
+  const extra = (process.env.GEMINI_API_KEYS || "")
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const k of [primary, ...extra]) {
+    if (k && !seen.has(k)) {
+      seen.add(k);
+      out.push(k);
+    }
+  }
+  return out;
+}
+
 function familyScore(name: string): number {
   if (/lite/i.test(name)) return 2;
   if (/flash/i.test(name)) return 1;
@@ -65,7 +83,9 @@ function familyScore(name: string): number {
 
 async function discoverModels(apiKey: string): Promise<string[]> {
   if (!apiKey) return [];
-  if (discoveredCache && Date.now() - discoveredCache.at < CACHE_TTL_MS) return discoveredCache.models;
+  if (discoveredCache && discoveredCache.key === apiKey && Date.now() - discoveredCache.at < CACHE_TTL_MS) {
+    return discoveredCache.models;
+  }
   try {
     const res = await fetch(
       `https://generativelanguage.googleapis.com/v1beta/models?pageSize=500&key=${encodeURIComponent(apiKey)}`
@@ -79,7 +99,7 @@ async function discoverModels(apiKey: string): Promise<string[]> {
       .map((m) => (m.name || "").replace(/^models\//, ""))
       .filter((n) => /^gemini-/i.test(n))
       .filter((n) => !/(image|tts|embedding|imagen|music|live|deep-research|a2a|computer)/i.test(n));
-    discoveredCache = { at: Date.now(), models: names };
+    discoveredCache = { at: Date.now(), key: apiKey, models: names };
     return names;
   } catch {
     return discoveredCache?.models ?? [];
@@ -97,54 +117,58 @@ function dedupe(list: Array<string | null | undefined>): string[] {
   return out;
 }
 
+export type RotationPick = { model: string; key: string };
+
 export class ModelRotator {
-  private tried = new Set<string>();
   private lastError: unknown = null;
 
   constructor(
     private requestedModel: string,
-    private apiKey: string
+    private apiKeys: string[]
   ) {}
 
-  async pick(): Promise<string | null> {
+  async pick(): Promise<RotationPick | null> {
     const envList = dedupe(
       (process.env.GEMINI_MODEL_ROTATION || "")
         .split(",")
         .map((s) => s.trim())
         .filter(Boolean)
     );
-    const discovered = await discoverModels(this.apiKey);
+    // Discovery from the first key is representative for the account family.
+    const discovered = await discoverModels(this.apiKeys[0] || "");
 
     const explicit = dedupe([this.requestedModel, ...envList]);
     let hinted = dedupe([...(preferredModel ? [preferredModel] : []), ...PRIORITY_HINTS]);
     if (discovered.length > 0) {
       hinted = hinted.filter((m) => discovered.includes(m));
+    } else if (this.apiKeys.length === 0) {
+      hinted = [];
     }
     const rest = discovered
       .filter((m) => !explicit.includes(m) && !hinted.includes(m))
       .sort((a, b) => familyScore(a) - familyScore(b) || a.localeCompare(b));
 
     const candidates = [...explicit, ...hinted, ...rest];
-    for (const c of candidates) {
-      if (this.tried.has(c) || schemaUnsupported.has(c)) continue;
-      const until = exhaustedUntil.get(c);
-      if (until && Date.now() < until) continue;
-      return c;
+    const now = Date.now();
+    for (const model of candidates) {
+      if (schemaUnsupported.has(model)) continue;
+      for (const key of this.apiKeys) {
+        const pairKey = `${key}::${model}`;
+        const until = exhaustedUntil.get(pairKey);
+        if (until && now < until) continue;
+        return { model, key };
+      }
     }
     return null;
-  }
-
-  markTried(model: string): void {
-    this.tried.add(model);
   }
 
   markSuccess(model: string): void {
     preferredModel = model;
   }
 
-  markQuotaExhausted(model: string, retrySeconds: number | null): void {
+  markQuotaExhausted(model: string, key: string, retrySeconds: number | null): void {
     const secs = Math.min(Math.max(retrySeconds ?? 3600, 300), 6 * 3600);
-    exhaustedUntil.set(model, Date.now() + secs * 1000);
+    exhaustedUntil.set(`${key}::${model}`, Date.now() + secs * 1000);
   }
 
   markSchemaUnsupported(model: string): void {

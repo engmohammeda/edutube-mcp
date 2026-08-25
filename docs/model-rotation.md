@@ -15,6 +15,10 @@ Every Gemini model has an independent free-tier quota pool (≈20 generateConten
 
 Server logs emit `gemini.call_failed` (per model) and `gemini.model_rotated {from, to}` events.
 
+## Multiple keys
+
+Add extra keys with `GEMINI_API_KEYS=key2,key3`. Every (key, model) pair has an independent quota pool, so rotation also switches keys — the same model gets a fresh pool on your second account. `GEMINI_API_KEY` remains the primary key.
+
 ## Configuration
 
 ```bash
