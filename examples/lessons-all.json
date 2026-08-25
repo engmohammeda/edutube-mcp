@@ -1,0 +1,5113 @@
+[
+  {
+    "metadata": {
+      "course_id": "conversation",
+      "course_name_ar": "المحادثة",
+      "level": 1,
+      "lesson_no": 1,
+      "title": "في المطار"
+    },
+    "lesson_content": {
+      "dialogue": [
+        {
+          "speaker": "Teacher",
+          "en": "Good evening.",
+          "ar": "مساء الخير."
+        },
+        {
+          "speaker": "Woman",
+          "en": "Good evening.",
+          "ar": "مساء الخير."
+        },
+        {
+          "speaker": "Airport Staff",
+          "en": "Good evening.",
+          "ar": "مساء الخير."
+        },
+        {
+          "speaker": "Airport Staff",
+          "en": "Boarding pass, please.",
+          "ar": "بطاقة صعود الطائرة، من فضلك."
+        },
+        {
+          "speaker": "Woman",
+          "en": "Here it is.",
+          "ar": "تفضلي."
+        },
+        {
+          "speaker": "Airport Staff",
+          "en": "Go straight ahead and then take a left.",
+          "ar": "امضي مباشرة للأمام ثم اتجهي يسارًا."
+        },
+        {
+          "speaker": "Woman",
+          "en": "Ok, thank you.",
+          "ar": "حسنًا، شكرًا لك."
+        },
+        {
+          "speaker": "Airport Staff",
+          "en": "Enjoy your flight.",
+          "ar": "رحلة سعيدة."
+        },
+        {
+          "speaker": "Airport Staff",
+          "en": "Boarding pass, please.",
+          "ar": "بطاقة صعود الطائرة، من فضلك."
+        },
+        {
+          "speaker": "Man",
+          "en": "Certainly, here it is.",
+          "ar": "بالتأكيد، تفضلي."
+        },
+        {
+          "speaker": "Airport Staff",
+          "en": "Go straight ahead and take a left.",
+          "ar": "امضِ مباشرة للأمام واتجه يسارًا."
+        },
+        {
+          "speaker": "Man",
+          "en": "Oh, okay. Thank you.",
+          "ar": "أوه، حسنًا. شكرًا لك."
+        },
+        {
+          "speaker": "Airport Staff",
+          "en": "Enjoy your flight.",
+          "ar": "رحلة سعيدة."
+        }
+      ],
+      "key_expressions": [
+        {
+          "expression_en": "Good evening",
+          "expression_ar": "مساء الخير",
+          "usage_ar": "تحية مسائية تستخدم في المساء."
+        },
+        {
+          "expression_en": "Boarding pass",
+          "expression_ar": "بطاقة صعود الطائرة",
+          "usage_ar": "المستند الذي يسمح لك بالصعود على متن الطائرة."
+        },
+        {
+          "expression_en": "Here it is / Here you are / Here you go",
+          "expression_ar": "ها هو / ها هي / تفضل/ي",
+          "usage_ar": "تُستخدم عند تسليم شيء لشخص ما."
+        },
+        {
+          "expression_en": "Go straight ahead",
+          "expression_ar": "امضِ مباشرة للأمام",
+          "usage_ar": "تُستخدم لإعطاء توجيهات بالمضي قدمًا في نفس الاتجاه."
+        },
+        {
+          "expression_en": "Take a left / Turn left / Make a left",
+          "expression_ar": "اتجه يسارًا / انعطف يسارًا",
+          "usage_ar": "تُستخدم لإعطاء توجيهات بالانعطاف نحو اليسار."
+        },
+        {
+          "expression_en": "Enjoy your flight",
+          "expression_ar": "رحلة سعيدة (استمتع برحلتك الجوية)",
+          "usage_ar": "تُستخدم لتمني رحلة جوية ممتعة."
+        },
+        {
+          "expression_en": "Have a safe trip",
+          "expression_ar": "أتمنى لك رحلة آمنة",
+          "usage_ar": "تُستخدم لتمني رحلة آمنة بشكل عام (ليست مقتصرة على الرحلات الجوية)."
+        },
+        {
+          "expression_en": "Certainly",
+          "expression_ar": "بالتأكيد",
+          "usage_ar": "تُستخدم للرد بالإيجاب على طلب أو سؤال، بمعنى 'طبعًا'."
+        }
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Boarding pass",
+        "meaning": "بطاقة صعود الطائرة",
+        "example_en": "Boarding pass, please.",
+        "example_ar": "بطاقة صعود الطائرة، من فضلك."
+      },
+      {
+        "word": "Passport",
+        "meaning": "جواز سفر",
+        "example_en": "Passport includes your identity and allows you to travel.",
+        "example_ar": "جواز السفر يتضمن هويتك ويسمح لك بالسفر."
+      },
+      {
+        "word": "Flight",
+        "meaning": "رحلة جوية",
+        "example_en": "Enjoy your flight.",
+        "example_ar": "استمتعي برحلتك الجوية."
+      },
+      {
+        "word": "Trip",
+        "meaning": "رحلة",
+        "example_en": "Have a safe trip.",
+        "example_ar": "أتمنى لك رحلة آمنة."
+      }
+    ],
+    "lesson_notes": [
+      "يهدف هذا الكورس إلى تقديم محتوى كامل ومبتعد عن الملل، مع التركيز على المحادثة من خلال حلقات مميزة ومختلفة عن المعتاد على يوتيوب.",
+      "يتم استقبال مقترحات المشاهدين لتطوير الكورس بما يتناسب مع احتياجاتهم ورغباتهم.",
+      "نظام حلقات المحادثة كالتالي: أولاً يتم عرض الكلمات الجديدة ونطقها ومعناها، ثم يتم عرض المحادثة جملة بجملة مع إظهار المقطع الصوتي البطيء والسريع، وشرح المعاني وطرق النطق المختلفة، وأخيراً يتم عرض المحادثة كاملة دون مساعدة أو ترجمة.",
+      "تُميز المعلم بين 'Good evening' (مساء الخير) في النطق الأمريكي الصحيح، وتجنب النطق الشائع الخاطئ 'Good evening'.",
+      "شرح مصطلح 'Boarding pass' (بطاقة صعود الطائرة) بتوضيح أن 'board' تعني 'يصعد على متن' و 'pass' تعني 'يسمح بالمرور'.",
+      "تُستخدم عبارات مثل 'Here it is'، 'Here you are'، و 'Here you go' كمرادفات بمعنى 'تفضل' أو 'ها هو' عند تسليم شيء.",
+      "هناك فرق بين 'Go straight' و 'Go straight ahead'، فـ 'Go straight ahead' تعني الاستمرار في الاتجاه الحالي للأمام مباشرة، بينما 'Go straight' قد تحتاج لتحديد الاتجاه بالإشارة.",
+      "تُستخدم 'Take a left'، 'Make a left'، و 'Turn left' كمرادفات جميعها تعني 'اتجه يسارًا' أو 'انعطف يسارًا'."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما هو الغرض الرئيسي لكورس المحادثة هذا؟",
+        "word_to_speak": null,
+        "options": [
+          "تعلم القواعد النحوية فقط",
+          "تحسين مهارات الكتابة",
+          "إتقان المحادثة باللغة الإنجليزية",
+          "توسيع المفردات دون ممارسة"
+        ],
+        "answer": "إتقان المحادثة باللغة الإنجليزية",
+        "explanation_ar": "ذكر المعلم في بداية الفيديو أن الكورس يركز على المحادثة بشكل كامل ومختلف عن أي محتوى آخر."
+      },
+      {
+        "type": "true_false",
+        "question": "طلب المعلم من المشاهدين تقديم اقتراحاتهم لتحسين محتوى الكورس.",
+        "word_to_speak": null,
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "أكد المعلم على أهمية ملاحظات المشاهدين لمساعدته في تطوير الكورس وجعله أفضل."
+      },
+      {
+        "type": "written",
+        "question": "ما هو المصطلح الإنجليزي لـ 'بطاقة صعود الطائرة'؟",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Boarding pass",
+        "explanation_ar": "المصطلح الإنجليزي لبطاقة صعود الطائرة هو 'Boarding pass'."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "عندما تطلب منك موظفة المطار 'Boarding pass, please' وترد عليها بتسليمها البطاقة، أي من العبارات التالية هي الأكثر شيوعًا وطلاقة في الاستخدام؟",
+        "word_to_speak": null,
+        "options": [
+          "It is here",
+          "Here you are",
+          "I have it here",
+          "Here my pass is"
+        ],
+        "answer": "Here you are",
+        "explanation_ar": "عبارات 'Here it is'، 'Here you are'، و 'Here you go' هي الأكثر استخدامًا عند تسليم شيء لشخص ما. الخيارات الأخرى ليست بالطلاقة نفسها."
+      },
+      {
+        "type": "true_false",
+        "question": "عبارة 'Go straight' و 'Go straight ahead' لهما نفس المعنى تمامًا في جميع السياقات.",
+        "word_to_speak": null,
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "وضح المعلم أن 'Go straight ahead' تعني المضي قدمًا في الاتجاه الحالي دون انعطاف، بينما 'Go straight' قد تحتاج لتحديد الاتجاه بالإشارة (مثل 'this way')."
+      },
+      {
+        "type": "written",
+        "question": "اذكر طريقتين مختلفتين (غير 'Turn left') لإعطاء توجيهات بالانعطاف يسارًا كما ورد في الدرس.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Take a left, Make a left",
+        "explanation_ar": "ذكر المعلم أن 'Take a left' و 'Make a left' يمكن استخدامهما بنفس معنى 'Turn left' لإعطاء توجيهات بالانعطاف يسارًا."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما هو المكافئ العربي لـ 'Enjoy your flight'؟",
+        "word_to_speak": "Enjoy your flight",
+        "options": [
+          "سفر ممتع",
+          "رحلة سعيدة",
+          "أتمنى لك المتعة",
+          "طيران سعيد"
+        ],
+        "answer": "رحلة سعيدة",
+        "explanation_ar": "العبارة الإنجليزية 'Enjoy your flight' تُترجم عادة في السياق العربي بـ 'رحلة سعيدة'."
+      },
+      {
+        "type": "true_false",
+        "question": "الرجل في المحادثة رد بـ 'Certainly' والتي تعني 'ربما' أو 'محتمل'.",
+        "word_to_speak": null,
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "كلمة 'Certainly' تعني 'بكل تأكيد' أو 'طبعًا'، وهي تعبر عن الموافقة أو التأكيد، وليست الشك."
+      },
+      {
+        "type": "written",
+        "question": "ما هي التحية التي تبادلها المسافرون وموظفة المطار في بداية المحادثة، مع الأخذ في الاعتبار أن المحادثة حدثت ليلاً؟",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Good evening",
+        "explanation_ar": "نظرًا لأن المحادثة حدثت ليلاً، فإن التحية المناسبة كانت 'Good evening' (مساء الخير)."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "نظام الكورس الخاص بالمحادثة يتضمن:",
+        "word_to_speak": null,
+        "options": [
+          "عرض المحادثة كاملة أولاً ثم شرح الكلمات.",
+          "شرح الكلمات الجديدة، ثم المحادثة جملة بجملة مع الشرح، وأخيراً المحادثة كاملة.",
+          "التركيز على القواعد النحوية فقط قبل أي محادثة.",
+          "تكرار الجمل البطيئة فقط للمساعدة في النطق."
+        ],
+        "answer": "شرح الكلمات الجديدة، ثم المحادثة جملة بجملة مع الشرح، وأخيراً المحادثة كاملة.",
+        "explanation_ar": "أوضح المعلم في مقدمة الفيديو أن نظام الحلقات يبدأ بشرح الكلمات الجديدة، ثم تحليل المحادثة جملة بجملة، وينتهي بعرض المحادثة كاملة للاستماع والممارسة."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "conversation",
+      "course_name_ar": "المحادثة",
+      "level": 1,
+      "lesson_no": 2,
+      "title": "محادثة في الطائرة: التعارف والوجهة"
+    },
+    "lesson_content": {
+      "dialogue": [
+        {
+          "speaker": "Chris",
+          "en": "Hi, My name is Chris.",
+          "ar": "أهلاً، اسمي كريس."
+        },
+        {
+          "speaker": "Jane",
+          "en": "My name is Jane.",
+          "ar": "اسمي جين."
+        },
+        {
+          "speaker": "Chris",
+          "en": "Have you been on holiday in Bangkok?",
+          "ar": "هل كنت في إجازة في بانكوك؟"
+        },
+        {
+          "speaker": "Jane",
+          "en": "No, I work there.",
+          "ar": "لا، أنا أعمل هناك."
+        },
+        {
+          "speaker": "Chris",
+          "en": "Where are you from?",
+          "ar": "من أين أنت؟"
+        },
+        {
+          "speaker": "Jane",
+          "en": "I'm from America.",
+          "ar": "أنا من أمريكا."
+        },
+        {
+          "speaker": "Chris",
+          "en": "Really? Me too.",
+          "ar": "حقًا؟ أنا أيضاً."
+        },
+        {
+          "speaker": "Jane",
+          "en": "Do you work in Bangkok, too?",
+          "ar": "هل تعمل في بانكوك أيضاً؟"
+        },
+        {
+          "speaker": "Chris",
+          "en": "Yes, I do work in Bangkok.",
+          "ar": "نعم، أنا أعمل في بانكوك بالفعل."
+        },
+        {
+          "speaker": "Jane",
+          "en": "So, why are you going to England?",
+          "ar": "إذن، لماذا أنت ذاهب إلى إنجلترا؟"
+        },
+        {
+          "speaker": "Chris",
+          "en": "I'm going to visit my friend. He works in London.",
+          "ar": "أنا ذاهب لزيارة صديقي. هو يعمل في لندن."
+        },
+        {
+          "speaker": "Jane",
+          "en": "I'm going to stay with my friends in London, too.",
+          "ar": "أنا سأقيم مع أصدقائي في لندن أيضاً."
+        },
+        {
+          "speaker": "Chris",
+          "en": "So, how long will you be staying?",
+          "ar": "إذن، كم ستبقى؟"
+        },
+        {
+          "speaker": "Jane",
+          "en": "I will be staying for two weeks.",
+          "ar": "سأقيم لمدة أسبوعين."
+        },
+        {
+          "speaker": "Chris",
+          "en": "We have a lot in common.",
+          "ar": "لدينا الكثير من القواسم المشتركة."
+        },
+        {
+          "speaker": "Jane",
+          "en": "Yes, we do have a lot in common.",
+          "ar": "نعم، لدينا بالفعل الكثير من القواسم المشتركة."
+        }
+      ],
+      "key_expressions": [
+        {
+          "expression_en": "on holiday",
+          "expression_ar": "في إجازة",
+          "usage_ar": "تستخدم 'on' مع 'holiday' بمعنى 'في إجازة'."
+        },
+        {
+          "expression_en": "Where do you come from?",
+          "expression_ar": "من أين أنت؟",
+          "usage_ar": "تُستخدم للسؤال عن بلد المنشأ بطريقة مهذبة."
+        },
+        {
+          "expression_en": "What's your nationality?",
+          "expression_ar": "ما هي جنسيتك؟",
+          "usage_ar": "سؤال مباشر عن الجنسية، وقد يُعتبر وقحًا في المحادثات العادية، ويستخدم غالبًا في السياقات الرسمية."
+        },
+        {
+          "expression_en": "Same here",
+          "expression_ar": "كذلك أنا",
+          "usage_ar": "تُستخدم كبديل لـ 'Me too' لتعبر عن نفس الشعور أو الوضع."
+        },
+        {
+          "expression_en": "How long",
+          "expression_ar": "كم المدة",
+          "usage_ar": "تُستخدم للسؤال عن المدة الزمنية."
+        },
+        {
+          "expression_en": "in common",
+          "expression_ar": "قواسم مشتركة",
+          "usage_ar": "تُستخدم للإشارة إلى الأشياء المتشابهة أو المشتركة بين شخصين أو أكثر."
+        }
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "holiday",
+        "meaning": "إجازة",
+        "example_en": "Have you been on holiday in Bangkok?",
+        "example_ar": "هل كنت في إجازة في بانكوك؟"
+      },
+      {
+        "word": "work",
+        "meaning": "يعمل",
+        "example_en": "No, I work there.",
+        "example_ar": "لا، أنا أعمل هناك."
+      },
+      {
+        "word": "there",
+        "meaning": "هناك",
+        "example_en": "No, I work there.",
+        "example_ar": "لا، أنا أعمل هناك."
+      },
+      {
+        "word": "from",
+        "meaning": "من",
+        "example_en": "Where are you from?",
+        "example_ar": "من أين أنت؟"
+      },
+      {
+        "word": "America",
+        "meaning": "أمريكا",
+        "example_en": "I'm from America.",
+        "example_ar": "أنا من أمريكا."
+      },
+      {
+        "word": "visit",
+        "meaning": "يزور",
+        "example_en": "I'm going to visit my friend.",
+        "example_ar": "أنا ذاهب لزيارة صديقي."
+      },
+      {
+        "word": "friend",
+        "meaning": "صديق",
+        "example_en": "I'm going to visit my friend. He works in London.",
+        "example_ar": "أنا ذاهب لزيارة صديقي. هو يعمل في لندن."
+      },
+      {
+        "word": "stay",
+        "meaning": "يقيم",
+        "example_en": "I'm going to stay with my friends in London, too.",
+        "example_ar": "أنا سأقيم مع أصدقائي في لندن أيضاً."
+      },
+      {
+        "word": "week",
+        "meaning": "أسبوع",
+        "example_en": "I will be staying for two weeks.",
+        "example_ar": "سأقيم لمدة أسبوعين."
+      },
+      {
+        "word": "common",
+        "meaning": "مشترك",
+        "example_en": "We have a lot in common.",
+        "example_ar": "لدينا الكثير من القواسم المشتركة."
+      }
+    ],
+    "lesson_notes": [
+      "عند الحديث عن قضاء إجازة، نستخدم حرف الجر \"on\" وليس \"in\"، مثل \"on holiday\".",
+      "هذا السؤال \"Have you been...?\" هو في زمن المضارع التام، والذي تم شرحه باستفاضة في 3 حلقات سابقة. الروابط موجودة في الوصف لمن يريد مراجعتها: 1- شرح المضارع التام، 2- المضارع التام في الأفلام الأجنبية، 3- الفرق بين المضارع التام والماضي البسيط.",
+      "عند نطق \"Where are you from?\" بسرعة في الكلام العادي، تُختصر عادةً إلى \"Where you from?\" أو \"Where'd you from?\".",
+      "السؤال \"What's your nationality?\" (ما هي جنسيتك؟) يعتبر سؤالاً وقحاً أو استفزازياً في المحادثات العادية، ويستخدم عادة في سياقات رسمية أو تحقيقية (مثل ضابط الجوازات). من الأفضل استخدام \"Where are you from?\" في التعارف.",
+      "تعبير \"Same here\" هو بديل لـ \"Me too\" ويعني \"نفس الشيء هنا\" أو \"وأنا كذلك\".",
+      "لإضافة تأكيد على الفعل، يمكن استخدام \"do\" قبل الفعل، مثل \"Yes, I do work in Bangkok\" بدلاً من \"Yes, I work in Bangkok\".",
+      "تلاحظ أن هذه الفتاة لا تبين مخارج الحروف، هذا ليس طبيعة اللكنة الأمريكية ولكن الجيل الجديد من الفتيات يعتقدون أن هذا يجعلهم \"كيوت\" أو \"أرق\" في الأداء - بالمصري - \"مياصة\". ستلاحظ أن الرجل يتكلم بشكل أفضل وهو أيضاً أمريكي.",
+      "في الثقافة الغربية، طرح الأسئلة الشخصية السطحية في بداية التعارف مثل \"ماذا تعمل؟\" أو \"إلى أين أنت ذاهب؟\" لا يعتبر تطفلاً، بخلاف بعض الثقافات الشرق أوسطية حيث قد يعتبر \"حشري\" (شخص يتدخل فيما لا يعنيه). الأسئلة الشخصية جداً (مثل عن العلاقات أو الزواج) هي التي تعتبر غير لائقة.",
+      "\"How long\" تُستخدم للسؤال عن المدة الزمنية، مثال: \"How long did you wait?\" (كم المدة التي انتظرتها؟).",
+      "المدرس يتلقى طلبات لتطويل مدة الحلقات، لكنه يشرح سبب إبقائها بين 10-15 دقيقة: 1) بعض المشاهدين يستخدمون باقات إنترنت محدودة، 2) طول الحلقة يزيد من وقت المونتاج والرفع، مما يؤثر على سرعة إنتاج الحلقات الجديدة. يفضل \"خير الكلام ما قل ودل\"."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "في أي مدينة يعمل كريس وجين؟",
+        "word_to_speak": null,
+        "options": [
+          "لندن",
+          "بانكوك",
+          "نيويورك",
+          "باريس"
+        ],
+        "answer": "بانكوك",
+        "explanation_ar": "حسب الحوار، جين قالت \"No, I work there\" عندما سألها كريس إذا كانت في إجازة في بانكوك، وكريس أكد أيضاً أنه يعمل في بانكوك."
+      },
+      {
+        "type": "true_false",
+        "question": "كريس وجين ذاهبان في إجازة إلى إنجلترا.",
+        "word_to_speak": null,
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "كريس وجين ذاهبان إلى إنجلترا، ولكن ليس في إجازة. جين ذاهبة لتقيم مع أصدقائها، وكريس ذاهب ليزور صديقه الذي يعمل في لندن."
+      },
+      {
+        "type": "written",
+        "question": "ما هي المدة التي ستقيمها جين في لندن؟",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "أسبوعين",
+        "explanation_ar": "جين قالت \"I will be staying for two weeks\" عندما سألها كريس عن مدة إقامتها."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي من العبارات التالية يمكن استخدامها كبديل لـ \"Me too\"؟",
+        "word_to_speak": null,
+        "options": [
+          "Of course",
+          "Same here",
+          "Absolutely",
+          "I agree"
+        ],
+        "answer": "Same here",
+        "explanation_ar": "المدرس ذكر أن \"Same here\" تعني \"كذلك أنا\" أو \"نفس الشيء هنا\" وتستخدم كبديل لـ \"Me too\"."
+      },
+      {
+        "type": "true_false",
+        "question": "من الطبيعي أن تسأل شخصًا تقابله للمرة الأولى \"What's your nationality?\" في المحادثات العادية بالثقافة الغربية.",
+        "word_to_speak": null,
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "أوضح المدرس أن السؤال \"What's your nationality?\" يعتبر وقحاً أو استفزازياً في المحادثات العادية، ويستخدم في السياقات الرسمية أو التحقيقية."
+      },
+      {
+        "type": "written",
+        "question": "كيف يمكنك تأكيد أنك تعمل في بانكوك؟ (باستخدام الكلمات من الدرس)",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Yes, I do work in Bangkok.",
+        "explanation_ar": "لإضافة تأكيد على الفعل، يستخدم \"do\" قبل الفعل الرئيسي، كما فعل كريس في الحوار."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما هو حرف الجر الصحيح المستخدم مع كلمة \"holiday\" عند التحدث عن قضاء إجازة؟",
+        "word_to_speak": null,
+        "options": [
+          "in",
+          "at",
+          "on",
+          "for"
+        ],
+        "answer": "on",
+        "explanation_ar": "المدرس أوضح أن التعبير الصحيح هو \"on holiday\"."
+      },
+      {
+        "type": "true_false",
+        "question": "المدرس يفضل الحلقات الطويلة جدًا لتوفير معلومات أكثر للمشاهدين.",
+        "word_to_speak": null,
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "المدرس شرح أنه يحافظ على مدة الحلقات قصيرة (10-15 دقيقة) مراعاةً لمستخدمي الإنترنت المحدود، ولتسريع وتيرة الإنتاج."
+      },
+      {
+        "type": "written",
+        "question": "اذكر سببًا ثقافيًا لعدم اعتبار بعض الأسئلة الشخصية \"حشرية\" في الغرب بينما قد تكون كذلك في الشرق الأوسط.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "في الثقافة الغربية، لا تعتبر أسئلة مثل \"ماذا تعمل؟\" أو \"لماذا تسافر؟\" حشرية في بداية التعارف، بينما في الشرق الأوسط قد تعتبر كذلك. الأسئلة عن الحالة الاجتماعية أو العلاقات الشخصية جداً هي التي تعتبر غير لائقة في الغرب.",
+        "explanation_ar": "المدرس أوضح الاختلافات الثقافية في طرح الأسئلة الشخصية."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما هو الغرض من استخدام \"How long\" في السؤال؟",
+        "word_to_speak": "How long",
+        "options": [
+          "السؤال عن المكان",
+          "السؤال عن الوقت الحالي",
+          "السؤال عن المدة الزمنية",
+          "السؤال عن السبب"
+        ],
+        "answer": "السؤال عن المدة الزمنية",
+        "explanation_ar": "المدرس أوضح أن \"How long\" تستخدم للسؤال عن المدة الزمنية."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "conversation",
+      "course_name_ar": "المحادثة",
+      "level": 1,
+      "lesson_no": 3,
+      "title": "بعد الهبوط: التعامل في المطار"
+    },
+    "lesson_content": {
+      "dialogue": [
+        {
+          "speaker": "المعلم",
+          "en": "Ready for the conversation episode?",
+          "ar": "جهز لحلقة المحادثة؟"
+        },
+        {
+          "speaker": "المعلم",
+          "en": "In this episode, we'll learn how to deal with situations after you get off the plane.",
+          "ar": "في الحلقة دي هنعرف تتعامل ازاي بعد ما تنزل من الطيارة."
+        },
+        {
+          "speaker": "المعلم",
+          "en": "And at the end of the episode, God willing, I will respond to a very beautiful suggestion I received after the last episode.",
+          "ar": "وفي آخر الحلقة إن شاء الله هرد على اقتراح جميل جداً جاني بعد الحلقة اللي فاتت."
+        },
+        {
+          "speaker": "المعلم",
+          "en": "Prepare a pen and paper and stay with me.",
+          "ar": "حضر ورقة وقلم وخليك معايا."
+        },
+        {
+          "speaker": "المعلم",
+          "en": "Peace, mercy, and blessings of God be upon you. I am Ibrahim Adel, and you are watching the English language learning course on ZAmericanEnglish channel, the conversation section.",
+          "ar": "السلام عليكم ورحمة الله وبركاته أنا إبراهيم عادل وأنت بتتفرج على كورس تعلم اللغة الإنجليزية على قناة ذا أمريكان إنجلش الجزء الخاص بالمحادثة."
+        },
+        {
+          "speaker": "المعلم",
+          "en": "This is the third episode.",
+          "ar": "دي الحلقة الثالثة."
+        },
+        {
+          "speaker": "المعلم",
+          "en": "We will continue from where we left off last episode. The plane has arrived in London.",
+          "ar": "هنكمل فيها من أول ما انتهينا الحلقة اللي فاتت. خلاص الطيارة وصلت لندن."
+        },
+        {
+          "speaker": "المعلم",
+          "en": "The first thing a traveler does after getting off the plane is to go through passport control.",
+          "ar": "أول حاجة بيعملها المسافر بعد ما ينزل من الطيارة هي إنه بيعدي على ظابط الجوازات."
+        },
+        {
+          "speaker": "المعلم",
+          "en": "Who allows him to enter the country or not.",
+          "ar": "اللي بيسمح له يخش البلد أو لأ."
+        },
+        {
+          "speaker": "المعلم",
+          "en": "The passport officer in Arabic is called 'Passport Officer', but in English, he's not called 'Passport Officer', he's called 'Immigration Officer'.",
+          "ar": "ظابط الجوازات اسمه بالعربي كده ظابط الجوازات ولكن بالإنجليزي ما اسموش ظابط الجوازات، اسمه ظابط الهجرة."
+        },
+        {
+          "speaker": "المعلم",
+          "en": "Of course, because many people immigrate to Western countries, this name is much more suitable for this type of job, to be called 'Immigration Officer'.",
+          "ar": "طبعاً لإن ناس كتير بتهاجر لدول الغرب فالاسم ده أليق جداً على نوع الوظيفة دي إن هو يبقى اسمه ظابط الهجرة."
+        },
+        {
+          "speaker": "المعلم",
+          "en": "What does 'officer' mean?",
+          "ar": "ظابط يعني إيه؟"
+        },
+        {
+          "speaker": "المعلم",
+          "en": "Don't say policeman, policeman doesn't mean 'officer', it means 'police officer'.",
+          "ar": "ما تقولش policeman، policeman مش معناها ظابط معناها رجل البوليس."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Good morning, sir.",
+          "ar": "صباح الخير يا سيدي."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Could I see your passport and visa documentation?",
+          "ar": "هل يمكنني رؤية جواز سفرك ووثائق التأشيرة؟"
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Oh, yes, here they are.",
+          "ar": "أوه، نعم، ها هما."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Is this your first visit to the United Kingdom?",
+          "ar": "هل هذه زيارتك الأولى للمملكة المتحدة؟"
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Yes, it is.",
+          "ar": "نعم، إنها كذلك."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "And where will you be staying?",
+          "ar": "وأين ستقيم؟"
+        },
+        {
+          "speaker": "Traveler",
+          "en": "With my friend in London.",
+          "ar": "مع صديقي في لندن."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "And how long will you be staying?",
+          "ar": "وكم المدة التي ستقيمها؟"
+        },
+        {
+          "speaker": "Traveler",
+          "en": "I'll be staying for two weeks.",
+          "ar": "سأقيم لمدة أسبوعين."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Do you have anything to declare?",
+          "ar": "هل لديك ما تصرح به؟"
+        },
+        {
+          "speaker": "Traveler",
+          "en": "No, I do not have anything to declare.",
+          "ar": "لا، ليس لدي ما أصرح به."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Good. Everything seems to be in order.",
+          "ar": "جيد. يبدو أن كل شيء على ما يرام."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Please enjoy your stay.",
+          "ar": "من فضلك استمتع بإقامتك."
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Thank you.",
+          "ar": "شكرا لك."
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Could you tell me, where is the baggage claim?",
+          "ar": "هل يمكنك إخباري، أين استلام الحقائب؟"
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Follow the signs to your left, please.",
+          "ar": "اتبع اللافتات إلى يسارك، من فضلك."
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Okay. Thank you.",
+          "ar": "حسناً. شكراً لك."
+        }
+      ],
+      "key_expressions": [
+        {
+          "expression_en": "Immigration Officer",
+          "expression_ar": "ضابط الهجرة",
+          "usage_ar": "هو الشخص المسؤول عن التحقق من وثائق السفر والهجرة في المطار."
+        },
+        {
+          "expression_en": "Could I see your passport and visa documentation?",
+          "expression_ar": "هل يمكنني رؤية جواز سفرك ووثائق التأشيرة؟",
+          "usage_ar": "تُستخدم هذه العبارة لطلب رؤية الوثائق الرسمية بأدب."
+        },
+        {
+          "expression_en": "Could",
+          "expression_ar": "رسمي، مؤدب (هل ممكن؟)",
+          "usage_ar": "هل يمكنك تمرير الملح من فضلك؟ (Could you please pass the salt?)"
+        },
+        {
+          "expression_en": "May",
+          "expression_ar": "رسمي، مؤدب أكثر (هل تسمح؟)",
+          "usage_ar": "هل لي بالدخول؟ (May I come in?)"
+        },
+        {
+          "expression_en": "Can",
+          "expression_ar": "غير رسمي (ممكن؟)",
+          "usage_ar": "هل يمكنني استعارة قلمك؟ (Can I borrow your pen?)"
+        },
+        {
+          "expression_en": "Here you go",
+          "expression_ar": "تفضل (للمفرد أو الجمع، عند تقديم شيء)",
+          "usage_ar": "تستخدم لتقديم شيء ما عندما يطلبه شخص، وهي عامة للمفرد والجمع."
+        },
+        {
+          "expression_en": "Here you are",
+          "expression_ar": "تفضل (للمفرد أو الجمع، عند تقديم شيء)",
+          "usage_ar": "مثل 'Here you go' وهي عامة للمفرد والجمع."
+        },
+        {
+          "expression_en": "Here it is",
+          "expression_ar": "ها هو (للمفرد)",
+          "usage_ar": "تستخدم لتقديم شيء مفرد تم طلبه."
+        },
+        {
+          "expression_en": "Here they are",
+          "expression_ar": "ها هي (للجمع)",
+          "usage_ar": "تستخدم لتقديم أشياء جمع تم طلبها."
+        },
+        {
+          "expression_en": "Is this your first visit to the United Kingdom?",
+          "expression_ar": "هل هذه زيارتك الأولى للمملكة المتحدة؟",
+          "usage_ar": "سؤال شائع في نقاط الهجرة للاستفسار عن سبب الزيارة وسوابقها."
+        },
+        {
+          "expression_en": "And where will you be staying?",
+          "expression_ar": "وأين ستقيم؟",
+          "usage_ar": "سؤال شائع للاستفسار عن مكان إقامة الزائر."
+        },
+        {
+          "expression_en": "With my friend in London",
+          "expression_ar": "مع صديقي في لندن",
+          "usage_ar": "إجابة محتملة لسؤال عن مكان الإقامة."
+        },
+        {
+          "expression_en": "And how long will you be staying?",
+          "expression_ar": "وكم المدة التي ستقيمها؟",
+          "usage_ar": "سؤال شائع للاستفسار عن مدة الإقامة المخطط لها."
+        },
+        {
+          "expression_en": "I'll be staying for two weeks",
+          "expression_ar": "سأقيم لمدة أسبوعين",
+          "usage_ar": "إجابة محتملة لسؤال عن مدة الإقامة."
+        },
+        {
+          "expression_en": "Do you have anything to declare?",
+          "expression_ar": "هل لديك ما تصرح به؟",
+          "usage_ar": "سؤال شائع في الجمارك للتحقق من البضائع."
+        },
+        {
+          "expression_en": "No, I don't have anything to declare",
+          "expression_ar": "لا، ليس لدي ما أصرح به",
+          "usage_ar": "إجابة نفي على سؤال 'هل لديك ما تصرح به؟'"
+        },
+        {
+          "expression_en": "Everything seems to be in order",
+          "expression_ar": "كل شيء يبدو على ما يرام / مرتب",
+          "usage_ar": "تعبير يُستخدم للتأكيد على أن الأمور تسير بشكل صحيح أو مكتملة."
+        },
+        {
+          "expression_en": "In order",
+          "expression_ar": "تمام / على ما يرام / مرتب",
+          "usage_ar": "تُستخدم بمعنى 'مقبول' أو 'مرتب بشكل صحيح'. "
+        },
+        {
+          "expression_en": "Enjoy your stay",
+          "expression_ar": "استمتع بإقامتك",
+          "usage_ar": "تعبير مهذب لوداع المسافر."
+        },
+        {
+          "expression_en": "Baggage claim",
+          "expression_ar": "استلام الحقائب",
+          "usage_ar": "المنطقة المخصصة لاستلام الأمتعة في المطار."
+        },
+        {
+          "expression_en": "Could you tell me, where is the baggage claim?",
+          "expression_ar": "هل يمكنك إخباري، أين استلام الحقائب؟",
+          "usage_ar": "سؤال مهذب عن موقع منطقة استلام الأمتعة."
+        },
+        {
+          "expression_en": "Follow the signs to your left, please",
+          "expression_ar": "اتبع اللافتات إلى يسارك، من فضلك",
+          "usage_ar": "إرشاد شائع لإخبار شخص بالاتجاه الذي يجب أن يسلكه."
+        }
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "immigration",
+        "meaning": "هجرة",
+        "example_en": "Many people migrate for better opportunities and this requires filling out immigration forms.",
+        "example_ar": "الكثير من الناس يهاجرون للحصول على فرص أفضل وهذا يتطلب ملء استمارات الهجرة."
+      },
+      {
+        "word": "officer",
+        "meaning": "ضابط",
+        "example_en": "The officer asked for my identification.",
+        "example_ar": "طلب الضابط هويتي."
+      },
+      {
+        "word": "Immigration Officer",
+        "meaning": "ضابط الهجرة (الجوازات)",
+        "example_en": "The Immigration Officer checked my passport.",
+        "example_ar": "قام ضابط الهجرة بفحص جواز سفري."
+      },
+      {
+        "word": "Miss",
+        "meaning": "آنسة (للفتاة غير المتزوجة)",
+        "example_en": "Good morning, Miss. Can I help you?",
+        "example_ar": "صباح الخير آنسة، هل يمكنني مساعدتك؟"
+      },
+      {
+        "word": "Ma'am",
+        "meaning": "سيدتي (صيغة احترام للسيدة المتزوجة أو كبيرة السن)",
+        "example_en": "Good evening, Ma'am. Your table is ready.",
+        "example_ar": "مساء الخير سيدتي، طاولتك جاهزة."
+      },
+      {
+        "word": "Madam",
+        "meaning": "سيدتي (صيغة احترام رسمية، أقل شيوعًا من Ma'am)",
+        "example_en": "Madam, your car awaits.",
+        "example_ar": "سيدتي، سيارتك تنتظر."
+      },
+      {
+        "word": "passport",
+        "meaning": "جواز سفر",
+        "example_en": "I need to renew my passport before my trip.",
+        "example_ar": "أحتاج إلى تجديد جواز سفري قبل رحلتي."
+      },
+      {
+        "word": "visa",
+        "meaning": "تأشيرة",
+        "example_en": "I got a tourist visa for my vacation.",
+        "example_ar": "حصلت على تأشيرة سياحية لإجازتي."
+      },
+      {
+        "word": "documentation",
+        "meaning": "وثائق",
+        "example_en": "Please bring all necessary documentation to the meeting.",
+        "example_ar": "يرجى إحضار جميع الوثائق اللازمة للاجتماع."
+      },
+      {
+        "word": "United Kingdom",
+        "meaning": "المملكة المتحدة",
+        "example_en": "The United Kingdom consists of four countries.",
+        "example_ar": "تتكون المملكة المتحدة من أربع دول."
+      },
+      {
+        "word": "England",
+        "meaning": "إنجلترا",
+        "example_en": "London is the capital of England.",
+        "example_ar": "لندن عاصمة إنجلترا."
+      },
+      {
+        "word": "Wales",
+        "meaning": "ويلز",
+        "example_en": "Wales is known for its beautiful landscapes and castles.",
+        "example_ar": "تشتهر ويلز بمناظرها الطبيعية الخلابة وقلاعها."
+      },
+      {
+        "word": "Scotland",
+        "meaning": "اسكتلندا",
+        "example_en": "Scotland is famous for its whiskey and bagpipes.",
+        "example_ar": "تشتهر اسكتلندا بالويسكي وآلة القربة."
+      },
+      {
+        "word": "Northern Ireland",
+        "meaning": "أيرلندا الشمالية",
+        "example_en": "Northern Ireland is part of the United Kingdom.",
+        "example_ar": "أيرلندا الشمالية جزء من المملكة المتحدة."
+      },
+      {
+        "word": "Great Britain",
+        "meaning": "بريطانيا العظمى",
+        "example_en": "Great Britain is the largest island in Europe.",
+        "example_ar": "بريطانيا العظمى هي أكبر جزيرة في أوروبا."
+      },
+      {
+        "word": "declare",
+        "meaning": "يعلن، يصرح",
+        "example_en": "Passengers must declare any goods over the duty-free limit.",
+        "example_ar": "يجب على المسافرين الإعلان عن أي بضائع تتجاوز حد الإعفاء الجمركي."
+      },
+      {
+        "word": "in order",
+        "meaning": "على ما يرام، مرتب",
+        "example_en": "The documents are all in order.",
+        "example_ar": "الوثائق كلها على ما يرام."
+      },
+      {
+        "word": "stay",
+        "meaning": "يقيم (فعل) / إقامة (اسم)",
+        "example_en": "I will stay at a hotel for a week. My stay will be enjoyable.",
+        "example_ar": "سأقيم في فندق لمدة أسبوع. إقامتي ستكون ممتعة."
+      },
+      {
+        "word": "baggage",
+        "meaning": "الحقائب / الأمتعة",
+        "example_en": "I need to collect my baggage from the carousel.",
+        "example_ar": "أحتاج أن أستلم حقائبي من سير الأمتعة."
+      },
+      {
+        "word": "claim",
+        "meaning": "طلب / مطالبة",
+        "example_en": "You can make a claim for lost luggage.",
+        "example_ar": "يمكنك تقديم طلب تعويض عن الأمتعة المفقودة."
+      },
+      {
+        "word": "baggage claim",
+        "meaning": "منطقة استلام الحقائب",
+        "example_en": "Where is the baggage claim for flight BA249?",
+        "example_ar": "أين منطقة استلام الحقائب للرحلة BA249؟"
+      },
+      {
+        "word": "signs",
+        "meaning": "لافتات / إشارات",
+        "example_en": "Follow the signs to the exit.",
+        "example_ar": "اتبع اللافتات إلى المخرج."
+      }
+    ],
+    "lesson_notes": [
+      "لا تستخدم 'policeman' لتعني 'ضابط' في سياق الهجرة، بل تعني 'رجل الشرطة'. كلمة 'ضابط' هي 'officer'.",
+      "كلمة 'Ma'am' هي اختصار لـ 'Madam' وتُستخدم بشكل أكثر شيوعًا في المحادثات اليومية.",
+      "كلمة 'Could' هنا تستخدم كصيغة طلب مهذبة بمعنى 'هل ممكن'، وليست الماضي من 'Can' بمعنى 'استطاع'.",
+      "لتقديم طلب مهذب، استخدم 'Could I...؟' (رسمي ومهذب)، أو 'May I...؟' (رسمي ومهذب جدًا)، أو 'Can I...؟' (غير رسمي مع الأصدقاء).",
+      "المملكة المتحدة (United Kingdom) تشمل أربع دول: إنجلترا، ويلز، اسكتلندا، وأيرلندا الشمالية. بريطانيا العظمى (Great Britain) تشمل إنجلترا، ويلز، واسكتلندا فقط. إنجلترا (England) هي إحدى هذه الدول.",
+      "في المحادثات اليومية، من المقبول البدء بجملة أو سؤال بكلمات ربط مثل 'And' أو 'But' أو 'Or'، على عكس الكتابة الأكاديمية."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما هي الكلمة الإنجليزية الصحيحة التي تعني 'الهجرة'؟",
+        "word_to_speak": null,
+        "options": [
+          "Imigration",
+          "Emigration",
+          "Immigracion",
+          "Immigration"
+        ],
+        "answer": "Immigration",
+        "explanation_ar": "كلمة 'Immigration' هي المصطلح الصحيح للهجرة، وهي تشير إلى دخول الأشخاص إلى بلد أجنبي للإقامة الدائمة."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة 'policeman' هي الترجمة الصحيحة لكلمة 'ضابط' في سياق الهجرة.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "False",
+        "explanation_ar": "'Policeman' تعني 'رجل الشرطة'. الترجمة الصحيحة لكلمة 'ضابط' في سياق الهجرة هي 'officer' أو 'Immigration Officer'."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي من الأساليب التالية يعتبر الأكثر تهذيبًا لطلب شيء ما؟",
+        "word_to_speak": null,
+        "options": [
+          "Can I...?",
+          "Could I...?",
+          "May I...?",
+          "Give me..."
+        ],
+        "answer": "May I...?",
+        "explanation_ar": "'May I...؟' هو الأسلوب الأكثر رسمية وتهذيبًا لطلب الإذن أو خدمة، يليه 'Could I...؟' ثم 'Can I...؟' الأقل رسمية. 'Give me...' هو أمر مباشر."
+      },
+      {
+        "type": "written",
+        "question": "كيف تجيب بأدب عندما يطلب منك شخص ما شيئًا مفردًا (مثل جواز سفرك)؟ (باللغة الإنجليزية)",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Here it is",
+        "explanation_ar": "عند تقديم شيء مفرد تم طلبه، تكون الإجابة 'Here it is' هي الأكثر دقة وتحديدًا للمفرد."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما هي الدول التي تشملها 'بريطانيا العظمى' (Great Britain)؟",
+        "word_to_speak": null,
+        "options": [
+          "إنجلترا، ويلز، أيرلندا الشمالية",
+          "إنجلترا، اسكتلندا، ويلز",
+          "إنجلترا، اسكتلندا، أيرلندا الشمالية",
+          "إنجلترا، أيرلندا، اسكتلندا"
+        ],
+        "answer": "إنجلترا، اسكتلندا، ويلز",
+        "explanation_ar": "بريطانيا العظمى تتكون من إنجلترا، اسكتلندا، وويلز. أيرلندا الشمالية جزء من المملكة المتحدة ولكن ليست جزءًا من بريطانيا العظمى."
+      },
+      {
+        "type": "written",
+        "question": "إذا سُئلت 'And where will you be staying?'، كيف يمكن أن تجيب إذا كنت ستقيم في فندق؟ (باللغة الإنجليزية)",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I'll be staying at a hotel.",
+        "explanation_ar": "هذه إجابة مباشرة وواضحة على السؤال عن مكان الإقامة المستقبلي."
+      },
+      {
+        "type": "true_false",
+        "question": "لا يمكن أبدًا بدء جملة أو سؤال بكلمة 'And' في المحادثات اليومية.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "False",
+        "explanation_ar": "على الرغم من أن ذلك قد لا يكون شائعًا في الكتابة الأكاديمية، إلا أنه مقبول تمامًا وشائع في المحادثات اليومية ويزيد من طلاقة الكلام."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة 'declare' في سياق الجمارك؟",
+        "word_to_speak": null,
+        "options": [
+          "يشتري",
+          "يعلن / يصرح",
+          "يخبئ",
+          "يخفي"
+        ],
+        "answer": "يعلن / يصرح",
+        "explanation_ar": "في سياق الجمارك، 'declare' تعني الإعلان عن بضائع أو أموال أو أي شيء آخر قد يخضع للرسوم الجمركية أو القيود."
+      },
+      {
+        "type": "written",
+        "question": "ما هو التعبير الذي يعني 'كل شيء يبدو على ما يرام / مرتب'؟ (باللغة الإنجليزية)",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Everything seems to be in order",
+        "explanation_ar": "هذا التعبير يعني أن كل شيء منظم بشكل صحيح ومقبول، ويمكن استبدال 'in order' بـ 'okay' أو 'fine'."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما هي الترجمة العربية لعبارة 'Enjoy your stay'؟",
+        "word_to_speak": null,
+        "options": [
+          "استمتع بوجبتك",
+          "استمتع بوقتك",
+          "استمتع بإقامتك",
+          "استمتع برحلتك"
+        ],
+        "answer": "استمتع بإقامتك",
+        "explanation_ar": "'Stay' هنا تعني الإقامة أو فترة المكوث، وبالتالي 'Enjoy your stay' تعني استمتع بإقامتك."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "conversation",
+      "course_name_ar": "المحادثة",
+      "level": 1,
+      "lesson_no": 4,
+      "title": "اللقاء في المطار والحديث عن الرحلة"
+    },
+    "lesson_content": {
+      "dialogue": [
+        {
+          "speaker": "Dan",
+          "en": "Yes",
+          "ar": "نعم"
+        },
+        {
+          "speaker": "Friend",
+          "en": "How are you?",
+          "ar": "كيف حالك؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "I'm fine, how are you doing?",
+          "ar": "أنا بخير، كيف حالك؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "I'm doing great. And you look great.",
+          "ar": "أنا بخير جداً. وأنت تبدو رائعاً."
+        },
+        {
+          "speaker": "Friend",
+          "en": "Oh, thanks.",
+          "ar": "أوه، شكراً."
+        },
+        {
+          "speaker": "Friend",
+          "en": "Yeah, how was your flight over?",
+          "ar": "نعم، كيف كانت رحلتك إلى هنا؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "Uh, it was quite a long flight.",
+          "ar": "آه، كانت رحلة طويلة جداً."
+        },
+        {
+          "speaker": "Friend",
+          "en": "How many hours did it take?",
+          "ar": "كم ساعة استغرقت؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "It took twelve hours.",
+          "ar": "استغرقت اثنتي عشرة ساعة."
+        },
+        {
+          "speaker": "Friend",
+          "en": "Did you have to stop anywhere on the way?",
+          "ar": "هل اضطررت للتوقف في أي مكان في الطريق؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "No, it was a direct flight.",
+          "ar": "لا، كانت رحلة مباشرة."
+        },
+        {
+          "speaker": "Friend",
+          "en": "Is there going to be a lot of traffic?",
+          "ar": "هل سيكون هناك الكثير من الازدحام؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "No, the traffic should be light.",
+          "ar": "لا، من المفترض أن تكون حركة المرور خفيفة."
+        },
+        {
+          "speaker": "Friend",
+          "en": "Hey, alright. Are you ready to go?",
+          "ar": "هي، حسناً. هل أنت جاهز للذهاب؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "Yes, I'm ready.",
+          "ar": "نعم، أنا جاهز."
+        }
+      ],
+      "key_expressions": [
+        {
+          "expression_en": "How are you doing?",
+          "expression_ar": "كيف حالك؟ / كيف تسير أمورك؟",
+          "usage_ar": "تستخدم كبديل لـ \"How are you?\" ولا يوجد فرق كبير في المعنى."
+        },
+        {
+          "expression_en": "I'm doing great",
+          "expression_ar": "أنا بخير جداً / أموري تسير على ما يرام",
+          "usage_ar": "تستخدم للرد على \"How are you doing?\" أو \"How are you?\"."
+        },
+        {
+          "expression_en": "You look great",
+          "expression_ar": "أنت تبدو رائعاً",
+          "usage_ar": "تستخدم لوصف المظهر الخارجي للشخص (تبدو بصحة جيدة، غير متعب)."
+        },
+        {
+          "expression_en": "How was your flight over?",
+          "expression_ar": "كيف كانت رحلتك إلى هنا؟",
+          "usage_ar": "تستخدم للسؤال عن الرحلة الجوية التي وصلت إلى مكان معين (اختصار لـ 'over here')."
+        },
+        {
+          "expression_en": "It was quite a long flight",
+          "expression_ar": "كانت رحلة طويلة جداً",
+          "usage_ar": "كلمة 'quite' هنا تعني 'very' (جداً) وتستخدم لتوكيد الصفة 'long'."
+        },
+        {
+          "expression_en": "Did you have to stop anywhere on the way?",
+          "expression_ar": "هل اضطررت للتوقف في أي مكان في الطريق؟",
+          "usage_ar": "الفعل المركب 'have to' يعني 'اضطر إلى' أو 'وجب عليه'. 'on the way' تعني 'في الطريق'."
+        },
+        {
+          "expression_en": "Direct flight",
+          "expression_ar": "رحلة مباشرة",
+          "usage_ar": "تعني رحلة طيران بدون توقفات (مباشرة من نقطة البداية إلى الوجهة النهائية)."
+        },
+        {
+          "expression_en": "Layover flight",
+          "expression_ar": "رحلة غير مباشرة (مع توقف)",
+          "usage_ar": "تعني رحلة تتضمن توقفًا في مطار وسيط أو أكثر قبل الوصول للوجهة النهائية."
+        },
+        {
+          "expression_en": "Far from",
+          "expression_ar": "بعيد عن",
+          "usage_ar": "تستخدم للتعبير عن البعد الجغرافي أو المكاني عن شيء ما."
+        },
+        {
+          "expression_en": "Is there going to be a lot of traffic?",
+          "expression_ar": "هل سيكون هناك الكثير من الازدحام؟",
+          "usage_ar": "'Is there' تستخدم للسؤال عن وجود شيء، 'going to be' للمستقبل، 'a lot of' تعني 'الكثير من'."
+        },
+        {
+          "expression_en": "The traffic should be light",
+          "expression_ar": "من المفترض أن تكون حركة المرور خفيفة",
+          "usage_ar": "'Should be' تعني 'من المفترض أن يكون'، و'light' هنا تعني 'خفيف' (عكس 'heavy' للزحام)."
+        },
+        {
+          "expression_en": "Are you ready to go?",
+          "expression_ar": "هل أنت جاهز للذهاب؟",
+          "usage_ar": "تستخدم للسؤال عما إذا كان الشخص مستعدًا للمغادرة أو بدء شيء ما."
+        }
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Dan",
+        "meaning": "اسم تدليل لدانيال",
+        "example_en": "Daniel is a good friend, let's call him Dan.",
+        "example_ar": "دانيال صديق جيد، لنناديه دان."
+      },
+      {
+        "word": "Danny",
+        "meaning": "اسم تدليل آخر لدانيال (أكثر دلالاً)",
+        "example_en": "Danny is a sweet boy.",
+        "example_ar": "داني هو ولد لطيف."
+      },
+      {
+        "word": "Tom",
+        "meaning": "اسم تدليل لتوماس",
+        "example_en": "My uncle Thomas likes to be called Tom.",
+        "example_ar": "عمي توماس يحب أن يُنادى توم."
+      },
+      {
+        "word": "Tommy",
+        "meaning": "اسم تدليل آخر لتوماس (أكثر دلالاً)",
+        "example_en": "Tommy, come here!",
+        "example_ar": "تومي، تعال إلى هنا!"
+      },
+      {
+        "word": "Look",
+        "meaning": "يظهر / يبدو (لوصف المظهر الخارجي)",
+        "example_en": "She looks beautiful.",
+        "example_ar": "هي تبدو جميلة."
+      },
+      {
+        "word": "Quite",
+        "meaning": "جداً (مثل very)",
+        "example_en": "It was quite a long flight.",
+        "example_ar": "كانت رحلة طويلة جداً."
+      },
+      {
+        "word": "Quiet",
+        "meaning": "هادئ",
+        "example_en": "The library is a quiet place.",
+        "example_ar": "المكتبة مكان هادئ."
+      },
+      {
+        "word": "How many",
+        "meaning": "كم عدد",
+        "example_en": "How many hours did it take?",
+        "example_ar": "كم ساعة استغرقت؟"
+      },
+      {
+        "word": "Take",
+        "meaning": "يستغرق (وقت)",
+        "example_en": "It took twelve hours.",
+        "example_ar": "استغرقت اثنتي عشرة ساعة."
+      },
+      {
+        "word": "Have to",
+        "meaning": "اضطر إلى / وجب عليه",
+        "example_en": "Did you have to stop?",
+        "example_ar": "هل اضطررت للتوقف؟"
+      },
+      {
+        "word": "Traffic",
+        "meaning": "ازدحام / مرور",
+        "example_en": "The traffic should be light.",
+        "example_ar": "من المفترض أن يكون المرور خفيفاً."
+      },
+      {
+        "word": "Should be",
+        "meaning": "من المفترض أن يكون",
+        "example_en": "The meeting should be productive.",
+        "example_ar": "من المفترض أن يكون الاجتماع مثمراً."
+      },
+      {
+        "word": "Light",
+        "meaning": "خفيف (عكس ثقيل أو مزدحم)",
+        "example_en": "The traffic was light this morning.",
+        "example_ar": "كانت حركة المرور خفيفة هذا الصباح."
+      }
+    ],
+    "lesson_notes": [
+      "تلفظ \"How are you doing?\" أحياناً \"How you doing?\" عند الأمريكيين.",
+      "كلمة \"Direct\" تلفظ \"ديريكت\" وليس \"دايركت\" في اللهجة الأمريكية.",
+      "الفرق بين \"on the way\" (في الطريق إلى مكان ما) و \"in the way\" (عائق في الطريق، مثال: I want to pass my test, don't stand in my way - أريد تجاوز الاختبار، لا تقف عقبة في طريقي).",
+      "كلمة \"over\" في تعبير \"How was your flight over?\" تعني \"إلى هنا\" أو \"إلى هذا المكان\" (اختصار لـ 'over here').",
+      "كلمة \"quite\" (Q-U-I-T-E) تعني \"جداً\" (very).",
+      "كلمة \"quiet\" (Q-U-I-E-T) تعني \"هادئ\".",
+      "عبارة \"Have to\" تعني \"اضطر إلى\" أو \"وجب عليه\" وتساوي \"must\".",
+      "عبارة \"going to\" تعني \"سوف\" وتساوي \"will\" وتستخدم للتعبير عن المستقبل (يمكن الرجوع لدرس المستقبل البسيط للمزيد).",
+      "لكلمة \"Traffic\" معنيان: \"ازدحام\" و \"مرور\"."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما هو اختصار اسم 'Daniel' المستخدم في الحوار؟",
+        "word_to_speak": null,
+        "options": [
+          "Dan",
+          "Danny",
+          "Don",
+          "Dean"
+        ],
+        "answer": "Dan",
+        "explanation_ar": "المقطع التعليمي يوضح أن 'Dan' و 'Danny' هما اسمان تدليليان لـ 'Daniel'. 'Dan' كان الأول المذكور."
+      },
+      {
+        "type": "true_false",
+        "question": "عبارة \"How are you doing?\" تختلف اختلافاً كبيراً في المعنى عن \"How are you?\".",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "False",
+        "explanation_ar": "يوضح المعلم أنه لا يوجد فرق جوهري في المعنى بين \"How are you doing?\" و \"How are you?\" ويمكن استخدامهما بالتبادل."
+      },
+      {
+        "type": "written",
+        "question": "كيف تصف رحلة تتضمن توقفات بين نقطة الأصل والوجهة؟ (كلمة واحدة بالإنجليزية)",
+        "word_to_speak": "Layover",
+        "options": null,
+        "answer": "Layover flight",
+        "explanation_ar": "شرح المعلم أن 'Layover flight' هي رحلة تتوقف في المنتصف، على عكس 'Direct flight'."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "إذا قال أحدهم \"It was quite a long flight,\" فماذا تعني كلمة \"quite\" في هذا السياق؟",
+        "word_to_speak": null,
+        "options": [
+          "قليلاً",
+          "نادراً",
+          "جداً",
+          "أبداً"
+        ],
+        "answer": "جداً",
+        "explanation_ar": "أوضح المعلم أن كلمة \"quite\" (Q-U-I-T-E) تعني \"جداً\" (very) في هذه الجملة."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة \"look\" في عبارة \"You look great\" تعني \"يرى\" أو \"ينظر بتمعن\".",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "False",
+        "explanation_ar": "أوضح المعلم أن كلمة \"look\" في هذا السياق تشير إلى وصف المظهر الخارجي للشخص، وليس فعل الرؤية أو النظر."
+      },
+      {
+        "type": "written",
+        "question": "ما هو الماضي من الفعل \"take\" (في سياق المدة الزمنية)؟ (كلمة واحدة بالإنجليزية)",
+        "word_to_speak": "Took",
+        "options": null,
+        "answer": "Took",
+        "explanation_ar": "قدم المعلم 'Take ==> Took' عند مناقشة 'How many hours did it take?'."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ماذا تعني \"Far from\"؟",
+        "word_to_speak": null,
+        "options": [
+          "قريب من",
+          "بعيد عن",
+          "بجانب",
+          "في المنتصف"
+        ],
+        "answer": "بعيد عن",
+        "explanation_ar": "ترجم المعلم 'Far from' مباشرة إلى 'يبعد عن'."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة \"Traffic\" تشير فقط إلى الازدحام على الطرق.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "False",
+        "explanation_ar": "ذكر المعلم أن لكلمة \"Traffic\" معنيين: الازدحام (congestion) والمرور (movement)، وكلاهما موجود في الحوار."
+      },
+      {
+        "type": "written",
+        "question": "ما هي العبارة المستخدمة للسؤال عن \"هل هناك؟\" أو \"هل يوجد؟\" في اللغة الإنجليزية؟ (كلمتان)",
+        "word_to_speak": "Is there",
+        "options": null,
+        "answer": "Is there",
+        "explanation_ar": "قدم المعلم 'Is there ......?' كمرادف لـ 'هل هناك؟ / هل يوجد؟'."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "إذا كان المرور \"should be light\"، فماذا تعني كلمة \"light\" هنا؟",
+        "word_to_speak": null,
+        "options": [
+          "مشرق",
+          "ثقيل",
+          "غير مزدحم",
+          "مظلم"
+        ],
+        "answer": "غير مزدحم",
+        "explanation_ar": "عرف المعلم كلمة \"light\" في هذا السياق بأنها \"خفيف\"، مما يعني غير ثقيل أو غير مزدحم."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "conversation",
+      "course_name_ar": "المحادثة",
+      "level": 1,
+      "lesson_no": 5,
+      "title": "نقطة انطلاق المحادثة: هل تحتاج؟"
+    },
+    "lesson_content": {
+      "dialogue": [
+        {
+          "speaker": "أنتوني",
+          "en": "Do you need to buy anything today?",
+          "ar": "هل تحتاج لشراء أي شيء اليوم؟"
+        },
+        {
+          "speaker": "جيمس",
+          "en": "Yes, I need to buy some clothes.",
+          "ar": "نعم، أحتاج لشراء بعض الملابس."
+        },
+        {
+          "speaker": "أنتوني",
+          "en": "What kind of clothes do you want to buy?",
+          "ar": "أي نوع من الملابس تريد أن تشتري؟"
+        },
+        {
+          "speaker": "جيمس",
+          "en": "I need to get some shirts, trousers and a warm jacket.",
+          "ar": "أحتاج لشراء بعض القمصان والبناطيل وسترة دافئة."
+        },
+        {
+          "speaker": "أنتوني",
+          "en": "Is there anything else you want to buy?",
+          "ar": "هل يوجد أي شيء آخر تريد شراءه؟"
+        },
+        {
+          "speaker": "جيمس",
+          "en": "Oh, yes. I need to buy a guidebook about London.",
+          "ar": "أوه، نعم. أحتاج لشراء دليل سياحي عن لندن."
+        },
+        {
+          "speaker": "أنتوني",
+          "en": "We have many different places to choose from.",
+          "ar": "لدينا العديد من الأماكن المختلفة للاختيار من بينها."
+        },
+        {
+          "speaker": "جيمس",
+          "en": "Hmm, what are the choices?",
+          "ar": "هممم، ما هي الخيارات؟"
+        },
+        {
+          "speaker": "أنتوني",
+          "en": "Well, we can go to Kensington High Street.",
+          "ar": "حسنًا، يمكننا الذهاب إلى شارع كينسينغتون هاي ستريت."
+        },
+        {
+          "speaker": "جيمس",
+          "en": "Is it a very expensive place to buy clothes?",
+          "ar": "هل هو مكان غالي جدًا لشراء الملابس؟"
+        },
+        {
+          "speaker": "أنتوني",
+          "en": "Yes, It is an expensive place to buy clothes.",
+          "ar": "نعم، إنه مكان غالي لشراء الملابس."
+        },
+        {
+          "speaker": "جيمس",
+          "en": "Can we go somewhere a little bit cheaper?",
+          "ar": "هل يمكننا الذهاب إلى مكان أرخص قليلاً؟"
+        }
+      ],
+      "key_expressions": [
+        {
+          "expression_en": "Do you need to buy anything today?",
+          "expression_ar": "هل تحتاج لشراء أي شيء اليوم؟",
+          "usage_ar": "سؤال عن الاحتياج لشراء أي شيء في اليوم الحالي."
+        },
+        {
+          "expression_en": "What kind of clothes do you want to buy?",
+          "expression_ar": "أي نوع من الملابس تريد أن تشتري؟",
+          "usage_ar": "سؤال عن نوع معين من الملابس المراد شراؤها."
+        },
+        {
+          "expression_en": "I need to get some shirts, trousers and a warm jacket.",
+          "expression_ar": "أحتاج لشراء بعض القمصان والبناطيل وسترة دافئة.",
+          "usage_ar": "للتعبير عن الحاجة لشراء أصناف معينة من الملابس."
+        },
+        {
+          "expression_en": "Is there anything else you want to buy?",
+          "expression_ar": "هل يوجد أي شيء آخر تريد شراءه؟",
+          "usage_ar": "سؤال عن وجود أي احتياجات إضافية للشراء."
+        },
+        {
+          "expression_en": "I need to buy a guidebook about London.",
+          "expression_ar": "أحتاج لشراء دليل سياحي عن لندن.",
+          "usage_ar": "للتعبير عن الحاجة لشراء دليل إرشادي حول مدينة معينة."
+        },
+        {
+          "expression_en": "We have many different places to choose from.",
+          "expression_ar": "لدينا العديد من الأماكن المختلفة للاختيار من بينها.",
+          "usage_ar": "للتعبير عن توفر خيارات متعددة للأماكن."
+        },
+        {
+          "expression_en": "What are the choices?",
+          "expression_ar": "ما هي الخيارات؟",
+          "usage_ar": "للسؤال عن الخيارات المتاحة."
+        },
+        {
+          "expression_en": "Can we go somewhere a little bit cheaper?",
+          "expression_ar": "هل يمكننا الذهاب إلى مكان أرخص قليلاً؟",
+          "usage_ar": "للسؤال عن إمكانية الذهاب إلى مكان أقل تكلفة."
+        }
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "need",
+        "meaning": "يحتاج",
+        "example_en": "Do you need to buy anything today?",
+        "example_ar": "هل تحتاج لشراء أي شيء اليوم؟"
+      },
+      {
+        "word": "anything",
+        "meaning": "أي شيء",
+        "example_en": "Do you need to buy anything today?",
+        "example_ar": "هل تحتاج لشراء أي شيء اليوم؟"
+      },
+      {
+        "word": "clothes",
+        "meaning": "ملابس",
+        "example_en": "Yes, I need to buy some clothes.",
+        "example_ar": "نعم، أحتاج لشراء بعض الملابس."
+      },
+      {
+        "word": "kind",
+        "meaning": "نوع",
+        "example_en": "What kind of clothes do you want to buy?",
+        "example_ar": "أي نوع من الملابس تريد أن تشتري؟"
+      },
+      {
+        "word": "shirt",
+        "meaning": "قميص",
+        "example_en": "I need to get some shirts.",
+        "example_ar": "أحتاج لشراء بعض القمصان."
+      },
+      {
+        "word": "trousers",
+        "meaning": "بناطيل",
+        "example_en": "I need to get some trousers.",
+        "example_ar": "أحتاج لشراء بعض البناطيل."
+      },
+      {
+        "word": "warm",
+        "meaning": "دافئ",
+        "example_en": "I need to get a warm jacket.",
+        "example_ar": "أحتاج لشراء سترة دافئة."
+      },
+      {
+        "word": "guidebook",
+        "meaning": "كتاب إرشادي/دليل سياحي",
+        "example_en": "I need to buy a guidebook about London.",
+        "example_ar": "أحتاج لشراء دليل سياحي عن لندن."
+      },
+      {
+        "word": "choices",
+        "meaning": "خيارات",
+        "example_en": "Hmm, what are the choices?",
+        "example_ar": "هممم، ما هي الخيارات؟"
+      },
+      {
+        "word": "expensive",
+        "meaning": "غالي الثمن",
+        "example_en": "It is an expensive place to buy clothes.",
+        "example_ar": "إنه مكان غالي لشراء الملابس."
+      },
+      {
+        "word": "cheaper",
+        "meaning": "أرخص",
+        "example_en": "Can we go somewhere a little bit cheaper?",
+        "example_ar": "هل يمكننا الذهاب إلى مكان أرخص قليلاً؟"
+      }
+    ],
+    "lesson_notes": [
+      "تُستخدم 'Do/Does' في بداية السؤال للاستفسار عن الأفعال، بينما تُستخدم 'Am/Is/Are' للاستفسار عن الصفات.",
+      "كلمة 'anything' تُستخدم في الأسئلة والجمل المنفية، أما 'something' فتُستخدم في الجمل الإيجابية.",
+      "كلمة 'clothes' هي دائمًا بصيغة الجمع وتعني 'ملابس'. كلمة 'cloth' (قماش أو خرقة) هي كلمة مختلفة تمامًا.",
+      "للتعبير عن قطعة واحدة من الملابس، نقول 'a piece of clothes'.",
+      "عند طرح الأسئلة التي تبدأ بـ Wh- (مثل What, Where)، يجب دائمًا استخدام الفعل المساعد المناسب (مثل do/does) قبل الفاعل لتوضيح أن الجملة سؤال.",
+      "الأشياء التي تتكون من جزأين (مثل البناطيل، الأحذية، النظارات) تُعامل كـ'زوج' في الإنجليزية. فمثلاً، البنطال الواحد هو 'a pair of trousers'، والحذاء الواحد هو 'a pair of shoes'، والنظارة الواحدة هي 'a pair of glasses'.",
+      "كلمات 'a little bit', 'a little', و 'a bit' جميعها تعني 'قليلًا' أو 'بدرجة بسيطة' ويمكن استخدامها بالتبادل دون فرق في المعنى."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "في سياق السؤال، تُستخدم 'Do/Does' بشكل أساسي للاستفسار عن:",
+        "word_to_speak": null,
+        "options": [
+          "صفة",
+          "اسم",
+          "فعل",
+          "ظرف"
+        ],
+        "answer": "فعل",
+        "explanation_ar": "في اللغة الإنجليزية، تُستخدم أفعال المساعدة Do/Does لطرح أسئلة حول الأفعال (الأنشطة أو الحالات)، بينما تُستخدم Am/Is/Are لطرح أسئلة حول الصفات أو الأسماء."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة 'cloth' هي صيغة المفرد لكلمة 'clothes'.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "خطأ",
+        "explanation_ar": "كلمة 'clothes' (ملابس) هي دائمًا بصيغة الجمع وليس لها مفرد. كلمة 'cloth' (قماش أو خرقة) هي كلمة مختلفة تمامًا في المعنى والاستخدام."
+      },
+      {
+        "type": "written",
+        "question": "كيف تقول 'بنطال واحد' باللغة الإنجليزية، مع الأخذ في الاعتبار أنه يُعامل كزوج؟",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "a pair of trousers",
+        "explanation_ar": "تُعامل البنطلونات والأحذية والنظارات كـ'أزواج' في اللغة الإنجليزية لأنها تتكون من جزأين (يمين ويسار). لذلك نقول 'a pair of' للدلالة على المفرد منها."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "في أي من الحالات التالية يجب استخدام كلمة 'anything' بدلاً من 'something'؟",
+        "word_to_speak": null,
+        "options": [
+          "في الجمل الإيجابية (مثلاً: I want something to eat)",
+          "في الأسئلة والجمل المنفية",
+          "فقط في الجمل المنفية",
+          "فقط في الأسئلة التي تبدأ بـ 'Wh-'"
+        ],
+        "answer": "في الأسئلة والجمل المنفية",
+        "explanation_ar": "قاعدة عامة في هذا المستوى هي استخدام 'anything' في الأسئلة والجمل المنفية، بينما تُستخدم 'something' في الجمل الإيجابية."
+      },
+      {
+        "type": "true_false",
+        "question": "في اللغة الإنجليزية الأمريكية، يمكن نطق 'What are' بسرعة كـ 'WADR' (وادر).",
+        "word_to_speak": "What are",
+        "options": null,
+        "answer": "صحيح",
+        "explanation_ar": "في المحادثة السريعة وغير الرسمية، غالبًا ما تندمج الكلمات ويُعاد نطقها. 'What are' هو مثال على ذلك، حيث يمكن أن يُنطق بسرعة كصوت يشبه 'WADR'، على عكس 'water' التي تعني 'ماء'."
+      },
+      {
+        "type": "written",
+        "question": "ما معنى 'warm jacket' باللغة العربية؟",
+        "word_to_speak": "warm jacket",
+        "options": null,
+        "answer": "جاكيت دافئ",
+        "explanation_ar": "'Warm' تعني دافئ، و'jacket' تعني جاكيت."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "في الجملة 'We have many different places to choose from'، كلمة 'different' هي:",
+        "word_to_speak": null,
+        "options": [
+          "ضرورية لإتمام المعنى النحوي",
+          "حشو لغوي يمكن الاستغناء عنه دون تغيير المعنى الأساسي",
+          "صفة تشير إلى أن الأماكن كلها متشابهة",
+          "فعل مساعد في الجملة"
+        ],
+        "answer": "حشو لغوي يمكن الاستغناء عنه دون تغيير المعنى الأساسي",
+        "explanation_ar": "على الرغم من أنها تضيف تأكيدًا على التنوع، إلا أن كلمة 'different' في هذا السياق يمكن حذفها (We have many places to choose from) ويبقى المعنى مفهومًا وصحيحًا نحويًا."
+      },
+      {
+        "type": "written",
+        "question": "اذكر طريقتين بديلتين لقول 'a little bit' في اللغة الإنجليزية، بنفس المعنى.",
+        "word_to_speak": "a little bit",
+        "options": null,
+        "answer": "a little, a bit",
+        "explanation_ar": "الثلاثة تعابير 'a little bit' و 'a little' و 'a bit' يمكن استخدامها بالتبادل ولها نفس المعنى 'قليلًا' أو 'بدرجة بسيطة'."
+      },
+      {
+        "type": "true_false",
+        "question": "الجملة 'Is it a very expensive place to buy clothes?' خاطئة نحويًا لأنها تفتقر إلى الفعل المساعد 'do'.",
+        "word_to_speak": "Is it a very expensive place to buy clothes?",
+        "options": null,
+        "answer": "خطأ",
+        "explanation_ar": "الجملة صحيحة. 'Is' هنا هو الفعل المساعد المناسب لأنه يستفسر عن صفة المكان ('expensive place') وليس عن فعل. الأفعال المساعدة Do/Does تُستخدم للاستفسار عن الأفعال، بينما Am/Is/Are تُستخدم للاستفسار عن الصفات أو الأسماء."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما هو الغرض الرئيسي من شراء 'a guidebook' (كتاب إرشادي) عند زيارة مدينة جديدة؟",
+        "word_to_speak": "guidebook",
+        "options": [
+          "لتصفح الإنترنت",
+          "لمعرفة أسعار الملابس الرخيصة",
+          "لاكتشاف الأماكن السياحية، المطاعم، والأماكن الترفيهية",
+          "لدراسة التاريخ القديم للمدينة"
+        ],
+        "answer": "لاكتشاف الأماكن السياحية، المطاعم، والأماكن الترفيهية",
+        "explanation_ar": "كتاب الإرشادات (guidebook) مصمم لتوفير معلومات مفيدة للسياح حول المعالم، الأنشطة، المطاعم، وأماكن الإقامة في وجهة معينة."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "conversation",
+      "course_name_ar": "المحادثة",
+      "level": 1,
+      "lesson_no": 6,
+      "title": "رحلة تسوق في لندن وبانكوك"
+    },
+    "lesson_content": {
+      "dialogue": [
+        {
+          "speaker": "B",
+          "en": "Can we go somewhere a little bit cheaper?",
+          "ar": "هل يمكننا الذهاب إلى مكان أرخص قليلاً؟"
+        },
+        {
+          "speaker": "A",
+          "en": "Yes, we can.",
+          "ar": "نعم، يمكننا."
+        },
+        {
+          "speaker": "A",
+          "en": "Where can we go?",
+          "ar": "أين يمكننا الذهاب؟"
+        },
+        {
+          "speaker": "B",
+          "en": "We can go to The Kings Road.",
+          "ar": "يمكننا الذهاب إلى طريق الملوك."
+        },
+        {
+          "speaker": "A",
+          "en": "Is it cheaper than Kensington High Street?",
+          "ar": "هل هو أرخص من شارع كنسينغتون هاي ستريت؟"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes, it is cheaper.",
+          "ar": "نعم، إنه أرخص."
+        },
+        {
+          "speaker": "A",
+          "en": "Is it far from here?",
+          "ar": "هل هو بعيد من هنا؟"
+        },
+        {
+          "speaker": "B",
+          "en": "No, It is quite near.",
+          "ar": "لا، إنه قريب جداً."
+        },
+        {
+          "speaker": "A",
+          "en": "Can we go there, please?",
+          "ar": "هل يمكننا الذهاب إلى هناك من فضلك؟"
+        },
+        {
+          "speaker": "B",
+          "en": "Sure, we'll go there.",
+          "ar": "بالتأكيد، سنذهب إلى هناك."
+        },
+        {
+          "speaker": "B",
+          "en": "London is very expensive, isn't it?",
+          "ar": "لندن غالية جداً، أليس كذلك؟"
+        },
+        {
+          "speaker": "A",
+          "en": "Yes, London is very expensive.",
+          "ar": "نعم، لندن غالية جداً."
+        },
+        {
+          "speaker": "B",
+          "en": "I think Bangkok is much better.",
+          "ar": "أعتقد أن بانكوك أفضل بكثير."
+        },
+        {
+          "speaker": "A",
+          "en": "Why is Bangkok better than London?",
+          "ar": "لماذا بانكوك أفضل من لندن؟"
+        },
+        {
+          "speaker": "B",
+          "en": "Because the shops are much cheaper.",
+          "ar": "لأن المحلات أرخص بكثير."
+        },
+        {
+          "speaker": "A",
+          "en": "Does Bangkok have many shops to choose from?",
+          "ar": "هل بانكوك بها العديد من المحلات للاختيار منها؟"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes, there are a lot of different shops.",
+          "ar": "نعم، هناك الكثير من المحلات المختلفة."
+        },
+        {
+          "speaker": "A",
+          "en": "Are the Thai people helpful?",
+          "ar": "هل الشعب التايلاندي ودود؟"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes, they're very helpful.",
+          "ar": "نعم، إنهم ودودون جداً."
+        },
+        {
+          "speaker": "A",
+          "en": "Have we forgotten to buy anything?",
+          "ar": "هل نسينا شراء أي شيء؟"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes, we forgot one item.",
+          "ar": "نعم، نسينا سلعة واحدة."
+        },
+        {
+          "speaker": "A",
+          "en": "What did we forget to buy?",
+          "ar": "ماذا نسينا أن نشتري؟"
+        },
+        {
+          "speaker": "B",
+          "en": "We forgot to buy a guidebook.",
+          "ar": "نسينا شراء دليل سياحي."
+        },
+        {
+          "speaker": "A",
+          "en": "Do you really need a guidebook?",
+          "ar": "هل تحتاج حقاً إلى دليل سياحي؟"
+        },
+        {
+          "speaker": "B",
+          "en": "Yes, I really need a guidebook.",
+          "ar": "نعم، أنا حقاً بحاجة إلى دليل سياحي."
+        }
+      ],
+      "key_expressions": [
+        {
+          "expression_en": "Cheaper than",
+          "expression_ar": "أرخص من",
+          "usage_ar": "تستخدم للمقارنة بين شيئين أو مكانين من حيث السعر."
+        },
+        {
+          "expression_en": "We'll",
+          "expression_ar": "سنفعل (اختصار لـ We will)",
+          "usage_ar": "اختصار لكلمة 'we will' وتستخدم للإشارة إلى المستقبل. النطق السريع لها هو /wɪl/."
+        },
+        {
+          "expression_en": "Isn't it?",
+          "expression_ar": "أليس كذلك؟",
+          "usage_ar": "يُعرف هذا بـ 'Tag Question' (السؤال المذيل). يضاف في نهاية الجملة لتأكيد المعلومة أو طلب موافقة المتحدث. إذا كانت الجملة مثبتة، يكون السؤال المذيل منفياً."
+        },
+        {
+          "expression_en": "Much better / A lot better",
+          "expression_ar": "أفضل بكثير",
+          "usage_ar": "تُستخدم هذه العبارات للتأكيد على أن هناك فرقاً كبيراً في الأفضلية."
+        },
+        {
+          "expression_en": "Because",
+          "expression_ar": "لأن",
+          "usage_ar": "تُستخدم لبيان السبب. النطق الصحيح كما أوضح المعلم هو 'بيكوز' وليس 'بِكوز'."
+        },
+        {
+          "expression_en": "Helpful",
+          "expression_ar": "خدوم / متعاون",
+          "usage_ar": "صفة (Adjective) تصف شخصاً يحب مساعدة الآخرين أو يقدم العون. الفعل المساعد المستخدم معها هو 'Are' للجمع."
+        },
+        {
+          "expression_en": "Item",
+          "expression_ar": "بند / سلعة",
+          "usage_ar": "تُستخدم للإشارة إلى عنصر أو سلعة واحدة في قائمة أو مجموعة. النطق السريع لها هو /aɪtəm/."
+        },
+        {
+          "expression_en": "Really",
+          "expression_ar": "حقا / فعلا",
+          "usage_ar": "ظرف (Adverb) يستخدم للتأكيد على صحة أو شدة شيء ما."
+        }
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Street",
+        "meaning": "شارع (داخل مدينة أو قرية)",
+        "example_en": "Kensington High Street is a famous street in London.",
+        "example_ar": "شارع كنسينغتون هاي ستريت هو شارع مشهور في لندن."
+      },
+      {
+        "word": "Road",
+        "meaning": "طريق (يصل بين مدن أو خارج المناطق السكنية، وقد يشمل الآن تجمعات سكنية)",
+        "example_en": "We can go to The Kings Road.",
+        "example_ar": "يمكننا الذهاب إلى طريق الملوك."
+      },
+      {
+        "word": "Cheaper",
+        "meaning": "أرخص (صيغة مقارنة من cheap)",
+        "example_en": "Is it cheaper than Kensington High Street?",
+        "example_ar": "هل هو أرخص من شارع كنسينغتون هاي ستريت؟"
+      },
+      {
+        "word": "Far",
+        "meaning": "بعيد",
+        "example_en": "Is it far from here?",
+        "example_ar": "هل هو بعيد من هنا؟"
+      },
+      {
+        "word": "Near",
+        "meaning": "قريب",
+        "example_en": "No, it is quite near.",
+        "example_ar": "لا، إنه قريب جداً."
+      },
+      {
+        "word": "Expensive",
+        "meaning": "غالٍ / مكلف",
+        "example_en": "London is very expensive, isn't it?",
+        "example_ar": "لندن غالية جداً، أليس كذلك؟"
+      },
+      {
+        "word": "Shop",
+        "meaning": "محل / متجر",
+        "example_en": "Does Bangkok have many shops to choose from?",
+        "example_ar": "هل بانكوك بها العديد من المحلات للاختيار منها؟"
+      },
+      {
+        "word": "Choose from",
+        "meaning": "يختار من بين",
+        "example_en": "Does Bangkok have many shops to choose from?",
+        "example_ar": "هل بانكوك بها العديد من المحلات للاختيار منها؟"
+      },
+      {
+        "word": "Thai",
+        "meaning": "تايلاندي (صفة تتعلق بتايلاند أو شعبها)",
+        "example_en": "Are the Thai people helpful?",
+        "example_ar": "هل الشعب التايلاندي ودود؟"
+      },
+      {
+        "word": "Guidebook",
+        "meaning": "دليل سياحي",
+        "example_en": "We forgot to buy a guidebook.",
+        "example_ar": "نسينا شراء دليل سياحي."
+      }
+    ],
+    "lesson_notes": [
+      "الفرق بين 'Street' و 'Road': تاريخياً، كان 'Street' يشير إلى شارع داخل مدينة أو قرية وبه مبانٍ وتجمعات سكنية على جانبيه، بينما 'Road' كان يشير إلى طريق يربط بين المدن أو القرى، وغالباً ما يكون خالياً من المباني على جانبيه. في الوقت الحاضر، أصبح هذا الفرق غير واضح لعامة الناس، ويستخدم معظمهم الكلمتين بالتبادل، ويقتصر الفرق التقني على المتخصصين في التخطيط والمساحة.",
+      "النطق السريع للاختصارات: بعض الكلمات والجمل تندمج وتُنطق بسرعة في اللغة الإنجليزية المحكية. على سبيل المثال، 'We will' تُنطق 'we'll' مثل 'ويْل'، و 'They are' تُنطق 'they're' مثل 'ذيْر'. سيتم تناول هذه الظاهرة (Contraction) بالتفصيل في سلسلة الصوتيات.",
+      "الأسئلة الذيلية (Tag Questions): تستخدم في نهاية الجملة لتأكيد المعلومة أو للحصول على موافقة المتحدث. القاعدة العامة هي أن السؤال المذيل يكون عكس الجملة الأصلية من حيث الإثبات والنفي. إذا كانت الجملة مثبتة، يكون السؤال المذيل منفياً (مثال: 'London is very expensive, isn't it?'). سيتم تخصيص حلقة كاملة لشرح هذه القاعدة.",
+      "الجمع بين صوتين (s): في اللغة الإنجليزية، لا يُفضل جمع صوتين 's' متتاليين في كلمة واحدة أو في سياق جملة. لذلك، عندما يكون لديك فعل مساعد ينتهي بصوت 's' (مثل Does) وفعل رئيسي يبدأ بصوت 's' أو يحتوي عليه في صيغة المفرد (مثل has)، فإن الفعل الرئيسي يعود إلى صيغته الأساسية (have). مثال: 'Does Bangkok have many shops?' وليس 'Does Bangkok has many shops?'.",
+      "المرونة في استخدام الأزمنة في اللغة العامية: في اللغة الإنجليزية المحكية (لغة الشارع)، هناك مرونة كبيرة في استخدام زمن الماضي البسيط (Simple Past) والمضارع التام (Present Perfect). في أكثر من 90% من المواقف، لا يختلف المعنى بشكل كبير، ويمكن الإجابة على سؤال بصيغة المضارع التام باستخدام الماضي البسيط، والعكس صحيح. هذا يختلف عن الاستخدام الأكاديمي الذي له قواعد أكثر صرامة، والذي يمكن الرجوع إليه في سلسلة القواعد (Grammar Series)."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما هو الفرق بين 'Street' و 'Road' في اللغة الإنجليزية العامية لمعظم الناس حالياً؟",
+        "word_to_speak": null,
+        "options": [
+          "Street أوسع من Road.",
+          "Street تستخدم للمدن و Road للطرق السريعة فقط.",
+          "يمكن استخدامهما بالتبادل.",
+          "Road دائماً تحتوي على أرصفة للمشاة، و Street لا."
+        ],
+        "answer": "يمكن استخدامهما بالتبادل.",
+        "explanation_ar": "في الاستخدام اليومي لعامة الناس، أصبح الفرق بين Street و Road غير واضح ومعظم الناس يستخدمونهما بالتبادل. الفرق التقني موجود فقط لدى المخططين والمساحين."
+      },
+      {
+        "type": "true_false",
+        "question": "في اللغة الإنجليزية غير الرسمية، من الخطأ دائماً استخدام الماضي البسيط (Simple Past) للإجابة على سؤال في المضارع التام (Present Perfect).",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "خطأ",
+        "explanation_ar": "في اللغة الإنجليزية غير الرسمية (لغة الشارع)، يمكن استخدام الماضي البسيط للإجابة على سؤال في المضارع التام في أكثر من 90% من المواقف، والعكس صحيح أيضاً، وهذا ما يميز لغة الشارع عن اللغة الأكاديمية."
+      },
+      {
+        "type": "written",
+        "question": "كيف تشكل سؤالاً ذيلياً منفياً (negative tag question) لجملة مثبتة في اللغة الإنجليزية؟",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "بتغيير الفعل المساعد (مثل 'is') إلى صورته المنفية ثم إضافة الضمير المناسب. على سبيل المثال: 'It is expensive, isn't it?'",
+        "explanation_ar": "لتشكيل سؤال ذيلي منفي لجملة مثبتة، نقوم بتحويل الفعل المساعد (مثل is) إلى صيغته المنفية (isn't) ثم نضع الضمير المناسب. هذا يعطي معنى 'أليس كذلك؟'."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما هو النطق الصحيح لكلمة 'Because' كما أوضحه المعلم في الدرس؟",
+        "word_to_speak": "Because",
+        "options": [
+          "بِكوز (بكسر الباء)",
+          "بيكوز (بفتح الباء وياء)",
+          "بِيك أوز",
+          "بِيك أز"
+        ],
+        "answer": "بيكوز (بفتح الباء وياء)",
+        "explanation_ar": "أوضح المعلم أن النطق الصحيح لكلمة 'Because' هو 'بيكوز'، وليس 'بِكوز' بكسر الباء. هذه النقطة مهمة للنطق السليم."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة 'Helpful' هي فعل (verb).",
+        "word_to_speak": "Helpful",
+        "options": null,
+        "answer": "خطأ",
+        "explanation_ar": "'Helpful' هي صفة (Adjective) وتعني 'خدوم' أو 'يحب المساعدة'، وليست فعلاً. لذلك، عند السؤال عنها، نستخدم الفعل المساعد 'Are' إذا كان الفاعل جمعاً."
+      },
+      {
+        "type": "written",
+        "question": "أكمل الجملة بالشكل الصحيح من 'have': 'Bangkok ____ many shops to choose from.' (باعتبارها جملة خبرية وليست سؤال).",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "has",
+        "explanation_ar": "بما أن 'Bangkok' هو اسم مفرد لمدينة، فإننا نستخدم 'has' في الجملة الخبرية المثبتة للإشارة إلى الامتلاك أو الوجود في زمن المضارع البسيط. (Bangkok is singular, so it takes 'has' in a positive statement.)"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ماذا تعني عبارتا 'a lot better' أو 'much better'؟",
+        "word_to_speak": "a lot better",
+        "options": [
+          "تحسن طفيف",
+          "تحسن كبير جداً",
+          "تحسن بالكاد يذكر",
+          "لا يوجد تحسن"
+        ],
+        "answer": "تحسن كبير جداً",
+        "explanation_ar": "كلتا العبارتين 'a lot better' و 'much better' تستخدمان للتشديد على أن التحسن أو الأفضلية كبيرة جداً، أي 'أفضل بكثير'."
+      },
+      {
+        "type": "written",
+        "question": "لماذا استخدم المتحدث 'have' بدلاً من 'has' في سؤال 'Does Bangkok have many shops?'، رغم أن 'Bangkok' مفردة؟",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "لأن الفعل المساعد 'Does' يحمل بالفعل علامة المفرد الغائب (s)، لذا يعود الفعل الرئيسي 'have' إلى صورته الأصلية (المصدر). هذا يمنع تكرار صوت 's' في كلمتين متتاليتين ('Does has' غير صحيح).",
+        "explanation_ar": "عند استخدام الفعل المساعد 'Does' في السؤال، يجب أن يأتي الفعل الرئيسي 'have' في صورته الأصلية (المصدر) بدون أي إضافات، لأن 'Does' يحمل بالفعل علامة المفرد الغائب (s). كما ذكر المعلم، لا يجوز جمع صوتي 'س' في كلمتين (مثل Does + has)."
+      },
+      {
+        "type": "true_false",
+        "question": "الاختصارات (Contractions) مثل 'we'll' هي رسمية ويجب استخدامها فقط في الكتابة الأكاديمية.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "خطأ",
+        "explanation_ar": "الاختصارات مثل 'we'll' و 'they're' شائعة جداً في اللغة الإنجليزية المحكية وغير الرسمية، وهي جزء أساسي من الطلاقة في الكلام."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما هو الـ 'guidebook'؟",
+        "word_to_speak": "guidebook",
+        "options": [
+          "بوصلة",
+          "كتاب يحتوي على معلومات وإرشادات سياحية",
+          "خريطة",
+          "مكتب صرافة عملات أجنبية"
+        ],
+        "answer": "كتاب يحتوي على معلومات وإرشادات سياحية",
+        "explanation_ar": "الـ 'guidebook' هو كتاب إرشادي أو دليل سياحي يوفر معلومات حول وجهة معينة للمسافرين."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "conversation",
+      "course_name_ar": "المحادثة",
+      "level": 1,
+      "lesson_no": 7,
+      "title": "محادثة إنجليزية عن الطقس"
+    },
+    "lesson_content": {
+      "dialogue": [
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "Welcome to episode number 7.",
+          "ar": "أهلاً بك في الحلقة رقم 7."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "Keep in mind that this series is renewable and its upcoming episodes are very many.",
+          "ar": "خلي بالك إن السلسلة دي متجددة وحلقاتها القادمة كتير جداً."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "You can know the date of the next episode by following the schedule on Facebook, Twitter, and Instagram.",
+          "ar": "وتقدر تعرف ميعاد الحلقة القادمة من خلال متابعة جدول الحلقات على فيسبوك، تويتر، إنستجرام."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "Step by step guys, the English-only explanation is on the way.",
+          "ar": "واحدة واحدة يا جماعة، الشرح بالإنجليزي فقط جاي في الطريق."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "This is the largest series of conversation episodes available on the internet anywhere in the world.",
+          "ar": "دي أكبر سلسلة حلقات للمحادثة موجودة على النت في أي مكان في العالم."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "I'm with you until you become professional in the English language, God willing.",
+          "ar": "معاك لحد ما تبقى محترف في اللغة الإنجليزية بإذن الله."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "The side information I give you is the foundation that all the episodes are built on.",
+          "ar": "المعلومات الجانبية اللي بديهالك هي الأساس اللي الحلقات كلها مبنية عليه."
+        },
+        {
+          "speaker": "المتحدث أ",
+          "en": "Are you enjoying your trip?",
+          "ar": "هل تستمتع برحلتك؟"
+        },
+        {
+          "speaker": "المتحدث ب",
+          "en": "Yes, I am enjoying my trip.",
+          "ar": "نعم، أنا مستمتع برحلتي."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "Enjoy means to enjoy, and since the trip is continuing, the best tense is the present continuous.",
+          "ar": "Enjoy يعني يستمتع وبما إن الرحلة مستمرة فكان أصلح زمن هو زمن المضارع المستمر."
+        },
+        {
+          "speaker": "المتحدث أ",
+          "en": "Have you finished reading your guidebook yet?",
+          "ar": "هل انتهيت من قراءة كتاب الإرشادات الخاص بك بعد؟"
+        },
+        {
+          "speaker": "المتحدث ب",
+          "en": "Yes, I finished reading it.",
+          "ar": "نعم، انتهيت من قراءته."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "The question came in the present perfect 'Have you finished' and the answer in the past simple 'I finished'.",
+          "ar": "السؤال جه في المضارع التام 'Have you finished' والإجابة جت في الماضي البسيط 'I finished'."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "Reading here is not present continuous; not every 'ing' indicates a continuous tense.",
+          "ar": "كلمة Reading هنا مش مضارع مستمر؛ مش كل 'ing' بتدل على زمن الاستمرارية."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Have you finished reading your guidebook yet?",
+          "ar": "هل انتهيت من قراءة كتاب الإرشادات الخاص بك بعد؟"
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Yes, I finished reading it.",
+          "ar": "نعم، انتهيت من قراءته."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "I haven't finished yet.",
+          "ar": "لم أنتهِ بعد."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "I didn't finish yet.",
+          "ar": "لم أنتهِ بعد (بصيغة الماضي البسيط)."
+        },
+        {
+          "speaker": "المتحدث الأول",
+          "en": "Are there any questions you want to ask me about London?",
+          "ar": "هل هناك أي أسئلة تود طرحها علي بشأن لندن؟"
+        },
+        {
+          "speaker": "المتحدث الثاني",
+          "en": "Yes, I have many questions. Is it always cold in London?",
+          "ar": "نعم، لدي الكثير من الأسئلة. هل الجو بارد دائماً في لندن؟"
+        },
+        {
+          "speaker": "المتحدث الأول",
+          "en": "Yes, it is cold, especially in the winter.",
+          "ar": "نعم، الجو بارد، خاصة في فصل الشتاء."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Yes, it is cold, especially in the Winter.",
+          "ar": "نعم، الجو بارد، خاصة في فصل الشتاء."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "especially is sometimes pronounced as expecially, as if written with an 'x'. If you meet someone like that, don't try to correct them.",
+          "ar": "كلمة especially تُنطق أحياناً expecially، كأنها مكتوبة بحرف 'x'. إذا قابلت شخصاً ينطقها هكذا، لا تحاول تصحيحه."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "The same people might say expresso instead of espresso, or ax instead of ask.",
+          "ar": "نفس هؤلاء الناس قد يقولون expresso بدلاً من espresso، أو ax بدلاً من ask."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Is it cold in the summer time, too?",
+          "ar": "هل الجو بارد في فصل الصيف أيضاً؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "No, it can be quite warm in the summer.",
+          "ar": "لا، يمكن أن يكون دافئاً تماماً في الصيف."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Is it cold in the Summer time, too? Note that summer and summer time are the same.",
+          "ar": "هل الجو بارد في وقت الصيف أيضاً؟ لاحظ أن summer و summer time هما نفس الشيء."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "No, it can be quite warm in the summer. We use 'it' when talking about the weather.",
+          "ar": "لا، قد يكون دافئاً جداً في الصيف. نستخدم 'it' عندما نتحدث عن حالة الجو."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Is it cold in the Summer time, too? No, it can be quite warm in the Summer.",
+          "ar": "هل الجو بارد في وقت الصيف أيضاً؟ لا، يمكن أن يكون دافئاً جداً في الصيف."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Quite, Very, Entirely, wholly.",
+          "ar": "كلمة Quite تعني جداً، تماماً، كلياً."
+        },
+        {
+          "speaker": "Interviewer",
+          "en": "What do you like about the weather in London?",
+          "ar": "ما الذي يعجبك في طقس لندن؟"
+        },
+        {
+          "speaker": "Interviewee",
+          "en": "I like the cold mornings and the bright sunshine.",
+          "ar": "أحب الصباح البارد وضوء الشمس الساطع."
+        },
+        {
+          "speaker": "Interviewer",
+          "en": "The weather in Bangkok is quite different.",
+          "ar": "الطقس في بانكوك مختلف تماماً."
+        },
+        {
+          "speaker": "Interviewee",
+          "en": "Is the weather in Bangkok always hot?",
+          "ar": "هل الطقس في بانكوك حار دائماً؟"
+        },
+        {
+          "speaker": "Interviewer",
+          "en": "Yes. It's always hot.",
+          "ar": "نعم، إنه حار دائماً."
+        },
+        {
+          "speaker": "Interviewee",
+          "en": "Is the weather in Bangkok always the same?",
+          "ar": "هل الطقس في بانكوك دائماً كما هو؟"
+        },
+        {
+          "speaker": "Interviewer",
+          "en": "Yes, but sometimes it can be cool.",
+          "ar": "نعم، ولكن أحياناً يمكن أن يكون الجو لطيفاً."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Is the weather in Bangkok always hot?",
+          "ar": "هل الجو في بانكوك دايما حر؟"
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Yes, it is always hot.",
+          "ar": "نعم، إنه دائمًا حار."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Is the weather in Bangkok always the same?",
+          "ar": "هل الجو في بانكوك دائمًا نفس الشيء؟"
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Yes, but sometimes it can be cool.",
+          "ar": "نعم، ولكن في بعض الأحيان يمكن أن يكون مائلًا للبرودة."
+        },
+        {
+          "speaker": "Speaker 1 (Video)",
+          "en": "Do you think I would like the weather in Thailand?",
+          "ar": "هل تعتقد أنني سأحب الطقس في تايلاند؟"
+        },
+        {
+          "speaker": "Speaker 2 (Video)",
+          "en": "Yes, I think you would like it a lot.",
+          "ar": "نعم، أعتقد أنك ستحبه كثيرًا."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Do you think I would like the weather in Thailand? Yes, I think you would like it. These last two questions and answers, if you still don't understand them well, or if you have questions about why we said 'would' instead of 'will' for example, rest assured they are explained in detail in the 'If' rule lessons. They also have exercises and movie clips. Now, let's review the whole conversation. Let's go.",
+          "ar": "هل تعتقد أنني سأحب الطقس في تايلاند؟ نعم، أعتقد أنك ستحبه. السؤال والإجابة الأخيرين دول لو لسه مش فاهمهم أوي أو عندك أسئلة من نوع ليه قلنا would وما قلناش will مثلاً، فاطمن مشروحين بالتفصيل في حلقات قاعدة إف وعليهم تمارين ومقاطع أفلام. تعال بقى نراجع المحادثة كلها، يلا بينا."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Are you enjoying your trip?",
+          "ar": "هل تستمتع برحلتك؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Yes, I am enjoying my trip.",
+          "ar": "نعم، أنا أستمتع برحلتي."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Have you finished reading your guidebook yet?",
+          "ar": "هل انتهيت من قراءة كتابك الإرشادي بعد؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Yes, I've finished reading it.",
+          "ar": "نعم، لقد انتهيت من قراءته."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Are there any questions you want to ask me about London?",
+          "ar": "هل هناك أي أسئلة تريد طرحها علي بخصوص لندن؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Yes, I have many questions. Is it always cold in London?",
+          "ar": "نعم، لدي العديد من الأسئلة. هل الجو بارد دائمًا في لندن؟"
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Yes, it is cold, especially in the winter.",
+          "ar": "نعم، إنه بارد، خاصة في فصل الشتاء."
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Is it cold in the summertime too?",
+          "ar": "هل الجو بارد في وقت الصيف أيضًا؟"
+        },
+        {
+          "speaker": "Man 1",
+          "en": "No, it can be quite warm in the summer.",
+          "ar": "لا، يمكن أن يكون دافئًا تمامًا في الصيف."
+        },
+        {
+          "speaker": "Man 2",
+          "en": "What do you like about the weather in London?",
+          "ar": "ماذا تحب في طقس لندن؟"
+        },
+        {
+          "speaker": "Man 1",
+          "en": "I like the cold mornings and the bright sunshine.",
+          "ar": "أحب الصباحات الباردة وأشعة الشمس الساطعة."
+        },
+        {
+          "speaker": "Man 2",
+          "en": "The weather in Bangkok is quite different.",
+          "ar": "الطقس في بانكوك مختلف تمامًا."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Is the weather in Bangkok always hot?",
+          "ar": "هل الطقس في بانكوك دائمًا حار؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Yes, it's always hot.",
+          "ar": "نعم، إنه حار دائمًا."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Is the weather in Bangkok always the same?",
+          "ar": "هل الطقس في بانكوك هو نفسه دائمًا؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Yes, but sometimes it can be cool.",
+          "ar": "نعم، ولكن أحيانًا قد يكون الجو لطيفًا (مائلاً للبرودة)."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Do you think I would like the weather in Thailand?",
+          "ar": "هل تعتقد أنني سأحب الطقس في تايلاند؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Hmm, yes, I think you would like it a lot.",
+          "ar": "همم، نعم، أعتقد أنك ستحبه كثيرًا."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Is the weather in Bangkok always the same?",
+          "ar": "هل الطقس في بانكوك دائماً هو نفسه؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Yes, but sometimes it can be cool.",
+          "ar": "نعم، ولكن أحياناً يمكن أن يكون مائلاً للبرودة."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Mm-hmm.",
+          "ar": "ممم."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Do you think I would like the weather in Thailand?",
+          "ar": "هل تعتقد أنني سأحب الطقس في تايلاند؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Hmm... Yes, I think you would like it a lot.",
+          "ar": "هممم... نعم، أعتقد أنك ستحبها كثيراً."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Well, sir, not to keep you long, if you want to know the schedule of the episodes...",
+          "ar": "بس يا سيدي ما أطولش عليك، لو عايز تعرف جدول مواعيد عرض الحلقات..."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "...follow us on Facebook, Twitter or Instagram.",
+          "ar": "...تابعنا على فيسبوك، تويتر أو إنستجرام."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "And also there you will find me taking your opinion on some ideas and suggestions that I get.",
+          "ar": "وبرضه هناك هتلاقيني باخد رأيكم في بعض الأفكار والاقتراحات اللي بتجيلي."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "So you are participating with us in the way the content is presented.",
+          "ar": "فأنت بتشاركنا في طريقة عرض المحتوى."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "And of course, don't forget to like and share the video with others.",
+          "ar": "وطبعاً ما تنساش تعمل لايك وتشارك الفيديو مع غيرك."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Thanks for watching and I'll see you next episode, God willing. Thank you and peace be upon you.",
+          "ar": "شكراً للمشاهدة وأشوفك الحلقة الجاية إن شاء الله. شكراً والسلام عليكم ورحمة الله وبركاته."
+        }
+      ],
+      "key_expressions": [
+        {
+          "expression_en": "Are you enjoying your trip?",
+          "expression_ar": "هل تستمتع برحلتك؟",
+          "usage_ar": "تستخدم للسؤال عن مدى استمتاع شخص ما بحدث أو نشاط مستمر في الوقت الحالي."
+        },
+        {
+          "expression_en": "Have you finished ... yet?",
+          "expression_ar": "هل انتهيت من ... بعد؟",
+          "usage_ar": "تستخدم للسؤال عما إذا تم إكمال عمل ما حتى اللحظة الحالية."
+        },
+        {
+          "expression_en": "yet",
+          "expression_ar": "حتى الآن / بعد / ولا لسه؟",
+          "usage_ar": "تستخدم في نهاية الجمل المنفية لتعني \"حتى الآن\"، وفي نهاية الأسئلة لتعني \"بعد\" أو \"ولا لسه؟\"."
+        },
+        {
+          "expression_en": "Are there any questions...?",
+          "expression_ar": "هل هناك أي أسئلة...؟",
+          "usage_ar": "تستخدم لبدء استطلاع رأي أو لفتح المجال للمستمع للاستفسار عن شيء ما."
+        },
+        {
+          "expression_en": "especially in",
+          "expression_ar": "خصوصاً في / على وجه الخصوص في",
+          "usage_ar": "تستخدم لتمييز حالة معينة أو وقت معين بالذكر من بين مجموعة."
+        },
+        {
+          "expression_en": "Summer time",
+          "expression_ar": "فصل الصيف / وقت الصيف",
+          "usage_ar": "تستخدم للإشارة إلى موسم الصيف وهي مرادفة لكلمة summer."
+        },
+        {
+          "expression_en": "Quite warm",
+          "expression_ar": "دافئ تماماً / دافئ بشكل ملحوظ",
+          "usage_ar": "تستخدم لوصف الجو عندما يكون دافئاً لدرجة واضحة."
+        },
+        {
+          "expression_en": "Bright sunshine",
+          "expression_ar": "ضوء الشمس الساطع",
+          "usage_ar": "تستخدم لوصف الجو المشمس الجميل."
+        },
+        {
+          "expression_en": "Quite different",
+          "expression_ar": "مختلف تماماً",
+          "usage_ar": "تستخدم لتوضيح وجود فرق كبير وواضح بين شيئين."
+        },
+        {
+          "expression_en": "Cool",
+          "expression_ar": "مائل للبرودة",
+          "usage_ar": "تستخدم لوصف درجة حرارة منخفضة قليلاً لكنها ليست شديدة البرودة (بارد بشكل ممتع)."
+        },
+        {
+          "expression_en": "Warm",
+          "expression_ar": "دافئ",
+          "usage_ar": "تستخدم لوصف درجة حرارة مرتفعة قليلاً لكنها ليست حارة جداً."
+        },
+        {
+          "expression_en": "I think you would like it",
+          "expression_ar": "أعتقد أنك ستحبه",
+          "usage_ar": "تُستخدم للتعبير عن التوقع أو الرأي الشخصي تجاه إعجاب شخص ما بشيء ما مستقبلاً أو افتراضياً."
+        },
+        {
+          "expression_en": "always the same",
+          "expression_ar": "دائماً نفس الشيء",
+          "usage_ar": "تستخدم لوصف حالة مستقرة لا تتغير بمرور الوقت."
+        },
+        {
+          "expression_en": "it can be cool",
+          "expression_ar": "يمكن أن يكون مائلاً للبرودة",
+          "usage_ar": "تستخدم لوصف الطقس عندما يكون لطيفاً وغير حار."
+        },
+        {
+          "expression_en": "you would like it a lot",
+          "expression_ar": "ستحبه كثيراً",
+          "usage_ar": "تستخدم للتعبير عن التوقع بمدى إعجاب شخص ما بشيء معين."
+        }
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Trip",
+        "meaning": "رحلة",
+        "example_en": "I am enjoying my trip.",
+        "example_ar": "أنا مستمتع برحلتي."
+      },
+      {
+        "word": "Enjoy",
+        "meaning": "يستمتع",
+        "example_en": "Are you enjoying the movie?",
+        "example_ar": "هل تستمتع بالفيلم؟"
+      },
+      {
+        "word": "Guidebook",
+        "meaning": "كتاب إرشادات",
+        "example_en": "I am reading my guidebook.",
+        "example_ar": "أنا أقرأ كتاب الإرشادات الخاص بي."
+      },
+      {
+        "word": "reading",
+        "meaning": "القراءة (اسم)",
+        "example_en": "I finished reading it.",
+        "example_ar": "انتهيت من قراءته."
+      },
+      {
+        "word": "Questions",
+        "meaning": "أسئلة",
+        "example_en": "I have many questions about the city.",
+        "example_ar": "لدي الكثير من الأسئلة حول المدينة."
+      },
+      {
+        "word": "Especially",
+        "meaning": "خصوصاً / بشكل خاص",
+        "example_en": "I like fruit, especially apples.",
+        "example_ar": "أنا أحب الفاكهة، خاصة التفاح."
+      },
+      {
+        "word": "Winter",
+        "meaning": "فصل الشتاء",
+        "example_en": "It snows a lot in the winter.",
+        "example_ar": "تتساقط الثلوج بكثرة في فصل الشتاء."
+      },
+      {
+        "word": "Espresso",
+        "meaning": "قهوة مركزة (إسبريسو)",
+        "example_en": "I drink a cup of espresso every morning.",
+        "example_ar": "أنا أشرب فنجان إسبريسو كل صباح."
+      },
+      {
+        "word": "Ask",
+        "meaning": "يسأل",
+        "example_en": "Can I ask you a question?",
+        "example_ar": "هل يمكنني أن أسألك سؤالاً؟"
+      },
+      {
+        "word": "Warm",
+        "meaning": "دافئ",
+        "example_en": "The sun feels warm on my face.",
+        "example_ar": "أشعة الشمس دافئة على وجهي."
+      },
+      {
+        "word": "Quite",
+        "meaning": "تماماً / إلى حد ما / بشكل ملحوظ",
+        "example_en": "The movie was quite good.",
+        "example_ar": "الفيلم كان جيداً تماماً."
+      },
+      {
+        "word": "Bright",
+        "meaning": "ساطع / لامع",
+        "example_en": "I like the bright sunshine.",
+        "example_ar": "أنا أحب ضوء الشمس الساطع."
+      },
+      {
+        "word": "Sunshine",
+        "meaning": "ضوء الشمس",
+        "example_en": "The bright sunshine makes me happy.",
+        "example_ar": "ضوء الشمس الساطع يجعلني سعيداً."
+      },
+      {
+        "word": "Cool",
+        "meaning": "منعش / لطيف البرودة",
+        "example_en": "Sometimes it can be cool.",
+        "example_ar": "أحياناً يمكن أن يكون الجو منعشاً."
+      },
+      {
+        "word": "Cold",
+        "meaning": "بارد جداً",
+        "example_en": "It is very cold in the winter.",
+        "example_ar": "الجو بارد جداً في الشتاء."
+      },
+      {
+        "word": "Hot",
+        "meaning": "حار جداً",
+        "example_en": "The weather in the desert is very hot.",
+        "example_ar": "الطقس في الصحراء حار جداً."
+      },
+      {
+        "word": "Weather",
+        "meaning": "الطقس",
+        "example_en": "The weather is very hot today.",
+        "example_ar": "الطقس حار جداً اليوم."
+      },
+      {
+        "word": "Thailand",
+        "meaning": "تايلاند",
+        "example_en": "I want to visit Thailand next year.",
+        "example_ar": "أريد زيارة تايلاند العام المقبل."
+      },
+      {
+        "word": "Sometimes",
+        "meaning": "أحياناً",
+        "example_en": "Sometimes I drink tea instead of coffee.",
+        "example_ar": "أحياناً أشرب الشاي بدلاً من القهوة."
+      }
+    ],
+    "lesson_notes": [
+      "يستخدم زمن المضارع المستمر (Present Continuous) للتعبير عن أحداث مستمرة وقت التحدث.",
+      "في المحادثات الإنجليزية الدارجة، يمكن استخدام المضارع التام في السؤال والماضي البسيط في الإجابة بشكل طبيعي.",
+      "صيغة الفعل المنتهي بـ 'ing' قد تعمل كاسم (Gerund) مثل 'reading' بمعنى 'قراءة' وليس دائماً كفعل مستمر.",
+      "إضافة اللاحقة -ing للفعل تحوله إلى اسم (Gerund)، مثل كلمة \"Reading\" (القراءة).",
+      "للتمييز بين الفعل في الزمن المستمر والاسم: الفعل المستمر يسبقه فعل مساعد (am, is, are, was, were)، بينما الاسم لا يسبقه ذلك.",
+      "كلمة yet لها معنيان مشهوران: \"حتى الآن\" في الجمل المنفية، و \"بعد\" أو \"ولا لسه\" في الأسئلة.",
+      "في الإنجليزية الأمريكية الدارجة، يُقبل استخدام yet مع الماضي البسيط (Past Simple)، وهو أمر شائع جداً خلافاً للقواعد الأكاديمية التقليدية.",
+      "قاعدة نحوية: لا يجوز استخدام فعلين مساعدين للسؤال في نفس الجملة؛ لذا اكتفينا بـ Are ولم نستخدم Do.",
+      "ملاحظة في النطق: كلمة especially تبدأ بصوت 'e' وليس 'x'، وينطقها بعض الأجانب غير المتعلمين خطأ 'ex-pecially'.",
+      "كلمة especially تستخدم للتخصيص وتعني 'على وجه الخصوص'.",
+      "هناك ميل في بعض اللهجات العامية الأمريكية لنطق حرف 's' كـ 'x' في كلمات مثل especially, espresso, ask.",
+      "كلمة summer و summer time مترادفتان تماماً ولا يوجد فرق بينهما في الاستخدام.",
+      "عند الحديث عن حالة الطقس، نستخدم دائماً الضمير 'It'.",
+      "كلمة 'can' في جملة 'It can be warm' تفيد الاحتمالية (من الممكن أن يكون).",
+      "كلمة 'quite' تستخدم لتقوية الصفة، وهناك رأيان في معناها: إما أنها تعني 'جداً' مثل 'very' أو تعني 'بشكل ملحوظ'.",
+      "كلمة quite في الإنجليزية الأمريكية تستخدم غالباً بمعنى 'جداً' أو 'تماماً' لتقوية الصفة.",
+      "هناك تدرج في درجات الحرارة: hot (حار)، warm (دافئ)، cool (لطيف البرودة)، cold (بارد).",
+      "يتم وصف الطقس في بانكوك بأنه حار دائماً مع وجود فترات يكون فيها الجو لطيفاً (cool).",
+      "شرح أربع درجات لوصف الحرارة والبرودة مرتبة من الأبرد للأسخن: Cold (بارد), Cool (مائل للبرودة), Warm (دافئ), Hot (حار).",
+      "توضيح أن جملة 'Do you think I would like...' هي في الأصل اختصار لجملة شرطية (قاعدة if الحالة الثانية) مثل: 'Do you think I would like the weather if I lived there?'.",
+      "كلمة Cool تعني درجة حرارة أقل من Warm ولكنها ليست شديدة البرودة مثل Cold.",
+      "الفرق بين استخدام would و will في الأسئلة الافتراضية يتم تناوله في دروس قاعدة 'If' بالتفصيل.",
+      "كلمة 'quite' تسبق الصفة لتقوية معناها، مثل 'quite warm' (دافئ جداً/تماماً).",
+      "في المراجعة الشاملة للمحادثة، يظهر استخدام المضارع المستمر 'am enjoying' للتعبير عن حدث يقع الآن خلال الرحلة.",
+      "استخدام الفعل المساعد 'would' للتعبير عن الاحتمالية أو التوقع في المستقبل.",
+      "كلمة 'cool' تشير إلى برودة محببة وليست برودة مزعجة مثل 'cold'.",
+      "حث الطلاب على متابعة وسائل التواصل الاجتماعي للمشاركة بآرائهم في تطوير المحتوى."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة Guidebook؟",
+        "word_to_speak": null,
+        "options": [
+          "كتاب إرشادات",
+          "تذكرة طائرة",
+          "خريطة طريق",
+          "يوميات سفر"
+        ],
+        "answer": "كتاب إرشادات",
+        "explanation_ar": "كلمة Guidebook تعني الكتاب الذي يحتوي على معلومات وتوجيهات للسياح."
+      },
+      {
+        "type": "true_false",
+        "question": "الجملة 'I finished' هي في زمن المضارع التام.",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "الجملة 'I finished' في زمن الماضي البسيط، بينما المضارع التام يتطلب وجود 'have' أو 'has'."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي زمن استخدم في جملة 'Are you enjoying'؟",
+        "word_to_speak": null,
+        "options": [
+          "الماضي البسيط",
+          "المضارع المستمر",
+          "المستقبل البسيط",
+          "المضارع التام"
+        ],
+        "answer": "المضارع المستمر",
+        "explanation_ar": "استخدم المضارع المستمر لأن الرحلة ما زالت مستمرة وقت السؤال."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'yet' mean in the question: 'Have you finished yet?'",
+        "word_to_speak": null,
+        "options": [
+          "Always",
+          "Or not yet?",
+          "Never",
+          "Before"
+        ],
+        "answer": "Or not yet?",
+        "explanation_ar": "كلمة yet في نهاية السؤال تعني \"ولا لسه\" أو \"بعد\"."
+      },
+      {
+        "type": "true_false",
+        "question": "In the sentence 'I am reading', the word 'reading' is a noun.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "بما أن كلمة reading مسبوقة بفعل مساعد (am)، فهي هنا فعل في زمن المستمر وليست اسماً."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which sentence is acceptable in American English despite traditional grammar rules?",
+        "word_to_speak": null,
+        "options": [
+          "I didn't finish yet.",
+          "I haven't finish yet.",
+          "I don't finished yet.",
+          "I am finish yet."
+        ],
+        "answer": "I didn't finish yet.",
+        "explanation_ar": "أوضح المعلم أن استخدام yet مع الماضي البسيط (didn't) شائع ومقبول في اللهجة الأمريكية."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "لماذا لم نقل 'Are there any questions DO you want...'؟",
+        "word_to_speak": null,
+        "options": [
+          "لأن الفعل المساعد Do لا يأتي مع الجمع",
+          "لأنه لا يجوز استخدام فعلين مساعدين (Are و Do) للسؤال في نفس الجملة",
+          "لأن الفعل want لا يحتاج لفعل مساعد",
+          "لأن كلمة London اسم علم"
+        ],
+        "answer": "لأنه لا يجوز استخدام فعلين مساعدين (Are و Do) للسؤال في نفس الجملة",
+        "explanation_ar": "القاعدة تنص على استخدام فعل مساعد واحد فقط في السؤال، وبما أننا بدأنا بـ Are، فلا نحتاج لـ Do."
+      },
+      {
+        "type": "true_false",
+        "question": "النطق الصحيح لكلمة 'especially' يتضمن صوت حرف الـ K في بدايتها.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "كلمة especially لا تحتوي على صوت حرف K، ونطقها 'ex-pecially' هو خطأ شائع يقع فيه غير المتعلمين."
+      },
+      {
+        "type": "written",
+        "question": "ترجم الجملة التالية: 'هل الجو بارد دائماً في لندن؟'",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Is it always cold in London?",
+        "explanation_ar": "هذه هي الصيغة الصحيحة للسؤال عن حالة الطقس المعتادة في مدينة لندن."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is another way to say 'summer' mentioned in the video?",
+        "word_to_speak": null,
+        "options": [
+          "Summer day",
+          "Summer time",
+          "Summer hot",
+          "Summer long"
+        ],
+        "answer": "Summer time",
+        "explanation_ar": "ذكر الأستاذ إبراهيم أن summer و summer time لهما نفس المعنى تماماً."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "conversation",
+      "course_name_ar": "المحادثة",
+      "level": 1,
+      "lesson_no": 8,
+      "title": "محادثة إنجليزية عن المتحف"
+    },
+    "lesson_content": {
+      "dialogue": [
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "Today's episode will be a bit light, and the explanation isn't much. You'll find yourself understanding many things on your own. Let's start right away without introductions.",
+          "ar": "حلقة النهاردة هتلاقيها خفيفة شوية وشرحها مش كتير وهتلاقي نفسك فاهم حاجات كتير لوحدك. يلا على طول من غير مقدمات."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "Peace be upon you. I am Ibrahim Adel, and you are watching the English language learning course on ZAmericanEnglish, the conversation section.",
+          "ar": "السلام عليكم ورحمة الله وبركاته، أنا إبراهيم عادل وأنت بتتفرج على كورس تعلم اللغة الإنجليزية على قناة ذا أمريكان إنجلش، الجزء الخاص بالمحادثة."
+        },
+        {
+          "speaker": "صديق دان",
+          "en": "Hey Dan. Where are all the museums located?",
+          "ar": "يا دان، أين تقع جميع المتاحف؟"
+        },
+        {
+          "speaker": "دان",
+          "en": "Oh, they're not far from here.",
+          "ar": "أوه، هي ليست بعيدة من هنا."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "Before I explain this, first let me tell you that the word 'location' means place or site.",
+          "ar": "قبل ما أشرحلك الكلام ده الأول أقولك إن كلمة location معناها مكان أو موقع."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "If I want to ask 'What is your location?', I would say: What is your location?",
+          "ar": "لو عاوز أقولك إيه موقعك هقولك: What is your location؟ يعني ما هو موقعك؟"
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "However, the word 'located' means 'is situated' or 'lies'.",
+          "ar": "إنما كلمة located دي معناها يقع أو تقع."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "So when I ask 'Where are the museums located?', I say: Where are the museums located?",
+          "ar": "فلما آجي أسألك أين تقع المتاحف؟ هقولك: Where are the museums located؟"
+        },
+        {
+          "speaker": "صديق دان",
+          "en": "Do you know the name of the road?",
+          "ar": "هل تعرف اسم الشارع؟"
+        },
+        {
+          "speaker": "دان",
+          "en": "Yes, the road is called Exhibition Road.",
+          "ar": "نعم، الشارع يسمى شارع المعرض."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "Here he asked: Do you know the name of the road?",
+          "ar": "هنا هو سأله: Do you know the name of the road؟"
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "The answer was: Yes, the road is called Exhibition Road. Here, the word 'exhibition' might be new to you.",
+          "ar": "فكان الرد: Yes, the road is called Exhibition Road. وهنا كلمة قد تكون جديدة عليك exhibition."
+        },
+        {
+          "speaker": "إبراهيم عادل",
+          "en": "It is taken from the verb 'exhibit', which one of its meanings is 'to display' or 'show'.",
+          "ar": "دي متأخدة من الفعل exhibit اللي أحد معانيه يعرض."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Exhibition here means exhibition.",
+          "ar": "Exhibition هنا معناها معرض."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "The road is called Exhibition Road.",
+          "ar": "الشارع اسمه شارع المعرض."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "When you want to say its name is such and such, you can say named or called.",
+          "ar": "لما تعوز تقول اسمه كذا، تقدر تقول named أو تقدر تقول called."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Because call means to call or invite.",
+          "ar": "لأن call يعني ينادي أو يدعو."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "So called means it's named as such.",
+          "ar": "فتبقى called معناها يدعى كذا أو يطلق عليه كذا."
+        },
+        {
+          "speaker": "Speaker 1",
+          "en": "Why is it called exhibition road?",
+          "ar": "لماذا يسمى شارع المعارض؟"
+        },
+        {
+          "speaker": "Speaker 2",
+          "en": "It's called exhibition road because the museums are always having exhibitions.",
+          "ar": "يسمى شارع المعارض لأن المتاحف تقيم معارض دائمًا."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "He asked him why the street is named like that.",
+          "ar": "سأله ليه الشارع اسمه كده."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "He told him the reason is that museums there always have exhibitions.",
+          "ar": "فقاله السبب إن المتاحف هناك دائمًا عندها معارض."
+        },
+        {
+          "speaker": "Speaker 1",
+          "en": "Which museum is your favorite?",
+          "ar": "أي متحف هو المفضل لديك؟"
+        },
+        {
+          "speaker": "Speaker 2",
+          "en": "My favorite is the science museum.",
+          "ar": "مفضلي هو متحف العلوم."
+        },
+        {
+          "speaker": "Speaker 1",
+          "en": "Is it an interesting place to visit?",
+          "ar": "هل هو مكان مثير للاهتمام لزيارته؟"
+        },
+        {
+          "speaker": "Speaker 2",
+          "en": "Yes, they have many interesting things to see.",
+          "ar": "نعم، لديهم العديد من الأشياء المثيرة للاهتمام لرؤيتها."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Which means which.",
+          "ar": "Which معناها أي."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "He is asking which museum do you prefer.",
+          "ar": "فهو بيسأله أي متحف تفضل."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "You can say: Which is your favorite museum?",
+          "ar": "ممكن تقول: Which is your favorite museum؟"
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Notice here he said: My favorite is, and didn't say: My favorite museum is...",
+          "ar": "تلاحظ هنا إنه قال: My favorite is وماقلش: My favorite museum is..."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Why did he delete the word museum? Because we know what the talk is about.",
+          "ar": "ليه حذف كلمة museum؟ لأننا عارفين الكلام على إيه."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Interesting means exciting or interesting.",
+          "ar": "Interesting يعني شيق أو مثير للاهتمام."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Which museum is your favorite? My favorite is the science museum. Is it an interesting place to visit?",
+          "ar": "أي متحف هو المفضل لديك؟ متحفي المفضل هو متحف العلوم. هل كان شيقاً للزيارة؟"
+        },
+        {
+          "speaker": "Actor 1",
+          "en": "Yes, they have many interesting things to see.",
+          "ar": "نعم، لديهم الكثير من الأشياء الشيقة لرؤيتها."
+        },
+        {
+          "speaker": "Actor 2",
+          "en": "Do you think I would like it?",
+          "ar": "هل تظن أنه سيعجبني؟"
+        },
+        {
+          "speaker": "Actor 1",
+          "en": "I am not sure.",
+          "ar": "لست متأكداً."
+        },
+        {
+          "speaker": "Actor 2",
+          "en": "Why?",
+          "ar": "لماذا؟"
+        },
+        {
+          "speaker": "Actor 1",
+          "en": "I think you would like the Natural History Museum more.",
+          "ar": "أعتقد أنك ستحب متحف التاريخ الطبيعي أكثر."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Do you think I would like it?",
+          "ar": "هل تظن أن ذلك سيعجبني؟"
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "I am not sure.",
+          "ar": "لست متأكداً."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Why?",
+          "ar": "لماذا؟"
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "I think you would like the natural history museum more.",
+          "ar": "أظن أنه سيعجبك متحف التاريخ الطبيعي أكثر."
+        },
+        {
+          "speaker": "Actor 1",
+          "en": "Are you ready to leave?",
+          "ar": "هل أنت جاهز للمغادرة؟"
+        },
+        {
+          "speaker": "Actor 2",
+          "en": "Yes.",
+          "ar": "نعم."
+        },
+        {
+          "speaker": "Actor 1",
+          "en": "Would you like me to show you the public transport system?",
+          "ar": "هل تود أن أريك نظام النقل العام؟"
+        },
+        {
+          "speaker": "Actor 2",
+          "en": "That's a good idea.",
+          "ar": "هذه فكرة جيدة."
+        },
+        {
+          "speaker": "Actor 1",
+          "en": "Are you tired?",
+          "ar": "هل أنت متعب؟"
+        },
+        {
+          "speaker": "Actor 2",
+          "en": "I am a little tired.",
+          "ar": "أنا متعب قليلاً."
+        },
+        {
+          "speaker": "Actor 1",
+          "en": "You can rest later.",
+          "ar": "يمكنك الراحة لاحقاً."
+        },
+        {
+          "speaker": "Actor 2",
+          "en": "Okay then. Let's go out.",
+          "ar": "حسناً إذاً. لنخرج."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Transport means transport. Is there any other words with the same meaning? Yes, you can say: public transportation, public transit, or mass transit.",
+          "ar": "كلمة Transport تعني النقل. هل هناك كلمات أخرى لها نفس المعنى؟ نعم، يمكنك قول: public transportation، أو public transit، أو mass transit."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Would you like me to show you the public transport system?",
+          "ar": "هل تود أن أريك نظام النقل العام؟"
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "That's a good idea.",
+          "ar": "هذه فكرة جيدة."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Are you tired?",
+          "ar": "هل أنت متعب؟"
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "I am a little tired. Note that 'a little' is a determiner that comes before the adjective.",
+          "ar": "أنا متعب قليلاً. لاحظ أن 'a little' من المحددات التي تأتي قبل الصفة."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "You can rest later.",
+          "ar": "يمكنك الراحة لاحقاً."
+        },
+        {
+          "speaker": "Ibrahim Adel",
+          "en": "Ok then, let's go out.",
+          "ar": "حسناً إذاً، لنخرج."
+        },
+        {
+          "speaker": "Friend",
+          "en": "Hey Dan, where are all the museums located?",
+          "ar": "يا دان، أين تقع كل المتاحف؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "Oh, they're not far from here.",
+          "ar": "أوه، إنها ليست بعيدة من هنا."
+        },
+        {
+          "speaker": "Friend",
+          "en": "Do you know the name of the road?",
+          "ar": "هل تعرف اسم الطريق؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "Yes, the road is called Exhibition Road.",
+          "ar": "نعم، الطريق يسمى طريق المعارض."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Is it an interesting place to visit?",
+          "ar": "هل هو مكان ممتع للزيارة؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Yes, they have many interesting things to see.",
+          "ar": "نعم، لديهم الكثير من الأشياء الممتعة لرؤيتها."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Do you think I would like it?",
+          "ar": "هل تعتقد أنني سأحبه؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "I'm not sure.",
+          "ar": "لست متأكداً."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Why?",
+          "ar": "لماذا؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "I think you would like the Natural History Museum more.",
+          "ar": "أعتقد أنك ستحب متحف التاريخ الطبيعي أكثر."
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Are you ready to leave?",
+          "ar": "هل أنت مستعد للمغادرة؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Are you tired?",
+          "ar": "هل أنت متعب؟"
+        },
+        {
+          "speaker": "Man 1",
+          "en": "I am a little tired.",
+          "ar": "أنا متعب قليلاً."
+        },
+        {
+          "speaker": "Man 2",
+          "en": "You can rest later.",
+          "ar": "يمكنك أن ترتاح لاحقاً."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Okay then. Let's go out.",
+          "ar": "حسناً إذاً. فلنخرج."
+        }
+      ],
+      "key_expressions": [
+        {
+          "expression_en": "Not far from",
+          "expression_ar": "ليس بعيداً عن",
+          "usage_ar": "تستخدم لوصف القرب المكاني لشيء ما بالنسبة لموقع آخر."
+        },
+        {
+          "expression_en": "Where are ... located?",
+          "expression_ar": "أين تقع ...؟",
+          "usage_ar": "صيغة سؤال رسمية وواضحة للسؤال عن الموقع الجغرافي للمباني أو المعالم."
+        },
+        {
+          "expression_en": "Named / Called",
+          "expression_ar": "يسمى / يدعى",
+          "usage_ar": "تستخدم للإشارة لأسماء الشوارع أو الأشياء."
+        },
+        {
+          "expression_en": "Which... is your favorite?",
+          "expression_ar": "أي... هو المفضل لديك؟",
+          "usage_ar": "تستخدم للسؤال عن التفضيل بين مجموعة خيارات."
+        },
+        {
+          "expression_en": "I am not sure",
+          "expression_ar": "لست متأكداً",
+          "usage_ar": "تستخدم كطريقة مهذبة للرفض بدلاً من استخدام كلمة 'لا' بشكل مباشر ومنفر."
+        },
+        {
+          "expression_en": "Natural history museum",
+          "expression_ar": "متحف التاريخ الطبيعي",
+          "usage_ar": "يستخدم للإشارة إلى المتاحف المختصة بالحفريات والنباتات والحيوانات وتاريخ الأرض."
+        },
+        {
+          "expression_en": "Public transport system",
+          "expression_ar": "نظام النقل العام",
+          "usage_ar": "يستخدم للإشارة إلى شبكة المواصلات العامة مثل الحافلات والقطارات."
+        },
+        {
+          "expression_en": "Would you like me to...",
+          "expression_ar": "هل تود مني أن...",
+          "usage_ar": "صيغة مهذبة لتقديم عرض أو اقتراح بمساعدة شخص ما."
+        },
+        {
+          "expression_en": "That's a good idea",
+          "expression_ar": "هذه فكرة جيدة",
+          "usage_ar": "تعبير يستخدم للموافقة بحماس على اقتراح شخص ما."
+        },
+        {
+          "expression_en": "I'm not sure",
+          "expression_ar": "لست متأكداً",
+          "usage_ar": "تستخدم للتعبير عن عدم اليقين أو الشك في الإجابة."
+        },
+        {
+          "expression_en": "Are you ready to...?",
+          "expression_ar": "هل أنت مستعد لـ...؟",
+          "usage_ar": "تستخدم لسؤال شخص ما إذا كان قد انتهى من تجهيز نفسه للقيام بعمل ما."
+        },
+        {
+          "expression_en": "Let's go out",
+          "expression_ar": "فلنخرج",
+          "usage_ar": "صيغة اقتراح تستخدم لدعوة شخص ما للخروج من المنزل أو المكان الحالي."
+        }
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "location",
+        "meaning": "موقع / مكان",
+        "example_en": "What is your location?",
+        "example_ar": "ما هو موقعك؟"
+      },
+      {
+        "word": "located",
+        "meaning": "يقع / تقع",
+        "example_en": "Where are the museums located?",
+        "example_ar": "أين تقع المتاحف؟"
+      },
+      {
+        "word": "exhibition",
+        "meaning": "معرض",
+        "example_en": "The road is called Exhibition Road.",
+        "example_ar": "الشارع يسمى شارع المعرض."
+      },
+      {
+        "word": "exhibit",
+        "meaning": "يعرض",
+        "example_en": "The artist will exhibit his paintings.",
+        "example_ar": "سيعرض الفنان لوحاته."
+      },
+      {
+        "word": "Science",
+        "meaning": "علوم",
+        "example_en": "I love science museums.",
+        "example_ar": "أنا أحب متاحف العلوم."
+      },
+      {
+        "word": "Interesting",
+        "meaning": "شيق / مثير للاهتمام",
+        "example_en": "It is an interesting place to visit.",
+        "example_ar": "إنه مكان مثير للاهتمام لزيارته."
+      },
+      {
+        "word": "Natural History Museum",
+        "meaning": "متحف التاريخ الطبيعي",
+        "example_en": "I think you would like the natural history museum more.",
+        "example_ar": "أعتقد أنك ستحب متحف التاريخ الطبيعي أكثر."
+      },
+      {
+        "word": "Natural",
+        "meaning": "طبيعي",
+        "example_en": "This is a natural product.",
+        "example_ar": "هذا منتج طبيعي."
+      },
+      {
+        "word": "Nature",
+        "meaning": "الطبيعة",
+        "example_en": "I love spending time in nature.",
+        "example_ar": "أحب قضاء الوقت في الطبيعة."
+      },
+      {
+        "word": "History",
+        "meaning": "التاريخ",
+        "example_en": "I am studying ancient history.",
+        "example_ar": "أنا أدرس التاريخ القديم."
+      },
+      {
+        "word": "System",
+        "meaning": "نظام",
+        "example_en": "The computer system is down.",
+        "example_ar": "نظام الكمبيوتر معطل."
+      },
+      {
+        "word": "Public",
+        "meaning": "عام",
+        "example_en": "This is a public park.",
+        "example_ar": "هذه حديقة عامة."
+      },
+      {
+        "word": "Transport",
+        "meaning": "نقل / مواصلات",
+        "example_en": "Would you like me to show you the public transport system?",
+        "example_ar": "هل تود أن أريك نظام النقل العام؟"
+      },
+      {
+        "word": "Tired",
+        "meaning": "متعب / مرهق",
+        "example_en": "I am a little tired today.",
+        "example_ar": "أنا متعب قليلاً اليوم."
+      },
+      {
+        "word": "Later",
+        "meaning": "لاحقاً",
+        "example_en": "You can rest later.",
+        "example_ar": "يمكنك الراحة لاحقاً."
+      },
+      {
+        "word": "Museum",
+        "meaning": "متحف",
+        "example_en": "I think you would like the museum.",
+        "example_ar": "أعتقد أنك ستحب المتحف."
+      },
+      {
+        "word": "Rest",
+        "meaning": "يرتاح",
+        "example_en": "You can rest later.",
+        "example_ar": "يمكنك أن ترتاح لاحقاً."
+      }
+    ],
+    "lesson_notes": [
+      "الفرق الجوهري بين location كاسم يدل على المكان، وبين located كصفة مشتقة تستخدم لوصف وقوع الشيء في مكان معين.",
+      "كلمة exhibition تنطق بوضوح (إكس-ب-شن) مع الانتباه لعدم نطق حرف الـ h في هذا السياق.",
+      "كلمة Exhibition Road هي اسم علم لشارع معين، وترجمتها الحرفية هي شارع المعرض.",
+      "يمكن استخدام 'named' أو 'called' بالتبادل عند الحديث عن مسميات الطرق أو الأماكن.",
+      "كلمة 'Which' تستخدم للسؤال عن الاختيار المفضل من بين مجموعة خيارات متاحة.",
+      "في اللغة الإنجليزية، من الشائع حذف الاسم الموصوف بعد كلمة 'favorite' إذا كان مفهوماً تماماً من سياق الكلام السابق لتجنب التكرار.",
+      "توضع أداة النكرة (a/an) قبل الصفة إذا كان الموصوف مفرداً ومذكوراً في الجملة.",
+      "لا نستخدم أدوات النكرة (a/an) قبل الصفة إذا كان الموصوف جمعاً مثل 'interesting things'.",
+      "كلمة 'to' تأتي بمعنى حرف الجر 'لـ' كما في 'to visit' (للزيارة) و 'to see' (للؤية).",
+      "استخدام 'I am not sure' يعتبر أسلوباً مهذباً للرفض أو التهرب من دعوة ما بلباقة بدلاً من قول 'لا'.",
+      "تم استخدام 'would' في السؤال 'Do you think I would like it?' بناءً على قاعدة 'if' في الحالة الثانية.",
+      "كلمة Natural هي صفة مشتقة من الاسم Nature.",
+      "متحف التاريخ الطبيعي (Natural History Museum) يختلف عن متحف العلوم (Science Museum)؛ حيث يركز الأول على الكائنات الحية والحفريات، بينما يركز الثاني على الاختراعات والعلماء.",
+      "نستخدم Are في السؤال Are you ready لأن كلمة ready صفة.",
+      "تستخدم Would you للتعبير عن الاقتراح أو العرض بشكل مهذب.",
+      "كلمة a little هي أحد المحددات (Determiners) وتأتي دائماً قبل الصفة لوصف درجتها (مثل: a little tired).",
+      "حركة اليد التي تظهر في الفيديو شائعة في الثقافة الغربية وليست تعبيراً عن الإهانة أو الاحتقار.",
+      "كلمة then عندما تأتي في نهاية الجملة مثل 'Ok then' تكون بمعنى 'إذاً' وتستخدم للربط مع الكلام السابق.",
+      "استخدام الصفات التي تنتهي بـ 'ing' مثل 'interesting' لوصف الأشياء التي تسبب الشعور.",
+      "ملاحظة استخدام 'a little' قبل الصفة لتقليل قوتها (متعب قليلاً).",
+      "صيغة 'I think you would' تستخدم لتقديم رأي أو نصيحة حول شيء قد يفضله الطرف الآخر."
+    ],
+    "quiz": [
+      {
+        "type": "true_false",
+        "question": "جملة 'Where are all the museums located?' تعني 'أين تقع جميع المتاحف؟'",
+        "word_to_speak": null,
+        "options": [
+          "صح",
+          "خطأ"
+        ],
+        "answer": "صح",
+        "explanation_ar": "الجملة تسأل عن موقع المتاحف الجغرافي بشكل صحيح."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما هي الكلمة التي تعني 'موقع' كاسم؟",
+        "word_to_speak": null,
+        "options": [
+          "Located",
+          "Location",
+          "Exhibit",
+          "Road"
+        ],
+        "answer": "Location",
+        "explanation_ar": "كلمة Location هي الاسم الذي يعني موقع، بينما Located هي صفة/فعل بمعنى يقع."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "كلمة Exhibition مشتقة من أي فعل؟",
+        "word_to_speak": null,
+        "options": [
+          "Exit",
+          "Example",
+          "Exhibit",
+          "Exercise"
+        ],
+        "answer": "Exhibit",
+        "explanation_ar": "كلمة معرض (Exhibition) مشتقة من الفعل يعرض (Exhibit)."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What word is synonymous with 'called' when naming a place?",
+        "word_to_speak": null,
+        "options": [
+          "named",
+          "told",
+          "shouted",
+          "asked"
+        ],
+        "answer": "named",
+        "explanation_ar": "أوضح المدرس أن كلمة named تستخدم لتعريف الاسم تماماً مثل كلمة called في هذا السياق."
+      },
+      {
+        "type": "true_false",
+        "question": "It is acceptable to say 'My favorite is...' without adding the noun if the context is clear.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "True",
+        "explanation_ar": "صحيح، يمكن حذف الاسم لتجنب التكرار إذا كان المستمع يعرف مسبقاً عما تتحدث."
+      },
+      {
+        "type": "written",
+        "question": "Translate to Arabic: 'Why is it called exhibition road?'",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "لماذا يسمى شارع المعارض؟",
+        "explanation_ar": "هذه هي الترجمة العربية الصحيحة والدقيقة للجملة الاستفهامية التي وردت في الفيديو."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "لماذا نستخدم 'an' في عبارة 'an interesting place'؟",
+        "word_to_speak": null,
+        "options": [
+          "لأن interesting تبدأ بصوت متحرك",
+          "لأن place مفرد",
+          "لأن الجملة تعجبية",
+          "لأن interesting اسم"
+        ],
+        "answer": "لأن interesting تبدأ بصوت متحرك",
+        "explanation_ar": "نستخدم 'an' قبل الكلمة التي تبدأ بصوت متحرك مثل interesting، و'a' قبل الأصوات الساكنة؛ والعبرة بالصوت لا بالحرف."
+      },
+      {
+        "type": "true_false",
+        "question": "نستخدم 'an' قبل كلمة 'interesting' حتى لو كان الاسم الموصوف جمعاً.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "لا نستخدم أدوات النكرة (a/an) مع الموصوف الجمع."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما الفائدة من استخدام عبارة 'I am not sure' في المحادثة؟",
+        "word_to_speak": null,
+        "options": [
+          "للتعبير عن التأكد التام",
+          "للرفض بأسلوب مهذب ولبق",
+          "للسؤال عن الاتجاهات",
+          "للتعبير عن عدم التأكد بطريقة مهذبة"
+        ],
+        "answer": "للرفض بأسلوب مهذب ولبق",
+        "explanation_ar": "تستخدم هذه العبارة للرفض بلباقة وشياكة بدلاً من قول 'لا' الصريحة التي قد تكون منفره."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'Natural history museum' specialize in?",
+        "word_to_speak": null,
+        "options": [
+          "Modern art",
+          "Fossils and animals",
+          "Space technology",
+          "Paintings and sculptures"
+        ],
+        "answer": "Fossils and animals",
+        "explanation_ar": "متحف التاريخ الطبيعي يختص بالحفريات والنباتات والحيوانات."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "conversation",
+      "course_name_ar": "المحادثة",
+      "level": 1,
+      "lesson_no": 9,
+      "title": "محادثة بالانجليزي عن الوداع"
+    },
+    "lesson_content": {
+      "dialogue": [
+        {
+          "speaker": "Narrator",
+          "en": "This is the last episode in the conversation course. It is the end of the first season. We will start the second season with conversations based on situations. We will teach a lot of situations that you requested. It will be rich in vocabulary and terms. I will accompany each episode with a PDF file that includes the conversations and explanation of the words. It will be a gift for you to download from social media.",
+          "ar": "هذه هي الحلقة الأخيرة في كورس المحادثة. هي نهاية الموسم الأول. سنبدأ الموسم الثاني بمحادثات مبنية على مواقف. سندرس الكثير من المواقف التي طلبتموها. ستكون غنية بالمفردات والمصطلحات. وسأرفق بكل حلقة ملف PDF يحتوي على المحادثات وشرح الكلمات. وتكون هدية لك تستطيعون الحصول عليها من خلال مواقع التواصل الاجتماعي."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Good evening.",
+          "ar": "مساء الخير."
+        },
+        {
+          "speaker": "Gate Agent",
+          "en": "Good evening.",
+          "ar": "مساء الخير."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Boarding pass, please.",
+          "ar": "بطاقة الصعود للطائرة، من فضلك."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Here it is.",
+          "ar": "تفضل."
+        },
+        {
+          "speaker": "Gate Agent",
+          "en": "Go straight ahead and then take a left.",
+          "ar": "اذهب مباشرة إلى الأمام ثم انعطف يسارًا."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Ok, thank you.",
+          "ar": "تمام، شكرًا."
+        },
+        {
+          "speaker": "Gate Agent",
+          "en": "Enjoy your flight.",
+          "ar": "أتمنى لك رحلة سعيدة."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Thank you.",
+          "ar": "شكرًا."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Good evening.",
+          "ar": "مساء الخير."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Oh, good evening.",
+          "ar": "أوه، مساء الخير."
+        },
+        {
+          "speaker": "Gate Agent",
+          "en": "Boarding pass, please.",
+          "ar": "بطاقة الصعود للطائرة، من فضلك."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Certainly. Here it is.",
+          "ar": "بالتأكيد. تفضل."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Thank you.",
+          "ar": "شكرًا."
+        },
+        {
+          "speaker": "Gate Agent",
+          "en": "Go straight ahead and then take a left.",
+          "ar": "اذهب مباشرة إلى الأمام ثم انعطف يسارًا."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Ok, thank you.",
+          "ar": "تمام، شكرًا."
+        },
+        {
+          "speaker": "Gate Agent",
+          "en": "Enjoy your flight.",
+          "ar": "أتمنى لك رحلة سعيدة."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Hi.",
+          "ar": "أهلاً."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "My name is Chris.",
+          "ar": "اسمي كريس."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "My name is Jane.",
+          "ar": "اسمي جين."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Have you been on holiday in Bangkok?",
+          "ar": "هل كنت في إجازة في بانكوك؟"
+        },
+        {
+          "speaker": "Passenger",
+          "en": "No, I work there.",
+          "ar": "لا، أنا أعمل هناك."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Where are you from?",
+          "ar": "من أين أنت؟"
+        },
+        {
+          "speaker": "Passenger",
+          "en": "I'm from America.",
+          "ar": "أنا من أمريكا."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Really? Me too.",
+          "ar": "حقًا؟ أنا أيضًا."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Do you work in Bangkok too?",
+          "ar": "هل تعمل في بانكوك أيضًا؟"
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Yes, I do work in Bangkok.",
+          "ar": "نعم، أنا أعمل في بانكوك."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "So why are you going to England?",
+          "ar": "إذًا لماذا أنت ذاهب إلى إنجلترا؟"
+        },
+        {
+          "speaker": "Passenger",
+          "en": "I'm going to visit my friend. He works in London.",
+          "ar": "أنا ذاهب لزيارة صديقي. هو يعمل في لندن."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "I am going to stay with my friend in London too.",
+          "ar": "أنا ذاهب للإقامة مع صديقي في لندن أيضًا."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "So how long will you be staying?",
+          "ar": "إذًا كم ستدوم إقامتك؟"
+        },
+        {
+          "speaker": "Passenger",
+          "en": "I will be staying for two weeks.",
+          "ar": "سأقيم لأسبوعين."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "We have a lot in common.",
+          "ar": "لدينا الكثير من القواسم المشتركة."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Yes, we do have a lot in common.",
+          "ar": "نعم، لدينا الكثير من القواسم المشتركة."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Good morning.",
+          "ar": "صباح الخير."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Good morning.",
+          "ar": "صباح الخير."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Could I see your passport and visa documentation?",
+          "ar": "هل يمكنني رؤية جواز سفرك ووثائق التأشيرة؟"
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Oh, yes. Here they are.",
+          "ar": "أوه، نعم. تفضل."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Is this your first visit to the United Kingdom?",
+          "ar": "هل هذه زيارتك الأولى للمملكة المتحدة؟"
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Yes, it is.",
+          "ar": "نعم، هي كذلك."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "And where will you be staying?",
+          "ar": "وأين ستقيم؟"
+        },
+        {
+          "speaker": "Passenger",
+          "en": "With my friend in London.",
+          "ar": "مع صديقي في لندن."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "And how long will you be staying?",
+          "ar": "وكم ستدوم إقامتك؟"
+        },
+        {
+          "speaker": "Passenger",
+          "en": "I will be staying for two weeks.",
+          "ar": "سأقيم لأسبوعين."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Do you have anything to declare?",
+          "ar": "هل لديك شيء للإفصاح عنه؟"
+        },
+        {
+          "speaker": "Passenger",
+          "en": "No. I do not have anything to declare.",
+          "ar": "لا. ليس لدي شيء للإفصاح عنه."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Good. Everything seems to be in order.",
+          "ar": "جيد. كل شيء يبدو في النظام."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Please enjoy your stay.",
+          "ar": "أتمنى لك إقامة ممتعة."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Thank you.",
+          "ar": "شكرًا."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Could you tell me where the baggage claim?",
+          "ar": "هل يمكنك أن تخبرني أين استلام الأمتعة؟"
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Follow the signs to your left, please.",
+          "ar": "اتبع اللافتات إلى يسارك، من فضلك."
+        },
+        {
+          "speaker": "Passenger",
+          "en": "Ok, thank you.",
+          "ar": "تمام، شكرًا."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Next!",
+          "ar": "التالي!"
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Hello.",
+          "ar": "مرحباً."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Passport, please.",
+          "ar": "جواز السفر، من فضلك."
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Here you go.",
+          "ar": "تفضل."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "What's the purpose of your visit?",
+          "ar": "ما هو الغرض من زيارتك؟"
+        },
+        {
+          "speaker": "Traveler",
+          "en": "I'm here on vacation.",
+          "ar": "أنا هنا في إجازة."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "How long will you be staying?",
+          "ar": "كم ستدوم إقامتك؟"
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Two weeks.",
+          "ar": "أسبوعان."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Do you have anything to declare?",
+          "ar": "هل لديك أي شيء للإفصاح عنه؟"
+        },
+        {
+          "speaker": "Traveler",
+          "en": "No, nothing.",
+          "ar": "لا، لا شيء."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Alright. Enjoy your stay.",
+          "ar": "حسناً. استمتع بإقامتك."
+        },
+        {
+          "speaker": "Traveler",
+          "en": "Thank you.",
+          "ar": "شكراً لك."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Hi!",
+          "ar": "مرحباً!"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Hey! It's so good to see you.",
+          "ar": "أهلاً! سعيد جداً برؤيتك."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "You too! How was your flight?",
+          "ar": "وأنت أيضاً! كيف كانت رحلتك؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "It was long, but okay. How was your flight?",
+          "ar": "كانت طويلة، لكنها جيدة. كيف كانت رحلتك؟"
+        },
+        {
+          "speaker": "Man 1",
+          "en": "It was fine. Did you have any layovers?",
+          "ar": "كانت جيدة. هل كان لديك أي توقفات؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "No, it was a direct flight.",
+          "ar": "لا، كانت رحلة مباشرة."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Nice. Is your hotel far from here?",
+          "ar": "لطيف. هل فندقك بعيد عن هنا؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "No, it's only about 15 minutes away.",
+          "ar": "لا، إنه على بعد 15 دقيقة فقط."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Great. Are you ready to go?",
+          "ar": "رائع. هل أنت مستعد للذهاب؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Yes, let's go.",
+          "ar": "نعم، دعنا نذهب."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Do you need to buy anything today?",
+          "ar": "هل تحتاج لشراء أي شيء اليوم؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "I need to buy some clothes.",
+          "ar": "أحتاج لشراء بعض الملابس."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "What kind of clothes?",
+          "ar": "أي نوع من الملابس؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Some shirts, trousers, and a warm jacket.",
+          "ar": "بعض القمصان، السراويل، وسترة دافئة."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Are there many shops here?",
+          "ar": "هل هناك العديد من المتاجر هنا؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Yes, there are a lot of different shops.",
+          "ar": "نعم، هناك الكثير من المتاجر المختلفة."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Are the Thai people helpful?",
+          "ar": "هل الشعب التايلاندي متعاون؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Yes, they are very helpful.",
+          "ar": "نعم، إنهم متعاونون جداً."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Have we forgotten to buy anything?",
+          "ar": "هل نسينا شراء أي شيء؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "Yes, we forgot to buy one item.",
+          "ar": "نعم، نسينا شراء غرض واحد."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "What did we forget to buy?",
+          "ar": "ماذا نسينا أن نشتري؟"
+        },
+        {
+          "speaker": "Man 2",
+          "en": "A guidebook about London.",
+          "ar": "دليل سياحي عن لندن."
+        },
+        {
+          "speaker": "Man 1",
+          "en": "Oh, right. Let's go buy it.",
+          "ar": "أوه، صحيح. دعنا نذهب لشرائه."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "We're going to talk about the weather in London.",
+          "ar": "سنتحدث عن الطقس في لندن."
+        },
+        {
+          "speaker": "Dan",
+          "en": "Is it always cold in London?",
+          "ar": "هل لندن باردة دائما؟"
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Yes, it is cold, especially in the winter.",
+          "ar": "نعم، إنها باردة، خاصة في فصل الشتاء."
+        },
+        {
+          "speaker": "Dan",
+          "en": "Is it cold in the summertime too?",
+          "ar": "هل هي باردة في فصل الصيف أيضًا؟"
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "No. You can be quite warm in the summer.",
+          "ar": "لا. يمكن أن يكون الجو دافئًا جدًا في الصيف."
+        },
+        {
+          "speaker": "Dan",
+          "en": "What do you like about the weather in London?",
+          "ar": "ما الذي يعجبك في طقس لندن؟"
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "I like the cold mornings in bright sunshine.",
+          "ar": "أحب الصباحات الباردة تحت أشعة الشمس الساطعة."
+        },
+        {
+          "speaker": "Dan",
+          "en": "The weather in Bangkok is quite different.",
+          "ar": "الطقس في بانكوك مختلف تمامًا."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Is the weather in Bangkok always the same?",
+          "ar": "هل الطقس في بانكوك دائمًا هو نفسه؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "Yes, but sometimes it can be cool.",
+          "ar": "نعم، ولكن أحيانًا يمكن أن يكون الجو باردًا."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Do you think I would like the weather in Thailand?",
+          "ar": "هل تعتقد أنني سأحب الطقس في تايلاند؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "I think you would like it a lot.",
+          "ar": "أعتقد أنك ستحبه كثيرًا."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Hey Dan! Where are all the museums located?",
+          "ar": "مرحبًا دان! أين تقع كل المتاحف؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "They're not far from here.",
+          "ar": "ليست بعيدة عن هنا."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Do you know the name of the road?",
+          "ar": "هل تعرف اسم الطريق؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "Yes. The road is called Exhibition Road because the museums are always having exhibitions.",
+          "ar": "نعم. الطريق يسمى طريق المعرض لأن المتاحف تقيم دائمًا معارض."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Which museum is your favorite?",
+          "ar": "ما هو متحفك المفضل؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "My favorite is the Science Museum.",
+          "ar": "المفضل لدي هو متحف العلوم."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Is it an interesting place to visit?",
+          "ar": "هل هو مكان مثير للاهتمام لزيارته؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "Yes, they have many interesting things to see.",
+          "ar": "نعم، لديهم الكثير من الأشياء المثيرة للاهتمام لرؤيتها."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Are you ready to leave?",
+          "ar": "هل أنت مستعد للمغادرة؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "Yes.",
+          "ar": "نعم."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Would you like me to show you the public transport system?",
+          "ar": "هل ترغب في أن أريك نظام النقل العام؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "That's a good idea.",
+          "ar": "هذه فكرة جيدة."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Are you tired?",
+          "ar": "هل أنت متعب؟"
+        },
+        {
+          "speaker": "Dan",
+          "en": "I am a little tired.",
+          "ar": "أنا متعب قليلاً."
+        },
+        {
+          "speaker": "Chris",
+          "en": "Hi.",
+          "ar": "مرحبا."
+        },
+        {
+          "speaker": "Jane",
+          "en": "My name is Jane.",
+          "ar": "اسمي جين."
+        },
+        {
+          "speaker": "Chris",
+          "en": "Jane. Have you been on holiday in Bangkok?",
+          "ar": "جين. هل كنت في عطلة في بانكوك؟"
+        },
+        {
+          "speaker": "Jane",
+          "en": "No, I work there.",
+          "ar": "لا، أنا أعمل هناك."
+        },
+        {
+          "speaker": "Chris",
+          "en": "Oh. Where are you from?",
+          "ar": "أوه. من أين أنت؟"
+        },
+        {
+          "speaker": "Jane",
+          "en": "I'm from America.",
+          "ar": "أنا من أمريكا."
+        },
+        {
+          "speaker": "Chris",
+          "en": "Really? Me too. Do you work in Bangkok too?",
+          "ar": "حقا؟ أنا أيضا. هل تعملين في بانكوك أيضا؟"
+        },
+        {
+          "speaker": "Jane",
+          "en": "Yes, I do work in Bangkok.",
+          "ar": "نعم، أنا أعمل في بانكوك."
+        },
+        {
+          "speaker": "Chris",
+          "en": "So why are you going to England?",
+          "ar": "إذن لماذا أنت ذاهبة إلى إنجلترا؟"
+        },
+        {
+          "speaker": "Jane",
+          "en": "I'm going to stay with my friends in London too.",
+          "ar": "سأبقى مع أصدقائي في لندن أيضا."
+        },
+        {
+          "speaker": "Chris",
+          "en": "So how long will you be staying?",
+          "ar": "إذن كم ست بقين؟"
+        },
+        {
+          "speaker": "Jane",
+          "en": "I'll be staying for two weeks.",
+          "ar": "سأبقى لأسبوعين."
+        },
+        {
+          "speaker": "Chris",
+          "en": "We have a lot in common.",
+          "ar": "لدينا الكثير من القواسم المشتركة."
+        },
+        {
+          "speaker": "Jane",
+          "en": "Yes, we do have a lot in common.",
+          "ar": "نعم، لدينا الكثير من القواسم المشتركة."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Hello.",
+          "ar": "مرحبا."
+        },
+        {
+          "speaker": "Chris",
+          "en": "Hello.",
+          "ar": "مرحبا."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Could I see your passport and visa documentation?",
+          "ar": "هل يمكنني رؤية جواز سفرك ووثائق التأشيرة؟"
+        },
+        {
+          "speaker": "Chris",
+          "en": "Yes, here they are.",
+          "ar": "نعم، ها هما."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Is this your first visit to the United Kingdom?",
+          "ar": "هل هذه زيارتك الأولى للمملكة المتحدة؟"
+        },
+        {
+          "speaker": "Chris",
+          "en": "Yes, it is.",
+          "ar": "نعم، إنها كذلك."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "And where will you be staying?",
+          "ar": "وأين ستقيم؟"
+        },
+        {
+          "speaker": "Chris",
+          "en": "With my friend in London.",
+          "ar": "مع صديقي في لندن."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "And how long will you be staying?",
+          "ar": "وكم ست بقين؟"
+        },
+        {
+          "speaker": "Chris",
+          "en": "I'll be staying for two weeks.",
+          "ar": "سأبقى لأسبوعين."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Do you have anything to declare?",
+          "ar": "هل لديك أي شيء لتصرح عنه؟"
+        },
+        {
+          "speaker": "Chris",
+          "en": "No. I do not have anything to declare.",
+          "ar": "لا. ليس لدي شيء لأصرح عنه."
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Good. Everything seems to be in order. Please enjoy your stay.",
+          "ar": "جيد. يبدو كل شيء على ما يرام. استمتع بإقامتك."
+        },
+        {
+          "speaker": "Chris",
+          "en": "Thank you.",
+          "ar": "شكرا لك."
+        },
+        {
+          "speaker": "Chris",
+          "en": "Could you tell me where the baggage claim is?",
+          "ar": "هل يمكنك إخباري أين استلام الأمتعة؟"
+        },
+        {
+          "speaker": "Immigration Officer",
+          "en": "Follow the signs to your left, please.",
+          "ar": "اتبع اللافتات إلى يسارك، من فضلك."
+        },
+        {
+          "speaker": "Chris",
+          "en": "Okay. Thank you.",
+          "ar": "حسنا. شكرا لك."
+        },
+        {
+          "speaker": "Chris",
+          "en": "Bye-bye.",
+          "ar": "وداعا."
+        },
+        {
+          "speaker": "Friend",
+          "en": "Dan!",
+          "ar": "دان!"
+        },
+        {
+          "speaker": "Chris",
+          "en": "Hey! How are you doing?",
+          "ar": "مرحبا! كيف حالك؟"
+        },
+        {
+          "speaker": "Friend",
+          "en": "I'm doing great. And you?",
+          "ar": "أنا بخير. وأنت؟"
+        },
+        {
+          "speaker": "Chris",
+          "en": "I'm fine. How was your flight over?",
+          "ar": "أنا بخير. كيف كانت رحلتك؟"
+        },
+        {
+          "speaker": "Friend",
+          "en": "It was quite a long flight.",
+          "ar": "لقد كانت رحلة طويلة جدا."
+        },
+        {
+          "speaker": "Chris",
+          "en": "How many hours did it take?",
+          "ar": "كم ساعة استغرقت؟"
+        },
+        {
+          "speaker": "Friend",
+          "en": "It took 12 hours.",
+          "ar": "استغرقت 12 ساعة."
+        },
+        {
+          "speaker": "Chris",
+          "en": "Did you have to stop anywhere on the way?",
+          "ar": "هل اضطررت للتوقف في أي مكان في الطريق؟"
+        },
+        {
+          "speaker": "Friend",
+          "en": "No, it was a direct flight.",
+          "ar": "لا، لقد كانت رحلة مباشرة."
+        },
+        {
+          "speaker": "Student",
+          "en": "Is it far from here?",
+          "ar": "هل هو بعيد من هنا؟"
+        },
+        {
+          "speaker": "Student",
+          "en": "No, it's quite near.",
+          "ar": "لا، إنه قريب جدًا."
+        },
+        {
+          "speaker": "Student",
+          "en": "So can we go there please?",
+          "ar": "إذن هل يمكننا الذهاب إلى هناك من فضلك؟"
+        },
+        {
+          "speaker": "Student",
+          "en": "Ok.",
+          "ar": "حسناً."
+        },
+        {
+          "speaker": "Student",
+          "en": "London is very expensive, isn't it?",
+          "ar": "لندن باهظة الثمن حقًا، أليس كذلك؟"
+        },
+        {
+          "speaker": "Student",
+          "en": "Yes, London is very expensive.",
+          "ar": "نعم، لندن باهظة الثمن جدًا."
+        },
+        {
+          "speaker": "Student",
+          "en": "I think Bangkok is much better.",
+          "ar": "أعتقد أن بانكوك أفضل بكثير."
+        },
+        {
+          "speaker": "Student",
+          "en": "Why is Bangkok better than London?",
+          "ar": "لماذا بانكوك أفضل من لندن؟"
+        },
+        {
+          "speaker": "Student",
+          "en": "Because the shops are much cheaper.",
+          "ar": "لأن المتاجر أرخص بكثير."
+        },
+        {
+          "speaker": "Student",
+          "en": "Do Bangkok have many shops to choose from?",
+          "ar": "هل لدى بانكوك العديد من المتاجر للاختيار من بينها؟"
+        },
+        {
+          "speaker": "Student",
+          "en": "Yes, there are a lot of different shops.",
+          "ar": "نعم، هناك الكثير من المتاجر المختلفة."
+        },
+        {
+          "speaker": "Student",
+          "en": "Are the Thai people helpful?",
+          "ar": "هل الشعب التايلاندي متعاون؟"
+        },
+        {
+          "speaker": "Student",
+          "en": "Yes, they are very helpful.",
+          "ar": "نعم، إنهم متعاونون جدًا."
+        },
+        {
+          "speaker": "Student",
+          "en": "Have we forgotten to buy anything?",
+          "ar": "هل نسينا شراء أي شيء؟"
+        },
+        {
+          "speaker": "Student",
+          "en": "We forgot to buy a guide book.",
+          "ar": "لقد نسينا شراء دليل."
+        },
+        {
+          "speaker": "Student",
+          "en": "Do you really need a guide book?",
+          "ar": "هل تحتاج حقًا إلى دليل؟"
+        },
+        {
+          "speaker": "Student",
+          "en": "Yes, I really need a guide book.",
+          "ar": "نعم، أنا حقًا بحاجة إلى دليل."
+        },
+        {
+          "speaker": "Student",
+          "en": "Have you finished reading your guide book yet?",
+          "ar": "هل انتهيت من قراءة دليلك بعد؟"
+        },
+        {
+          "speaker": "Student",
+          "en": "Yes, I finished reading it.",
+          "ar": "نعم، لقد انتهيت من قراءته."
+        },
+        {
+          "speaker": "Student",
+          "en": "Are there any questions you want to ask me about London?",
+          "ar": "هل هناك أي أسئلة تريد أن تطرحها عليّ حول لندن؟"
+        },
+        {
+          "speaker": "Student",
+          "en": "Yes. Is it always cold in London?",
+          "ar": "نعم. هل الجو بارد دائمًا في لندن؟"
+        },
+        {
+          "speaker": "Student",
+          "en": "Yes, it is cold, especially in the winter.",
+          "ar": "نعم، إنه بارد، خاصة في الشتاء."
+        },
+        {
+          "speaker": "Student",
+          "en": "What do you like about the weather in London?",
+          "ar": "ماذا يعجبك في الطقس في لندن؟"
+        },
+        {
+          "speaker": "Student",
+          "en": "I like the cold, warm, and bright sunshine.",
+          "ar": "أنا أحب البرد والأشعة المشمسة الدافئة والمشرقة."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "The weather in Bangkok is quite different.",
+          "ar": "الطقس في بانكوك مختلف تمامًا."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Is the weather in Bangkok always hot?",
+          "ar": "هل الطقس في بانكوك حار دائمًا؟"
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Yes. It's always hot.",
+          "ar": "نعم. إنه حار دائمًا."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Is the weather in Bangkok always the same?",
+          "ar": "هل الطقس في بانكوك دائمًا كما هو؟"
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Yes. But sometimes it can be cool.",
+          "ar": "نعم. لكن أحيانًا يمكن أن يكون باردًا."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Mmm.",
+          "ar": "ممم."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Do you think I would like the weather in Thailand?",
+          "ar": "هل تعتقد أنني سأحب الطقس في تايلاند؟"
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Yes. I think you would like it a lot.",
+          "ar": "نعم. أعتقد أنك ستحبه كثيرًا."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Hey Dan.",
+          "ar": "مرحباً دان."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Where are all the museums located?",
+          "ar": "أين تقع كل المتاحف؟"
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Oh.",
+          "ar": "أوه."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "They're not far from here.",
+          "ar": "إنها ليست بعيدة عن هنا."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Do you know the name of the road?",
+          "ar": "هل تعرف اسم الطريق؟"
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Yes. The road is called Exhibition Road.",
+          "ar": "نعم. الطريق يسمى طريق المعرض."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Exhibition Road.",
+          "ar": "طريق المعرض."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Why is it called Exhibition Road?",
+          "ar": "لماذا يسمى طريق المعرض؟"
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "It's called Exhibition Road because the museums are always having exhibitions.",
+          "ar": "يسمى طريق المعرض لأن المتاحف تقيم دائمًا معارض."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Which museum is your favorite?",
+          "ar": "ما هو متحفك المفضل؟"
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "My favorite is the Science Museum.",
+          "ar": "متحفي المفضل هو متحف العلوم."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Is it an interesting place to visit?",
+          "ar": "هل هو مكان مثير للاهتمام للزيارة؟"
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Yes. They have many interesting things to see.",
+          "ar": "نعم. لديهم العديد من الأشياء المثيرة للاهتمام لرؤيتها."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Do you think I would like it?",
+          "ar": "هل تعتقد أنني سأحبه؟"
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "I'm not sure why.",
+          "ar": "لست متأكدًا لماذا."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "I think you would like the Natural History Museum more.",
+          "ar": "أعتقد أنك ستحب متحف التاريخ الطبيعي أكثر."
+        },
+        {
+          "speaker": "Are you tired?",
+          "en": "Are you tired?",
+          "ar": "هل أنت متعب؟"
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "I am a little tired.",
+          "ar": "أنا متعب قليلاً."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "You can rest later.",
+          "ar": "يمكنك الراحة لاحقًا."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Okay then.",
+          "ar": "حسنًا إذن."
+        },
+        {
+          "speaker": "Ibrahim",
+          "en": "Let's go out.",
+          "ar": "هيا بنا نخرج."
+        }
+      ],
+      "key_expressions": [
+        {
+          "expression_en": "Boarding pass, please.",
+          "expression_ar": "بطاقة الصعود للطائرة، من فضلك.",
+          "usage_ar": "تُستخدم عند تقديم بطاقة الصعود للطائرة لموظف البوابة."
+        },
+        {
+          "expression_en": "Go straight ahead and then take a left.",
+          "expression_ar": "اذهب مباشرة إلى الأمام ثم انعطف يسارًا.",
+          "usage_ar": "تُستخدم لإعطاء توجيهات."
+        },
+        {
+          "expression_en": "Enjoy your flight.",
+          "expression_ar": "أتمنى لك رحلة سعيدة.",
+          "usage_ar": "تُقال للمسافرين قبل ركوب الطائرة."
+        },
+        {
+          "expression_en": "Have you been on holiday in Bangkok?",
+          "expression_ar": "هل كنت في إجازة في بانكوك؟",
+          "usage_ar": "تُستخدم للسؤال عن سبب الزيارة."
+        },
+        {
+          "expression_en": "Could I see your passport and visa documentation?",
+          "expression_ar": "هل يمكنني رؤية جواز سفرك ووثائق التأشيرة؟",
+          "usage_ar": "تُستخدم من قبل موظفي الهجرة لطلب المستندات."
+        },
+        {
+          "expression_en": "Is this your first visit to the United Kingdom?",
+          "expression_ar": "هل هذه زيارتك الأولى للمملكة المتحدة؟",
+          "usage_ar": "سؤال شائع عند الوصول إلى بلد جديد."
+        },
+        {
+          "expression_en": "Do you have anything to declare?",
+          "expression_ar": "هل لديك شيء للإفصاح عنه؟",
+          "usage_ar": "سؤال يُطرح في الجمارك أو الهجرة."
+        },
+        {
+          "expression_en": "Follow the signs to your left, please.",
+          "expression_ar": "اتبع اللافتات إلى يسارك، من فضلك.",
+          "usage_ar": "تُستخدم لإعطاء توجيهات في الأماكن العامة."
+        },
+        {
+          "expression_en": "Next!",
+          "expression_ar": "التالي!",
+          "usage_ar": "تستخدم للإشارة إلى الشخص التالي الذي سيتم خدمته في طابور."
+        },
+        {
+          "expression_en": "Here you go.",
+          "expression_ar": "تفضل.",
+          "usage_ar": "تستخدم عند تقديم شيء لشخص ما."
+        },
+        {
+          "expression_en": "Purpose of your visit?",
+          "expression_ar": "الغرض من زيارتك؟",
+          "usage_ar": "سؤال شائع عند الوصول إلى المطار أو الحدود."
+        },
+        {
+          "expression_en": "Anything to declare?",
+          "expression_ar": "أي شيء للإفصاح عنه؟",
+          "usage_ar": "سؤال يُطرح في الجمارك عند السفر."
+        },
+        {
+          "expression_en": "Enjoy your stay.",
+          "expression_ar": "استمتع بإقامتك.",
+          "usage_ar": "عبارة مهذبة تقال للزوار."
+        },
+        {
+          "expression_en": "It's so good to see you.",
+          "expression_ar": "سعيد جداً برؤيتك.",
+          "usage_ar": "تعبير عن السعادة عند لقاء شخص بعد فترة."
+        },
+        {
+          "expression_en": "Layover",
+          "expression_ar": "توقف مؤقت",
+          "usage_ar": "فترة انتظار بين رحلتين جويتين."
+        },
+        {
+          "expression_en": "Direct flight",
+          "expression_ar": "رحلة مباشرة",
+          "usage_ar": "رحلة جوية لا تتضمن توقفات."
+        },
+        {
+          "expression_en": "Far from here?",
+          "expression_ar": "بعيد عن هنا؟",
+          "usage_ar": "سؤال للاستفسار عن المسافة."
+        },
+        {
+          "expression_en": "Ready to go?",
+          "expression_ar": "مستعد للذهاب؟",
+          "usage_ar": "سؤال للتأكد من الاستعداد للانتقال."
+        },
+        {
+          "expression_en": "Guidebook",
+          "expression_ar": "دليل سياحي",
+          "usage_ar": "كتاب يحتوي على معلومات عن مكان معين للسياح."
+        },
+        {
+          "expression_en": "bright sunshine",
+          "expression_ar": "أشعة الشمس الساطعة",
+          "usage_ar": "تُستخدم لوصف يوم مشمس جدًا وجميل."
+        },
+        {
+          "expression_en": "quite different",
+          "expression_ar": "مختلف تمامًا",
+          "usage_ar": "تُستخدم للمقارنة بين شيئين مختلفين بشكل ملحوظ."
+        },
+        {
+          "expression_en": "interesting things to see",
+          "expression_ar": "أشياء مثيرة للاهتمام لرؤيتها",
+          "usage_ar": "تُستخدم لوصف أماكن أو أشياء تجذب الانتباه وتثير الفضول."
+        },
+        {
+          "expression_en": "Have you been on holiday?",
+          "expression_ar": "هل كنت في عطلة؟",
+          "usage_ar": "تستخدم للسؤال عن قيام شخص ما بعطلة."
+        },
+        {
+          "expression_en": "How are you doing?",
+          "expression_ar": "كيف حالك؟",
+          "usage_ar": "تحية شائعة للسؤال عن حال شخص ما."
+        },
+        {
+          "expression_en": "Flight over",
+          "expression_ar": "رحلة",
+          "usage_ar": "تستخدم للإشارة إلى الرحلة التي قام بها الشخص."
+        },
+        {
+          "expression_en": "Baggage claim",
+          "expression_ar": "استلام الأمتعة",
+          "usage_ar": "المكان الذي يستلم فيه المسافرون أمتعتهم في المطار."
+        },
+        {
+          "expression_en": "quite near",
+          "expression_ar": "قريب جدًا",
+          "usage_ar": "تُستخدم للتعبير عن قرب المسافة."
+        },
+        {
+          "expression_en": "expensive",
+          "expression_ar": "باهظ الثمن",
+          "usage_ar": "تُستخدم لوصف شيء يكلف الكثير من المال."
+        },
+        {
+          "expression_en": "much better",
+          "expression_ar": "أفضل بكثير",
+          "usage_ar": "تُستخدم للمقارنة وإظهار الأفضلية."
+        },
+        {
+          "expression_en": "choose from",
+          "expression_ar": "الاختيار من بين",
+          "usage_ar": "تُستخدم عندما يكون هناك خيارات متعددة للاختيار."
+        },
+        {
+          "expression_en": "helpful",
+          "expression_ar": "متعاون",
+          "usage_ar": "تُستخدم لوصف شخص يساعد الآخرين."
+        },
+        {
+          "expression_en": "forgot to buy",
+          "expression_ar": "نسينا شراء",
+          "usage_ar": "تُستخدم عندما ينسى شخص ما شراء شيء."
+        },
+        {
+          "expression_en": "guide book",
+          "expression_ar": "دليل",
+          "usage_ar": "كتاب يحتوي على معلومات حول مكان ما."
+        },
+        {
+          "expression_en": "ask me about",
+          "expression_ar": "تطرحها عليّ حول",
+          "usage_ar": "تُستخدم للسؤال عن معلومات حول موضوع معين."
+        },
+        {
+          "expression_en": "especially",
+          "expression_ar": "خاصة",
+          "usage_ar": "تُستخدم للتأكيد على شيء معين."
+        },
+        {
+          "expression_en": "not far from here",
+          "expression_ar": "ليست بعيدة عن هنا",
+          "usage_ar": "تستخدم لوصف مكان قريب."
+        },
+        {
+          "expression_en": "interesting place to visit",
+          "expression_ar": "مكان مثير للاهتمام للزيارة",
+          "usage_ar": "تستخدم لوصف مكان يستحق الزيارة بسبب جاذبيته أو أهميته."
+        }
+      ]
+    },
+    "global_vocabulary": [
+      {
+        "word": "Season",
+        "meaning": "A period of the year, especially one defined by particular weather conditions or by amounts of daylight.",
+        "example_en": "This is the end of the first season of the course.",
+        "example_ar": "هذه نهاية الموسم الأول من الكورس."
+      },
+      {
+        "word": "Conversation",
+        "meaning": " an instance of talking in which thoughts, feelings, and ideas are exchanged between people.",
+        "example_en": "We will start the next season with conversations based on situations.",
+        "example_ar": "سنبدأ الموسم التالي بمحادثات مبنية على مواقف."
+      },
+      {
+        "word": "Situations",
+        "meaning": "A set of circumstances in which something occurs.",
+        "example_en": "The conversations will be based on different situations.",
+        "example_ar": "ستعتمد المحادثات على مواقف مختلفة."
+      },
+      {
+        "word": "Vocabulary",
+        "meaning": "the body of words used in a particular language.",
+        "example_en": "The lessons will be rich in vocabulary.",
+        "example_ar": "الدروس ستكون غنية بالمفردات."
+      },
+      {
+        "word": "Terms",
+        "meaning": "a word or phrase used to describe a thing or to express a concept, especially in a particular kind of language or branch of study.",
+        "example_en": "We will learn many new terms.",
+        "example_ar": "سنتعلم العديد من المصطلحات الجديدة."
+      },
+      {
+        "word": "Accompany",
+        "meaning": "go somewhere with (someone) as a companion or guide.",
+        "example_en": "I will accompany each episode with a PDF file.",
+        "example_ar": "سأرفق كل حلقة بملف PDF."
+      },
+      {
+        "word": "Download",
+        "meaning": "copy (data that is on other computer systems) to your own computer.",
+        "example_en": "You can download the file from social media.",
+        "example_ar": "يمكنك تحميل الملف من وسائل التواصل الاجتماعي."
+      },
+      {
+        "word": "Passport",
+        "meaning": "an official document issued by a government, certifying the holder's identity and citizenship and entitling them to travel under its protection to and from foreign countries.",
+        "example_en": "Could I see your passport?",
+        "example_ar": "هل يمكنني رؤية جواز سفرك؟"
+      },
+      {
+        "word": "Visa",
+        "meaning": "an endorsement on a passport or similar document, in the form of a stamp or sticker, indicating that the holder is permitted to enter, leave, or stay for a specified period in a country.",
+        "example_en": "I need to check your visa documentation.",
+        "example_ar": "يجب أن أتحقق من وثائق التأشيرة الخاصة بك."
+      },
+      {
+        "word": "Documentation",
+        "meaning": "the evidence showing that something is true or valid.",
+        "example_en": "Do you have all your documentation?",
+        "example_ar": "هل لديك كل وثائقك؟"
+      },
+      {
+        "word": "Declare",
+        "meaning": "state (something) as a fact.",
+        "example_en": "Do you have anything to declare?",
+        "example_ar": "هل لديك أي شيء للإفصاح عنه؟"
+      },
+      {
+        "word": "Baggage claim",
+        "meaning": "an area in an airport where passengers can collect their checked luggage after a flight.",
+        "example_en": "Where is the baggage claim?",
+        "example_ar": "أين منطقة استلام الأمتعة؟"
+      },
+      {
+        "word": "vacation",
+        "meaning": "A period of time devoted to pleasure, rest, or relaxation.",
+        "example_en": "They are going on vacation to Hawaii next month.",
+        "example_ar": "سيذهبون في عطلة إلى هاواي الشهر المقبل."
+      },
+      {
+        "word": "flight",
+        "meaning": "A journey in a plane.",
+        "example_en": "The flight to Paris was delayed.",
+        "example_ar": "تأخرت الرحلة إلى باريس."
+      },
+      {
+        "word": "layover",
+        "meaning": "A short stay in a place that lasts for a short time.",
+        "example_en": "We had a two-hour layover in Chicago.",
+        "example_ar": "كان لدينا توقف لمدة ساعتين في شيكاغو."
+      },
+      {
+        "word": "trousers",
+        "meaning": "A piece of clothing that covers the lower part of the body from the waist to the ankles and is divided into sections to fit each leg.",
+        "example_en": "He wore smart trousers and a shirt.",
+        "example_ar": "كان يرتدي بنطالًا أنيقًا وقميصًا."
+      },
+      {
+        "word": "guidebook",
+        "meaning": "A book of information about a place, designed for the use of visitors or tourists.",
+        "example_en": "She bought a guidebook to help her explore the city.",
+        "example_ar": "اشترت دليلًا سياحيًا لمساعدتها في استكشاف المدينة."
+      },
+      {
+        "word": "weather",
+        "meaning": "the state of the atmosphere at a place and time as regards heat, dryness, sunshine, wind, rain, etc.",
+        "example_en": "The weather today is very cold.",
+        "example_ar": "الطقس اليوم بارد جدًا."
+      },
+      {
+        "word": "London",
+        "meaning": "the capital and largest city of England and of the United Kingdom.",
+        "example_en": "London is famous for its museums and historical sites.",
+        "example_ar": "تشتهر لندن بمتاحفها ومواقعها التاريخية."
+      },
+      {
+        "word": "museum",
+        "meaning": "a building in which objects of artistic, cultural, historical, or scientific interest are kept for display to the public.",
+        "example_en": "We visited the Museum of Natural History.",
+        "example_ar": "زرنا متحف التاريخ الطبيعي."
+      },
+      {
+        "word": "transport system",
+        "meaning": "the network of services provided for the movement of people or goods.",
+        "example_en": "London has an excellent public transport system.",
+        "example_ar": "لدى لندن نظام نقل عام ممتاز."
+      },
+      {
+        "word": "holiday",
+        "meaning": "an extended period of time devoted to pleasure, rest, or relaxation",
+        "example_en": "They went on holiday to Spain last summer.",
+        "example_ar": "ذهبوا في عطلة إلى إسبانيا الصيف الماضي."
+      },
+      {
+        "word": "work",
+        "meaning": "activity involving mental or physical effort done in order to achieve a purpose or result",
+        "example_en": "She works as a teacher.",
+        "example_ar": "هي تعمل كمدرسة."
+      },
+      {
+        "word": "visit",
+        "meaning": "go to see (a person or place).",
+        "example_en": "He visited his parents last week.",
+        "example_ar": "زار والديه الأسبوع الماضي."
+      },
+      {
+        "word": "United Kingdom",
+        "meaning": "a sovereign country comprising England, Scotland, Wales, and Northern Ireland.",
+        "example_en": "She moved to the United Kingdom to study.",
+        "example_ar": "انتقلت إلى المملكة المتحدة للدراسة."
+      },
+      {
+        "word": "staying",
+        "meaning": "remain in one place for a noticeable amount of time.",
+        "example_en": "We are staying at a hotel.",
+        "example_ar": "نحن نقيم في فندق."
+      },
+      {
+        "word": "order",
+        "meaning": "an arrangement of people or things in a particular sequence or place.",
+        "example_en": "Everything is in order.",
+        "example_ar": "كل شيء على ما يرام."
+      },
+      {
+        "word": "enjoy",
+        "meaning": "take delight or pleasure in (an activity or occasion).",
+        "example_en": "I hope you enjoy your trip.",
+        "example_ar": "أتمنى أن تستمتع برحلتك."
+      },
+      {
+        "word": "signs",
+        "meaning": "a notice giving information, a direction, or a warning.",
+        "example_en": "Follow the signs for the exit.",
+        "example_ar": "اتبع اللافتات للخروج."
+      },
+      {
+        "word": "baggage",
+        "meaning": "trunks, suitcases, and other bags checked in by a passenger on a public transport service.",
+        "example_en": "Lost baggage can be reported at the information desk.",
+        "example_ar": "يمكن الإبلاغ عن الأمتعة المفقودة في مكتب المعلومات."
+      },
+      {
+        "word": "claim",
+        "meaning": "demand or assert as a right.",
+        "example_en": "You can claim your baggage here.",
+        "example_ar": "يمكنك استلام أمتعتك هنا."
+      },
+      {
+        "word": "common",
+        "meaning": "occurring, found, or done each or by each of two or more parties.",
+        "example_en": "We have a lot in common.",
+        "example_ar": "لدينا الكثير من القواسم المشتركة."
+      },
+      {
+        "word": "stop",
+        "meaning": "bring (a process or action) to an end.",
+        "example_en": "The bus stopped at every station.",
+        "example_ar": "توقفت الحافلة في كل محطة."
+      },
+      {
+        "word": "expensive",
+        "meaning": "costing a lot of money",
+        "example_en": "London is a very expensive city.",
+        "example_ar": "لندن مدينة باهظة الثمن للغاية."
+      },
+      {
+        "word": "guide book",
+        "meaning": "a book containing information about a place, written for tourists",
+        "example_en": "I bought a guide book to help me explore Paris.",
+        "example_ar": "اشتريت دليلًا لمساعدتي في استكشاف باريس."
+      },
+      {
+        "word": "helpful",
+        "meaning": "giving or ready to give help",
+        "example_en": "The locals were very helpful when I asked for directions.",
+        "example_ar": "كان السكان المحليون متعاونين للغاية عندما سألت عن الاتجاهات."
+      },
+      {
+        "word": "especially",
+        "meaning": "more than usual or more than others",
+        "example_en": "I love to travel, especially in the summer.",
+        "example_ar": "أحب السفر، خاصة في الصيف."
+      },
+      {
+        "word": "Bangkok",
+        "meaning": "The capital city of Thailand.",
+        "example_en": "I visited Bangkok last year and loved the food.",
+        "example_ar": "لقد زرت بانكوك العام الماضي وأحببت الطعام."
+      },
+      {
+        "word": "exhibition",
+        "meaning": "A public display of works of art or items of interest, held in an art gallery or museum or at a trade fair.",
+        "example_en": "The museum is hosting a special exhibition on ancient Egypt.",
+        "example_ar": "يقيم المتحف معرضًا خاصًا عن مصر القديمة."
+      },
+      {
+        "word": "science",
+        "meaning": "The intellectual and practical activity encompassed by the systematic study of the structure and behavior of the physical and natural world through observation and experiment.",
+        "example_en": "She is studying science at university.",
+        "example_ar": "هي تدرس العلوم في الجامعة."
+      },
+      {
+        "word": "natural history",
+        "meaning": "The study of the history of life on Earth, including plants, animals, and humans.",
+        "example_en": "The Natural History Museum has a dinosaur exhibit.",
+        "example_ar": "يحتوي متحف التاريخ الطبيعي على معرض للديناصورات."
+      }
+    ],
+    "lesson_notes": [
+      "في الثقافة العربية كثيرًا ما يُتبع التحيةَ السؤالُ عن حال الشخص، ويُعد هذا من الأدب واللباقة.",
+      "الطريقة الرسمية لطلب المستندات عند الجوازات هي: 'Could I see your passport and visa documentation?'.",
+      "عبارات مثل 'Go straight ahead and then take a left' أساسية عند إرشاد شخص للاتجاهات.",
+      "لاحظ الخاتمة المهذبة 'Enjoy your flight' التي يستخدمها موظف بوابة الصعود.",
+      "تم استخدام اللهجة الأمريكية في المحادثة.",
+      "لاحظ الفرق في نطق كلمة 'flight' و 'direct'.",
+      "التعبيرات المستخدمة في هذا المقطع شائعة في المطارات وأثناء السفر.",
+      "ملاحظة حول النطق: عند نطق كلمة 'museum'، نؤكد على المقطع الثاني 'seum'.",
+      "ملاحظة ثقافية: يُعتبر يوم مشمس بعد صباح بارد من الأجواء المحبوبة في لندن.",
+      "لاحظ استخدام عبارة \"Have you been on holiday?\" للسؤال عن قضاء العطلة.",
+      "لاحظ استخدام \"How are you doing?\" كتحية شائعة.",
+      "لاحظ استخدام \"flight over\" للإشارة إلى الرحلة.",
+      "لاحظ استخدام \"direct flight\" للرحلة التي لا تتوقف.",
+      "لاحظ استخدام \"baggage claim\" لمكان استلام الأمتعة.",
+      "لاحظ استخدام \"in order\" للتأكيد على أن كل شيء يسير حسب الخطة.",
+      "لاحظ استخدام \"Follow the signs\" لطلب اتباع اللافتات.",
+      "لاحظ استخدام \"enjoy your stay\" للتمني بقضاء وقت ممتع.",
+      "ملاحظة حول النطق: تم نطق كلمة \"near\" بشكل مشابه لكلمة \"neer\" في بعض الأحيان.",
+      "ملاحظة ثقافية: تم التطرق إلى المقارنة بين تكاليف المعيشة والتسوق في لندن وبانكوك.",
+      "الطقس في لندن: تم وصفه بأنه بارد خاصة في الشتاء، ولكنه يمكن أن يكون دافئًا ومشرقًا في الصيف.",
+      "تم استخدام كلمة 'quite' للتأكيد على الاختلاف الكبير في الطقس.",
+      "تم استخدام 'exhibition road' كمثال لربط اسم الشارع بالنشاط الذي يحدث فيه (المعارض في المتاحف).",
+      "تمت مناقشة تفضيلات المتاحف (متحف العلوم مقابل متحف التاريخ الطبيعي) لإظهار كيف يمكن أن تختلف الاهتمامات.",
+      "تم استخدام عبارة 'I'm not sure why' للتعبير عن عدم اليقين.",
+      "تم استخدام 'rest later' كبديل للخروج فورًا عندما يكون الشخص متعبًا."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "What is the purpose of the conversation between Chris and Jane?",
+        "word_to_speak": null,
+        "options": [
+          "To get directions to the gate.",
+          "To introduce themselves and find commonalities.",
+          "To declare items to customs.",
+          "To complain about the flight."
+        ],
+        "answer": "To introduce themselves and find commonalities.",
+        "explanation_ar": "تبدأ المحادثة بالتعارف ويتبادلون المعلومات الشخصية ويكتشفون اهتمامات مشتركة."
+      },
+      {
+        "type": "true_false",
+        "question": "Chris is visiting the UK for the first time.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation_ar": "سأل ضابط الهجرة كريس: 'هل هذه زيارتك الأولى للمملكة المتحدة؟' وأجاب كريس: 'نعم، هي كذلك'."
+      },
+      {
+        "type": "written",
+        "question": "What advice does the gate agent give the passenger?",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Go straight ahead and then take a left.",
+        "explanation_ar": "أعطت موظفة البوابة تعليمات واضحة للمسافرة حول كيفية الوصول إلى وجهتها."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the purpose of the traveler's visit?",
+        "word_to_speak": null,
+        "options": [
+          "Business",
+          "Vacation",
+          "Visiting family",
+          "Study"
+        ],
+        "answer": "Vacation",
+        "explanation_ar": "ذكر المسافر أنه في زيارة لقضاء عطلة."
+      },
+      {
+        "type": "true_false",
+        "question": "The traveler had a direct flight without any layovers.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation_ar": "سأل الرجل الأول عن التوقفات، وأجاب الرجل الثاني بأنها رحلة مباشرة."
+      },
+      {
+        "type": "written",
+        "question": "What items does the traveler need to buy?",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Shirts, trousers, a warm jacket, and a guidebook about London.",
+        "explanation_ar": "ذكر المسافر حاجته لشراء ملابس (قمصان، سراويل، سترة دافئة) ودليل سياحي."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the weather like in London during the winter?",
+        "word_to_speak": null,
+        "options": [
+          "Warm and sunny",
+          "Cold and rainy",
+          "Cold, especially in winter",
+          "Mild and pleasant"
+        ],
+        "answer": "Cold, especially in winter",
+        "explanation_ar": "ذكر إبراهيم أن لندن تكون باردة، خاصة في فصل الشتاء."
+      },
+      {
+        "type": "true_false",
+        "question": "The weather in Bangkok is the same as in London year-round.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "قال دان إن الطقس في بانكوك مختلف تمامًا عن لندن، ولكنه قد يكون باردًا أحيانًا في الصيف."
+      },
+      {
+        "type": "written",
+        "question": "What is the name of the road where the museums are located, and why is it called that?",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "The road is called Exhibition Road because the museums there always have exhibitions.",
+        "explanation_ar": "أوضح دان أن الطريق يسمى Exhibition Road لأن المتاحف تقيم فيه معارض باستمرار."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is Jane's nationality?",
+        "word_to_speak": null,
+        "options": [
+          "British",
+          "American",
+          "Thai",
+          "Canadian"
+        ],
+        "answer": "American",
+        "explanation_ar": "ذكرت جين في المحادثة أنها من أمريكا."
+      }
+    ]
+  }
+]
