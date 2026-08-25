@@ -1,0 +1,2116 @@
+[
+  {
+    "metadata": {
+      "course_id": "writing",
+      "course_name_ar": "الكتابة",
+      "level": 1,
+      "lesson_no": 1,
+      "title": "مقدمة كورس الكتابة وكتابة موضوع عن تمثال الحرية"
+    },
+    "lesson_content": {
+      "topic_en": "The Statue of Liberty",
+      "topic_ar": "تمثال الحرية",
+      "brainstorming_questions": [
+        {
+          "question_en": "Where is the Statue of Liberty?",
+          "suggested_answer_en": "It is in New York."
+        },
+        {
+          "question_en": "What does it symbolize?",
+          "suggested_answer_en": "It is a symbol of freedom."
+        },
+        {
+          "question_en": "Who gave the statue to the USA?",
+          "suggested_answer_en": "It was a gift from France."
+        }
+      ],
+      "guided_sentences": [
+        {
+          "en": "The Statue of Liberty is in New York.",
+          "ar": "تمثال الحرية موجود في نيويورك."
+        },
+        {
+          "en": "It is a symbol of freedom.",
+          "ar": "إنه رمز للحرية."
+        },
+        {
+          "en": "It was a gift from France.",
+          "ar": "كان هدية من فرنسا."
+        }
+      ],
+      "final_draft": {
+        "en": "The Statue of Liberty is in New York. It is a symbol of freedom. It was a gift from France.",
+        "ar": "تمثال الحرية موجود في نيويورك. إنه رمز للحرية. كان هدية من فرنسا."
+      }
+    },
+    "global_vocabulary": [
+      {
+        "word": "Symbol",
+        "meaning": "شيء يمثل فكرة أو معنى",
+        "example_en": "It is a symbol of freedom.",
+        "example_ar": "إنه رمز للحرية."
+      },
+      {
+        "word": "Gift",
+        "meaning": "هدية",
+        "example_en": "It was a gift from France.",
+        "example_ar": "كان هدية من فرنسا."
+      }
+    ],
+    "lesson_notes": [
+      "يجب أن تبدأ كل جملة بحرف كبير (Capital letter).",
+      "يجب أن تنتهي كل جملة بنقطة (Full stop).",
+      "الترتيب الأساسي للجملة في الإنجليزية هو فاعل ثم فعل ثم مفعول به.",
+      "استخدام كراسة مخصصة لتدوين الكلمات والقواعد الجديدة ضروري جداً للتعلم."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "What is the correct way to end a sentence?",
+        "word_to_speak": null,
+        "options": [
+          "Comma",
+          "Full stop",
+          "Question mark",
+          "Exclamation mark"
+        ],
+        "answer": "Full stop",
+        "explanation_ar": "الجملة الخبرية في الإنجليزية يجب أن تنتهي بنقطة."
+      },
+      {
+        "type": "true_false",
+        "question": "Every English sentence should start with a capital letter.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation_ar": "قاعدة أساسية في الكتابة هي بدء الجملة بحرف كبير."
+      },
+      {
+        "type": "written",
+        "question": "Translate to English: إنه رمز للحرية.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "It is a symbol of freedom.",
+        "explanation_ar": "ترجمة مباشرة باستخدام الفاعل 'It' والفعل 'is'."
+      },
+      {
+        "type": "written",
+        "question": "Reorder: [New York / is / in / The Statue of Liberty].",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "The Statue of Liberty is in New York.",
+        "explanation_ar": "الترتيب الصحيح يضع الفاعل في البداية يليه الفعل ثم المكان."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of these is a noun in our paragraph?",
+        "word_to_speak": null,
+        "options": [
+          "is",
+          "New York",
+          "from",
+          "a"
+        ],
+        "answer": "New York",
+        "explanation_ar": "New York اسم علم لمكان."
+      },
+      {
+        "type": "true_false",
+        "question": "Brainstorming is not important for writing.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "العصف الذهني هو أولى مراحل الكتابة وأهمها لتنظيم الأفكار."
+      },
+      {
+        "type": "written",
+        "question": "Write a sentence using the word 'gift'.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "This book is a gift.",
+        "explanation_ar": "مثال بسيط على استخدام كلمة هدية كاسم في جملة."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the subject in 'It was a gift'?",
+        "word_to_speak": null,
+        "options": [
+          "was",
+          "gift",
+          "It",
+          "a"
+        ],
+        "answer": "It",
+        "explanation_ar": "كلمة It تعود على تمثال الحرية وهي الفاعل في الجملة."
+      },
+      {
+        "type": "written",
+        "question": "Translate: كان هدية من فرنسا.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "It was a gift from France.",
+        "explanation_ar": "استخدام الفعل في الماضي 'was' للحديث عن الماضي."
+      },
+      {
+        "type": "written",
+        "question": "Correct the error: 'it is in new york'",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "It is in New York.",
+        "explanation_ar": "يجب تكبير حرف بداية الجملة وحروف أسماء الأماكن."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "writing",
+      "course_name_ar": "الكتابة",
+      "level": 1,
+      "lesson_no": 2,
+      "title": "تعلم كتابة موضوع تعبير عن العائلة"
+    },
+    "lesson_content": {
+      "topic_en": "Writing about my family",
+      "topic_ar": "الكتابة عن عائلتي",
+      "brainstorming_questions": [
+        {
+          "question_en": "How many people are there in your family?",
+          "suggested_answer_en": "There are five people in my family."
+        },
+        {
+          "question_en": "What is your father's job?",
+          "suggested_answer_en": "My father is a teacher."
+        },
+        {
+          "question_en": "How many brothers and sisters do you have?",
+          "suggested_answer_en": "I have one brother and two sisters."
+        }
+      ],
+      "guided_sentences": [
+        {
+          "en": "There are five people in my family.",
+          "ar": "توجد خمسة أفراد في عائلتي."
+        },
+        {
+          "en": "My father is a teacher.",
+          "ar": "والدي معلم."
+        },
+        {
+          "en": "My mother is a housewife.",
+          "ar": "والدتي ربة منزل."
+        },
+        {
+          "en": "I have one brother and two sisters.",
+          "ar": "لدي أخ واحد وأختان."
+        },
+        {
+          "en": "I love my family very much.",
+          "ar": "أنا أحب عائلتي كثيراً."
+        }
+      ],
+      "final_draft": {
+        "en": "There are five people in my family. My father is a teacher and my mother is a housewife. I have one brother and two sisters. I love my family very much.",
+        "ar": "يوجد خمسة أفراد في عائلتي. والدي معلم ووالدتي ربة منزل. لدي أخ واحد وأختان. أنا أحب عائلتي كثيراً."
+      }
+    },
+    "global_vocabulary": [
+      {
+        "word": "There are",
+        "meaning": "تعبير يُستخدم للحديث عن وجود شيء للجمع",
+        "example_en": "There are five people in my family.",
+        "example_ar": "يوجد خمسة أشخاص في عائلتي."
+      },
+      {
+        "word": "Housewife",
+        "meaning": "ربة منزل",
+        "example_en": "My mother is a housewife.",
+        "example_ar": "والدتي ربة منزل."
+      },
+      {
+        "word": "And",
+        "meaning": "حرف عطف للربط بين الجمل أو الأسماء",
+        "example_en": "My father is a teacher and my mother is a housewife.",
+        "example_ar": "والدي معلم ووالدتي ربة منزل."
+      }
+    ],
+    "lesson_notes": [
+      "يجب دائماً أن تبدأ الجملة بحرف كبير (Capital letter).",
+      "يجب إنهاء كل جملة بـ نقطة (Full stop).",
+      "أداة التعريف 'a' ضرورية قبل الاسم المفرد المعدود.",
+      "استخدام 'is' للمفرد و 'are' للجمع.",
+      "عند التحدث عن العائلة، نستخدم صيغة 'There are' للجمع."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "Choose the correct verb: There ____ five people in my family.",
+        "word_to_speak": null,
+        "options": [
+          "is",
+          "are",
+          "be",
+          "am"
+        ],
+        "answer": "are",
+        "explanation_ar": "بما أننا نتحدث عن رقم أكبر من واحد (five)، نستخدم فعل الجمع are."
+      },
+      {
+        "type": "written",
+        "question": "Translate: والدي معلم ووالدتي ربة منزل.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "My father is a teacher and my mother is a housewife.",
+        "explanation_ar": "تأكد من وضع أداة التعريف a قبل الوظائف المفردة."
+      },
+      {
+        "type": "true_false",
+        "question": "Is it correct to start a sentence with a small letter?",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "قاعدة أساسية في الكتابة أن تبدأ كل جملة بحرف كبير Capital letter."
+      },
+      {
+        "type": "written",
+        "question": "Rearrange: family / my / five / are / in / people / There / .",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "There are five people in my family.",
+        "explanation_ar": "هذا هو الترتيب الصحيح لبدء الجملة بـ There are."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which punctuation mark should end a sentence?",
+        "word_to_speak": null,
+        "options": [
+          "comma",
+          "full stop",
+          "question mark",
+          "colon"
+        ],
+        "answer": "full stop",
+        "explanation_ar": "الجمل الخبرية في اللغة الإنجليزية تنتهي بنقطة full stop."
+      },
+      {
+        "type": "written",
+        "question": "Correct the error: My father is teacher.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "My father is a teacher.",
+        "explanation_ar": "لا تنسَ أداة التعريف a قبل الاسم المفرد."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of these is used for a single person?",
+        "word_to_speak": null,
+        "options": [
+          "are",
+          "is",
+          "were",
+          "been"
+        ],
+        "answer": "is",
+        "explanation_ar": "الفعل is هو فعل الكينونة للمفرد."
+      },
+      {
+        "type": "written",
+        "question": "Complete the sentence: I have one brother ____ two sisters.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "and",
+        "explanation_ar": "نستخدم and للربط بين الأشياء."
+      },
+      {
+        "type": "true_false",
+        "question": "Is 'I' always capitalized in English?",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation_ar": "ضمير المتكلم I دائماً يُكتب بحرف كبير أينما وقع في الجملة."
+      },
+      {
+        "type": "written",
+        "question": "Translate: أنا أحب عائلتي كثيراً.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I love my family very much.",
+        "explanation_ar": "جملة بسيطة تبدأ بالفاعل I."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "writing",
+      "course_name_ar": "الكتابة",
+      "level": 1,
+      "lesson_no": 3,
+      "title": "تعلم كتابة موضوع تعبير باللغة الانجليزية"
+    },
+    "lesson_content": {
+      "topic_en": "Describing family members",
+      "topic_ar": "وصف أفراد العائلة",
+      "brainstorming_questions": [
+        {
+          "question_en": "What is his/her name?",
+          "suggested_answer_en": "His name is Ahmed."
+        },
+        {
+          "question_en": "How old is he/she?",
+          "suggested_answer_en": "He is ten years old."
+        },
+        {
+          "question_en": "What does he/she look like?",
+          "suggested_answer_en": "He has dark hair and brown eyes."
+        }
+      ],
+      "guided_sentences": [
+        {
+          "en": "My brother is Ahmed.",
+          "ar": "أخي هو أحمد."
+        },
+        {
+          "en": "He is ten years old.",
+          "ar": "هو يبلغ من العمر عشر سنوات."
+        },
+        {
+          "en": "He has short black hair.",
+          "ar": "هو لديه شعر أسود قصير."
+        },
+        {
+          "en": "He is very smart, but he is sometimes noisy.",
+          "ar": "هو ذكي جداً، لكنه أحياناً مزعج."
+        }
+      ],
+      "final_draft": {
+        "en": "My brother's name is Ahmed. He is ten years old. He has short black hair and brown eyes. He is very smart, but he is sometimes noisy. Do you have a brother?",
+        "ar": "اسم أخي أحمد. هو يبلغ من العمر عشر سنوات. لديه شعر أسود قصير وعيون بنية. هو ذكي جداً، لكنه أحياناً مزعج. هل لديك أخ؟"
+      }
+    },
+    "global_vocabulary": [
+      {
+        "word": "but",
+        "meaning": "أداة ربط للتناقض",
+        "example_en": "He is smart, but he is noisy.",
+        "example_ar": "هو ذكي، لكنه مزعج."
+      },
+      {
+        "word": "sometimes",
+        "meaning": "في بعض الأحيان",
+        "example_en": "He is sometimes noisy.",
+        "example_ar": "هو مزعج في بعض الأحيان."
+      },
+      {
+        "word": "smart",
+        "meaning": "ذكي",
+        "example_en": "My brother is very smart.",
+        "example_ar": "أخي ذكي جداً."
+      }
+    ],
+    "lesson_notes": [
+      "يجب وضع فاصلة (comma) قبل أداة الربط 'but' عند الربط بين جملتين مستقلتين.",
+      "تبدأ الجملة دائماً بحرف كبير (Capital letter).",
+      "تنتهي الجملة الخبرية بنقطة (Full stop).",
+      "يجب التمييز بين 'have' و 'has' مع ضمائر الفاعل المختلفة.",
+      "تتكون الفقرة من مقدمة، تفاصيل، وخاتمة."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "Which punctuation is needed before 'but' when joining two independent sentences?",
+        "word_to_speak": null,
+        "options": [
+          "A period",
+          "A comma",
+          "An exclamation mark",
+          "No punctuation"
+        ],
+        "answer": "A comma",
+        "explanation_ar": "تتطلب أداة الربط 'but' وضع فاصلة قبلها عند ربط جملتين مستقلتين."
+      },
+      {
+        "type": "true_false",
+        "question": "Every sentence should start with a small letter.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "قاعدة أساسية في الكتابة هي أن تبدأ كل جملة بحرف كبير."
+      },
+      {
+        "type": "written",
+        "question": "Translate: هو لديه شعر أسود قصير.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "He has short black hair.",
+        "explanation_ar": "استخدام الفعل 'has' للمفرد الغائب لوصف الخصائص الجسدية."
+      },
+      {
+        "type": "written",
+        "question": "Rearrange: (noisy / is / he / sometimes / .)",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "He is sometimes noisy.",
+        "explanation_ar": "ترتيب الجملة يبدأ بالفاعل ثم الفعل المساعد ثم ظرف التكرار ثم الصفة."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the correct verb for 'He'?",
+        "word_to_speak": null,
+        "options": [
+          "have",
+          "has",
+          "do",
+          "am"
+        ],
+        "answer": "has",
+        "explanation_ar": "يأخذ الضمير 'He' الفعل 'has' في حالة الإثبات."
+      },
+      {
+        "type": "written",
+        "question": "Why do we add a question at the end of the paragraph?",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "To engage the reader.",
+        "explanation_ar": "إضافة سؤال في الخاتمة يحفز القارئ على المشاركة والتفاعل."
+      },
+      {
+        "type": "true_false",
+        "question": "An independent sentence can stand alone.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation_ar": "الجملة المستقلة تعطي معنى تاماً بمفردها."
+      },
+      {
+        "type": "written",
+        "question": "Correct the error: 'my brother is smart.'",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "My brother is smart.",
+        "explanation_ar": "يجب كتابة أول حرف من الجملة بحرف كبير."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which word is a connector?",
+        "word_to_speak": null,
+        "options": [
+          "brother",
+          "but",
+          "smart",
+          "old"
+        ],
+        "answer": "but",
+        "explanation_ar": "'but' هي أداة ربط تستخدم لبيان التناقض."
+      },
+      {
+        "type": "written",
+        "question": "Translate: هل لديك أخ؟",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Do you have a brother?",
+        "explanation_ar": "نستخدم الفعل المساعد 'Do' لبدء السؤال في زمن المضارع البسيط."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "writing",
+      "course_name_ar": "الكتابة",
+      "level": 1,
+      "lesson_no": 4,
+      "title": "وصف الأشياء باستخدام الأشكال والألوان"
+    },
+    "lesson_content": {
+      "topic_en": "Describing objects using shapes and colors",
+      "topic_ar": "وصف الأشياء باستخدام الأشكال والألوان",
+      "brainstorming_questions": [
+        {
+          "question_en": "What is the shape of the object?",
+          "suggested_answer_en": "The object is a robot with a square head."
+        },
+        {
+          "question_en": "What color is the object?",
+          "suggested_answer_en": "The robot is red and blue."
+        }
+      ],
+      "guided_sentences": [
+        {
+          "en": "I have a toy robot.",
+          "ar": "لدي روبوت لعبة."
+        },
+        {
+          "en": "Its head is a square.",
+          "ar": "رأسه على شكل مربع."
+        },
+        {
+          "en": "The robot is red and blue.",
+          "ar": "الروبوت لونه أحمر وأزرق."
+        }
+      ],
+      "final_draft": {
+        "en": "I have a toy robot. Its head is a square. The robot is red and blue.",
+        "ar": "لدي روبوت لعبة. رأسه على شكل مربع. الروبوت لونه أحمر وأزرق."
+      }
+    },
+    "global_vocabulary": [
+      {
+        "word": "Square",
+        "meaning": "شكل هندسي رباعي الأضلاع متساوي الطول",
+        "example_en": "Its head is a square.",
+        "example_ar": "رأسه على شكل مربع."
+      },
+      {
+        "word": "Drawing",
+        "meaning": "الرسم باستخدام أقلام الرصاص أو الألوان",
+        "example_en": "The drawing of the robot is nice.",
+        "example_ar": "رسمة الروبوت جميلة."
+      },
+      {
+        "word": "And",
+        "meaning": "أداة ربط تفيد العطف",
+        "example_en": "The robot is red and blue.",
+        "example_ar": "الروبوت أحمر وأزرق."
+      }
+    ],
+    "lesson_notes": [
+      "يجب أن تبدأ كل جملة بحرف كبير (Capital Letter).",
+      "يجب أن تنتهي كل جملة بنقطة (Full stop).",
+      "عند استخدام and لربط جملتين مستقلتين تماماً، يجب وضع فاصلة (comma) قبلها.",
+      "استخدام tall للأطوال الرأسية (القائمة) و long للأطوال الأفقية (المتوازية مع الأرض)."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "Which word describes a vertical length?",
+        "word_to_speak": null,
+        "options": [
+          "Long",
+          "Tall",
+          "Big",
+          "Wide"
+        ],
+        "answer": "Tall",
+        "explanation_ar": "نستخدم كلمة tall للأشياء التي تقف رأسياً على الأرض."
+      },
+      {
+        "type": "true_false",
+        "question": "We use a comma before 'and' when connecting two independent sentences.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation_ar": "قاعدة نحوية: نضع الفاصلة قبل and إذا كانت الجملتان اللتان تسبقها وتليها مستقلتين."
+      },
+      {
+        "type": "written",
+        "question": "Translate: 'لدي روبوت أحمر.'",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I have a red robot.",
+        "explanation_ar": "في الإنجليزية نضع الصفة (red) قبل الموصوف (robot)."
+      },
+      {
+        "type": "written",
+        "question": "Reorder: [square / head / is / Its / .]",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Its head is a square.",
+        "explanation_ar": "الجملة تتكون من فاعل (Its head) وفعل (is) وتكملة (a square)."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the difference between drawing and painting?",
+        "word_to_speak": null,
+        "options": [
+          "No difference",
+          "Drawing is with a pencil, painting is with a brush",
+          "Painting is for walls only",
+          "Drawing is for shapes only"
+        ],
+        "answer": "Drawing is with a pencil, painting is with a brush",
+        "explanation_ar": "توضيح الفرق بين أدوات الرسم (قلم الرصاص) وأدوات التلوين (الفرشاة)."
+      },
+      {
+        "type": "written",
+        "question": "Correct the error: 'i have a robot'",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I have a robot.",
+        "explanation_ar": "يجب دائماً كتابة ضمير المتكلم 'I' بحرف كبير."
+      },
+      {
+        "type": "written",
+        "question": "Complete: 'The robot is red ___ blue.'",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "and",
+        "explanation_ar": "نستخدم أداة العطف and لربط صفتين أو اسمين."
+      },
+      {
+        "type": "true_false",
+        "question": "Is 'square' a color?",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "كلمة square تعني مربع وهي شكل هندسي وليست لوناً."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which sentence is punctuated correctly?",
+        "word_to_speak": null,
+        "options": [
+          "i have a robot",
+          "I have a robot",
+          "I have a robot.",
+          "i have a robot."
+        ],
+        "answer": "I have a robot.",
+        "explanation_ar": "يجب أن تبدأ بحرف كبير وتنتهي بنقطة."
+      },
+      {
+        "type": "written",
+        "question": "Translate: 'رأسه مربع.'",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Its head is a square.",
+        "explanation_ar": "استخدام الضمير its للملكية لغير العاقل."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "writing",
+      "course_name_ar": "الكتابة",
+      "level": 1,
+      "lesson_no": 5,
+      "title": "تعلم كتابة موضوع تعبير عن الملابس"
+    },
+    "lesson_content": {
+      "topic_en": "Describing Clothes and Personal Style",
+      "topic_ar": "وصف الملابس والأناقة الشخصية",
+      "brainstorming_questions": [
+        {
+          "question_en": "What are you wearing today?",
+          "suggested_answer_en": "I am wearing a sweater and pants."
+        },
+        {
+          "question_en": "What is your favorite color for clothes?",
+          "suggested_answer_en": "My favorite color is blue."
+        }
+      ],
+      "guided_sentences": [
+        {
+          "en": "I am wearing a dark green sweater.",
+          "ar": "أنا أرتدي سترة خضراء داكنة."
+        },
+        {
+          "en": "It looks good with my blue scarf.",
+          "ar": "إنها تبدو جيدة مع وشاحي الأزرق."
+        },
+        {
+          "en": "I like to wear comfortable shoes.",
+          "ar": "أنا أحب ارتداء أحذية مريحة."
+        }
+      ],
+      "final_draft": {
+        "en": "Today, I am wearing a dark green sweater, a blue scarf, and a pair of gray pants. These clothes look good with my brown shoes. I feel very comfortable in my favorite clothes.",
+        "ar": "اليوم، أنا أرتدي سترة خضراء داكنة، وشاحاً أزرق، وبنطالاً رمادياً. هذه الملابس تبدو متناسقة مع حذائي البني. أشعر براحة كبيرة في ملابسي المفضلة."
+      }
+    },
+    "global_vocabulary": [
+      {
+        "word": "Wear",
+        "meaning": "ارتداء الملابس كحالة مستمرة",
+        "example_en": "I like to wear comfortable shoes.",
+        "example_ar": "أنا أحب ارتداء أحذية مريحة."
+      },
+      {
+        "word": "Put on",
+        "meaning": "فعل ارتداء الملابس (حدث لحظي)",
+        "example_en": "I put on my sweater before going out.",
+        "example_ar": "أنا أرتدي (أضع على جسدي) سترتي قبل الخروج."
+      },
+      {
+        "word": "Look good with",
+        "meaning": "تبدو متناسقة مع",
+        "example_en": "The scarf looks good with the sweater.",
+        "example_ar": "الوشاح يبدو متناسقاً مع السترة."
+      }
+    ],
+    "lesson_notes": [
+      "يجب البدء بحرف كبير في بداية كل جملة.",
+      "يجب وضع نقطة في نهاية كل جملة خبرية.",
+      "استخدام is للفاعل المفرد و are للفاعل الجمع.",
+      "الفعل put on يعني عملية ارتداء الملابس، بينما wear تعني الحالة التي أنت عليها الآن.",
+      "عند ذكر أكثر من قطعة ملابس نستخدم الفواصل، ونستخدم and قبل القطعة الأخيرة."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "Which verb describes the state of having clothes on?",
+        "word_to_speak": null,
+        "options": [
+          "put on",
+          "wear",
+          "take off",
+          "look"
+        ],
+        "answer": "wear",
+        "explanation_ar": "الفعل wear يستخدم لوصف الحالة الحالية لارتداء الملابس."
+      },
+      {
+        "type": "true_false",
+        "question": "The sentence 'i am wearing a shirt' is correct.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "خطأ، يجب أن يبدأ حرف الـ i كبيراً (Capital Letter)."
+      },
+      {
+        "type": "written",
+        "question": "Translate: أنا أرتدي بنطالاً رمادياً.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I am wearing gray pants.",
+        "explanation_ar": "نستخدم المضارع المستمر لوصف ما نرتديه الآن."
+      },
+      {
+        "type": "written",
+        "question": "Order: [shoes / I / wear / comfortable / like / to]",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I like to wear comfortable shoes.",
+        "explanation_ar": "الترتيب الصحيح يتبع بنية الفاعل ثم الفعل ثم المفعول به."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What comes before the last item in a list of clothes?",
+        "word_to_speak": null,
+        "options": [
+          "or",
+          "but",
+          "and",
+          "so"
+        ],
+        "answer": "and",
+        "explanation_ar": "نستخدم and لربط العناصر الأخيرة في القوائم."
+      },
+      {
+        "type": "written",
+        "question": "Correct the punctuation: my shirt is blue",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "My shirt is blue.",
+        "explanation_ar": "يجب تكبير الحرف الأول وإضافة نقطة في النهاية."
+      },
+      {
+        "type": "true_false",
+        "question": "Do we use 'is' with 'I'?",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "نستخدم am مع ضمير المتكلم I."
+      },
+      {
+        "type": "written",
+        "question": "Translate: هذا الوشاح يبدو جيداً مع سترتي.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "This scarf looks good with my sweater.",
+        "explanation_ar": "تعبير look good with يستخدم لوصف تناسق الألوان والملابس."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which one is plural?",
+        "word_to_speak": null,
+        "options": [
+          "a shirt",
+          "a sweater",
+          "pants",
+          "a scarf"
+        ],
+        "answer": "pants",
+        "explanation_ar": "كلمة pants تعامل معاملة الجمع في الإنجليزية."
+      },
+      {
+        "type": "written",
+        "question": "Complete: I _____ wearing a brown scarf.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "am",
+        "explanation_ar": "الفعل المساعد المناسب لضمير I هو am."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "writing",
+      "course_name_ar": "الكتابة",
+      "level": 1,
+      "lesson_no": 6,
+      "title": "تعلم كتابة موضوع تعبير باللغة الانجليزية"
+    },
+    "lesson_content": {
+      "topic_en": "Describing your house and home",
+      "topic_ar": "وصف المنزل والبيت",
+      "brainstorming_questions": [
+        {
+          "question_en": "What is the difference between a house and a home?",
+          "suggested_answer_en": "A house is the physical building structure, while a home is where you feel belonging."
+        },
+        {
+          "question_en": "How many rooms are there in your house?",
+          "suggested_answer_en": "My house has four rooms, including a kitchen and a garage."
+        }
+      ],
+      "guided_sentences": [
+        {
+          "en": "I live in a big house.",
+          "ar": "أنا أعيش في منزل كبير."
+        },
+        {
+          "en": "My home is a place where I feel comfortable.",
+          "ar": "بيتي هو المكان الذي أشعر فيه بالراحة."
+        },
+        {
+          "en": "One of my friends, John, is in the garage.",
+          "ar": "أحد أصدقائي، جون، موجود في المرآب."
+        },
+        {
+          "en": "I, too, like coffee.",
+          "ar": "أنا أيضاً أحب القهوة."
+        }
+      ],
+      "final_draft": {
+        "en": "I live in a big house. It is my home where I feel happy. One of my friends, John, is in the garage. I, too, like to spend time in my comfortable house.",
+        "ar": "أنا أعيش في منزل كبير. إنه بيتي حيث أشعر بالسعادة. أحد أصدقائي، جون، موجود في المرآب. أنا أيضاً أحب قضاء الوقت في منزلي المريح."
+      }
+    },
+    "global_vocabulary": [
+      {
+        "word": "House",
+        "meaning": "The physical building structure of a residence.",
+        "example_en": "I live in a big house.",
+        "example_ar": "أنا أعيش في منزل كبير."
+      },
+      {
+        "word": "Home",
+        "meaning": "A place where one feels a sense of belonging.",
+        "example_en": "It is my home where I feel happy.",
+        "example_ar": "إنه بيتي حيث أشعر بالسعادة."
+      },
+      {
+        "word": "Too",
+        "meaning": "Also; in addition.",
+        "example_en": "I, too, like coffee.",
+        "example_ar": "أنا أيضاً أحب القهوة."
+      }
+    ],
+    "lesson_notes": [
+      "الفرق بين House و Home: House تشير للمبنى المادي، بينما Home تشير للمكان الذي تشعر فيه بالانتماء.",
+      "استخدام الفاصلة (Comma): يجب وضع فاصلة عند إضافة تفاصيل إضافية عن الأسماء (مثل: One of my friends, John,).",
+      "كلمة too: عند استخدامها في نهاية الجملة للتعبير عن الإضافة، يمكن وضع فاصلة قبلها أو الاستغناء عنها.",
+      "ترتيب الجملة: يجب البدء بفاعل ثم فعل ثم مفعول به لضمان هيكلة صحيحة للجملة الإنجليزية.",
+      "الأسماء المركبة (Compound Nouns): تعامل معاملة الجمع في اللغة الإنجليزية مثل computer games."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "Which word refers to the physical structure of a building?",
+        "word_to_speak": "House",
+        "options": [
+          "Home",
+          "House",
+          "Room",
+          "Garage"
+        ],
+        "answer": "House",
+        "explanation_ar": "كلمة House تعني المبنى كبناء مادي، بينما Home تعني الموطن."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Choose the correct punctuation for the sentence.",
+        "word_to_speak": "I too like coffee",
+        "options": [
+          "I, too, like coffee.",
+          "I too, like coffee.",
+          "I, too like coffee.",
+          "I too like coffee"
+        ],
+        "answer": "I, too, like coffee.",
+        "explanation_ar": "يفضل وضع الفواصل قبل وبعد كلمة too عند مجيئها في منتصف الجملة كظرف."
+      },
+      {
+        "type": "true_false",
+        "question": "Is 'Home' always synonymous with 'House'?",
+        "word_to_speak": "Home",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "لا، فالهوم تعني الشعور بالانتماء والبيت، بينما الهاوس تشير للمبنى فقط."
+      },
+      {
+        "type": "written",
+        "question": "Translate: أنا أعيش في منزل كبير.",
+        "word_to_speak": "House",
+        "options": null,
+        "answer": "I live in a big house.",
+        "explanation_ar": "يتم البدء بالفاعل I ثم الفعل live ثم المكان."
+      },
+      {
+        "type": "written",
+        "question": "Reorder the words: (garage / is / in / the / John / .)",
+        "word_to_speak": "Garage",
+        "options": null,
+        "answer": "John is in the garage.",
+        "explanation_ar": "ترتيب الفاعل + الفعل + حرف الجر + المفعول به."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How should compound nouns like 'computer games' be treated?",
+        "word_to_speak": "Compound Nouns",
+        "options": [
+          "Singular",
+          "Plural",
+          "Uncountable",
+          "Adjective"
+        ],
+        "answer": "Plural",
+        "explanation_ar": "الأسماء المركبة في هذا السياق تعامل معاملة الجمع."
+      },
+      {
+        "type": "true_false",
+        "question": "Is it mandatory to use a comma before 'too' at the end of a sentence?",
+        "word_to_speak": "Too",
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "استخدام الفاصلة قبل too في نهاية الجملة اختياري وليس إجبارياً."
+      },
+      {
+        "type": "written",
+        "question": "Write a sentence using the word 'home'.",
+        "word_to_speak": "Home",
+        "options": null,
+        "answer": "This is my home.",
+        "explanation_ar": "يجب التأكد من مطابقة قواعد الفاعل والفعل."
+      },
+      {
+        "type": "written",
+        "question": "Correct the error: My friend John live in house.",
+        "word_to_speak": "Grammar",
+        "options": null,
+        "answer": "My friend John lives in a house.",
+        "explanation_ar": "يجب إضافة s للفعل لأن الفاعل مفرد وإضافة أداة النكرة a للاسم."
+      },
+      {
+        "type": "written",
+        "question": "Translate: صديقي، جون، موجود في المرآب.",
+        "word_to_speak": "Friend",
+        "options": null,
+        "answer": "My friend, John, is in the garage.",
+        "explanation_ar": "تم استخدام الفواصل لعزل اسم العلم عن الفاعل."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "writing",
+      "course_name_ar": "الكتابة",
+      "level": 1,
+      "lesson_no": 7,
+      "title": "روتين بيل الصباحي وكتابة الفقرات"
+    },
+    "lesson_content": {
+      "topic_en": "Bill's Morning Routine",
+      "topic_ar": "روتين بيل الصباحي",
+      "brainstorming_questions": [
+        {
+          "question_en": "What does Bill do first in the morning?",
+          "suggested_answer_en": "First, Bill wakes up."
+        },
+        {
+          "question_en": "What does he do after waking up?",
+          "suggested_answer_en": "Then, he eats his breakfast."
+        },
+        {
+          "question_en": "How does he finish packing his bag?",
+          "suggested_answer_en": "Finally, he puts his lunch in his bag."
+        }
+      ],
+      "guided_sentences": [
+        {
+          "en": "First, Bill wakes up.",
+          "ar": "أولاً، يستيقظ بيل."
+        },
+        {
+          "en": "Then, he eats his breakfast.",
+          "ar": "ثم، يتناول إفطاره."
+        },
+        {
+          "en": "Finally, he puts his lunch in his bag.",
+          "ar": "أخيراً، يضع غداءه في حقيبته."
+        },
+        {
+          "en": "Now, Bill's bag is packed for school.",
+          "ar": "الآن، حقيبة بيل جاهزة للمدرسة."
+        }
+      ],
+      "final_draft": {
+        "en": "First, Bill wakes up. Then, he eats his breakfast. Finally, he puts his lunch in his bag. Now, Bill's bag is packed for school.",
+        "ar": "أولاً، يستيقظ بيل. ثم، يتناول إفطاره. أخيراً، يضع غداءه في حقيبته. الآن، حقيبة بيل جاهزة للمدرسة."
+      }
+    },
+    "global_vocabulary": [
+      {
+        "word": "First",
+        "meaning": "أولاً - تستخدم لبدء سرد الأحداث",
+        "example_en": "First, Bill wakes up.",
+        "example_ar": "أولاً، يستيقظ بيل."
+      },
+      {
+        "word": "Then",
+        "meaning": "ثم - تستخدم للانتقال للحدث التالي",
+        "example_en": "Then, he eats his breakfast.",
+        "example_ar": "ثم، يتناول إفطاره."
+      },
+      {
+        "word": "Finally",
+        "meaning": "أخيراً - تستخدم لإنهاء سرد الأحداث",
+        "example_en": "Finally, he puts his lunch in his bag.",
+        "example_ar": "أخيراً، يضع غداءه في حقيبته."
+      },
+      {
+        "word": "Now",
+        "meaning": "الآن - تستخدم للإشارة للحالة الراهنة",
+        "example_en": "Now, Bill's bag is packed for school.",
+        "example_ar": "الآن، حقيبة بيل جاهزة للمدرسة."
+      }
+    ],
+    "lesson_notes": [
+      "يجب البدء بحرف كبير (Capital letter) عند بداية كل جملة.",
+      "يجب وضع علامة ترقيم (Full stop) في نهاية كل جملة.",
+      "كلمات التسلسل (First, Then, Finally) تأتي في بداية الجملة ويليها فاصلة (comma).",
+      "كلمة Now إذا جاءت في بداية الجملة، يجب أن يليها فاصلة.",
+      "استخدام زمن المضارع البسيط مناسب جداً لسرد القصص والروتين اليومي."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "Which word is used to signal the end of a sequence of actions?",
+        "word_to_speak": null,
+        "options": [
+          "First",
+          "Then",
+          "Finally",
+          "Now"
+        ],
+        "answer": "Finally",
+        "explanation_ar": "كلمة Finally تُستخدم لإنهاء ترتيب الأحداث."
+      },
+      {
+        "type": "true_false",
+        "question": "Do you need a comma after 'First' when used at the start of a sentence?",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation_ar": "القاعدة تنص على وضع فاصلة بعد كلمات التسلسل الافتتاحية."
+      },
+      {
+        "type": "written",
+        "question": "Translate: 'أولاً، يستيقظ بيل.'",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "First, Bill wakes up.",
+        "explanation_ar": "يجب مراعاة الحرف الكبير في البداية والفاصلة بعد كلمة First."
+      },
+      {
+        "type": "written",
+        "question": "Reorder: [his lunch / Finally / in / bag / he / puts / his]",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Finally, he puts his lunch in his bag.",
+        "explanation_ar": "الترتيب الصحيح يتبع هيكل الجملة: الرابط ثم الفاعل ثم الفعل ثم المفعول به."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which punctuation mark comes after 'Now' in: 'Now, Bill's bag is ready'?",
+        "word_to_speak": null,
+        "options": [
+          ".",
+          ",",
+          "!",
+          ";"
+        ],
+        "answer": ",",
+        "explanation_ar": "القاعدة تتطلب فاصلة بعد كلمة Now عندما تأتي في بداية الجملة."
+      },
+      {
+        "type": "written",
+        "question": "Translate: 'الآن، حقيبة بيل جاهزة.'",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Now, Bill's bag is ready.",
+        "explanation_ar": "استخدام الفاصلة بعد Now ضروري وصحيح نحوياً."
+      },
+      {
+        "type": "true_false",
+        "question": "Is 'Then' used to start the very first action in a paragraph?",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "كلمة First هي المخصصة للحدث الأول، بينما Then للحدث الذي يليه."
+      },
+      {
+        "type": "written",
+        "question": "Complete the sentence: 'Then, he ____ his breakfast.'",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "eats",
+        "explanation_ar": "الفعل يأتي في زمن المضارع البسيط متوافقاً مع الفاعل المفرد He."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the correct way to write the end of a sentence?",
+        "word_to_speak": null,
+        "options": [
+          "Capital letter",
+          "Full stop",
+          "Comma",
+          "No punctuation"
+        ],
+        "answer": "Full stop",
+        "explanation_ar": "النقطة (Full stop) هي العلامة الصحيحة لإنهاء الجملة الخبرية."
+      },
+      {
+        "type": "written",
+        "question": "Write a sentence using 'First' regarding waking up.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "First, I wake up.",
+        "explanation_ar": "يجب التأكد من وجود الفاصلة بعد First والنقطة في نهاية الجملة."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "writing",
+      "course_name_ar": "الكتابة",
+      "level": 1,
+      "lesson_no": 8,
+      "title": "تعلم كتابة موضوع تعبير باللغة الانجليزية"
+    },
+    "lesson_content": {
+      "topic_en": "Writing about your favorite animal",
+      "topic_ar": "الكتابة عن حيوانك المفضل",
+      "brainstorming_questions": [
+        {
+          "question_en": "What is your favorite animal?",
+          "suggested_answer_en": "My favorite animal is the elephant."
+        },
+        {
+          "question_en": "Where does it come from?",
+          "suggested_answer_en": "It comes from Africa and Asia."
+        },
+        {
+          "question_en": "What are its physical characteristics?",
+          "suggested_answer_en": "It is very big and has a long trunk."
+        },
+        {
+          "question_en": "What can it do?",
+          "suggested_answer_en": "It can carry heavy things and walk for long distances."
+        }
+      ],
+      "guided_sentences": [
+        {
+          "en": "My favorite animal is the elephant.",
+          "ar": "حيواني المفضل هو الفيل."
+        },
+        {
+          "en": "It lives in Africa and Asia.",
+          "ar": "إنه يعيش في أفريقيا وآسيا."
+        },
+        {
+          "en": "Elephants are very big animals.",
+          "ar": "الفيلة حيوانات كبيرة جداً."
+        },
+        {
+          "en": "They have long trunks.",
+          "ar": "لديهم خراطيم طويلة."
+        },
+        {
+          "en": "They can carry heavy things.",
+          "ar": "يستطيعون حمل الأشياء الثقيلة."
+        }
+      ],
+      "final_draft": {
+        "en": "My favorite animal is the elephant. It lives in Africa and Asia. Elephants are very big animals and they have long trunks. They can carry heavy things and walk for long distances.",
+        "ar": "حيواني المفضل هو الفيل. إنه يعيش في أفريقيا وآسيا. الفيلة حيوانات كبيرة جداً ولديها خراطيم طويلة. إنها تستطيع حمل الأشياء الثقيلة والمشي لمسافات طويلة."
+      }
+    },
+    "global_vocabulary": [
+      {
+        "word": "Favorite",
+        "meaning": "المفضل",
+        "example_en": "My favorite animal is the elephant.",
+        "example_ar": "حيواني المفضل هو الفيل."
+      },
+      {
+        "word": "Trunk",
+        "meaning": "خرطوم الحيوان",
+        "example_en": "Elephants have long trunks.",
+        "example_ar": "الفيلة لديها خراطيم طويلة."
+      },
+      {
+        "word": "Heavy",
+        "meaning": "ثقيل",
+        "example_en": "They can carry heavy things.",
+        "example_ar": "يستطيعون حمل الأشياء الثقيلة."
+      }
+    ],
+    "lesson_notes": [
+      "ابدأ كل جملة بحرف كبير (Capital letter).",
+      "ضع نقطة (.) في نهاية كل جملة.",
+      "الصفة تسبق الموصوف دائماً في اللغة الإنجليزية (مثلاً: Big animals وليس animals big).",
+      "الأسماء العلم مثل أسماء القارات تبدأ دائماً بحرف كبير (Africa).",
+      "تجنب تعقيد الجمل في البداية وركز على القواعد الأساسية."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "Choose the correct order: _________ animals.",
+        "word_to_speak": null,
+        "options": [
+          "Big",
+          "Bigly",
+          "Bigger",
+          "Bigged"
+        ],
+        "answer": "Big",
+        "explanation_ar": "لأن الصفة تسبق الموصوف دائماً."
+      },
+      {
+        "type": "true_false",
+        "question": "Can we start a sentence with a small letter?",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "قاعدة أساسية في الكتابة أن الجملة تبدأ بحرف كبير."
+      },
+      {
+        "type": "written",
+        "question": "Translate: الفيل يعيش في أفريقيا.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "The elephant lives in Africa.",
+        "explanation_ar": "استخدام الفعل المناسب للمفرد (lives) وكتابة اسم المكان بحرف كبير."
+      },
+      {
+        "type": "written",
+        "question": "Rearrange: favorite / is / elephant / my / the / .",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "My favorite animal is the elephant.",
+        "explanation_ar": "ترتيب الجملة يبدأ بالفاعل ثم الفعل."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which word is an adjective?",
+        "word_to_speak": null,
+        "options": [
+          "Elephant",
+          "Big",
+          "Run",
+          "Africa"
+        ],
+        "answer": "Big",
+        "explanation_ar": "كلمة Big تصف حجماً وهي صفة."
+      },
+      {
+        "type": "written",
+        "question": "Fix: my cat is white",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "My cat is white.",
+        "explanation_ar": "يجب بدء الجملة بحرف كبير ووضع نقطة في نهايتها."
+      },
+      {
+        "type": "true_false",
+        "question": "The word 'Africa' should always be capitalized.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation_ar": "أسماء القارات والدول هي أسماء علم تبدأ دائماً بحرف كبير."
+      },
+      {
+        "type": "written",
+        "question": "Translate: هو يستطيع حمل الأشياء.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "It can carry things.",
+        "explanation_ar": "استخدام الفعل can للتعبير عن القدرة."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the plural of 'elephant'?",
+        "word_to_speak": null,
+        "options": [
+          "elephants",
+          "elephantes",
+          "elephantes",
+          "elephanti"
+        ],
+        "answer": "elephants",
+        "explanation_ar": "الجمع المنتظم بإضافة حرف s."
+      },
+      {
+        "type": "written",
+        "question": "Translate: لدي خرطوم طويل.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I have a long trunk.",
+        "explanation_ar": "استخدام الفعل have للتعبير عن الملكية."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "writing",
+      "course_name_ar": "الكتابة",
+      "level": 1,
+      "lesson_no": 9,
+      "title": "متى يكون التدريب على اختبار الايلتس"
+    },
+    "lesson_content": {
+      "topic_en": "Planning a Weekend Trip",
+      "topic_ar": "التخطيط لرحلة عطلة نهاية الأسبوع",
+      "brainstorming_questions": [
+        {
+          "question_en": "Where will your family go this weekend?",
+          "suggested_answer_en": "My family will go to the beach this weekend."
+        },
+        {
+          "question_en": "When will you leave?",
+          "suggested_answer_en": "We will leave on Saturday morning."
+        },
+        {
+          "question_en": "How do you feel about the weekend?",
+          "suggested_answer_en": "We are excited for this weekend."
+        }
+      ],
+      "guided_sentences": [
+        {
+          "en": "My family will go to the beach this weekend.",
+          "ar": "ستذهب عائلتي إلى الشاطئ في نهاية هذا الأسبوع."
+        },
+        {
+          "en": "We will leave on Saturday morning.",
+          "ar": "سنغادر في صباح يوم السبت."
+        },
+        {
+          "en": "I need to pack my bag.",
+          "ar": "أحتاج إلى حزم حقيبتي."
+        },
+        {
+          "en": "We are excited for this weekend.",
+          "ar": "نحن متحمسون لنهاية هذا الأسبوع."
+        }
+      ],
+      "final_draft": {
+        "en": "My family will go to the beach this weekend. We will leave on Saturday morning. I need to pack my bag. We are excited for this weekend.",
+        "ar": "ستذهب عائلتي إلى الشاطئ في نهاية هذا الأسبوع. سنغادر في صباح يوم السبت. أحتاج إلى حزم حقيبتي. نحن متحمسون لنهاية هذا الأسبوع."
+      }
+    },
+    "global_vocabulary": [
+      {
+        "word": "Also",
+        "meaning": "أيضاً، تستخدم لإضافة معلومة",
+        "example_en": "I also like to swim.",
+        "example_ar": "أنا أيضاً أحب السباحة."
+      },
+      {
+        "word": "Pack",
+        "meaning": "حزم أو تعبئة الأمتعة",
+        "example_en": "I need to pack my bag.",
+        "example_ar": "أحتاج إلى حزم حقيبتي."
+      },
+      {
+        "word": "Excited",
+        "meaning": "متحمس",
+        "example_en": "We are excited for this weekend.",
+        "example_ar": "نحن متحمسون لنهاية هذا الأسبوع."
+      }
+    ],
+    "lesson_notes": [
+      "حرف الجر 'on' يستخدم دائماً مع أيام الأسبوع (مثل on Saturday).",
+      "حرف الجر 'at' يستخدم مع الساعة المحددة (مثل at 8:00).",
+      "حرف الجر 'in' يستخدم مع فصول السنة وأجزاء اليوم الطويلة.",
+      "يجب دائماً البدء بحرف كبير (Capital letter) في بداية الجملة وأيام الأسبوع.",
+      "كلمة 'also' توضع قبل الفعل الرئيسي في الجملة.",
+      "استخدام أدوات التعريف (the) مع الأسماء يحدد شيئاً بعينه، بينما أدوات النكرة (a/an) تشير للعموم."
+    ],
+    "quiz": [
+      {
+        "type": "written",
+        "question": "Translate to English: سنغادر في صباح يوم السبت.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "We will leave on Saturday morning.",
+        "explanation_ar": "استخدمنا حرف الجر on مع يوم السبت."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which preposition do you use with 'Saturday'?",
+        "word_to_speak": "on",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "to"
+        ],
+        "answer": "on",
+        "explanation_ar": "القاعدة تقول أن أيام الأسبوع تأخذ حرف الجر on."
+      },
+      {
+        "type": "written",
+        "question": "Correct the sentence: 'I pack my bag on Saturday'",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I will pack my bag on Saturday.",
+        "explanation_ar": "الجملة تتحدث عن المستقبل لذا يجب استخدام will."
+      },
+      {
+        "type": "true_false",
+        "question": "Is 'Also' placed at the end of the sentence?",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "كلمة also تأتي عادة قبل الفعل الرئيسي في الجملة."
+      },
+      {
+        "type": "written",
+        "question": "Order the words: [weekend / for / excited / we / are / this]",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "We are excited for this weekend.",
+        "explanation_ar": "الترتيب الصحيح يتبع فاعل + فعل + صفة + حرف جر + ظرف زمان."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which preposition goes with clock time?",
+        "word_to_speak": "at",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "answer": "at",
+        "explanation_ar": "نستخدم at مع الساعات المحددة."
+      },
+      {
+        "type": "written",
+        "question": "Write a sentence using 'excited'.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I am excited for the trip.",
+        "explanation_ar": "يجب أن يتبع الصفة حرف الجر for عند ذكر سبب الحماس."
+      },
+      {
+        "type": "true_false",
+        "question": "Days of the week should always start with a capital letter.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation_ar": "أسماء الأيام والشهور دائماً تبدأ بحرف كبير في الإنجليزية."
+      },
+      {
+        "type": "written",
+        "question": "Translate: 'أحتاج أن أحزم حقيبتي.'",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I need to pack my bag.",
+        "explanation_ar": "الفعل pack يعني يحزم أمتعة."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which is correct?",
+        "word_to_speak": null,
+        "options": [
+          "I pack my bag",
+          "I packing my bag",
+          "I am pack my bag",
+          "I to pack my bag"
+        ],
+        "answer": "I pack my bag",
+        "explanation_ar": "هذه جملة بسيطة في زمن المضارع تعبر عن حقيقة أو روتين."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "writing",
+      "course_name_ar": "الكتابة",
+      "level": 1,
+      "lesson_no": 10,
+      "title": "تعلم كتابة موضوع تعبير عن الرياضة المفضلة"
+    },
+    "lesson_content": {
+      "topic_en": "Writing about your favorite sport",
+      "topic_ar": "الكتابة عن رياضتك المفضلة",
+      "brainstorming_questions": [
+        {
+          "question_en": "What is your favorite sport?",
+          "suggested_answer_en": "My favorite sport is baseball."
+        },
+        {
+          "question_en": "How often do you play or watch it?",
+          "suggested_answer_en": "I sometimes watch swimming on TV."
+        },
+        {
+          "question_en": "Who is your favorite athlete?",
+          "suggested_answer_en": "My favorite swimmer is Michael Phelps."
+        }
+      ],
+      "guided_sentences": [
+        {
+          "en": "My favorite sport is baseball.",
+          "ar": "رياضتي المفضلة هي البيسبول."
+        },
+        {
+          "en": "I sometimes watch swimming on TV.",
+          "ar": "أنا أشاهد السباحة على التلفاز أحياناً."
+        },
+        {
+          "en": "He often plays basketball.",
+          "ar": "هو غالباً يلعب كرة السلة."
+        },
+        {
+          "en": "I want to be a swimmer like him.",
+          "ar": "أريد أن أصبح سباحاً مثله."
+        }
+      ],
+      "final_draft": {
+        "en": "My favorite sport is baseball. It is very fun to play. I often watch matches on TV. I want to be a great athlete and win many trophies like my favorite player.",
+        "ar": "رياضتي المفضلة هي البيسبول. إنه من الممتع جداً لعبها. أنا غالباً أشاهد المباريات على التلفاز. أريد أن أصبح رياضياً عظيماً وأفوز بالعديد من الكؤوس مثل لاعبي المفضل."
+      }
+    },
+    "global_vocabulary": [
+      {
+        "word": "Often",
+        "meaning": "غالباً",
+        "example_en": "He often plays basketball.",
+        "example_ar": "هو غالباً يلعب كرة السلة."
+      },
+      {
+        "word": "Sometimes",
+        "meaning": "أحياناً",
+        "example_en": "I sometimes watch swimming.",
+        "example_ar": "أنا أحياناً أشاهد السباحة."
+      },
+      {
+        "word": "Athlete",
+        "meaning": "رياضي",
+        "example_en": "I want to be a great athlete.",
+        "example_ar": "أريد أن أصبح رياضياً عظيماً."
+      },
+      {
+        "word": "Trophy",
+        "meaning": "كأس (جائزة)",
+        "example_en": "He won many trophies.",
+        "example_ar": "هو فاز بالعديد من الكؤوس."
+      }
+    ],
+    "lesson_notes": [
+      "ظروف التكرار (Adverbs of Frequency) مثل sometimes و often تأتي قبل الفعل الأساسي.",
+      "فصول السنة تكتب بحروف صغيرة (small letters) بخلاف أيام الأسبوع.",
+      "يجب التمييز بين الضمائر في حالة الفاعل (he) والمفعول به (him) بعد حرف الجر.",
+      "استخدام 'Play with' أو 'Play in' يعتمد على سياق الجملة تماماً كما في العربية."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "Choose the correct sentence structure:",
+        "word_to_speak": null,
+        "options": [
+          "I watch sometimes TV.",
+          "I sometimes watch TV.",
+          "Sometimes I watch TV.",
+          "Both B and C are correct."
+        ],
+        "answer": "Both B and C are correct.",
+        "explanation_ar": "ظرف التكرار يمكن أن يأتي قبل الفعل الأساسي أو في بداية الجملة."
+      },
+      {
+        "type": "true_false",
+        "question": "Is 'Summer' written with a capital letter?",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "فصول السنة تكتب بحروف صغيرة وليست أسماء علم."
+      },
+      {
+        "type": "written",
+        "question": "Translate: أنا غالباً ألعب كرة القدم.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I often play football.",
+        "explanation_ar": "يأتي ظرف التكرار often قبل الفعل الأساسي play."
+      },
+      {
+        "type": "written",
+        "question": "Reorder: like / be / a / I / swimmer / want / to / him / .",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I want to be a swimmer like him.",
+        "explanation_ar": "نستخدم الضمير him لأنه مفعول به بعد حرف الجر like."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which word describes a sports award?",
+        "word_to_speak": null,
+        "options": [
+          "Athlete",
+          "Trophy",
+          "Often",
+          "Match"
+        ],
+        "answer": "Trophy",
+        "explanation_ar": "كلمة Trophy تعني كأس أو جائزة رياضية."
+      },
+      {
+        "type": "written",
+        "question": "Translate: هو رياضي عظيم.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "He is a great athlete.",
+        "explanation_ar": "كلمة athlete تعني رياضي."
+      },
+      {
+        "type": "true_false",
+        "question": "Does 'Often' have two possible pronunciations?",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation_ar": "يمكن نطقها بوضوح حرف الـ T أو إخفاؤه."
+      },
+      {
+        "type": "written",
+        "question": "Correct the sentence: He play football.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "He plays football.",
+        "explanation_ar": "مع الضمير المفرد الغائب He يجب إضافة s للفعل."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the opposite of 'Win'?",
+        "word_to_speak": null,
+        "options": [
+          "Play",
+          "Lose",
+          "Watch",
+          "Like"
+        ],
+        "answer": "Lose",
+        "explanation_ar": "كلمة Lose تعني يخسر وهي عكس Win يفوز."
+      },
+      {
+        "type": "written",
+        "question": "Write a sentence using 'Sometimes'.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I sometimes read books.",
+        "explanation_ar": "استخدام صحيح لظرف التكرار قبل الفعل الأساسي."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "writing",
+      "course_name_ar": "الكتابة",
+      "level": 1,
+      "lesson_no": 11,
+      "title": "تعلم كتابة موضوع تعبير باللغة الانجليزية"
+    },
+    "lesson_content": {
+      "topic_en": "Writing about future plans and using simple future tense",
+      "topic_ar": "كتابة خطط المستقبل باستخدام زمن المستقبل البسيط",
+      "brainstorming_questions": [
+        {
+          "question_en": "What will you do tomorrow?",
+          "suggested_answer_en": "I will go to the school and then visit the citadel."
+        },
+        {
+          "question_en": "Will you have a good day?",
+          "suggested_answer_en": "Yes, I will have a very good day."
+        }
+      ],
+      "guided_sentences": [
+        {
+          "en": "Next, I will go to the citadel of Qaitbay.",
+          "ar": "بعد ذلك، سوف أذهب إلى قلعة قايتباي."
+        },
+        {
+          "en": "Then I will go home.",
+          "ar": "ثم سوف أذهب إلى المنزل."
+        },
+        {
+          "en": "I will have dinner.",
+          "ar": "سوف أتناول العشاء."
+        }
+      ],
+      "final_draft": {
+        "en": "Tomorrow, I will go to the school. Next, I will go to the citadel of Qaitbay. Then I will go home and I will have dinner. I will have a good day.",
+        "ar": "غداً، سوف أذهب إلى المدرسة. بعد ذلك، سوف أذهب إلى قلعة قايتباي. ثم سوف أذهب إلى المنزل وسوف أتناول العشاء. سوف أحظى بيوم جيد."
+      }
+    },
+    "global_vocabulary": [
+      {
+        "word": "Next",
+        "meaning": "تستخدم لترتيب الأحداث زمنياً",
+        "example_en": "Next, I will go to the citadel.",
+        "example_ar": "بعد ذلك، سوف أذهب إلى القلعة."
+      },
+      {
+        "word": "Then",
+        "meaning": "تستخدم للانتقال للحدث التالي",
+        "example_en": "Then I will go home.",
+        "example_ar": "ثم سوف أذهب للمنزل."
+      },
+      {
+        "word": "Will",
+        "meaning": "الفعل المساعد المستخدم لصيغة المستقبل البسيط",
+        "example_en": "I will have dinner.",
+        "example_ar": "سوف أتناول العشاء."
+      }
+    ],
+    "lesson_notes": [
+      "عند استخدام زمن المستقبل البسيط مع will، الفعل دائماً يأتي في المصدر (بدون إضافات).",
+      "أسماء الأماكن (مثل Qaitbay) يجب أن تبدأ بحرف كبير (Capital Letter).",
+      "حروف الجر داخل اسم العلم لا تُكتب بحرف كبير.",
+      "كلمة Team تُعامل معاملة المفرد في الإنجليزية، لذا نضيف s للفعل بعدها.",
+      "للسؤال بصيغة المستقبل، نبدأ دائماً بـ Will."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "Which sentence is grammatically correct?",
+        "word_to_speak": null,
+        "options": [
+          "I will goes to the school.",
+          "I will go to the school.",
+          "I will going to the school.",
+          "I will went to the school."
+        ],
+        "answer": "I will go to the school.",
+        "explanation_ar": "بعد will يأتي الفعل دائماً في صيغة المصدر."
+      },
+      {
+        "type": "true_false",
+        "question": "Should we capitalize the preposition 'of' in 'Citadel of Qaitbay'?",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "حروف الجر حتى لو كانت جزءاً من اسم علم لا يتم كتابتها بحرف كبير."
+      },
+      {
+        "type": "written",
+        "question": "Translate: غداً، سوف أذهب إلى القلعة.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Tomorrow, I will go to the citadel.",
+        "explanation_ar": "استخدام صيغة المستقبل البسيط مع will."
+      },
+      {
+        "type": "written",
+        "question": "Rearrange: will / dinner / I / have.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I will have dinner.",
+        "explanation_ar": "ترتيب الجملة الإنجليزية: فاعل + فعل مساعد + فعل أساسي + مفعول به."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the plural form of the verb after 'team'?",
+        "word_to_speak": null,
+        "options": [
+          "win",
+          "wins",
+          "winning",
+          "won"
+        ],
+        "answer": "wins",
+        "explanation_ar": "كلمة team تُعامل معاملة المفرد، لذا نستخدم wins."
+      },
+      {
+        "type": "written",
+        "question": "Convert to question: I will play tomorrow.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Will you play tomorrow?",
+        "explanation_ar": "عند تكوين سؤال بالمستقبل نضع will في بداية الجملة."
+      },
+      {
+        "type": "true_false",
+        "question": "Is 'snack' a countable noun?",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation_ar": "كلمة snack معدودة لذا نضع لها أداة نكرة a أو نجمعها."
+      },
+      {
+        "type": "written",
+        "question": "Translate: سوف أذهب للمنزل بعد ذلك.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Then, I will go home.",
+        "explanation_ar": "استخدام ظرف الترتيب Then."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Choose the correct preposition: I am ___ the playground.",
+        "word_to_speak": null,
+        "options": [
+          "at",
+          "on",
+          "of",
+          "with"
+        ],
+        "answer": "at",
+        "explanation_ar": "تستخدم at لتحديد الموقع بدقة."
+      },
+      {
+        "type": "written",
+        "question": "Why do we add 's' to the verb after 'team'?",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Because the team is treated as a singular noun.",
+        "explanation_ar": "في قواعد اللغة الإنجليزية، اسم الجمع الذي يشير لمجموعة واحدة يُعامل معاملة المفرد."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course_id": "writing",
+      "course_name_ar": "الكتابة",
+      "level": 1,
+      "lesson_no": 12,
+      "title": "تعلم اللهجة الأمريكية والبريطانية والنطق بها"
+    },
+    "lesson_content": {
+      "topic_en": "American and British accents and pronunciation in English writing and speaking",
+      "topic_ar": "تعلم اللهجة الأمريكية والبريطانية والنطق الصحيح بها",
+      "brainstorming_questions": [
+        {
+          "question_en": "Is the accent an optional stage in learning English?",
+          "suggested_answer_en": "No, it is an essential part of learning the language itself."
+        },
+        {
+          "question_en": "How can we differentiate between the pronunciation of 'can' and 'can't'?",
+          "suggested_answer_en": "By focusing on the stress and vowel length in rapid speech."
+        }
+      ],
+      "guided_sentences": [
+        {
+          "en": "Pronunciation is part of the language.",
+          "ar": "النطق الصحيح جزء لا يتجزأ من اللغة."
+        },
+        {
+          "en": "I learn the correct way to speak.",
+          "ar": "أنا أتعلم الطريقة الصحيحة للتحدث."
+        }
+      ],
+      "final_draft": {
+        "en": "Learning the correct pronunciation and accent is vital for language mastery. It is not an additional stage, but an integral part of the learning process.",
+        "ar": "تعلم النطق الصحيح واللهجة أمر حيوي لإتقان اللغة. فهي ليست مرحلة إضافية، بل جزء لا يتجزأ من عملية التعلم."
+      }
+    },
+    "global_vocabulary": [
+      {
+        "word": "Accent",
+        "meaning": "طريقة نطق الكلمات في منطقة معينة",
+        "example_en": "The accent is part of language learning.",
+        "example_ar": "اللهجة جزء من تعلم اللغة."
+      },
+      {
+        "word": "Pronunciation",
+        "meaning": "كيفية نطق الأصوات والكلمات",
+        "example_en": "Good pronunciation builds confidence.",
+        "example_ar": "النطق الجيد يبني الثقة."
+      }
+    ],
+    "lesson_notes": [
+      "النطق الصحيح (اللهجة) ليس اختيارياً بل جزء أساسي من تعلم اللغة.",
+      "يجب التمييز بين المصطلحات المترادفة مثل Earth و Land و Ground بناءً على سياق الملكية.",
+      "التدريب المستمر على النطق يقلل من الفجوة بين سماع الكلمة ونطقها الصحيح.",
+      "علامات الترقيم وتوظيف حروف الجر بشكل سليم يغير المعنى المقصود في الكتابة.",
+      "لا توجد لهجة أفضل من الأخرى، المهم هو النطق الصحيح والمفهوم."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "Which word refers to land that can be owned?",
+        "word_to_speak": "Land",
+        "options": [
+          "Earth",
+          "Land",
+          "Ground",
+          "Soil"
+        ],
+        "answer": "Land",
+        "explanation_ar": "كلمة Land تستخدم للأرض التي يمكن تملكها."
+      },
+      {
+        "type": "true_false",
+        "question": "Learning an accent is an optional phase after learning grammar.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation_ar": "النطق واللهجة جزء أصيل من تعلم اللغة وليس مرحلة لاحقة."
+      },
+      {
+        "type": "written",
+        "question": "Translate: النطق جزء من اللغة.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Pronunciation is part of the language.",
+        "explanation_ar": "ترجمة مباشرة للجملة مع مراعاة قواعد الفاعل والفعل."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the difference between 'can' and 'can't'?",
+        "word_to_speak": "Can/Can't",
+        "options": [
+          "Vowel length",
+          "Grammar",
+          "Tense",
+          "Spelling"
+        ],
+        "answer": "Vowel length",
+        "explanation_ar": "الفرق يكمن بشكل أساسي في طول حرف العلة والتأكيد (Stress) في النطق."
+      },
+      {
+        "type": "written",
+        "question": "Correct the error: He go to school yesterday.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "He went to school yesterday.",
+        "explanation_ar": "يجب استخدام التصريف الثاني للفعل في الماضي البسيط."
+      },
+      {
+        "type": "true_false",
+        "question": "Ground is used for land that cannot be owned.",
+        "word_to_speak": null,
+        "options": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation_ar": "تستخدم Ground عادة للأرض العامة أو التي لا تخضع لملكية خاصة."
+      },
+      {
+        "type": "written",
+        "question": "Reorder: English / I / learn / the / correct / way.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "I learn the correct way to speak English.",
+        "explanation_ar": "الجملة الإنجليزية تبدأ بالفاعل ثم الفعل ثم المفعول به."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which letter sounds differently in 'Hot' and 'Fork'?",
+        "word_to_speak": "O",
+        "options": [
+          "A",
+          "O",
+          "E",
+          "I"
+        ],
+        "answer": "O",
+        "explanation_ar": "حرف O ينطق بطرق مختلفة بناءً على بنية الكلمة."
+      },
+      {
+        "type": "written",
+        "question": "Explain why we use 'on' with a farm.",
+        "word_to_speak": "Farm",
+        "options": null,
+        "answer": "We use 'on' because it is considered a surface.",
+        "explanation_ar": "تستخدم 'on' مع المزرعة لأنها تعتبر مساحة سطحية وليست حيزاً مغلقاً مثل الحقيبة."
+      },
+      {
+        "type": "written",
+        "question": "Write the difference between Earth and Land.",
+        "word_to_speak": null,
+        "options": null,
+        "answer": "Earth refers to the planet, while land refers to property.",
+        "explanation_ar": "Earth تشير إلى كوكب الأرض، أما Land فتشير إلى قطعة أرض مملوكة."
+      }
+    ]
+  }
+]

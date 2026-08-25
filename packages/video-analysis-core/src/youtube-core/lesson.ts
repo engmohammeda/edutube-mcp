@@ -16,7 +16,7 @@ import type { JsonObject } from "../lib/types.js";
 
 export const LESSON_WINDOW_SECONDS = 150;
 
-export type CoursePreset = "conversation" | "phonetics";
+export type CoursePreset = "conversation" | "phonetics" | "writing";
 
 /* ------------------------------ conversation ------------------------------ */
 
@@ -188,6 +188,95 @@ Fill the JSON schema completely:
 - quiz: EXACTLY 10 questions; MOST must be type "audio_quiz" with question "استمع واختر الكلمة الصحيحة التي سمعتها", word_to_speak set to the word the app must synthesize, and tricky minimal-pair options (4 options, answer included); include 2-3 true_false questions about mouth physiology; EVERY question has explanation_ar.
 - metadata: course_id "phonetics", course_name_ar "الصوتيات", level 1, lesson_no and title from the video.`;
 
+/* --------------------------------- writing --------------------------------- */
+
+export const WRITING_SCHEMA: JsonObject = {
+  type: "object",
+  properties: {
+    metadata: {
+      type: "object",
+      properties: {
+        course_id: { type: "string" },
+        course_name_ar: { type: "string" },
+        level: { type: "integer" },
+        lesson_no: { type: "integer" },
+        title: { type: "string" },
+      },
+      required: ["course_id", "course_name_ar", "level", "lesson_no", "title"],
+    },
+    lesson_content: {
+      type: "object",
+      properties: {
+        topic_en: { type: "string" },
+        topic_ar: { type: "string" },
+        brainstorming_questions: {
+          type: "array",
+          items: {
+            type: "object",
+            properties: { question_en: { type: "string" }, suggested_answer_en: { type: "string" } },
+            required: ["question_en", "suggested_answer_en"],
+          },
+        },
+        guided_sentences: {
+          type: "array",
+          items: {
+            type: "object",
+            properties: { en: { type: "string" }, ar: { type: "string" } },
+            required: ["en", "ar"],
+          },
+        },
+        final_draft: {
+          type: "object",
+          properties: { en: { type: "string" }, ar: { type: "string" } },
+          required: ["en", "ar"],
+        },
+      },
+      required: ["topic_en", "topic_ar", "brainstorming_questions", "guided_sentences", "final_draft"],
+    },
+    global_vocabulary: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          word: { type: "string" },
+          meaning: { type: "string" },
+          example_en: { type: "string" },
+          example_ar: { type: "string" },
+        },
+        required: ["word", "meaning", "example_en", "example_ar"],
+      },
+    },
+    lesson_notes: { type: "array", items: { type: "string" } },
+    quiz: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          type: { type: "string" },
+          question: { type: "string" },
+          word_to_speak: { type: "string", nullable: true },
+          options: { type: "array", items: { type: "string" }, nullable: true },
+          answer: { type: "string" },
+          explanation_ar: { type: "string" },
+        },
+        required: ["type", "question", "word_to_speak", "options", "answer", "explanation_ar"],
+      },
+    },
+  },
+  required: ["metadata", "lesson_content", "global_vocabulary", "lesson_notes", "quiz"],
+};
+
+export const WRITING_LESSON_PROMPT = `You are a Senior Educational Data Extractor and Writing Instructor Architect. The source is THE ACTUAL VIDEO provided with this request (spoken audio + on-screen text). The video is a lesson from the "Writing" (الكتابة) English course by Ibrahim Adel (ZAmericanEnglish), focused on brainstorming ideas, writing guided sentences, and combining them into a final paragraph or essay.
+Fill the JSON schema completely:
+- topic_en and topic_ar: the main subject the student is learning to write about.
+- brainstorming_questions: the specific questions the teacher asks to generate ideas, each with the suggested English answer (question_en, suggested_answer_en).
+- guided_sentences: the individual sentences constructed during the lesson before combining (en + accurate ar).
+- final_draft: the fully combined paragraph/story at the end of the lesson in both en and ar.
+- global_vocabulary: new words or transition words the teacher highlights (First, Then, Because…); always include example_en (preferably from the final draft) and example_ar. No orphan words.
+- lesson_notes: rules about punctuation (capitalization, full stops), sentence structure (Subject-Verb-Object), or common writing mistakes, in clear Arabic.
+- quiz: EXACTLY 10 questions testing sentence structure, punctuation, and vocabulary from the final draft; mix multiple_choice (4 options), true_false, and written (translate Arabic→English or reorder jumbled sentences; options=null); written questions are the most important — include several; EVERY question has explanation_ar.
+- metadata: course_id "writing", course_name_ar "الكتابة", level 1, lesson_no and the main topic/title from the video.`;
+
 /* --------------------------------- presets --------------------------------- */
 
 export interface LessonPreset {
@@ -198,6 +287,14 @@ export interface LessonPreset {
 }
 
 export function getLessonPreset(course: CoursePreset): LessonPreset {
+  if (course === "writing") {
+    return {
+      schema: WRITING_SCHEMA,
+      prompt: WRITING_LESSON_PROMPT,
+      courseId: "writing",
+      courseNameAr: "الكتابة",
+    };
+  }
   if (course === "phonetics") {
     return {
       schema: PHONETICS_SCHEMA,
@@ -239,6 +336,11 @@ export type LessonWindow = {
   focus_sounds: Array<Record<string, unknown>>;
   minimal_pairs: Array<Record<string, unknown>>;
   practice_scripts: string[];
+  topic_en: string | null;
+  topic_ar: string | null;
+  brainstorming_questions: Array<Record<string, unknown>>;
+  guided_sentences: Array<Record<string, unknown>>;
+  final_draft: { en: string; ar: string } | null;
   global_vocabulary: Array<Record<string, unknown>>;
   lesson_notes: string[];
   quiz: Array<Record<string, unknown>>;
@@ -251,6 +353,11 @@ export function emptyLessonWindow(): LessonWindow {
     focus_sounds: [],
     minimal_pairs: [],
     practice_scripts: [],
+    topic_en: null,
+    topic_ar: null,
+    brainstorming_questions: [],
+    guided_sentences: [],
+    final_draft: null,
     global_vocabulary: [],
     lesson_notes: [],
     quiz: [],
@@ -267,7 +374,12 @@ export function mergeLessonWindows(windows: LessonWindow[]): LessonWindow {
     sound: new Set<string>(),
     pair: new Set<string>(),
     script: new Set<string>(),
+    bq: new Set<string>(),
+    gs: new Set<string>(),
   };
+  let topicEn: string | null = null;
+  let topicAr: string | null = null;
+  let finalDraft: { en: string; ar: string } | null = null;
   for (const w of windows) {
     merged.dialogue.push(...(w.dialogue || []));
     for (const k of w.key_expressions || []) {
@@ -297,6 +409,25 @@ export function mergeLessonWindows(windows: LessonWindow[]): LessonWindow {
         merged.practice_scripts.push(sc);
       }
     }
+    for (const b of w.brainstorming_questions || []) {
+      const key = String(b.question_en || "").toLowerCase();
+      if (key && !seen.bq.has(key)) {
+        seen.bq.add(key);
+        merged.brainstorming_questions.push(b);
+      }
+    }
+    for (const g of w.guided_sentences || []) {
+      const key = String(g.en || "").toLowerCase();
+      if (key && !seen.gs.has(key)) {
+        seen.gs.add(key);
+        merged.guided_sentences.push(g);
+      }
+    }
+    if (!topicEn && w.topic_en) topicEn = w.topic_en;
+    if (!topicAr && w.topic_ar) topicAr = w.topic_ar;
+    if (w.final_draft && (!finalDraft || w.final_draft.en.length > finalDraft.en.length)) {
+      finalDraft = w.final_draft;
+    }
     for (const v of w.global_vocabulary || []) {
       const key = String(v.word || "").toLowerCase();
       if (key && !seen.word.has(key)) {
@@ -318,6 +449,9 @@ export function mergeLessonWindows(windows: LessonWindow[]): LessonWindow {
       }
     }
   }
+  merged.topic_en = topicEn;
+  merged.topic_ar = topicAr;
+  merged.final_draft = finalDraft;
   return merged;
 }
 
@@ -351,6 +485,12 @@ export function lessonLooksValid(lesson: unknown, course: CoursePreset = "conver
   const content = (l.lesson_content ?? {}) as Record<string, unknown>;
   const quiz = l.quiz;
   if (!Array.isArray(quiz) || quiz.length < 5) return false;
+  if (course === "writing") {
+    const topic = typeof content.topic_en === "string" && content.topic_en.length > 0;
+    const draft = content.final_draft as { en?: string } | undefined;
+    const guided = content.guided_sentences;
+    return topic || (Array.isArray(guided) && guided.length > 0) || Boolean(draft?.en);
+  }
   if (course === "phonetics") {
     const sounds = content.focus_sounds;
     const pairs = content.minimal_pairs;
@@ -469,6 +609,11 @@ export async function extractLessonFromVideo(
       focus_sounds: (a.focus_sounds || []) as Array<Record<string, unknown>>,
       minimal_pairs: (a.minimal_pairs || []) as Array<Record<string, unknown>>,
       practice_scripts: (a.practice_scripts || []) as string[],
+      topic_en: a.topic_en ?? null,
+      topic_ar: a.topic_ar ?? null,
+      brainstorming_questions: (a.brainstorming_questions || []) as Array<Record<string, unknown>>,
+      guided_sentences: (a.guided_sentences || []) as Array<Record<string, unknown>>,
+      final_draft: a.final_draft ?? null,
       global_vocabulary: (a.global_vocabulary || []) as Array<Record<string, unknown>>,
       lesson_notes: (a.lesson_notes || []) as string[],
       quiz: (a.quiz || []) as Array<Record<string, unknown>>,
@@ -477,8 +622,21 @@ export async function extractLessonFromVideo(
 
   const merged = mergeLessonWindows(windows);
   const lesson: Record<string, unknown> =
-    course === "phonetics"
+    course === "writing"
       ? {
+          lesson_content: {
+            topic_en: merged.topic_en ?? "",
+            topic_ar: merged.topic_ar ?? "",
+            brainstorming_questions: merged.brainstorming_questions,
+            guided_sentences: merged.guided_sentences,
+            final_draft: merged.final_draft ?? { en: "", ar: "" },
+          },
+          global_vocabulary: merged.global_vocabulary,
+          lesson_notes: merged.lesson_notes,
+          quiz: merged.quiz,
+        }
+      : course === "phonetics"
+        ? {
           lesson_content: {
             focus_sounds: merged.focus_sounds,
             minimal_pairs: merged.minimal_pairs,
@@ -487,16 +645,16 @@ export async function extractLessonFromVideo(
           global_vocabulary: merged.global_vocabulary,
           lesson_notes: merged.lesson_notes,
           quiz: merged.quiz,
-        }
-      : {
-          lesson_content: {
-            dialogue: merged.dialogue,
-            key_expressions: merged.key_expressions,
-          },
-          global_vocabulary: merged.global_vocabulary,
-          lesson_notes: merged.lesson_notes,
-          quiz: merged.quiz,
-        };
+          }
+        : {
+            lesson_content: {
+              dialogue: merged.dialogue,
+              key_expressions: merged.key_expressions,
+            },
+            global_vocabulary: merged.global_vocabulary,
+            lesson_notes: merged.lesson_notes,
+            quiz: merged.quiz,
+          };
   return {
     lesson: normalizeLesson(lesson, {
       position: params.position,

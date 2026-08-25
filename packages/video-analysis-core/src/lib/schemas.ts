@@ -493,7 +493,7 @@ export const edutubeStartInputSchema = {
     .optional()
     .describe("Directory to write lesson-NN.json, lessons-all.json and summary.json into. Defaults to EDUTUBE_OUTPUT_DIR or ./edutube-output."),
   course: z
-    .enum(["conversation", "phonetics"])
+    .enum(["conversation", "phonetics", "writing"])
     .optional()
     .describe("Course preset controlling schema + default prompt: conversation (dialogue) or phonetics (sounds/minimal pairs/audio quiz)."),
   maxVideos: z
