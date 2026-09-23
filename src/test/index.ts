@@ -8,6 +8,8 @@ import { run as runServerLongToolTests } from "./server-long-tool.test.js";
 import { run as runServerMetadataToolTests } from "./server-metadata-tool.test.js";
 import { run as runServerShortToolTests } from "./server-short-tool.test.js";
 import { run as runTaskStoreTests } from "./task-store.test.js";
+import { run as runEdutubeToolsTests } from "./server-edutube-tools.test.js";
+import { run as runServerInfoTests } from "./server-info.test.js";
 
 const suites = [
   ["server-audio-tool", runServerAudioToolTests],
@@ -20,6 +22,8 @@ const suites = [
   ["server-metadata-tool", runServerMetadataToolTests],
   ["server-short-tool", runServerShortToolTests],
   ["task-store", runTaskStoreTests],
+  ["edutube-tools", runEdutubeToolsTests],
+  ["server-info", runServerInfoTests],
 ] as const;
 
 async function main(): Promise<void> {

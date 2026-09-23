@@ -13,12 +13,14 @@ playlist URL ──▶ Edutube ──▶ lesson-01.json … lesson-NN.json + les
 ## Features
 
 - **Playlist import by URL** — paste any YouTube playlist URL (or playlist id, or a single video URL). Entries resolve via the YouTube Data API when `YOUTUBE_API_KEY` is set, otherwise automatically via `yt-dlp --flat-playlist` (no extra key needed).
-- **Structured lesson extraction** — built-in LMS schema (dialogue / key_expressions / global_vocabulary / lesson_notes / quiz) with a custom-schema option for your own format.
+- **Structured lesson extraction for 7 courses** — `conversation`, `phonetics`, `writing`, `grammar`, `vocabulary`, `reading`, `listening`; each with its own JSON schema, extraction prompt, content keys and quiz policy (`edutube-mcp courses` prints the registry).
+- **Quality gate before anything reaches disk** — deterministic repair → policy validation (30+ rules: Arabic fields, quiz mix, 4-option checks, orphan vocabulary, metadata) → retry with corrective feedback. Defective lessons are reported as `invalid` instead of being silently shipped.
 - **Long-video pipeline with windowed fallback** — full-video pass first; if that fails (quota, deadlines, very long VODs) it automatically switches to 150-second windowed extraction with merge & dedupe.
 - **Automatic model rotation** — every Gemini model has its own free-tier quota pool. On `429 RESOURCE_EXHAUSTED` the same request transparently retries on the next available model. The model catalogue is discovered live from the Gemini API, so new models (e.g. `gemini-3.6-flash`, `gemini-3.7-*`) join the rotation without code changes.
 - **Multimodal analysis tools** — `analyze_youtube_video` (audio + visuals), `analyze_youtube_video_audio` (speech-first), exact JPEG frame extraction with `yt-dlp` + `ffmpeg`, metadata via YouTube Data API.
 - **Long VODs & sessions** — task-based `analyze_long_youtube_video`, reusable `sessionId` follow-ups, and compatibility background jobs (`start_long_youtube_analysis` → poll → result → cancel).
-- **Resume-safe batches** — already-valid lesson files are skipped; interrupted runs continue where they stopped.
+- **Resume-safe batches** — already-valid lesson files are skipped (course-aware); interrupted runs continue where they stopped, and `--only-failed` re-extracts just the rejected videos.
+- **Curriculum coverage** — `curriculum-state.json` + `validation-report.json` + a coverage report telling you exactly which lesson numbers are still missing per course and level.
 - **CLI mode** — `edutube-mcp extract <url>` works without any MCP client.
 
 ## Requirements
@@ -61,18 +63,26 @@ npm start              # MCP stdio server
 # extract a whole playlist into ./edutube-output
 edutube-mcp extract "https://www.youtube.com/playlist?list=PL..." --out ./edutube-output --max 20
 
-# or a single video
-edutube-mcp extract "https://www.youtube.com/watch?v=VIDEO_ID" --out ./lessons
+# extract one course of the curriculum, then verify it
+edutube-mcp extract "https://www.youtube.com/playlist?list=PL..." \
+  --out ./out/phonetics-l1 --course phonetics --level 1 --expected 14
+edutube-mcp validate ./out/phonetics-l1 --course phonetics --repair
+edutube-mcp curriculum ./out --manifest examples/curriculum.zamericanenglish.json
+
+# list the supported course presets
+edutube-mcp courses
 ```
 
 Stdout is clean JSON (progress goes to stderr), so it pipes straight into scripts and LMS importers.
 
-## Tools (15)
+## Tools (17)
 
 | Tool | Purpose |
 |---|---|
-| `start_edutube_extraction` | **Paste a playlist/video URL** → background job that writes structured lessons to `outputDir` |
+| `start_edutube_extraction` | **Paste a playlist/video URL** → background job that writes quality-gated structured lessons to `outputDir` (7 course presets, levels, resume, retries) |
 | `get_edutube_job_status` / `get_edutube_job_result` / `cancel_edutube_job` | Poll, fetch, cancel edutube jobs |
+| `validate_edutube_lessons` | Run the lesson quality gate over an output directory (optionally `repair` in place) |
+| `get_edutube_curriculum` | Course catalog + curriculum coverage (missing lesson numbers, completion %) |
 | `analyze_youtube_video` | Multimodal analysis (audio + visuals), custom prompts & JSON schemas, clip windows |
 | `analyze_youtube_video_audio` | Speech-first analysis with transcript segments |
 | `get_youtube_video_frame` | Exact high-res JPEG frame at a timestamp (optional Gemini timestamp refinement) |
@@ -130,6 +140,7 @@ env = { GEMINI_API_KEY = "..." }
 - [Configuration](docs/configuration.md)
 - [Tools](docs/tools.md)
 - [Playlist lessons (Edutube pipeline)](docs/edutube-playlist.md)
+- [Development plan (وثيقة التطوير)](docs/DEVELOPMENT_PLAN.md)
 - [Model rotation](docs/model-rotation.md)
 - [CLI](docs/cli.md)
 - [Long videos](docs/long-videos.md)

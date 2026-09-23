@@ -80,15 +80,22 @@ export function extractVideoId(input: string): string | null {
   return null;
 }
 
-async function fetchViaYouTubeApi(playlistId: string, maxVideos: number): Promise<PlaylistEntry[]> {
+async function fetchViaYouTubeApi(
+  playlistId: string,
+  maxVideos: number,
+  startIndex = 1
+): Promise<PlaylistEntry[]> {
   const apiKey = process.env.YOUTUBE_API_KEY?.trim();
   if (!apiKey) throw new Error("YOUTUBE_API_KEY missing");
+  const skip = Math.max(0, startIndex - 1);
   const entries: PlaylistEntry[] = [];
+  let skipped = 0;
   let pageToken = "";
-  while (entries.length < maxVideos) {
+  const wanted = skip + maxVideos;
+  while (entries.length + skipped < wanted) {
     const qs = new URLSearchParams({
       part: "snippet",
-      maxResults: String(Math.min(50, maxVideos - entries.length)),
+      maxResults: String(Math.min(50, wanted - entries.length - skipped)),
       playlistId,
       key: apiKey,
       ...(pageToken ? { pageToken } : {}),
@@ -102,6 +109,10 @@ async function fetchViaYouTubeApi(playlistId: string, maxVideos: number): Promis
     for (const item of data.items || []) {
       const videoId = item.snippet?.resourceId?.videoId;
       if (!videoId) continue;
+      if (skipped < skip) {
+        skipped += 1;
+        continue;
+      }
       entries.push({
         index: entries.length,
         videoId,
@@ -118,7 +129,8 @@ async function fetchViaYouTubeApi(playlistId: string, maxVideos: number): Promis
 async function fetchViaYtDlp(
   playlistUrlOrId: string,
   maxVideos: number,
-  timeoutMs: number
+  timeoutMs: number,
+  startIndex = 1
 ): Promise<PlaylistEntry[]> {
   const command = process.env.YT_DLP_PATH?.trim() || "yt-dlp";
   const target = /^https?:\/\//.test(playlistUrlOrId)
@@ -130,8 +142,10 @@ async function fetchViaYtDlp(
       "--no-warnings",
       "--flat-playlist",
       "--dump-single-json",
+      "--playlist-start",
+      String(startIndex),
       "--playlist-end",
-      String(maxVideos),
+      String(startIndex + maxVideos - 1),
       target,
     ],
     { timeout: timeoutMs, maxBuffer: 64 * 1024 * 1024 }
@@ -145,9 +159,12 @@ async function fetchViaYtDlp(
 export async function resolvePlaylistEntries(options: {
   url: string;
   maxVideos?: number;
+  /** 1-based playlist position to start from (useful for very large syllabi). */
+  startIndex?: number;
   timeoutMs?: number;
 }): Promise<PlaylistInfo> {
   const maxVideos = Math.max(1, options.maxVideos ?? 50);
+  const startIndex = Math.max(1, options.startIndex ?? 1);
   const timeoutMs = options.timeoutMs ?? Math.max(METADATA_TIMEOUT_MS, 120_000);
   const input = options.url.trim();
 
@@ -169,13 +186,13 @@ export async function resolvePlaylistEntries(options: {
 
   if (process.env.YOUTUBE_API_KEY?.trim()) {
     try {
-      const entries = await fetchViaYouTubeApi(playlistId, maxVideos);
+      const entries = await fetchViaYouTubeApi(playlistId, maxVideos, startIndex);
       if (entries.length > 0) return { playlistId, source: "youtube_api", entries };
     } catch {
       // fall through to yt-dlp
     }
   }
 
-  const entries = await fetchViaYtDlp(input, maxVideos, timeoutMs);
+  const entries = await fetchViaYtDlp(input, maxVideos, timeoutMs, startIndex);
   return { playlistId, source: "yt_dlp", entries };
 }

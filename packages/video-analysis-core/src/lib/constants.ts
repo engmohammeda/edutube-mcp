@@ -3,9 +3,11 @@ import os from "node:os";
 import path from "node:path";
 import process from "node:process";
 
+// Keep in sync with the root package.json version
+// (enforced by src/test/server-info.test.ts).
 export const SERVER_INFO = {
-  name: "youtube-analyzer-gemini",
-  version: "0.3.0",
+  name: "edutube-mcp",
+  version: "0.5.0",
 } as const;
 
 export const DEFAULT_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-pro";
@@ -57,9 +59,13 @@ export const MODEL_INPUT_TOKEN_LIMITS: Record<string, number> = {
 export const USER_CONFIG_DIR_NAME = "edutube-mcp";
 export const RUNTIME_ENV_KEYS = [
   "GEMINI_API_KEY",
+  "GEMINI_API_KEYS",
   "YOUTUBE_API_KEY",
   "GEMINI_MODEL",
+  "GEMINI_MODEL_ROTATION",
+  "EDUTUBE_OUTPUT_DIR",
   "YT_DLP_PATH",
+  "MCP_LOG_LEVEL",
 ] as const;
 
 export type RuntimeEnvKey = (typeof RUNTIME_ENV_KEYS)[number];
@@ -145,7 +151,7 @@ export function formatMissingApiKeyGuidance(configPath: string): string {
     "Missing GEMINI_API_KEY.",
     "",
     "Set it in one of these ways:",
-    "1. Run `youtube-video-analyzer-mcp setup` to create a user config file.",
+    "1. Run `edutube-mcp setup` to create a user config file.",
     "2. Pass it in your MCP client `env` configuration.",
     "3. Export it in your shell before starting the server.",
     "",
@@ -154,7 +160,7 @@ export function formatMissingApiKeyGuidance(configPath: string): string {
     "Example MCP config:",
     "{",
     '  "mcpServers": {',
-    '    "youtube-analyzer": {',
+    '    "edutube": {',
     '      "command": "npx",',
     '      "args": ["-y", "@engmohammeda/edutube-mcp"],',
     '      "env": {',

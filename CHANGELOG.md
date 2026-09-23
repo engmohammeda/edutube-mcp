@@ -4,6 +4,27 @@ All notable changes to this project are documented here.
 
 This project follows semantic versioning where practical.
 
+## 0.5.0 — Quality gate, full-curriculum support
+
+### Added
+
+- **Curriculum registry** (`curriculum.ts`): 7 course presets — `conversation`, `phonetics`, `writing`, plus new `grammar`, `vocabulary`, `reading`, `listening` — each with its own JSON schema, extraction prompt, required content keys and quiz policy.
+- **Lesson quality gate** (`lesson-validation.ts`): deterministic `repairLesson` + policy `validateLesson` (30+ rules with stable codes: `quiz.options_missing`, `quiz.true_false_not_boolean`, `vocab.orphan`, `lang.arabic_missing`, `metadata.lesson_no_mismatch`, …) and `createValidationReport`.
+- **Rebuilt extraction runner**: repair → validate → retry with corrective feedback, course-aware resume, bounded concurrency, duplicate-video detection, `curriculum-state.json`, `validation-report.json`, `lessons-index.json`, and a curriculum coverage report (missing lesson numbers, duplicated titles, completion %).
+- **CLI**: `validate`, `curriculum`, `courses` commands; `extract` gained `--course`, `--level`, `--concurrency`, `--attempts`, `--strict`, `--only-failed`, `--force`, `--expected`, `--manifest`, `--start-index`; CI-friendly exit codes (2 = defective lessons present).
+- **MCP tools**: `validate_edutube_lessons` and `get_edutube_curriculum` (17 tools total); `start_edutube_extraction` accepts the new run-control inputs.
+- Curriculum manifest support (`examples/curriculum.zamericanenglish.json`) — playlist ids stay user-provided, never guessed.
+- Tests: `lesson-validation`, `curriculum`, `edutube-runner`, `edutube-tools`, `server-info` (22 suites).
+
+### Fixed
+
+- Resume check ignored the course preset, so phonetics/writing runs re-extracted every cached lesson (wasting quota).
+- Defective lessons were written as successes: real data contained `true_false` questions with `options: null` and non-boolean options labelled `true_false`.
+- `SERVER_INFO` advertised `youtube-analyzer-gemini` 0.3.0 while the package was 0.4.0; now `edutube-mcp` and guarded by a test.
+- CLI duplicated config-path logic (`~/.edutube-mcp`) instead of using the core helper (`~/.config/edutube-mcp`), and its `--course` help omitted `writing`.
+- `lessons-all.json` ordering now follows `lesson_no` numerically instead of insertion order.
+- `docs/tools.md` claimed eleven tools.
+
 ## 0.4.0 — Edutube rebrand
 
 Project renamed to **Edutube MCP** (`@engmohammeda/edutube-mcp`, core `@engmohammeda/edutube-core`, binary `edutube-mcp`) and re-documented (bilingual README, new docs pages).

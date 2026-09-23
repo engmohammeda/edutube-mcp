@@ -1,6 +1,6 @@
 # Tools
 
-This server exposes eleven MCP tools.
+This server exposes seventeen MCP tools.
 
 ## `get_youtube_analyzer_capabilities`
 
@@ -119,16 +119,50 @@ Example follow-ups:
 
 ## `start_edutube_extraction`
 
-Paste a YouTube playlist URL (or playlist id, or a single video URL) to start a background job that extracts one structured lesson per video into `outputDir` (`lesson-NN.json`, `lessons-all.json`, `summary.json`).
+Paste a YouTube playlist URL (or playlist id, or a single video URL) to start a background job that extracts one structured lesson per video into `outputDir` (`lesson-NN.json`, `lessons-all.json`, `lessons-index.json`, `summary.json`, `curriculum-state.json`, `validation-report.json`).
+
+Every lesson passes a quality gate before it is written: deterministic repair, policy
+validation against the course preset, and — when rejected — one retry with corrective
+feedback. Compliant lessons are cached, so interrupted runs resume cheaply.
 
 Use it when:
 
-- You want LMS-ready lesson JSON (dialogue + Arabic translations, key expressions, vocabulary, notes, 10-question quiz).
+- You want LMS-ready lesson JSON for a specific course and level.
 - You want resume-safe batch extraction over a playlist.
 
-Optional inputs: `outputDir`, `maxVideos`, `model`, `chunkModel`, `finalModel`, `analysisPrompt`.
+Inputs: `url` (required); optional `outputDir`, `course` (`conversation`, `phonetics`,
+`writing`, `grammar`, `vocabulary`, `reading`, `listening`), `level`, `maxVideos`,
+`startIndex`, `model`, `chunkModel`, `finalModel`, `analysisPrompt`, `concurrency`,
+`maxAttempts`, `strict`, `onlyFailed`, `force`, `expectedLessons`.
 
 Poll with `get_edutube_job_status`, fetch with `get_edutube_job_result`, cancel with `cancel_edutube_job`. The same job ids also work with the generic long-job tools.
+
+## `validate_edutube_lessons`
+
+Runs the lesson quality gate over every `lesson-NN.json` in `outputDir` and returns a report:
+per-lesson score and issues (`quiz.options_missing`, `quiz.true_false_not_boolean`,
+`vocab.orphan`, `lang.arabic_missing`, `metadata.*`, …) plus curriculum coverage.
+
+Use it when:
+
+- You finished an extraction and want to know whether the lessons are importable.
+- You want to fix structural problems in place with `repair: true`.
+- You need a CI gate: the CLI equivalent exits non-zero when a lesson is invalid.
+
+Inputs: `outputDir` (required), optional `course`, `strict`, `repair`.
+
+## `get_edutube_curriculum`
+
+Returns the course catalog (id, Arabic name, content keys, quiz policy) and — when `outputDir`
+contains extracted lessons — the coverage report: lessons extracted, valid lessons, missing
+lesson numbers, duplicated lessons/titles and completion %.
+
+Use it when:
+
+- You are completing a whole curriculum and need to know what is still missing.
+- You want to confirm which quiz mix a course expects before extracting it.
+
+Inputs: `outputDir` (required), optional `course`.
 
 ## `get_edutube_job_status` / `get_edutube_job_result` / `cancel_edutube_job`
 

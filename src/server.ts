@@ -14,8 +14,14 @@ import {
   createAiClient,
   InMemoryAnalysisSessionStore,
   edutubeStartInputSchema,
+  edutubeValidateInputSchema,
+  computeCurriculumCoverage,
+  isCourseId,
+  listCourseDefinitions,
   runLessonExtraction,
+  validateLessonDirectory,
   type EdutubeStartInput,
+  type EdutubeValidateInput,
   cancelLongAnalysisJobOutputSchema,
   audioToolInputSchema,
   audioToolOutputSchema,
@@ -986,8 +992,8 @@ export function createServer(options: CreateServerOptions = {}): McpServer {
       title: "Start Edutube Lesson Extraction (playlist or video)",
       description: [
         "Paste a YouTube PLAYLIST URL (or playlist id, or a single video URL) and this job extracts a structured lesson per video:",
-        "dialogue with Arabic translations, key expressions, vocabulary, Arabic notes, and a 10-question quiz, written as lesson-NN.json + lessons-all.json + summary.json into outputDir.",
-        "Uses the long-video path first and falls back to 150s windowed extraction. Skips already-valid lesson files (resume-safe).",
+        "course content (dialogue / sounds / writing drafts / grammar rules / vocabulary / reading passages / listening transcripts) with Arabic translations, vocabulary, Arabic notes and a 10-question quiz, written as lesson-NN.json + lessons-all.json + lessons-index.json + summary.json + curriculum-state.json + validation-report.json into outputDir.",
+        "Uses the long-video path first and falls back to 150s windowed extraction. Every lesson passes a quality gate (repair -> validate -> retry with corrective feedback); compliant lessons are cached so interrupted runs resume cheaply.",
         "Automatic Gemini model rotation applies on quota errors. Poll with get_edutube_job_status, read with get_edutube_job_result, cancel with cancel_edutube_job.",
       ].join(" "),
       inputSchema: edutubeStartInputSchema,
@@ -997,7 +1003,15 @@ export function createServer(options: CreateServerOptions = {}): McpServer {
       const input = args as EdutubeStartInput;
       const logger = createRequestLogger("start_edutube_extraction");
       const startedAt = Date.now();
-      logger.info("tool.start", { url: input.url, maxVideos: input.maxVideos ?? null, outputDir: input.outputDir ?? null });
+      logger.info("tool.start", {
+        url: input.url,
+        maxVideos: input.maxVideos ?? null,
+        outputDir: input.outputDir ?? null,
+        course: input.course ?? null,
+        level: input.level ?? null,
+        concurrency: input.concurrency ?? null,
+        maxAttempts: input.maxAttempts ?? null,
+      });
 
       try {
         const job = longAnalysisJobStore.createJob({ youtubeUrl: input.url } as LongToolInput, DEFAULT_TASK_TTL_MS);
@@ -1025,11 +1039,19 @@ export function createServer(options: CreateServerOptions = {}): McpServer {
                 url: input.url,
                 outputDir: input.outputDir || process.env.EDUTUBE_OUTPUT_DIR || "edutube-output",
                 course: input.course,
+                level: input.level,
                 maxVideos: input.maxVideos,
+                startIndex: input.startIndex,
                 model: input.model,
                 chunkModel: input.chunkModel,
                 finalModel: input.finalModel,
                 analysisPrompt: input.analysisPrompt,
+                concurrency: input.concurrency,
+                maxAttempts: input.maxAttempts,
+                strict: input.strict,
+                onlyFailed: input.onlyFailed,
+                force: input.force,
+                expectedLessons: input.expectedLessons,
               },
               createExecutionContext(
                 "start_edutube_extraction",
@@ -1136,6 +1158,119 @@ export function createServer(options: CreateServerOptions = {}): McpServer {
       }
       logger.info("tool.success", { jobId, status: job.status });
       return createSuccessToolResult(createCancelJobOutput(job));
+    }
+  );
+
+  server.registerTool(
+    "validate_edutube_lessons",
+    {
+      title: "Validate Extracted Edutube Lessons",
+      description: [
+        "Runs the lesson quality gate over every lesson-NN.json file in outputDir and returns a report:",
+        "per-lesson score, error/warning issues (metadata, Arabic fields, quiz mix, orphan vocabulary) and curriculum coverage.",
+        "With repair=true the files are rewritten after deterministic cleanup (trim, dedupe, true/false normalization, quiz capping).",
+        "Use it after start_edutube_extraction, before importing lessons into an LMS.",
+      ].join(" "),
+      inputSchema: edutubeValidateInputSchema,
+    },
+    async (args) => {
+      const input = args as EdutubeValidateInput;
+      const logger = createRequestLogger("validate_edutube_lessons");
+      const outputDir = input.outputDir || process.env.EDUTUBE_OUTPUT_DIR || "edutube-output";
+      logger.info("tool.start", { outputDir, strict: input.strict ?? false, repair: input.repair ?? false });
+      try {
+        const result = await validateLessonDirectory({
+          outputDir,
+          course: input.course,
+          strict: input.strict,
+          repair: input.repair,
+        });
+        logger.info("tool.success", {
+          outputDir,
+          lessons: result.report.totals.lessons,
+          valid: result.report.totals.valid,
+          invalid: result.report.totals.invalid,
+          repaired: result.repairedFiles.length,
+        });
+        return createSuccessToolResult({
+          outputDir: result.outputDir,
+          course: result.course,
+          totals: result.report.totals,
+          repairedFiles: result.repairedFiles,
+          coverage: result.coverage,
+          lessons: result.report.lessons,
+        });
+      } catch (error) {
+        const diagnostic = asDiagnosticError(error, {
+          tool: "validate_edutube_lessons",
+          code: "EDUTUBE_VALIDATION_FAILED",
+          stage: "unknown",
+          message: "Failed to validate extracted lessons.",
+          retryable: false,
+        });
+        logger.error("tool.failure", { code: diagnostic.code, message: diagnostic.message });
+        return createErrorToolResult("validate_edutube_lessons", logger.requestId, diagnostic);
+      }
+    }
+  );
+
+  server.registerTool(
+    "get_edutube_curriculum",
+    {
+      title: "Edutube Curriculum Catalog & Coverage",
+      description: [
+        "Returns the course catalog (id, Arabic name, content keys, quiz policy) and, when outputDir contains extracted lessons,",
+        "the coverage report: lessons extracted, valid lessons, missing lesson numbers, duplicated lessons/titles and completion %.",
+        "Use it to plan which playlist to extract next when completing a full curriculum.",
+      ].join(" "),
+      inputSchema: edutubeValidateInputSchema,
+    },
+    async (args) => {
+      const input = args as EdutubeValidateInput;
+      const logger = createRequestLogger("get_edutube_curriculum");
+      const outputDir = input.outputDir || process.env.EDUTUBE_OUTPUT_DIR || "edutube-output";
+      logger.info("tool.start", { outputDir });
+      try {
+        const courses = listCourseDefinitions().map((course) => ({
+          course_id: course.id,
+          course_name_ar: course.nameAr,
+          course_name_en: course.nameEn,
+          description_ar: course.descriptionAr,
+          content_keys: course.contentKeys,
+          required_content_keys: course.requiredContentKeys,
+          quiz_length: course.quizPolicy.exactLength,
+          quiz_rules: course.quizPolicy.rules,
+          min_counts: course.minCounts,
+        }));
+
+        let coverage = computeCurriculumCoverage({ records: [], manifest: null });
+        let lessons = 0;
+        try {
+          const result = await validateLessonDirectory({ outputDir });
+          coverage = result.coverage;
+          lessons = result.report.totals.lessons;
+        } catch {
+          // No extracted lessons yet: the catalog alone is still useful.
+        }
+
+        logger.info("tool.success", { courses: courses.length, lessons, completion: coverage.totals.completion });
+        return createSuccessToolResult({
+          courses,
+          lessonsFound: lessons,
+          coverage,
+          requestedCourse: isCourseId(input.course) ? input.course : null,
+        });
+      } catch (error) {
+        const diagnostic = asDiagnosticError(error, {
+          tool: "get_edutube_curriculum",
+          code: "EDUTUBE_CURRICULUM_FAILED",
+          stage: "unknown",
+          message: "Failed to build the curriculum report.",
+          retryable: false,
+        });
+        logger.error("tool.failure", { code: diagnostic.code, message: diagnostic.message });
+        return createErrorToolResult("get_edutube_curriculum", logger.requestId, diagnostic);
+      }
     }
   );
 

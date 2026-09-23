@@ -1,0 +1,52 @@
+{
+  "curriculum_id": "zamericanenglish",
+  "curriculum_name_ar": "منهج ذا أمريكان إنجلش",
+  "curriculum_name_en": "The American English (ZAmericanEnglish) by Ibrahim Adel",
+  "courses": [
+    {
+      "course_id": "phonetics",
+      "level": 1,
+      "playlist_url": "REPLACE_WITH_PLAYLIST_URL",
+      "expected_lessons": 14,
+      "notes": "الصوتيات — مخارج الأصوات والأزواج المتقابلة. الدروس المستخرجة حاليًا في examples/phonetics-lessons-all.json"
+    },
+    {
+      "course_id": "conversation",
+      "level": 1,
+      "playlist_url": "REPLACE_WITH_PLAYLIST_URL",
+      "expected_lessons": 9,
+      "notes": "المحادثة — الموسم الأول. الدروس المستخرجة حاليًا في examples/lessons-all.json"
+    },
+    {
+      "course_id": "writing",
+      "level": 1,
+      "playlist_url": "REPLACE_WITH_PLAYLIST_URL",
+      "expected_lessons": 12,
+      "notes": "الكتابة — العصف الذهني والجمل الموجّهة والمسودة النهائية. الدروس في examples/writing-lessons-all.json"
+    },
+    {
+      "course_id": "grammar",
+      "level": 1,
+      "playlist_url": "REPLACE_WITH_PLAYLIST_URL",
+      "notes": "القواعد — القاعدة وشرحها بالعربية والتراكيب والأخطاء الشائعة"
+    },
+    {
+      "course_id": "vocabulary",
+      "level": 1,
+      "playlist_url": "REPLACE_WITH_PLAYLIST_URL",
+      "notes": "المفردات — الكلمات المستهدفة والمتلازمات اللفظية"
+    },
+    {
+      "course_id": "reading",
+      "level": 1,
+      "playlist_url": "REPLACE_WITH_PLAYLIST_URL",
+      "notes": "القراءة — النص المقروء وترجمته ونقاط الفهم"
+    },
+    {
+      "course_id": "listening",
+      "level": 2,
+      "playlist_url": "REPLACE_WITH_PLAYLIST_URL",
+      "notes": "الاستماع — نص المقطع ومهام الاستماع"
+    }
+  ]
+}

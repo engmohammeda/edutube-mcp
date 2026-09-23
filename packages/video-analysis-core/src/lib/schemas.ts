@@ -493,9 +493,27 @@ export const edutubeStartInputSchema = {
     .optional()
     .describe("Directory to write lesson-NN.json, lessons-all.json and summary.json into. Defaults to EDUTUBE_OUTPUT_DIR or ./edutube-output."),
   course: z
-    .enum(["conversation", "phonetics", "writing"])
+    .enum([
+      "conversation",
+      "phonetics",
+      "writing",
+      "grammar",
+      "vocabulary",
+      "reading",
+      "listening",
+    ])
     .optional()
-    .describe("Course preset controlling schema + default prompt: conversation (dialogue) or phonetics (sounds/minimal pairs/audio quiz)."),
+    .describe(
+      "Course preset controlling the JSON schema, the extraction prompt and the quality gate: conversation (dialogue), phonetics (sounds/minimal pairs/audio quiz), writing (brainstorming/guided sentences/final draft), grammar (rules/structures/mistakes), vocabulary (target words/collocations), reading (passage/comprehension), listening (transcript/tasks)."
+    ),
+  level: z
+    .number()
+    .finite()
+    .int()
+    .min(1)
+    .max(12)
+    .optional()
+    .describe("Curriculum level written into metadata.level (default 1)."),
   maxVideos: z
     .number()
     .finite()
@@ -504,6 +522,14 @@ export const edutubeStartInputSchema = {
     .max(200)
     .optional()
     .describe("Cap the number of playlist videos processed in one run."),
+  startIndex: z
+    .number()
+    .finite()
+    .int()
+    .min(1)
+    .max(500)
+    .optional()
+    .describe("1-based playlist position to start from (resume a long syllabus mid-way)."),
   model: z.string().trim().min(1).optional().describe("Preferred Gemini model (auto-rotation applies on quota errors)."),
   chunkModel: z.string().trim().min(1).optional(),
   finalModel: z.string().trim().min(1).optional(),
@@ -514,9 +540,72 @@ export const edutubeStartInputSchema = {
     .max(6000)
     .optional()
     .describe("Optional custom extraction prompt; defaults to the built-in LMS lesson schema prompt."),
+  concurrency: z
+    .number()
+    .finite()
+    .int()
+    .min(1)
+    .max(8)
+    .optional()
+    .describe("Videos extracted in parallel (default 1, which is the safest for free-tier quotas)."),
+  maxAttempts: z
+    .number()
+    .finite()
+    .int()
+    .min(1)
+    .max(5)
+    .optional()
+    .describe("Extraction attempts per video. A rejected lesson is retried with corrective feedback (default 2)."),
+  strict: z
+    .boolean()
+    .optional()
+    .describe("Treat quality warnings as errors, so a lesson is accepted only when it is flawless."),
+  onlyFailed: z
+    .boolean()
+    .optional()
+    .describe("Re-extract only the videos recorded as failed/invalid in curriculum-state.json."),
+  force: z
+    .boolean()
+    .optional()
+    .describe("Ignore cached lesson files and re-extract every video."),
+  expectedLessons: z
+    .number()
+    .finite()
+    .int()
+    .min(1)
+    .max(500)
+    .optional()
+    .describe("Expected number of lessons in the playlist; used for the coverage report."),
 } satisfies z.ZodRawShape;
 
 export type EdutubeStartInput = z.infer<z.ZodObject<typeof edutubeStartInputSchema>>;
+
+export const edutubeValidateInputSchema = {
+  outputDir: z
+    .string()
+    .trim()
+    .min(1)
+    .describe("Directory containing lesson-NN.json files (defaults to EDUTUBE_OUTPUT_DIR or ./edutube-output)."),
+  course: z
+    .enum([
+      "conversation",
+      "phonetics",
+      "writing",
+      "grammar",
+      "vocabulary",
+      "reading",
+      "listening",
+    ])
+    .optional()
+    .describe("Course used for lessons whose metadata.course_id is missing."),
+  strict: z.boolean().optional().describe("Treat quality warnings as errors."),
+  repair: z
+    .boolean()
+    .optional()
+    .describe("Rewrite lesson files after deterministic cleanup (trim, dedupe, quiz normalization)."),
+} satisfies z.ZodRawShape;
+
+export type EdutubeValidateInput = z.infer<z.ZodObject<typeof edutubeValidateInputSchema>>;
 
 export function parseSchema(
   responseSchemaJson?: string,

@@ -4,6 +4,9 @@ import { refineFrameTimestampWithGemini } from "../lib/gemini.js";
 import { parseSchema } from "../lib/schemas.js";
 import { createAdaptiveBatchPlan, createAdaptiveChunkPlan } from "../youtube-core/chunk-planner.js";
 import { normalizeYouTubeUrl } from "../youtube-core/youtube.js";
+import { run as runLessonValidationTests } from "./lesson-validation.test.js";
+import { run as runCurriculumTests } from "./curriculum.test.js";
+import { run as runEdutubeRunnerTests } from "./edutube-runner.test.js";
 
 async function runYouTubeUrlTests(): Promise<void> {
   assert.equal(
@@ -189,6 +192,9 @@ const suites = [
   ["youtube-url", runYouTubeUrlTests],
   ["playlist-parse", runPlaylistParseTests],
   ["lesson-merge", runLessonMergeTests],
+  ["lesson-validation", runLessonValidationTests],
+  ["curriculum", runCurriculumTests],
+  ["edutube-runner", runEdutubeRunnerTests],
   ["chunk-planner", runChunkPlannerTests],
   ["batch-planner", runBatchPlannerTests],
   ["schema", runSchemaTests],
