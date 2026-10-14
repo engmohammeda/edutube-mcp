@@ -1,0 +1,4085 @@
+[
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 1,
+      "title": "تعلم اللغة الإنجليزية من الصفر للمبتدئين بأفضل طريقة من أكبر قناة في العالم"
+    },
+    "global_vocabulary": [
+      {
+        "word": "angry",
+        "meaning": "غاضب / غاضبة",
+        "example_en": "The small girl is angry.",
+        "example_ar": "الفتاة الصغيرة غاضبة."
+      },
+      {
+        "word": "beautiful",
+        "meaning": "جميل / جميلة",
+        "example_en": "The tree is very beautiful.",
+        "example_ar": "الشجرة جميلة جداً."
+      },
+      {
+        "word": "brave",
+        "meaning": "شجاع / شجاعة",
+        "example_en": "The man is very brave.",
+        "example_ar": "الرجل شجاع جداً."
+      },
+      {
+        "word": "coward",
+        "meaning": "جبان / خوّاف",
+        "example_en": "Look at the coward boy.",
+        "example_ar": "انظر إلى الولد الجبان."
+      },
+      {
+        "word": "careful",
+        "meaning": "حذر / مُتَّقِن",
+        "example_en": "The fat man is not careful.",
+        "example_ar": "الرجل السمين ليس حذراً."
+      },
+      {
+        "word": "careless",
+        "meaning": "متهور / غير حذر",
+        "example_en": "I don't like this careless man.",
+        "example_ar": "لا أحب هذا الرجل المتهور."
+      },
+      {
+        "word": "clever",
+        "meaning": "ذكي / ذكية",
+        "example_en": "My friend is very clever.",
+        "example_ar": "صديقي ذكي جداً."
+      },
+      {
+        "word": "cute",
+        "meaning": "لطيف / جميل ( بشكل خاص للصغار والحيوانات )",
+        "example_en": "I have a cat. It is very cute.",
+        "example_ar": "عندي قطة، إنها لطيفة جداً."
+      },
+      {
+        "word": "dangerous",
+        "meaning": "خطير / خطيرة",
+        "example_en": "The lion is not cute. It is dangerous.",
+        "example_ar": "الأسد ليس لطيفاً، إنه خطير."
+      },
+      {
+        "word": "happy",
+        "meaning": "سعيد / سعيدة",
+        "example_en": "The cute baby is very happy.",
+        "example_ar": "الطفل اللطيف سعيد جداً."
+      },
+      {
+        "word": "excited",
+        "meaning": "متحمس / متحمسة",
+        "example_en": "The small girl is excited.",
+        "example_ar": "الفتاة الصغيرة متحمسة."
+      },
+      {
+        "word": "famous",
+        "meaning": "مشهور / مشهورة",
+        "example_en": "The boy and the girl are famous.",
+        "example_ar": "الولد والبنت مشهوران."
+      },
+      {
+        "word": "friendly",
+        "meaning": "ودود / ودودة",
+        "example_en": "My work friends are friendly.",
+        "example_ar": "زملائي في العمل ودودون."
+      },
+      {
+        "word": "lucky",
+        "meaning": "محظوظ / محظوظة",
+        "example_en": "The football player is lucky.",
+        "example_ar": "لاعب كرة القدم محظوظ."
+      },
+      {
+        "word": "unlucky",
+        "meaning": "سيئ الحظ",
+        "example_en": "The goalkeeper is very unlucky.",
+        "example_ar": "حارس المرمى سيئ الحظ جداً."
+      },
+      {
+        "word": "ugly",
+        "meaning": "قبيح / قبيحة",
+        "example_en": "I don't like this ugly tree.",
+        "example_ar": "لا أحب هذه الشجرة القبيحة."
+      },
+      {
+        "word": "old",
+        "meaning": "عجوز / قديم / أكبر سناً",
+        "example_en": "The old man is happy.",
+        "example_ar": "الرجل العجوز سعيد."
+      },
+      {
+        "word": "young",
+        "meaning": "صغير / شاب",
+        "example_en": "I am young, but my grandmother is old.",
+        "example_ar": "أنا شاب، لكن جدتي عجوز."
+      },
+      {
+        "word": "grandmother",
+        "meaning": "جدة",
+        "example_en": "I am young, but my grandmother is old.",
+        "example_ar": "أنا شاب، لكن جدتي عجوز."
+      },
+      {
+        "word": "goalkeeper",
+        "meaning": "حارس المرمى",
+        "example_en": "The goalkeeper is very unlucky.",
+        "example_ar": "حارس المرمى سيئ الحظ جداً."
+      }
+    ],
+    "lesson_notes": [
+      "الصفة في الإنجليزية تأتي بعد فعل الكينونة ( is / are ) مباشرة: The girl IS angry — الصفة نفسها تُستخدم للمذكر والمؤنث دون تغيير.",
+      "careless = care ( يهتم ) + less ( بدون ) — اللاحقة less تُضيف معنى النفي أو الغياب، فتصبح careless: غير حذر / متهور.",
+      "صيغة المقارنة لـ old هي older: my grandmother is older ( جدتي أكبر سناً ).",
+      "ouch تُنطق عند الشعور بألم مفاجئ، وتُستخدم كتعبير عفوي غير رسمي."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة ( brave )؟",
+        "options": [
+          "شجاع",
+          "جبان",
+          "محظوظ",
+          "قبيح"
+        ],
+        "answer": "شجاع",
+        "explanation_ar": "brave تعني شجاع، كما في جملة الدرس: The man is very brave — الرجل شجاع جداً."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي جملة صحيحة نحوياً من الدرس؟",
+        "options": [
+          "The small girl is angry.",
+          "The small girl angry is.",
+          "Is the small girl angry.",
+          "The angry is small girl."
+        ],
+        "answer": "The small girl is angry.",
+        "explanation_ar": "الترتيب الصحيح: فاعل + فعل الكينونة ( is ) + صفة، لذلك The small girl is angry هي الجملة الصحيحة."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( careless ) تعني العكس من كلمة ( careful ).",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "careful تعني حذر، أما careless ( care + less ) فتعني متهور / غير حذر، وهما متضادان."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: الفتاة الصغيرة غاضبة.",
+        "answer": "The small girl is angry.",
+        "explanation_ar": "الترجمة كما وردت في الدرس: The small girl is angry — نستخدم is لأن الفاعل مفرد."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ضد كلمة ( lucky )؟",
+        "options": [
+          "unlucky",
+          "famous",
+          "friendly",
+          "brave"
+        ],
+        "answer": "unlucky",
+        "explanation_ar": "نضيف البادئة un- للتضاد: lucky ( محظوظ ) ← unlucky ( سيئ الحظ )."
+      },
+      {
+        "type": "written",
+        "question": "أكمل الجملة بكلمة واحدة: The lion is not cute. It is ______ ( خطير ).",
+        "answer": "dangerous",
+        "explanation_ar": "dangerous تعني خطير، والجملة كما وردت في الدرس: The lion is not cute. It is dangerous."
+      },
+      {
+        "type": "true_false",
+        "question": "تُستخدم كلمة ( ouch ) عند الشعور بألم مفاجئ.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "ouch تعبير عفوي ننطقه لحظة الشعور بألم مفاجئ، كما ظهر في مشهد الدرس."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ترجمة جملة: My friend is very clever؟",
+        "options": [
+          "صديقي ذكي جداً",
+          "صديقي لطيف جداً",
+          "صديقي محظوظ جداً",
+          "صديقي غاضب جداً"
+        ],
+        "answer": "صديقي ذكي جداً",
+        "explanation_ar": "clever تعني ذكي، والجملة تترجم: صديقي ذكي جداً."
+      },
+      {
+        "type": "written",
+        "question": "ما ضد كلمة ( old ) كما ورد في الدرس؟",
+        "answer": "young",
+        "explanation_ar": "الدرس قدم التضاد مباشرة: I am young, but my grandmother is old — ضد old هو young."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي كلمة تصف شخصاً مشهوراً؟",
+        "options": [
+          "famous",
+          "ugly",
+          "careless",
+          "coward"
+        ],
+        "answer": "famous",
+        "explanation_ar": "famous تعني مشهور، كما في المثال: The boy and the girl are famous."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 2,
+      "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين : تعلم الوظائف باللغة الإنجليزية : الحلقة 2"
+    },
+    "global_vocabulary": [
+      {
+        "word": "accountant",
+        "meaning": "محاسب",
+        "example_en": "My father is an accountant.",
+        "example_ar": "أبي محاسب."
+      },
+      {
+        "word": "actor",
+        "meaning": "ممثل",
+        "example_en": "My uncle is an actor.",
+        "example_ar": "عمي ممثل."
+      },
+      {
+        "word": "actress",
+        "meaning": "ممثلة",
+        "example_en": "My aunt is an actress.",
+        "example_ar": "خالتي ممثلة."
+      },
+      {
+        "word": "author",
+        "meaning": "كاتب / مؤلف",
+        "example_en": "Shakespeare is a famous author.",
+        "example_ar": "شكسبير كاتب مشهور."
+      },
+      {
+        "word": "baker",
+        "meaning": "خباز",
+        "example_en": "My grandfather is a baker.",
+        "example_ar": "جدي خباز."
+      },
+      {
+        "word": "banker",
+        "meaning": "موظف بنك / مصرفي",
+        "example_en": "My mother is a banker.",
+        "example_ar": "أمي موظفة بنك."
+      },
+      {
+        "word": "barber",
+        "meaning": "حلاق",
+        "example_en": "My brother is a barber.",
+        "example_ar": "أخي حلاق."
+      },
+      {
+        "word": "butcher",
+        "meaning": "جزار",
+        "example_en": "My neighbor is a butcher.",
+        "example_ar": "جاري جزار."
+      },
+      {
+        "word": "burglar",
+        "meaning": "لص / سارق منازل",
+        "example_en": "This man is a burglar.",
+        "example_ar": "هذا الرجل لص."
+      },
+      {
+        "word": "chef",
+        "meaning": "طاهٍ / شيف",
+        "example_en": "My friend is a chef.",
+        "example_ar": "صديقي طاهٍ."
+      },
+      {
+        "word": "carpenter",
+        "meaning": "نجّار",
+        "example_en": "My brother is a carpenter.",
+        "example_ar": "أخي نجّار."
+      },
+      {
+        "word": "criminal",
+        "meaning": "مجرم",
+        "example_en": "I don't like criminals.",
+        "example_ar": "لا أحب المجرمين."
+      },
+      {
+        "word": "police officer",
+        "meaning": "ضابط شرطة / رجل شرطة",
+        "example_en": "My aunt is a police officer.",
+        "example_ar": "خالتي ضابطة شرطة."
+      }
+    ],
+    "lesson_notes": [
+      "قبل اسم الوظيفة المفردة نضع a أو an: My father is AN accountant / My uncle is AN actor — تُستخدم an مع الأصوات المتحركة ( a / e / i / o / u غالباً ).",
+      "معظم أسماء الوظائف لا تتغير للمؤنث: police officer تناسب الرجل والمرأة، و actOR / actRESS من الاستثناءات الشائعة.",
+      "criminal = مجرم، والجمع بإضافة s: criminals — I don't like criminals ( جمع عام بدون أداة تعريف ).",
+      "الجملة الاسمية للتعريف بالوظيفة: My + قرابة + is a/an + وظيفة — وهي النمط الأساسي في هذا الدرس كله."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة ( accountant )؟",
+        "options": [
+          "محاسب",
+          "خباز",
+          "حلاق",
+          "طاهٍ"
+        ],
+        "answer": "محاسب",
+        "explanation_ar": "accountant تعني محاسب، كما في الجملة: My father is an accountant — أبي محاسب."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أكمل: My father is ______ accountant.",
+        "options": [
+          "an",
+          "a",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "explanation_ar": "accountant تبدأ بصوت متحرك، لذلك نستخدم an قبلها: My father is an accountant."
+      },
+      {
+        "type": "true_false",
+        "question": "Shakespeare is a famous author هي جملة صحيحة من الدرس.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "وردت الجملة هكذا في الدرس لتعليم كلمة author ( كاتب / مؤلف )."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: جدي خباز.",
+        "answer": "My grandfather is a baker.",
+        "explanation_ar": "كما وردت في الدرس حرفيًا: My grandfather is a baker."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة ( chef )؟",
+        "options": [
+          "طاهٍ",
+          "جزار",
+          "نجّار",
+          "مصرفي"
+        ],
+        "answer": "طاهٍ",
+        "explanation_ar": "chef تعني طاهٍ / شيف: My friend is a chef — صديقي طاهٍ."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بكلمة واحدة: This man is a ______ ( لص / سارق منازل ).",
+        "answer": "burglar",
+        "explanation_ar": "burglar تعني لص / سارق منازل، والجملة من الدرس: This man is a burglar."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( actress ) هي المؤنث لكلمة ( actor ).",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "actor ممثل و actress ممثلة — الدرس استخدم كليهما: My uncle is an actor / My aunt is an actress."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ترجمة: My neighbor is a butcher؟",
+        "options": [
+          "جاري جزار",
+          "جاري حلاق",
+          "جاري نجّار",
+          "جاري طاهٍ"
+        ],
+        "answer": "جاري جزار",
+        "explanation_ar": "butcher تعني جزار، و neighbor تعني جار — جاري جزار."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بكلمة واحدة: My brother is a ______ ( نجّار ).",
+        "answer": "carpenter",
+        "explanation_ar": "carpenter تعني نجّار، والجملة من الدرس: My brother is a carpenter."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي كلمة تصف شخصاً يعمل في الشرطة؟",
+        "options": [
+          "police officer",
+          "burglar",
+          "criminal",
+          "banker"
+        ],
+        "answer": "police officer",
+        "explanation_ar": "police officer = ضابط / رجل شرطة، أما burglar و criminal فهما لص ومجرم، و banker موظف بنك."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 3,
+      "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين كلمات عن العائلة : الحلقة 3"
+    },
+    "global_vocabulary": [
+      {
+        "word": "cousin",
+        "meaning": "ابن/بنت العم أو الخال",
+        "example_en": "My cousin likes pineapple.",
+        "example_ar": "ابن عمي يحب الأناناس."
+      },
+      {
+        "word": "daughter",
+        "meaning": "ابنة",
+        "example_en": "My daughter eats plum.",
+        "example_ar": "ابنتي تأكل البرقوق."
+      },
+      {
+        "word": "son",
+        "meaning": "ابن",
+        "example_en": "My son is excited. He likes strawberry.",
+        "example_ar": "ابني متحمس، يحب الفراولة."
+      },
+      {
+        "word": "niece",
+        "meaning": "ابنة الأخ أو الأخت",
+        "example_en": "My niece eats watermelon.",
+        "example_ar": "ابنة أخي تأكل البطيخ."
+      },
+      {
+        "word": "nephew",
+        "meaning": "ابن الأخ أو الأخت",
+        "example_en": "My nephew likes to eat peach.",
+        "example_ar": "ابن أخي يحب أكل الخوخ."
+      },
+      {
+        "word": "grandson",
+        "meaning": "حفيد",
+        "example_en": "My grandson is cute. He likes to eat pear.",
+        "example_ar": "حفيدي لطيف، يحب أكل الكمثرى."
+      },
+      {
+        "word": "granddaughter",
+        "meaning": "حفيدة",
+        "example_en": "My granddaughter plays with grapes.",
+        "example_ar": "حفيدتي تلعب بالعنب."
+      },
+      {
+        "word": "stepfather",
+        "meaning": "زوج الأم ( أب بالتبني )",
+        "example_en": "My stepfather hates lemon.",
+        "example_ar": "زوج أمي يكره الليمون."
+      },
+      {
+        "word": "stepmother",
+        "meaning": "زوجة الأب ( أم بالتبني )",
+        "example_en": "My stepmother cooks with lime.",
+        "example_ar": "زوجة أبي تطبخ بالليمون الأخضر."
+      },
+      {
+        "word": "mother-in-law",
+        "meaning": "حماتي ( أم الزوج أو الزوجة )",
+        "example_en": "My mother-in-law likes tangerine.",
+        "example_ar": "حماتي تحب اليوسفي."
+      },
+      {
+        "word": "father-in-law",
+        "meaning": "حموي ( أب الزوج أو الزوجة )",
+        "example_en": "My father-in-law picks cherries.",
+        "example_ar": "حموي يقطف الكرز."
+      },
+      {
+        "word": "parents",
+        "meaning": "الوالدان",
+        "example_en": "My parents make fruit juice.",
+        "example_ar": "والداي يصنعان عصير الفاكهة."
+      },
+      {
+        "word": "grandparents",
+        "meaning": "الجدان",
+        "example_en": "My grandparents give me fruit.",
+        "example_ar": "جداي يعطيانني الفاكهة."
+      },
+      {
+        "word": "pineapple",
+        "meaning": "أناناس",
+        "example_en": "My cousin likes pineapple.",
+        "example_ar": "ابن عمي يحب الأناناس."
+      },
+      {
+        "word": "plum",
+        "meaning": "برقوق",
+        "example_en": "My daughter eats plum.",
+        "example_ar": "ابنتي تأكل البرقوق."
+      },
+      {
+        "word": "strawberry",
+        "meaning": "فراولة",
+        "example_en": "My son is excited. He likes strawberry.",
+        "example_ar": "ابني متحمس، يحب الفراولة."
+      },
+      {
+        "word": "watermelon",
+        "meaning": "بطيخ",
+        "example_en": "My niece eats watermelon.",
+        "example_ar": "ابنة أخي تأكل البطيخ."
+      },
+      {
+        "word": "peach",
+        "meaning": "خوخ / دراق",
+        "example_en": "My nephew likes to eat peach.",
+        "example_ar": "ابن أخي يحب أكل الخوخ."
+      },
+      {
+        "word": "pear",
+        "meaning": "كمثرى / إجاص",
+        "example_en": "My grandson is cute. He likes to eat pear.",
+        "example_ar": "حفيدي لطيف، يحب أكل الكمثرى."
+      },
+      {
+        "word": "grapes",
+        "meaning": "عنب",
+        "example_en": "My granddaughter plays with grapes.",
+        "example_ar": "حفيدتي تلعب بالعنب."
+      },
+      {
+        "word": "lemon",
+        "meaning": "ليمون",
+        "example_en": "My stepfather hates lemon.",
+        "example_ar": "زوج أمي يكره الليمون."
+      },
+      {
+        "word": "lime",
+        "meaning": "ليمون أخضر / حامض",
+        "example_en": "My stepmother cooks with lime.",
+        "example_ar": "زوجة أبي تطبخ بالليمون الأخضر."
+      },
+      {
+        "word": "tangerine",
+        "meaning": "يوسفي / ماندرين",
+        "example_en": "My mother-in-law likes tangerine.",
+        "example_ar": "حماتي تحب اليوسفي."
+      },
+      {
+        "word": "cherries",
+        "meaning": "كرز",
+        "example_en": "My father-in-law picks cherries.",
+        "example_ar": "حموي يقطف الكرز."
+      },
+      {
+        "word": "fruit",
+        "meaning": "فاكهة / فواكه",
+        "example_en": "My parents make fruit juice.",
+        "example_ar": "والداي يصنعان عصير الفاكهة."
+      },
+      {
+        "word": "like",
+        "meaning": "يحب / يعجب بـ",
+        "example_en": "My cousin likes pineapple.",
+        "example_ar": "ابن عمي يحب الأناناس."
+      },
+      {
+        "word": "hate",
+        "meaning": "يكره",
+        "example_en": "My stepfather hates lemon.",
+        "example_ar": "زوج أمي يكره الليمون."
+      },
+      {
+        "word": "eat",
+        "meaning": "يأكل",
+        "example_en": "My daughter eats plum.",
+        "example_ar": "ابنتي تأكل البرقوق."
+      },
+      {
+        "word": "play",
+        "meaning": "يلعب",
+        "example_en": "My granddaughter plays with grapes.",
+        "example_ar": "حفيدتي تلعب بالعنب."
+      },
+      {
+        "word": "cook",
+        "meaning": "يطبخ",
+        "example_en": "My stepmother cooks with lime.",
+        "example_ar": "زوجة أبي تطبخ بالليمون الأخضر."
+      },
+      {
+        "word": "pick",
+        "meaning": "يقطف / ينتقي",
+        "example_en": "My father-in-law picks cherries.",
+        "example_ar": "حموي يقطف الكرز."
+      },
+      {
+        "word": "make",
+        "meaning": "يصنع / يجهّز",
+        "example_en": "My parents make fruit juice.",
+        "example_ar": "والداي يصنعان عصير الفاكهة."
+      },
+      {
+        "word": "give",
+        "meaning": "يعطي",
+        "example_en": "My grandparents give me fruit.",
+        "example_ar": "جداي يعطيانني الفاكهة."
+      }
+    ],
+    "lesson_notes": [
+      "أفعال المضارع البسيط مع he / she / it تأخذ s في نهايتها: likes / eats / hates / plays / cooks / picks — انتبه: My son LIKES strawberry.",
+      "step- للقرابة بالتبني: stepfather هو زوج الأم، و stepmother هي زوجة الأب.",
+      "in-law لقرابة الزواج: mother-in-law ( حماة )، father-in-law ( حمو ).",
+      "grand- قبل الكلمة للجيل الأكبر: grandfather / grandmother / grandparents، وبعدها للجيل الأصغر: grandson / granddaughter.",
+      "الجمع بتحويل y إلى ies عندما يسبقها حرف ساكن: cherry ← cherries، أما berry ← strawberries في نفس القاعدة."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة ( niece )؟",
+        "options": [
+          "ابنة الأخ أو الأخت",
+          "ابن العم",
+          "الحفيدة",
+          "الزوجة"
+        ],
+        "answer": "ابنة الأخ أو الأخت",
+        "explanation_ar": "niece = ابنة الأخ أو الأخت، أما ابن العم فـ cousin، والحفيدة granddaughter."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أكمل: My son ______ strawberry.",
+        "options": [
+          "likes",
+          "like",
+          "liking",
+          "liked"
+        ],
+        "answer": "likes",
+        "explanation_ar": "مع he / she / it في المضارع البسيط تأخذ الفعل s: My son LIKES strawberry."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( stepfather ) تعني زوج الأم.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "stepfather = زوج الأم ( أب بالتبني )، والجملة من الدرس: My stepfather hates lemon."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: والداي يصنعان عصير الفاكهة.",
+        "answer": "My parents make fruit juice.",
+        "explanation_ar": "الجملة وردت هكذا في الدرس: My parents make fruit juice — parents تعني الوالدان."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة ( granddaughter )؟",
+        "options": [
+          "حفيدة",
+          "حفيد",
+          "ابنة",
+          "أم"
+        ],
+        "answer": "حفيدة",
+        "explanation_ar": "granddaughter = حفيدة، أما grandson فتعني حفيد."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بكلمة واحدة: My nephew likes to eat ______ ( خوخ ).",
+        "answer": "peach",
+        "explanation_ar": "peach تعني خوخ، والجملة كما وردت في الدرس: My nephew likes to eat peach."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( cherries ) هي جمع كلمة ( cherry ).",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "عندما تسبق y حرف ساكن يتحول الجمع إلى ies: cherry ← cherries، كما في: My father-in-law picks cherries."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي جملة صحيحة نحوياً؟",
+        "options": [
+          "My parents make fruit juice.",
+          "My parents makes fruit juice.",
+          "My parents making fruit juice.",
+          "My parents made fruit juice now."
+        ],
+        "answer": "My parents make fruit juice.",
+        "explanation_ar": "parents جمع، لذلك يأخذ الفعل شكله الأساسي بدون s: My parents make fruit juice."
+      },
+      {
+        "type": "written",
+        "question": "ما ترجمة كلمة ( stepmother )؟",
+        "answer": "زوجة الأب",
+        "explanation_ar": "stepmother = زوجة الأب ( أم بالتبني )، والجملة من الدرس: My stepmother cooks with lime."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى جملة: My mother-in-law likes tangerine؟",
+        "options": [
+          "حماتي تحب اليوسفي",
+          "أمي تحب الليمون",
+          "جدتي تحب الكرز",
+          "خالتي تحب الفراولة"
+        ],
+        "answer": "حماتي تحب اليوسفي",
+        "explanation_ar": "mother-in-law = حماتي، و tangerine = يوسفي — حماتي تحب اليوسفي."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 4,
+      "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين: كلمات المنزل والفصل : الحلقة 4"
+    },
+    "global_vocabulary": [
+      {
+        "word": "chair",
+        "meaning": "كرسي",
+        "example_en": "The chair is in front of the bookcase.",
+        "example_ar": "الكرسي في الأمام من رف الكتب."
+      },
+      {
+        "word": "clock",
+        "meaning": "ساعة حائط",
+        "example_en": "The clock is on the wall.",
+        "example_ar": "الساعة على الحائط."
+      },
+      {
+        "word": "wall",
+        "meaning": "حائط / جدار",
+        "example_en": "The clock is on the wall.",
+        "example_ar": "الساعة على الحائط."
+      },
+      {
+        "word": "couch",
+        "meaning": "كنبة / أريكة",
+        "example_en": "The clock is above the couch.",
+        "example_ar": "الساعة فوق الكنبة."
+      },
+      {
+        "word": "sofa",
+        "meaning": "كنبة / أريكة ( نفس couch تماماً )",
+        "example_en": "The sofa is next to the wall.",
+        "example_ar": "الكنبة بجانب الحائط."
+      },
+      {
+        "word": "calendar",
+        "meaning": "تقويم / رزنامة",
+        "example_en": "The calendar is above the bed.",
+        "example_ar": "التقويم فوق السرير."
+      },
+      {
+        "word": "bed",
+        "meaning": "سرير",
+        "example_en": "The calendar is above the bed.",
+        "example_ar": "التقويم فوق السرير."
+      },
+      {
+        "word": "eraser",
+        "meaning": "ممحاة",
+        "example_en": "The eraser is next to the pencil.",
+        "example_ar": "الممحاة بجانب القلم الرصاص."
+      },
+      {
+        "word": "pencil",
+        "meaning": "قلم رصاص",
+        "example_en": "The eraser is next to the pencil.",
+        "example_ar": "الممحاة بجانب القلم الرصاص."
+      },
+      {
+        "word": "dictionary",
+        "meaning": "قاموس",
+        "example_en": "The dictionary is under the chair.",
+        "example_ar": "القاموس تحت الكرسي."
+      },
+      {
+        "word": "book",
+        "meaning": "كتاب",
+        "example_en": "This book is new.",
+        "example_ar": "هذا الكتاب جديد."
+      },
+      {
+        "word": "blackboard",
+        "meaning": "سبورة",
+        "example_en": "The teacher writes on the blackboard.",
+        "example_ar": "المعلم يكتب على السبورة."
+      },
+      {
+        "word": "bookcase",
+        "meaning": "رف الكتب / خزانة الكتب",
+        "example_en": "The chair is in front of the bookcase.",
+        "example_ar": "الكرسي في الأمام من رف الكتب."
+      },
+      {
+        "word": "armchair",
+        "meaning": "كرسي ذو أذرع",
+        "example_en": "My father sits in the armchair.",
+        "example_ar": "أبي يجلس في الكرسي ذي الأذرع."
+      },
+      {
+        "word": "notebook",
+        "meaning": "كراسة / دفتر",
+        "example_en": "I write in my notebook.",
+        "example_ar": "أنا أكتب في كراستي."
+      },
+      {
+        "word": "pen",
+        "meaning": "قلم حبر",
+        "example_en": "This pen is blue.",
+        "example_ar": "هذا القلم أزرق."
+      },
+      {
+        "word": "sharpener",
+        "meaning": "مبراة",
+        "example_en": "The sharpener is next to the pencil.",
+        "example_ar": "المبراة بجانب القلم الرصاص."
+      },
+      {
+        "word": "cat",
+        "meaning": "قطة",
+        "example_en": "The cat is on the couch.",
+        "example_ar": "القطة على الكنبة."
+      },
+      {
+        "word": "on",
+        "meaning": "على ( مع الملامسة )",
+        "example_en": "The clock is on the wall.",
+        "example_ar": "الساعة على الحائط."
+      },
+      {
+        "word": "above",
+        "meaning": "فوق ( بدون ملامسة )",
+        "example_en": "The calendar is above the bed.",
+        "example_ar": "التقويم فوق السرير."
+      },
+      {
+        "word": "under",
+        "meaning": "تحت",
+        "example_en": "The dictionary is under the chair.",
+        "example_ar": "القاموس تحت الكرسي."
+      },
+      {
+        "word": "next to",
+        "meaning": "بجانب",
+        "example_en": "The eraser is next to the pencil.",
+        "example_ar": "الممحاة بجانب القلم الرصاص."
+      },
+      {
+        "word": "in front of",
+        "meaning": "في الأمام من",
+        "example_en": "The chair is in front of the bookcase.",
+        "example_ar": "الكرسي في الأمام من رف الكتب."
+      }
+    ],
+    "lesson_notes": [
+      "الفرق بين on و above: on تعني على مع ملامسة الشيء ( الساعة على الحائط )، أما above فتعني فوق بدون ملامسة ( التقويم فوق السرير ) — نفس المنطق في العربية: نقول 'الساعة على الحائط' و'الساعة فوق الكنبة'.",
+      "couch و sofa اسمان لنفس الشيء تماماً ولا يوجد أي فرق حقيقي بينهما — احذر من اختراع فروق غير صحيحة بينهما.",
+      "blackboard كلمة واحدة مركبة من black ( أسمر / أسود ) + board ( لوحة ) = السبورة، وتُكتب كلمة واحدة لا كلمتين.",
+      "bookcase = book ( كتاب ) + case ( صندوق / خزانة ) = رف الكتب — وليست 'book'؛ book تعني كتاب فقط.",
+      "in front of تُترجم: في الأمام من كذا — ثلاث كلمات مع بعضها ككتلة واحدة، وليس 'في الأمام' فقط.",
+      "armchair = arm ( ذراع ) + chair ( كرسي ) = الكرسي ذو الأذرع.",
+      "عند التقاء حرف t في next + to ننطق t واحدة فقط — وهذا ليس قاعدة بل نطق طبيعي ( ونفس الشيء مع t + d ).",
+      "نصيحة الأستاذ الختامية: ابدأ تأخذ فكرة عن القواعد بمشاهدة حلقة أو اثنتين يومياً بدون كتابة أي ملاحظات، ولا تتجاوز موضوعين في اليوم، ثم يأتي دور القواعد لاحقاً."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة ( bookcase )؟",
+        "options": [
+          "رف الكتب",
+          "كتاب",
+          "سبورة",
+          "مبراة"
+        ],
+        "answer": "رف الكتب",
+        "explanation_ar": "bookcase = book ( كتاب ) + case ( خزانة ) = رف / خزانة الكتب، وليست book وحدها."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما الفرق بين ( on ) و ( above )؟",
+        "options": [
+          "on مع الملامسة و above بدون ملامسة",
+          "above مع الملامسة و on بدون ملامسة",
+          "لا يوجد فرق",
+          "on للأسفل و above للداخل"
+        ],
+        "answer": "on مع الملامسة و above بدون ملامسة",
+        "explanation_ar": "The clock is ON the wall ( ملامسة للحائط )، أما The calendar is ABOVE the bed ( فوق السرير بدون ملامسة )."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمتا ( couch ) و ( sofa ) بينهما فرق كبير في المعنى.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "الأستاذ شدد على أنهما اسمان لنفس الشيء ( كنبة / أريكة ) ولا يوجد أي فرق بينهما."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: التقويم فوق السرير.",
+        "answer": "The calendar is above the bed.",
+        "explanation_ar": "التقويم calendar، فوق بدون ملامسة above، السرير bed — والجملة وردت في مراجعة الدرس."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "كيف تُكتب كلمة ( blackboard )؟",
+        "options": [
+          "كلمة واحدة: blackboard",
+          "كلمتين: black board",
+          "بشرطة: black-board",
+          "بأي طريقة"
+        ],
+        "answer": "كلمة واحدة: blackboard",
+        "explanation_ar": "الأستاذ شدد أنها كلمة واحدة مركبة من black + board، وليست كلمتين."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بكلمة واحدة: The eraser is next to the ______ ( قلم رصاص ).",
+        "answer": "pencil",
+        "explanation_ar": "pencil = قلم رصاص، والجملة من مراجعة الدرس: The eraser is next to the pencil."
+      },
+      {
+        "type": "true_false",
+        "question": "عبارة ( in front of ) تتكوّن من ثلاث كلمات وتُترجم: في الأمام من كذا.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "in front of ثلاث كلمات تُؤخذ ككتلة واحدة، وترجمتها الصحيحة: في الأمام من كذا."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة ( armchair )؟",
+        "options": [
+          "كرسي ذو أذرع",
+          "كنبة",
+          "سرير",
+          "طاولة"
+        ],
+        "answer": "كرسي ذو أذرع",
+        "explanation_ar": "armchair = arm ( ذراع ) + chair ( كرسي ) = الكرسي ذو الأذرع."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: الساعة على الحائط.",
+        "answer": "The clock is on the wall.",
+        "explanation_ar": "نستخدم on لأن الساعة تلامس الحائط: The clock is on the wall."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ترجمة حرف الجر ( under )؟",
+        "options": [
+          "تحت",
+          "فوق",
+          "على",
+          "بجانب"
+        ],
+        "answer": "تحت",
+        "explanation_ar": "under = تحت، مثل: The dictionary is under the chair — القاموس تحت الكرسي."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 5,
+      "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين : تكملة كلمات الوظائف : الحلقة 5"
+    },
+    "global_vocabulary": [
+      {
+        "word": "doctor",
+        "meaning": "طبيب",
+        "example_en": "My father is a doctor.",
+        "example_ar": "أبي طبيب."
+      },
+      {
+        "word": "engineer",
+        "meaning": "مهندس",
+        "example_en": "My uncle is an engineer.",
+        "example_ar": "عمي مهندس."
+      },
+      {
+        "word": "nurse",
+        "meaning": "ممرضة / ممرض",
+        "example_en": "My sister is a nurse.",
+        "example_ar": "أختي ممرضة."
+      },
+      {
+        "word": "teacher",
+        "meaning": "معلم / معلمة",
+        "example_en": "My mother is a teacher.",
+        "example_ar": "أمي معلمة."
+      },
+      {
+        "word": "farmer",
+        "meaning": "مزارع / فلاح",
+        "example_en": "My grandfather is a farmer.",
+        "example_ar": "جدي مزارع."
+      },
+      {
+        "word": "lawyer",
+        "meaning": "محامٍ",
+        "example_en": "My neighbor is a lawyer.",
+        "example_ar": "جاري محامٍ."
+      },
+      {
+        "word": "pilot",
+        "meaning": "طيّار",
+        "example_en": "My brother is a pilot.",
+        "example_ar": "أخي طيّار."
+      },
+      {
+        "word": "driver",
+        "meaning": "سائق",
+        "example_en": "This man is a driver.",
+        "example_ar": "هذا الرجل سائق."
+      },
+      {
+        "word": "waiter",
+        "meaning": "نادل",
+        "example_en": "The waiter is friendly.",
+        "example_ar": "النادل ودود."
+      },
+      {
+        "word": "secretary",
+        "meaning": "سكرتيرة / سكرتير",
+        "example_en": "My aunt is a secretary.",
+        "example_ar": "خالتي سكرتيرة."
+      },
+      {
+        "word": "judge",
+        "meaning": "قاضٍ",
+        "example_en": "The judge is fair.",
+        "example_ar": "القاضي عادل."
+      },
+      {
+        "word": "dentist",
+        "meaning": "طبيب أسنان",
+        "example_en": "My cousin is a dentist.",
+        "example_ar": "ابن عمي طبيب أسنان."
+      },
+      {
+        "word": "pharmacist",
+        "meaning": "صيدلي",
+        "example_en": "The pharmacist works in a pharmacy.",
+        "example_ar": "الصيدلي يعمل في صيدلية."
+      }
+    ],
+    "lesson_notes": [
+      "تذكير من الأستاذ في وصف الحلقة: التهجئة الصحيحة لكلمة ابن العم / بنت العم هي cousin ( كانت وردت في الحلقة بخطأ مطبعي ثم صُححت ).",
+      "استكمال لنمط الدرس الثاني: My + قرابة + is a/an + وظيفة — مع الانتباه إلى an قبل الأصوات المتحركة: an engineer، a doctor.",
+      "نادراً ما تتغير أسماء الوظائف للمؤنث في الإنجليزية؛ nurse و teacher و secretary و judge تناسب الرجل والمرأة."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة ( engineer )؟",
+        "options": [
+          "مهندس",
+          "طبيب",
+          "محامٍ",
+          "طيّار"
+        ],
+        "answer": "مهندس",
+        "explanation_ar": "engineer تعني مهندس، ونقول: My uncle is an engineer — عمي مهندس."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي كلمة تبدأ بأداة ( an ) عند استخدامها في جملة؟",
+        "options": [
+          "engineer",
+          "doctor",
+          "farmer",
+          "pilot"
+        ],
+        "answer": "engineer",
+        "explanation_ar": "engineer تبدأ بصوت متحرك، لذلك: My uncle IS AN engineer، أما doctor / farmer / pilot فتبدأ بحروف ساكنة وتأخذ a."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( nurse ) خاصة بالنساء فقط ولا تُستخدم للممرض الذكر.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "أغلب أسماء الوظائف في الإنجليزية محايدة: nurse = ممرضة أو ممرض، و teacher و secretary و judge كذلك."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: أبي طبيب.",
+        "answer": "My father is a doctor.",
+        "explanation_ar": "النمط: My + القرابة + is a/an + الوظيفة — My father is a doctor."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة ( farmer )؟",
+        "options": [
+          "مزارع",
+          "خباز",
+          "جزار",
+          "سائق"
+        ],
+        "answer": "مزارع",
+        "explanation_ar": "farmer = مزارع / فلاح، و farm = مزرعة."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بكلمة واحدة: My brother is a ______ ( طيّار ).",
+        "answer": "pilot",
+        "explanation_ar": "pilot = طيّار: My brother is a pilot."
+      },
+      {
+        "type": "true_false",
+        "question": "التهجئة الصحيحة لكلمة ابن العم هي cousin.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "وثّق الأستاذ ذلك في وصف الحلقة: التهجئة الصحيحة cousin ( ووردت في الفيديو بخطأ ثم صُححت )."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما وظيفة شخص يعمل في المحكمة وينطق الأحكام؟",
+        "options": [
+          "judge",
+          "lawyer",
+          "secretary",
+          "dentist"
+        ],
+        "answer": "judge",
+        "explanation_ar": "judge = قاضٍ، أما lawyer فمحامٍ، و secretary سكرتير، و dentist طبيب أسنان."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: أختي ممرضة.",
+        "answer": "My sister is a nurse.",
+        "explanation_ar": "My sister is a nurse — nurse لا تتغير للمؤنث والمذكر."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى ( pharmacist )؟",
+        "options": [
+          "صيدلي",
+          "طبيب",
+          "مزارع",
+          "نادل"
+        ],
+        "answer": "صيدلي",
+        "explanation_ar": "pharmacist = صيدلي، و pharmacy = صيدلية."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 6,
+      "title": "تعلم اللغة الإنجليزية للمبتدئين : الدرس السادس : مفردات عن الحيوانات"
+    },
+    "global_vocabulary": [
+      {
+        "word": "bee",
+        "meaning": "نحلة",
+        "example_en": "Bees make honey.",
+        "example_ar": "النحل يصنع العسل."
+      },
+      {
+        "word": "camel",
+        "meaning": "جمل / ناقة",
+        "example_en": "Camels are patient.",
+        "example_ar": "الجمال صبورة."
+      },
+      {
+        "word": "chicken",
+        "meaning": "دجاجة",
+        "example_en": "The chicken has many eggs.",
+        "example_ar": "الدجاجة لديها بيض كثير."
+      },
+      {
+        "word": "crocodile",
+        "meaning": "تمساح",
+        "example_en": "Crocodiles are very dangerous animals.",
+        "example_ar": "التماسيح حيوانات خطيرة جداً."
+      },
+      {
+        "word": "deer",
+        "meaning": "غزال",
+        "example_en": "Look at the beautiful deer.",
+        "example_ar": "انظر إلى الغزال الجميل."
+      },
+      {
+        "word": "dolphin",
+        "meaning": "دلفين",
+        "example_en": "Dolphins are very friendly to people.",
+        "example_ar": "الدلافين ودودة جداً مع الناس."
+      },
+      {
+        "word": "duck",
+        "meaning": "بطة",
+        "example_en": "Ducks like to swim.",
+        "example_ar": "البط يحب السباحة."
+      },
+      {
+        "word": "elephant",
+        "meaning": "فيل",
+        "example_en": "Did you know that elephants can swim?",
+        "example_ar": "هل تعلم أن الفيلة تستطيع السباحة؟"
+      },
+      {
+        "word": "fly",
+        "meaning": "ذبابة",
+        "example_en": "Flies are very annoying.",
+        "example_ar": "الذباب مزعج جداً."
+      },
+      {
+        "word": "fox",
+        "meaning": "ثعلب",
+        "example_en": "Foxes are very sly.",
+        "example_ar": "الثعالب ماكرة جداً."
+      },
+      {
+        "word": "frog",
+        "meaning": "ضفدع",
+        "example_en": "The frog wants to eat.",
+        "example_ar": "الضفدع يريد أن يأكل."
+      },
+      {
+        "word": "goat",
+        "meaning": "ماعز",
+        "example_en": "My nephew plays with the goat.",
+        "example_ar": "ابن أخي يلعب بالماعز."
+      },
+      {
+        "word": "hippo",
+        "meaning": "فرس النهر",
+        "example_en": "The hippo can walk underwater.",
+        "example_ar": "فرس النهر يستطيع المشي تحت الماء."
+      },
+      {
+        "word": "kangaroo",
+        "meaning": "كنغر",
+        "example_en": "Kangaroos can run fast.",
+        "example_ar": "الكنغر يركض بسرعة."
+      },
+      {
+        "word": "octopus",
+        "meaning": "أخطبوط",
+        "example_en": "The octopus can swim and walk.",
+        "example_ar": "الأخطبوط يستطيع السباحة والمشي."
+      },
+      {
+        "word": "owl",
+        "meaning": "بومة",
+        "example_en": "Baby owls are very cute.",
+        "example_ar": "صغار البوم لطيفون جداً."
+      },
+      {
+        "word": "bear",
+        "meaning": "دب",
+        "example_en": "Bears are lazy animals.",
+        "example_ar": "الدباب حيوانات كسولة."
+      },
+      {
+        "word": "ant",
+        "meaning": "نملة",
+        "example_en": "Ants are very hard-working.",
+        "example_ar": "النمل مجتهد جداً."
+      },
+      {
+        "word": "honey",
+        "meaning": "عسل",
+        "example_en": "Bees make honey.",
+        "example_ar": "النحل يصنع العسل."
+      },
+      {
+        "word": "patient",
+        "meaning": "صبور",
+        "example_en": "Camels are patient.",
+        "example_ar": "الجمال صبورة."
+      },
+      {
+        "word": "annoying",
+        "meaning": "مزعج",
+        "example_en": "Flies are very annoying.",
+        "example_ar": "الذباب مزعج جداً."
+      },
+      {
+        "word": "sly",
+        "meaning": "ماكر",
+        "example_en": "Foxes are very sly.",
+        "example_ar": "الثعالب ماكرة جداً."
+      },
+      {
+        "word": "lazy",
+        "meaning": "كسول",
+        "example_en": "Bears are lazy animals.",
+        "example_ar": "الدباب حيوانات كسولة."
+      },
+      {
+        "word": "hard-working",
+        "meaning": "مجتهد / يحب العمل",
+        "example_en": "Ants are very hard-working.",
+        "example_ar": "النمل مجتهد جداً."
+      },
+      {
+        "word": "underwater",
+        "meaning": "تحت الماء",
+        "example_en": "The hippo can walk underwater.",
+        "example_ar": "فرس النهر يستطيع المشي تحت الماء."
+      }
+    ],
+    "lesson_notes": [
+      "قواعد الجمع في الدرس: نضيف s غالباً ( camels / ducks / bears )، و es بعد s / sh / ch / x ( fox → foxes )، و عندما تسبق y حرف ساكن تتحول إلى ies ( fly → flies ).",
+      "sly تعني ماكر، والثعلب رمز المكر: الثعالب ماكرة ( Foxes are very sly ) — وهي صفة سلبية.",
+      "hard-working مركبة من hard ( بجد / بشدة ) + working ( يعمل ) = مجتهد.",
+      "صيغة Did you know that...؟ تُستخدم لتقديم معلومة مدهشة: Did you know that elephants can swim? — هل تعلم أن الفيلة تستطيع السباحة؟"
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة ( camel )؟",
+        "options": [
+          "جمل",
+          "غزال",
+          "دلفين",
+          "دب"
+        ],
+        "answer": "جمل",
+        "explanation_ar": "camel = جمل / ناقة، والجملة: Camels are patient — الجمال صبورة."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما جمع كلمة ( fly )؟",
+        "options": [
+          "flies",
+          "flys",
+          "flyes",
+          "fliies"
+        ],
+        "answer": "flies",
+        "explanation_ar": "عندما تسبق y حرف ساكن يتحول الجمع إلى ies: fly ← flies، كما في: Flies are very annoying."
+      },
+      {
+        "type": "true_false",
+        "question": "يُوصف الثعلب في الدرس بـ ( sly ) أي ماكر.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "الجملة من الدرس: Foxes are very sly — الثعالب ماكرة جداً."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: النحل يصنع العسل.",
+        "answer": "Bees make honey.",
+        "explanation_ar": "الجملة وردت حرفيًا في الدرس: Bees make honey."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي حيوان يستطيع المشي تحت الماء؟",
+        "options": [
+          "hippo",
+          "camel",
+          "deer",
+          "duck"
+        ],
+        "answer": "hippo",
+        "explanation_ar": "الدرس: The hippo can walk underwater — فرس النهر يستطيع المشي تحت الماء."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بكلمة واحدة: Kangaroos can run ______ ( بسرعة ).",
+        "answer": "fast",
+        "explanation_ar": "fast = سريع / بسرعة: Kangaroos can run fast."
+      },
+      {
+        "type": "true_false",
+        "question": "الجملة ( Ducks like to swim ) تعني: البط يحب السباحة.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "وردت الجملة في الدرس: Ducks like to swim — البط يحب السباحة."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى ( hard-working )؟",
+        "options": [
+          "مجتهد",
+          "كسول",
+          "مزعج",
+          "صبور"
+        ],
+        "answer": "مجتهد",
+        "explanation_ar": "hard-working = مجتهد، ووردت في: Ants are very hard-working — النمل مجتهد جداً."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: التماسيح حيوانات خطيرة جداً.",
+        "answer": "Crocodiles are very dangerous animals.",
+        "explanation_ar": "الجملة كما وردت في الدرس: Crocodiles are very dangerous animals."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ترجمة: Baby owls are very cute؟",
+        "options": [
+          "صغار البوم لطيفون جداً",
+          "البوم الكبار خطيرون",
+          "صغار البوم كسالى",
+          "البوم يطير بسرعة"
+        ],
+        "answer": "صغار البوم لطيفون جداً",
+        "explanation_ar": "baby = صغار، owls = بوم، cute = لطيف — صغار البوم لطيفون جداً."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 7,
+      "title": "تعلم الصفات المضادة في اللغة الإنجليزية : كورس تعلم اللغة الانجليزية للمبتدئين من الصفر : ٧"
+    },
+    "global_vocabulary": [
+      {
+        "word": "big",
+        "meaning": "كبير",
+        "example_en": "The little boy rides the big elephant.",
+        "example_ar": "الولد الصغير يمتطي الفيل الكبير."
+      },
+      {
+        "word": "small",
+        "meaning": "صغير",
+        "example_en": "The little boy rides the big elephant.",
+        "example_ar": "الولد الصغير يمتطي الفيل الكبير."
+      },
+      {
+        "word": "cheap",
+        "meaning": "رخيص",
+        "example_en": "Some people have cheap cars.",
+        "example_ar": "بعض الناس لديهم سيارات رخيصة."
+      },
+      {
+        "word": "expensive",
+        "meaning": "غالٍ",
+        "example_en": "Some people have expensive cars.",
+        "example_ar": "بعض الناس لديهم سيارات باهظة الثمن."
+      },
+      {
+        "word": "hot",
+        "meaning": "ساخن / حار",
+        "example_en": "My drink is hot.",
+        "example_ar": "مشروبي ساخن."
+      },
+      {
+        "word": "cold",
+        "meaning": "بارد",
+        "example_en": "Your drink is cold.",
+        "example_ar": "مشروبك بارد."
+      },
+      {
+        "word": "deep",
+        "meaning": "عميق",
+        "example_en": "The sea is deep.",
+        "example_ar": "البحر عميق."
+      },
+      {
+        "word": "shallow",
+        "meaning": "ضحل / غير عميق",
+        "example_en": "The children's swimming pool is shallow.",
+        "example_ar": "حمام سباحة الأطفال ضحل."
+      },
+      {
+        "word": "easy",
+        "meaning": "سهل",
+        "example_en": "I think English is very easy.",
+        "example_ar": "أعتقد أن الإنجليزية سهلة جداً."
+      },
+      {
+        "word": "difficult",
+        "meaning": "صعب",
+        "example_en": "People say English is difficult.",
+        "example_ar": "الناس يقولون إن الإنجليزية صعبة."
+      },
+      {
+        "word": "hard",
+        "meaning": "صعب ( نفس difficult )",
+        "example_en": "People say English is hard, but I think it is very easy.",
+        "example_ar": "الناس يقولون إن الإنجليزية صعبة، لكنني أعتقد أنها سهلة جداً."
+      },
+      {
+        "word": "heavy",
+        "meaning": "ثقيل",
+        "example_en": "The black ball is heavy.",
+        "example_ar": "الكرة السوداء ثقيلة."
+      },
+      {
+        "word": "light",
+        "meaning": "خفيف",
+        "example_en": "The red ball is light.",
+        "example_ar": "الكرة الحمراء خفيفة."
+      },
+      {
+        "word": "tall",
+        "meaning": "طويل ( القامة )",
+        "example_en": "The tree is tall.",
+        "example_ar": "الشجرة طويلة."
+      },
+      {
+        "word": "short",
+        "meaning": "قصير",
+        "example_en": "The tree is short.",
+        "example_ar": "الشجرة قصيرة."
+      },
+      {
+        "word": "long",
+        "meaning": "طويل ( الطول )",
+        "example_en": "The snake is long.",
+        "example_ar": "الأفعى طويلة."
+      },
+      {
+        "word": "many",
+        "meaning": "كثير ( للمعدود )",
+        "example_en": "Many people play games.",
+        "example_ar": "كثير من الناس يلعبون الألعاب."
+      },
+      {
+        "word": "few",
+        "meaning": "قليل ( للمعدود )",
+        "example_en": "A few people read books.",
+        "example_ar": "قليل من الناس يقرؤون الكتب."
+      },
+      {
+        "word": "much",
+        "meaning": "كثير ( لغير المعدود )",
+        "example_en": "He drinks much coffee.",
+        "example_ar": "هو يشرب قهوة كثيرة."
+      },
+      {
+        "word": "little",
+        "meaning": "قليل ( لغير المعدود ) / صغير",
+        "example_en": "He drinks a little water.",
+        "example_ar": "هو يشرب ماءً قليلاً."
+      },
+      {
+        "word": "rich",
+        "meaning": "غني",
+        "example_en": "Only a few people in the world are super rich.",
+        "example_ar": "قليل من الناس فقط في العالم أثرياء جداً."
+      },
+      {
+        "word": "poor",
+        "meaning": "فقير",
+        "example_en": "Only a few people in the world are super rich, and many are poor.",
+        "example_ar": "قليل من الناس فقط أثرياء جداً، والكثير فقراء."
+      },
+      {
+        "word": "single",
+        "meaning": "أعزب / غير متزوج",
+        "example_en": "He is single.",
+        "example_ar": "هو أعزب."
+      },
+      {
+        "word": "married",
+        "meaning": "متزوج",
+        "example_en": "He is married.",
+        "example_ar": "هو متزوج."
+      },
+      {
+        "word": "divorced",
+        "meaning": "مطلق",
+        "example_en": "He is divorced.",
+        "example_ar": "هو مطلق."
+      },
+      {
+        "word": "strong",
+        "meaning": "قوي",
+        "example_en": "The boy in blue is strong.",
+        "example_ar": "الولد الذي يرتدي الأزرق قوي."
+      },
+      {
+        "word": "weak",
+        "meaning": "ضعيف",
+        "example_en": "The boy in pink is weak.",
+        "example_ar": "الولد الذي يرتدي الوردي ضعيف."
+      },
+      {
+        "word": "narrow",
+        "meaning": "ضيق",
+        "example_en": "Our street is very narrow.",
+        "example_ar": "شارعنا ضيق جداً."
+      },
+      {
+        "word": "wide",
+        "meaning": "واسع",
+        "example_en": "The car is very wide.",
+        "example_ar": "السيارة واسعة جداً."
+      },
+      {
+        "word": "thick",
+        "meaning": "سميك",
+        "example_en": "The book is thick.",
+        "example_ar": "الكتاب سميك."
+      },
+      {
+        "word": "thin",
+        "meaning": "رفيع / نحيف",
+        "example_en": "The man is thin.",
+        "example_ar": "الرجل نحيف."
+      },
+      {
+        "word": "fat",
+        "meaning": "سمين",
+        "example_en": "The man is fat.",
+        "example_ar": "الرجل سمين."
+      },
+      {
+        "word": "super",
+        "meaning": "جداً / فائق",
+        "example_en": "Only a few people in the world are super rich.",
+        "example_ar": "قليل من الناس فقط في العالم أثرياء جداً."
+      }
+    ],
+    "lesson_notes": [
+      "تنويه الأستاذ ( تصحيح إملائي ): التهجئة الصحيحة weak = ضعيف، و week = أسبوع — وردت بالخطأ في الحلقة.",
+      "الملكية بـ 's: Michael's book = كتاب مايكل — نضيف 's إلى صاحب الشيء للتعبير عن الملكية.",
+      "much لغير المعدود ( much coffee ) و many للمعدود ( many people )، أما a few و a little فتعنيان بعض القليل.",
+      "المقارنة بالتقابل المباشر مع but: The boy in blue is strong BUT the boy in pink is weak — نستخدم but لربط المتقابلين.",
+      "super = جداً / فائق، تُستخدم لتقوية الصفة: super rich = أثرياء جداً."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما ضد كلمة ( expensive )؟",
+        "options": [
+          "cheap",
+          "rich",
+          "heavy",
+          "deep"
+        ],
+        "answer": "cheap",
+        "explanation_ar": "expensive = غالٍ، و cheap = رخيص — كما في: Some people have cheap cars and some people have expensive cars."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي زوج من التضادين مكتوب بشكل صحيح؟",
+        "options": [
+          "strong / weak",
+          "strong / week",
+          "weak / streng",
+          "strong / weakly"
+        ],
+        "answer": "strong / weak",
+        "explanation_ar": "weak بمعنى ضعيف تُكتب بـ ea؛ أما week فتعني أسبوع ( كما صحح الأستاذ في وصف الحلقة )."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( week ) تعني ضعيف، وكلمة ( weak ) تعني أسبوع.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "التصحيح المطابق للدرس: weak = ضعيف، و week = أسبوع — العكس تماماً."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: شارعنا ضيق جداً.",
+        "answer": "Our street is very narrow.",
+        "explanation_ar": "الجملة وردت حرفيًا في الدرس: Our street is very narrow."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ضد كلمة ( fat )؟",
+        "options": [
+          "thin",
+          "tall",
+          "thick",
+          "wide"
+        ],
+        "answer": "thin",
+        "explanation_ar": "fat = سمين، و thin = نحيف — من التقابلات في الدرس."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بكلمة واحدة: He drinks ______ coffee ( كثير من ).",
+        "answer": "much",
+        "explanation_ar": "much تُستخدم مع غير المعدود مثل coffee: He drinks much coffee."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( single ) تعني متزوج.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "single = أعزب / غير متزوج، أما married فالمتزوج و divorced فالمطلق."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة ( shallow )؟",
+        "options": [
+          "ضحل / غير عميق",
+          "عميق",
+          "ضيق",
+          "واسع"
+        ],
+        "answer": "ضحل / غير عميق",
+        "explanation_ar": "shallow ضد deep: The children's swimming pool is shallow — حمام سباحة الأطفال ضحل."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: الكتاب سميك، والرجل نحيف.",
+        "answer": "The book is thick. The man is thin.",
+        "explanation_ar": "من مراجعة الدرس: The book is thick / The man is thin — thick = سميك و thin = نحيف."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ترجمة: Many people play games but a few people read books؟",
+        "options": [
+          "كثير من الناس يلعبون، لكن قليلاً منهم يقرؤون الكتب",
+          "قليل من الناس يلعبون، والكثير يقرؤون الكتب",
+          "الناس يلعبون كثيراً ويقرؤون كثيراً",
+          "لا أحد يلعب ولا أحد يقرأ"
+        ],
+        "answer": "كثير من الناس يلعبون، لكن قليلاً منهم يقرؤون الكتب",
+        "explanation_ar": "many = كثير للمعدود، و a few = قليل، و but = لكن — الجملة كما وردت في الدرس."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 8,
+      "title": "تعلم كلمات إنجليزية عن الخضروات : كورس شامل لتعلم الانجليزي من الصفر : ٨"
+    },
+    "global_vocabulary": [
+      {
+        "word": "potato",
+        "meaning": "بطاطس",
+        "example_en": "The potato is in the kitchen.",
+        "example_ar": "البطاطس في المطبخ."
+      },
+      {
+        "word": "tomato",
+        "meaning": "طماطم",
+        "example_en": "The tomato is red.",
+        "example_ar": "الطماطم حمراء."
+      },
+      {
+        "word": "onion",
+        "meaning": "بصل",
+        "example_en": "The onion is on the table.",
+        "example_ar": "البصل على الطاولة."
+      },
+      {
+        "word": "garlic",
+        "meaning": "ثوم",
+        "example_en": "My mother cooks with garlic.",
+        "example_ar": "أمي تطبخ بالثوم."
+      },
+      {
+        "word": "cucumber",
+        "meaning": "خيار",
+        "example_en": "The cucumber is green.",
+        "example_ar": "الخيار أخضر."
+      },
+      {
+        "word": "carrot",
+        "meaning": "جزر",
+        "example_en": "The rabbit likes the carrot.",
+        "example_ar": "الأرنب يحب الجزر."
+      },
+      {
+        "word": "eggplant",
+        "meaning": "باذنجان",
+        "example_en": "The eggplant is purple.",
+        "example_ar": "الباذنجان بنفسجي."
+      },
+      {
+        "word": "pepper",
+        "meaning": "فلفل",
+        "example_en": "The pepper is spicy.",
+        "example_ar": "الفلفل حار."
+      },
+      {
+        "word": "spinach",
+        "meaning": "سبانخ",
+        "example_en": "Spinach is a green vegetable.",
+        "example_ar": "السبانخ خضرة خضراء."
+      },
+      {
+        "word": "cabbage",
+        "meaning": "كرنب / ملفوف",
+        "example_en": "The cabbage is big.",
+        "example_ar": "الملفوف كبير."
+      },
+      {
+        "word": "cauliflower",
+        "meaning": "قرنبيط",
+        "example_en": "The cauliflower is white.",
+        "example_ar": "القرنبيط أبيض."
+      },
+      {
+        "word": "zucchini",
+        "meaning": "كوسة",
+        "example_en": "My grandmother cooks zucchini.",
+        "example_ar": "جدتي تطبخ الكوسة."
+      },
+      {
+        "word": "celery",
+        "meaning": "كرفس",
+        "example_en": "The celery is next to the lettuce.",
+        "example_ar": "الكرفس بجانب الخس."
+      },
+      {
+        "word": "parsley",
+        "meaning": "بقدونس",
+        "example_en": "The parsley is green.",
+        "example_ar": "البقدونس أخضر."
+      },
+      {
+        "word": "lettuce",
+        "meaning": "خس",
+        "example_en": "The lettuce is in the salad.",
+        "example_ar": "الخس في السلطة."
+      }
+    ],
+    "lesson_notes": [
+      "معظم أسماء الخضروات في الإنجليزية تُستخدم للمفرد والجمع دون تغيير عندما نتحدث عن النوع بصفة عامة: Spinach is green / I like cucumber.",
+      "النطق: tomato تُنطق توميتو ( أمريكي: توميهتو )، و potato بوتيتو — النهاية to.",
+      "الترتيب النمطي للجملة في الدرس: الأداة/الفاعل + فعل الكينونة + الصفة ( The carrot IS orange ) أو المكان ( on the table / in the kitchen )."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة ( carrot )؟",
+        "options": [
+          "جزر",
+          "بطاطس",
+          "خيار",
+          "بصل"
+        ],
+        "answer": "جزر",
+        "explanation_ar": "carrot = جزر، وهي الخضرة البرتقالية التي يحبها الأرنب."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي خضرة لونها بنفسجي؟",
+        "options": [
+          "eggplant",
+          "cucumber",
+          "spinach",
+          "lettuce"
+        ],
+        "answer": "eggplant",
+        "explanation_ar": "eggplant = باذنجان ولونه بنفسجي، أما cucumber و spinach و lettuce فخضراء."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( garlic ) تعني ثوم.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "garlic = ثوم، و onion = بصل — لا تخلط بينهما."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: الطماطم حمراء.",
+        "answer": "The tomato is red.",
+        "explanation_ar": "الطماطم tomato، حمراء red — The tomato is red."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى ( cauliflower )؟",
+        "options": [
+          "قرنبيط",
+          "ملفوف",
+          "سبانخ",
+          "كرفس"
+        ],
+        "answer": "قرنبيط",
+        "explanation_ar": "cauliflower = قرنبيط أبيض، أما cabbage فملفوف أخضر."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بكلمة واحدة: The ______ is spicy ( فلفل ).",
+        "answer": "pepper",
+        "explanation_ar": "pepper = فلفل: The pepper is spicy — الفلفل حار."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( lettuce ) تعني خس.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "lettuce = خس، ويأتي في السلطة: The lettuce is in the salad."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ترجمة: My mother cooks with garlic؟",
+        "options": [
+          "أمي تطبخ بالثوم",
+          "أمي تطبخ بالبصل",
+          "أمي تشتري الثوم",
+          "أمي تزرع البصل"
+        ],
+        "answer": "أمي تطبخ بالثوم",
+        "explanation_ar": "garlic = ثوم، و cooks with = تطبخ بـ — أمي تطبخ بالثوم."
+      },
+      {
+        "type": "written",
+        "question": "ما الإنجليزية لكلمة ( كوسة )؟",
+        "answer": "zucchini",
+        "explanation_ar": "zucchini = كوسة، وتنطق زوكيني."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي جملة صحيحة؟",
+        "options": [
+          "Spinach is a green vegetable.",
+          "Spinach are a green vegetable.",
+          "Spinach is green vegetable.",
+          "Spinach be a green vegetable."
+        ],
+        "answer": "Spinach is a green vegetable.",
+        "explanation_ar": "spinach اسم مفرد غير معدود هنا، لذلك يأخذ is: Spinach is a green vegetable."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 9,
+      "title": "تعلم الأرقام الإنجليزية : كورس تعليم اللغة الإنجليزية للمبتدئين من الصفر : ٩"
+    },
+    "global_vocabulary": [
+      {
+        "word": "one",
+        "meaning": "واحد",
+        "example_en": "I have one brother.",
+        "example_ar": "لدي أخ واحد."
+      },
+      {
+        "word": "two",
+        "meaning": "اثنان",
+        "example_en": "I have two cats.",
+        "example_ar": "عندي قطتان."
+      },
+      {
+        "word": "three",
+        "meaning": "ثلاثة",
+        "example_en": "There are three books on the table.",
+        "example_ar": "هناك ثلاثة كتب على الطاولة."
+      },
+      {
+        "word": "four",
+        "meaning": "أربعة",
+        "example_en": "The car has four wheels.",
+        "example_ar": "السيارة لها أربعة عجلات."
+      },
+      {
+        "word": "five",
+        "meaning": "خمسة",
+        "example_en": "I wake up at five o'clock.",
+        "example_ar": "أستيقظ في الساعة الخامسة."
+      },
+      {
+        "word": "six",
+        "meaning": "ستة",
+        "example_en": "There are six chairs in the room.",
+        "example_ar": "هناك ستة كراسي في الغرفة."
+      },
+      {
+        "word": "seven",
+        "meaning": "سبعة",
+        "example_en": "There are seven days in a week.",
+        "example_ar": "هناك سبعة أيام في الأسبوع."
+      },
+      {
+        "word": "eight",
+        "meaning": "ثمانية",
+        "example_en": "My son is eight years old.",
+        "example_ar": "ابني عمره ثماني سنوات."
+      },
+      {
+        "word": "nine",
+        "meaning": "تسعة",
+        "example_en": "The meeting starts at nine.",
+        "example_ar": "الاجتماع يبدأ في التاسعة."
+      },
+      {
+        "word": "ten",
+        "meaning": "عشرة",
+        "example_en": "I have ten fingers.",
+        "example_ar": "لدي عشرة أصابع."
+      },
+      {
+        "word": "eleven",
+        "meaning": "أحد عشر",
+        "example_en": "There are eleven players in a football team.",
+        "example_ar": "هناك أحد عشر لاعباً في فريق كرة القدم."
+      },
+      {
+        "word": "twelve",
+        "meaning": "اثنا عشر",
+        "example_en": "There are twelve months in a year.",
+        "example_ar": "هناك اثنا عشر شهراً في السنة."
+      },
+      {
+        "word": "thirteen",
+        "meaning": "ثلاثة عشر",
+        "example_en": "My cousin is thirteen years old.",
+        "example_ar": "ابن عمي عمره ثلاث عشرة سنة."
+      },
+      {
+        "word": "fourteen",
+        "meaning": "أربعة عشر",
+        "example_en": "Fourteen students are in the class.",
+        "example_ar": "أربعة عشر طالباً في الفصل."
+      },
+      {
+        "word": "fifteen",
+        "meaning": "خمسة عشر",
+        "example_en": "The lesson is fifteen minutes long.",
+        "example_ar": "الدرس مدته خمس عشرة دقيقة."
+      },
+      {
+        "word": "sixteen",
+        "meaning": "ستة عشر",
+        "example_en": "She is sixteen years old.",
+        "example_ar": "عمرها ست عشرة سنة."
+      },
+      {
+        "word": "seventeen",
+        "meaning": "سبعة عشر",
+        "example_en": "Seventeen boys are playing.",
+        "example_ar": "سبعة عشر ولداً يلعبون."
+      },
+      {
+        "word": "eighteen",
+        "meaning": "ثمانية عشر",
+        "example_en": "He is eighteen years old.",
+        "example_ar": "عمره ثمانية عشر عاماً."
+      },
+      {
+        "word": "nineteen",
+        "meaning": "تسعة عشر",
+        "example_en": "Nineteen girls are in the school.",
+        "example_ar": "تسعة عشر فتاة في المدرسة."
+      },
+      {
+        "word": "twenty",
+        "meaning": "عشرون",
+        "example_en": "I have twenty books.",
+        "example_ar": "عندي عشرون كتاباً."
+      },
+      {
+        "word": "thirty",
+        "meaning": "ثلاثون",
+        "example_en": "There are thirty minutes in half an hour.",
+        "example_ar": "هناك ثلاثون دقيقة في نصف ساعة."
+      },
+      {
+        "word": "forty",
+        "meaning": "أربعون",
+        "example_en": "My father is forty years old.",
+        "example_ar": "أبي عمره أربعون عاماً."
+      },
+      {
+        "word": "fifty",
+        "meaning": "خمسون",
+        "example_en": "Fifty students are in the school.",
+        "example_ar": "خمسون طالباً في المدرسة."
+      },
+      {
+        "word": "hundred",
+        "meaning": "مائة",
+        "example_en": "There are one hundred pages in the book.",
+        "example_ar": "هناك مائة صفحة في الكتاب."
+      },
+      {
+        "word": "thousand",
+        "meaning": "ألف",
+        "example_en": "The car costs one thousand dollars.",
+        "example_ar": "السيارة تكلف ألف دولار."
+      },
+      {
+        "word": "million",
+        "meaning": "مليون",
+        "example_en": "The video has one million views.",
+        "example_ar": "الفيديو لديه مليون مشاهدة."
+      }
+    ],
+    "lesson_notes": [
+      "الأرقام من 13 إلى 19 تنتهي بـ teen: thirteen / fourteen / fifteen... بينما العشرات تنتهي بـ ty: thirty / forty / fifty — انتبه للفرق في النطق والمعنى ( thirteen = 13 و thirty = 30 ).",
+      "التركيب المركب للتواريخ والأعمار: twenty-one ( 21 ) يُكتب بشرطة، و years old للعمر: He is eight YEARS old.",
+      "o'clock للساعة الكاملة فقط: five o'clock = الساعة الخامسة تماماً.",
+      "الترتيب: رقم + اسم مفرد عادة ( two cats / ten fingers )، و hundred / thousand / million لا تأخذ جمعاً مع رقم محدد: two HUNDRED ( وليس hundreds )."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما العدد ( thirteen )؟",
+        "options": [
+          "13",
+          "30",
+          "3",
+          "103"
+        ],
+        "answer": "13",
+        "explanation_ar": "thirteen = ثلاثة عشر، أما thirty فثلاثون — الفرق في النهاية teen مقابل ty."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "كم عدد أيام الأسبوع بالإنجليزية؟",
+        "options": [
+          "seven",
+          "six",
+          "eight",
+          "ten"
+        ],
+        "answer": "seven",
+        "explanation_ar": "الدرس: There are seven days in a week — سبعة أيام."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( fifty ) تعني خمسة عشر.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "fifty = خمسون ( 50 )، أما خمسة عشر فـ fifteen."
+      },
+      {
+        "type": "written",
+        "question": "اكتب بالحروف الإنجليزية: 12.",
+        "answer": "twelve",
+        "explanation_ar": "twelve = اثنا عشر، وهي كلمة شاذة لا تنتهي بـ teen."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى ( thousand )؟",
+        "options": [
+          "ألف",
+          "مائة",
+          "مليون",
+          "عشرة"
+        ],
+        "answer": "ألف",
+        "explanation_ar": "thousand = ألف، و hundred = مائة، و million = مليون."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: عمره ثماني سنوات.",
+        "answer": "He is eight years old.",
+        "explanation_ar": "التركيب للعمر: He is + الرقم + years old — He is eight years old."
+      },
+      {
+        "type": "true_false",
+        "question": "نقول: two hundreds books ( مئتا كتاب ).",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "مع رقم محدد لا نجمع: two HUNDRED books — الجمع hundreds يأتي بلا رقم: hundreds of books."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "كيف نقول الساعة الخامسة تماماً؟",
+        "options": [
+          "five o'clock",
+          "five clock",
+          "five hours",
+          "five time"
+        ],
+        "answer": "five o'clock",
+        "explanation_ar": "o'clock تُستخدم للساعة الكاملة: five o'clock = الساعة الخامسة."
+      },
+      {
+        "type": "written",
+        "question": "اكتب بالحروف الإنجليزية: 20.",
+        "answer": "twenty",
+        "explanation_ar": "twenty = عشرون — تنتهي بـ ty مثل thirty / forty / fifty."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ترجمة: There are twelve months in a year؟",
+        "options": [
+          "هناك اثنا عشر شهراً في السنة",
+          "هناك عشرة أشهر في السنة",
+          "هناك اثنا عشر يوماً في الشهر",
+          "السنة فيها شهران"
+        ],
+        "answer": "هناك اثنا عشر شهراً في السنة",
+        "explanation_ar": "twelve = اثنا عشر، و months = أشهر، و year = سنة."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 10,
+      "title": "كلمات انجليزية عن الوقت : كورس تعلم اللغة الانجليزية من الصفر: ١٠"
+    },
+    "global_vocabulary": [
+      {
+        "word": "time",
+        "meaning": "وقت / زمن",
+        "example_en": "What is the time?",
+        "example_ar": "كم الساعة؟"
+      },
+      {
+        "word": "hour",
+        "meaning": "ساعة ( 60 دقيقة )",
+        "example_en": "The lesson is one hour.",
+        "example_ar": "الدرس مدته ساعة واحدة."
+      },
+      {
+        "word": "minute",
+        "meaning": "دقيقة",
+        "example_en": "There are sixty minutes in an hour.",
+        "example_ar": "هناك ستون دقيقة في الساعة."
+      },
+      {
+        "word": "second",
+        "meaning": "ثانية",
+        "example_en": "There are sixty seconds in a minute.",
+        "example_ar": "هناك ستون ثانية في الدقيقة."
+      },
+      {
+        "word": "moment",
+        "meaning": "لحظة",
+        "example_en": "Wait a moment, please.",
+        "example_ar": "انتظر لحظة من فضلك."
+      },
+      {
+        "word": "o'clock",
+        "meaning": "تمام ( للساعة الكاملة )",
+        "example_en": "It is 4 o'clock.",
+        "example_ar": "الساعة الرابعة تماماً."
+      },
+      {
+        "word": "clock",
+        "meaning": "ساعة حائط / مكتب",
+        "example_en": "The clock is on the wall.",
+        "example_ar": "الساعة على الحائط."
+      },
+      {
+        "word": "watch",
+        "meaning": "ساعة يد / جيب",
+        "example_en": "This is a pocket watch.",
+        "example_ar": "هذه ساعة جيب."
+      },
+      {
+        "word": "quarter",
+        "meaning": "ربع ساعة ( 15 دقيقة )",
+        "example_en": "It's a quarter past nine.",
+        "example_ar": "الساعة التاسعة والربع."
+      },
+      {
+        "word": "half past",
+        "meaning": "و النصف",
+        "example_en": "It is half past ten.",
+        "example_ar": "الساعة العاشرة والنصف."
+      },
+      {
+        "word": "past",
+        "meaning": "و ( للدقائق بعد الساعة )",
+        "example_en": "It is 25 past 6.",
+        "example_ar": "الساعة السادسة و25 دقيقة."
+      },
+      {
+        "word": "to",
+        "meaning": "إلا ( للدقائق قبل الساعة التالية )",
+        "example_en": "It is 10 to 11.",
+        "example_ar": "الساعة الحادية عشرة إلا عشر دقائق."
+      },
+      {
+        "word": "morning",
+        "meaning": "صباح",
+        "example_en": "I wake up at 7 in the morning.",
+        "example_ar": "أستيقظ في السابعة صباحاً."
+      },
+      {
+        "word": "afternoon",
+        "meaning": "بعد الظهر",
+        "example_en": "She plays in the park at five in the afternoon.",
+        "example_ar": "هي تلعب في الحديقة في الخامسة بعد الظهر."
+      },
+      {
+        "word": "evening",
+        "meaning": "مساء",
+        "example_en": "He eats dinner at 8:00 in the evening.",
+        "example_ar": "هو يتناول العشاء في الثامنة مساءً."
+      }
+    ],
+    "lesson_notes": [
+      "الفرق بين clock و watch: clock للساعة الحائطية أو المكتبية، و watch للساعة التي تُلبس على اليد أو تُوضع في الجيب ( pocket watch ).",
+      "o'clock تُستخدم للساعة الكاملة فقط: It is 4 o'clock — ولا تقول 4:30 o'clock.",
+      "قراءة الدقائق: past للدقائق بعد الساعة ( It is 25 past 6 = 6:25 )، و to للدقائق قبل الساعة التالية ( It is 10 to 11 = 10:50 ).",
+      "quarter = ربع ساعة ( 15 دقيقة ): It's a quarter past nine = التاسعة والربع، و It's a quarter to ten = العاشرة إلا ربعاً.",
+      "Do you have the time? تعني كم الساعة؟ ( طلب مهذب لمعرفة الوقت )، وليست سؤالاً عن انشغالك.",
+      "حروف الجر مع الوقت: at للساعات ( at 7 in the morning )، و on لأيام الأسبوع ( on Saturday / on Monday )."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما الفرق بين ( clock ) و ( watch )؟",
+        "options": [
+          "clock حائطية و watch ساعة يد",
+          "watch حائطية و clock ساعة يد",
+          "لا يوجد فرق",
+          "clock للوقت و watch للتاريخ"
+        ],
+        "answer": "clock حائطية و watch ساعة يد",
+        "explanation_ar": "clock = ساعة الحائط/المكتب، و watch = ساعة اليد أو الجيب ( pocket watch )."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "الجملة ( It's a quarter past nine ) تعني الساعة...",
+        "options": [
+          "التاسعة والربع",
+          "العاشرة إلا ربعاً",
+          "التاسعة والنصف",
+          "الثامنة إلا ربعاً"
+        ],
+        "answer": "التاسعة والربع",
+        "explanation_ar": "quarter past = والربع — التاسعة و15 دقيقة."
+      },
+      {
+        "type": "true_false",
+        "question": "العبارة ( Do you have the time? ) تعني: هل أنت مشغول ولديك وقت؟",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "تعني كم الساعة؟ — طلب مهذب لمعرفة الوقت كما شرح الأستاذ."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: أستيقظ في السابعة صباحاً.",
+        "answer": "I wake up at 7 in the morning.",
+        "explanation_ar": "الجملة وردت حرفيًا في الدرس: I wake up at 7 in the morning."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "الجملة ( It is 10 to 11 ) تعني الساعة...",
+        "options": [
+          "الحادية عشرة إلا عشر دقائق",
+          "العاشرة وعشر دقائق",
+          "العاشرة والحادية عشرة",
+          "الحادية عشرة وعشر دقائق"
+        ],
+        "answer": "الحادية عشرة إلا عشر دقائق",
+        "explanation_ar": "to تعني إلا — 10 to 11 = 10:50 ( الحادية عشرة إلا عشراً )."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بكلمة واحدة: It is half ______ ten ( والنصف ).",
+        "answer": "past",
+        "explanation_ar": "half past = والنصف: It is half past ten = العاشرة والنصف."
+      },
+      {
+        "type": "true_false",
+        "question": "نقول: It is 4:30 o'clock.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "o'clock للساعة الكاملة فقط ( 4 o'clock )، أما 4:30 فنقول: It is half past four."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "كم دقيقة في الساعة الواحدة؟",
+        "options": [
+          "60",
+          "30",
+          "100",
+          "15"
+        ],
+        "answer": "60",
+        "explanation_ar": "الدرس: There are sixty minutes in an hour — ستون دقيقة في الساعة."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: كم الساعة؟",
+        "answer": "What time is it?",
+        "explanation_ar": "من أكثر جمل الدرس تكراراً: What time is it? / What is the time?"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي حرف جر يُستخدم مع أيام الأسبوع؟",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "to"
+        ],
+        "answer": "on",
+        "explanation_ar": "نقول: on Saturday / on Sunday / on Monday — on مع الأيام."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 11,
+      "title": "تعلم كلمات انجليزية عن التاريخ : كورس تعليم اللغة الإنجليزية للمبتدئين من الصفر : ١١"
+    },
+    "global_vocabulary": [
+      {
+        "word": "date",
+        "meaning": "تاريخ",
+        "example_en": "What is the date?",
+        "example_ar": "ما هو التاريخ؟"
+      },
+      {
+        "word": "day",
+        "meaning": "يوم",
+        "example_en": "What day is it today?",
+        "example_ar": "النهاردة إيه؟ ( ما هو اليوم؟ )"
+      },
+      {
+        "word": "month",
+        "meaning": "شهر",
+        "example_en": "There are twelve months in a year.",
+        "example_ar": "هناك اثنا عشر شهراً في السنة."
+      },
+      {
+        "word": "year",
+        "meaning": "سنة / عام",
+        "example_en": "I was born in 1985.",
+        "example_ar": "وُلدت في عام 1985."
+      },
+      {
+        "word": "born",
+        "meaning": "وُلد / مولود",
+        "example_en": "I was born in August 1985.",
+        "example_ar": "وُلدت في أغسطس 1985."
+      },
+      {
+        "word": "first (1st)",
+        "meaning": "الأول",
+        "example_en": "January is the first month.",
+        "example_ar": "يناير هو الشهر الأول."
+      },
+      {
+        "word": "second (2nd)",
+        "meaning": "الثاني",
+        "example_en": "Today is the twenty-second of January.",
+        "example_ar": "اليوم هو الثاني والعشرون من يناير."
+      },
+      {
+        "word": "third (3rd)",
+        "meaning": "الثالث",
+        "example_en": "It is the third of April.",
+        "example_ar": "إنه الثالث من أبريل."
+      },
+      {
+        "word": "fourth (4th)",
+        "meaning": "الرابع",
+        "example_en": "April is the fourth month.",
+        "example_ar": "أبريل هو الشهر الرابع."
+      },
+      {
+        "word": "BC",
+        "meaning": "قبل الميلاد ( Before Christ )",
+        "example_en": "This date is 500 BC.",
+        "example_ar": "هذا التاريخ 500 قبل الميلاد."
+      },
+      {
+        "word": "AD",
+        "meaning": "بعد الميلاد ( Anno Domini )",
+        "example_en": "It happened in 2018 AD.",
+        "example_ar": "حدث في عام 2018 ميلادية."
+      },
+      {
+        "word": "What day is it today?",
+        "meaning": "النهاردة إيه؟ ( ما هو اليوم؟ )",
+        "example_en": "What day is it today? — It is the nineteenth.",
+        "example_ar": "النهاردة إيه؟ — إنه التاسع عشر."
+      },
+      {
+        "word": "What is the date?",
+        "meaning": "ما هو التاريخ؟",
+        "example_en": "What is the date? — It is the nineteenth of May.",
+        "example_ar": "ما هو التاريخ؟ — إنه التاسع عشر من مايو."
+      },
+      {
+        "word": "I was born in...",
+        "meaning": "وُلدت في...",
+        "example_en": "I was born in August 1985.",
+        "example_ar": "وُلدت في أغسطس 1985."
+      },
+      {
+        "word": "January",
+        "meaning": "يناير",
+        "example_en": "January is the first month.",
+        "example_ar": "يناير هو الشهر الأول."
+      },
+      {
+        "word": "August",
+        "meaning": "أغسطس",
+        "example_en": "I was born in August 1985.",
+        "example_ar": "وُلدت في أغسطس 1985."
+      },
+      {
+        "word": "December",
+        "meaning": "ديسمبر",
+        "example_en": "It is 24 December.",
+        "example_ar": "إنه الرابع والعشرون من ديسمبر."
+      }
+    ],
+    "lesson_notes": [
+      "طريقة نطق السنوات: تُقسم قسمين — 1990 تُقرأ nineteen ninety، و 2018 تُقرأ twenty eighteen، أما الأعوام من 2000 إلى 2010 فتُقرأ كاملة: two thousand / two thousand one.",
+      "BC = Before Christ ( قبل المسيح / قبل الميلاد )، و AD = Anno Domini ( اللاتينية: in the year of our Lord ) — وليست After Death كما يعتقد الكثيرون؛ الأستاذ فنّد ذلك لسببين: المسيحيون الذين وضعوا التقويم يعتقدون أن المسيح حي، وسِنَي حياة المسيح ستكون فجوة غير مؤرخة.",
+      "التحدث عن سنة أو مكان يتطلب فعل كينونة: We ARE in 2018 / I AM in Egypt — لا يصح قول We in 2018 بدون فعل مساعد.",
+      "التحدث: نقول اليوم ثم الشهر ( the twenty-second of January )؛ الكتابة الأمريكية تبدأ بالشهر ( Jan 24 ) والبريطانية والعربية تبدأ باليوم ( 24 Dec )؛ ولتجنب اللبس يُعتمد عالمياً كتابة اسم الشهر: March 4 أو 4 March.",
+      "الترتيبات: 1st / 2nd / 3rd من first / second / third، ومن 4th فأعلى اللاحقة th، والشواذ: 21st و 22nd و 23rd ( آخر حرفين من الكلمة: firST / secoND / thiRD ).",
+      "أسماء الشهور تبدأ دائماً بحرف كبير: January / August / December.",
+      "الميلاد: I was born IN مع السنة والشهر، و ON مع اليوم المحدد: I was born ON August 12, 1985."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "كيف نقرأ سنة 1990؟",
+        "options": [
+          "nineteen ninety",
+          "one thousand nine hundred ninety",
+          "nineteen hundred nine",
+          "ninety nineteen"
+        ],
+        "answer": "nineteen ninety",
+        "explanation_ar": "السنوات تُقسم قسمين وتنطق: nineteen ninety — كما شرح الأستاذ."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ماذا يعني الاختصار ( AD ) في التقويم؟",
+        "options": [
+          "Anno Domini — in the year of our Lord",
+          "After Death",
+          "Ancient Date",
+          "Always Day"
+        ],
+        "answer": "Anno Domini — in the year of our Lord",
+        "explanation_ar": "AD اختصار لاتيني يعني in the year of our Lord — وليست After Death كما يظن الكثيرون."
+      },
+      {
+        "type": "true_false",
+        "question": "الاختصار ( AD ) يعني After Death ( بعد الوفاة ).",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "فنّد الأستاذ هذه المعلومة الشائعة: AD = Anno Domini، والسبب الأول أن المسيحيين الذين وضعوا التقويم يعتقدون أن المسيح حي."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: وُلدت في أغسطس 1985.",
+        "answer": "I was born in August 1985.",
+        "explanation_ar": "الجملة كما وردت في الدرس: I was born in August 1985 — in مع السنة والشهر."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي صيغة صحيحة للترتيب ( الثاني والعشرون )؟",
+        "options": [
+          "22nd",
+          "22th",
+          "22st",
+          "22rd"
+        ],
+        "answer": "22nd",
+        "explanation_ar": "الشواذ في الترتيبات: 21st و 22nd و 23rd — الثاني والعشرون تأخذ nd."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بالفعل الصحيح: We ______ in 2018.",
+        "answer": "are",
+        "explanation_ar": "التحدث عن السنة يتطلب فعل كينونة: We are in 2018 ( وليس We in 2018 )."
+      },
+      {
+        "type": "true_false",
+        "question": "في الكتابة الأمريكية للتاريخ يُكتب اليوم قبل الشهر.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "الأمريكيون يبدأون بالشهر ( Jan 24 )، أما البريطانية والعربية فتبدأ باليوم ( 24 Dec )."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "إجابة سؤال ( What is the date? ) تكون...",
+        "options": [
+          "تاريخ مثل: the nineteenth of May",
+          "اسم يوم مثل: Monday",
+          "الوقت: 5 o'clock",
+          "اسم شهر فقط"
+        ],
+        "answer": "تاريخ مثل: the nineteenth of May",
+        "explanation_ar": "What is the date? تسأل عن التاريخ الكامل، أما What day is it today? فتُجاب باسم اليوم أو التاريخ."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: وُلدت في 12 أغسطس 1985.",
+        "answer": "I was born on August 12, 1985.",
+        "explanation_ar": "عند تحديد يوم محدد نستخدم on: I was born on August 12, 1985."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "كيف تُكتب أسماء الشهور؟",
+        "options": [
+          "بحرف أول كبير: January",
+          "بأحرف صغيرة: january",
+          "بأحرف كبيرة كلها: JANUARY",
+          "لا فرق"
+        ],
+        "answer": "بحرف أول كبير: January",
+        "explanation_ar": "أسماء الشهور تبدأ دائماً بحرف كبير: January / August / December."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 12,
+      "title": "تعلم كلمات انجليزية عن الرياضة : كورس تعلم اللغة الانجليزية للمبتدئين كامل مجانا : ١٢"
+    },
+    "global_vocabulary": [
+      {
+        "word": "football",
+        "meaning": "كرة القدم",
+        "example_en": "Football is a popular sport.",
+        "example_ar": "كرة القدم رياضة شائعة."
+      },
+      {
+        "word": "basketball",
+        "meaning": "كرة السلة",
+        "example_en": "My brother plays basketball.",
+        "example_ar": "أخي يلعب كرة السلة."
+      },
+      {
+        "word": "volleyball",
+        "meaning": "الكرة الطائرة",
+        "example_en": "The girls play volleyball.",
+        "example_ar": "الفتيات يلعبن الكرة الطائرة."
+      },
+      {
+        "word": "tennis",
+        "meaning": "التنس",
+        "example_en": "She plays tennis every Friday.",
+        "example_ar": "هي تلعب التنس كل جمعة."
+      },
+      {
+        "word": "swimming",
+        "meaning": "السباحة",
+        "example_en": "Swimming is my favorite sport.",
+        "example_ar": "السباحة رياضتي المفضلة."
+      },
+      {
+        "word": "running",
+        "meaning": "الجري",
+        "example_en": "Running is easy and healthy.",
+        "example_ar": "الجري سهل وصحي."
+      },
+      {
+        "word": "boxing",
+        "meaning": "الملاكمة",
+        "example_en": "Boxing is a hard sport.",
+        "example_ar": "الملاكمة رياضة قاسية."
+      },
+      {
+        "word": "golf",
+        "meaning": "الجولف",
+        "example_en": "My father plays golf.",
+        "example_ar": "أبي يلعب الجولف."
+      },
+      {
+        "word": "skiing",
+        "meaning": "التزلج",
+        "example_en": "We go skiing in winter.",
+        "example_ar": "نذهب للتزلج في الشتاء."
+      },
+      {
+        "word": "cycling",
+        "meaning": "ركوب الدراجات",
+        "example_en": "Cycling is fun.",
+        "example_ar": "ركوب الدراجات ممتع."
+      },
+      {
+        "word": "player",
+        "meaning": "لاعب",
+        "example_en": "He is a football player.",
+        "example_ar": "هو لاعب كرة قدم."
+      },
+      {
+        "word": "team",
+        "meaning": "فريق",
+        "example_en": "My team is the best.",
+        "example_ar": "فريقي هو الأفضل."
+      },
+      {
+        "word": "ball",
+        "meaning": "كرة",
+        "example_en": "The ball is on the ground.",
+        "example_ar": "الكرة على الأرض."
+      },
+      {
+        "word": "match",
+        "meaning": "مباراة",
+        "example_en": "The match is on Saturday.",
+        "example_ar": "المباراة يوم السبت."
+      },
+      {
+        "word": "race",
+        "meaning": "سباق",
+        "example_en": "He wins the race.",
+        "example_ar": "هو يفوز بالسباق."
+      }
+    ],
+    "lesson_notes": [
+      "أسماء الألعاب الرياضية بدون أداة عند الحديث عن الرياضة بصفة عامة: Football is popular / I like swimming.",
+      "play تُستخدم مع الألعاب الجماعية والكرات: play football / play tennis، أما swimming و running و cycling فتأتي كأسماء أنشطة ( I like swimming ).",
+      "الجمع: player ← players، team ← teams، match ← matches ( es بعد ch / sh / s / x )."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى ( basketball )؟",
+        "options": [
+          "كرة السلة",
+          "كرة القدم",
+          "التنس",
+          "السباحة"
+        ],
+        "answer": "كرة السلة",
+        "explanation_ar": "basketball = كرة السلة ( basket = سلة + ball = كرة )."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي جملة صحيحة؟",
+        "options": [
+          "My brother plays basketball.",
+          "My brother plays the basketball.",
+          "My brother play basketball.",
+          "My brother is play basketball."
+        ],
+        "answer": "My brother plays basketball.",
+        "explanation_ar": "مع الألعاب نستخدم play بدون أداة، ومع he/she/it نضيف s: plays."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( match ) تعني مباراة.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "match = مباراة: The match is on Saturday — المباراة يوم السبت."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: السباحة رياضتي المفضلة.",
+        "answer": "Swimming is my favorite sport.",
+        "explanation_ar": "Swimming is my favorite sport — كما في الدرس."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى ( race )؟",
+        "options": [
+          "سباق",
+          "مباراة",
+          "فريق",
+          "كرة"
+        ],
+        "answer": "سباق",
+        "explanation_ar": "race = سباق: He wins the race — هو يفوز بالسباق."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بكلمة واحدة: He is a football ______ ( لاعب ).",
+        "answer": "player",
+        "explanation_ar": "player = لاعب: He is a football player."
+      },
+      {
+        "type": "true_false",
+        "question": "نقول: I go skiing in summer.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "التزلج رياضة شتوية: We go skiing in WINTER — في الشتاء وليس الصيف."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ترجمة: The match is on Saturday؟",
+        "options": [
+          "المباراة يوم السبت",
+          "المباراة يوم الأحد",
+          "الفريق يلعب السبت",
+          "السباق يوم السبت"
+        ],
+        "answer": "المباراة يوم السبت",
+        "explanation_ar": "match = مباراة، و on Saturday = يوم السبت ( on مع أيام الأسبوع )."
+      },
+      {
+        "type": "written",
+        "question": "ما الإنجليزية لكلمة ( فريق )؟",
+        "answer": "team",
+        "explanation_ar": "team = فريق: My team is the best."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي كلمة جمعها matches؟",
+        "options": [
+          "match",
+          "player",
+          "team",
+          "ball"
+        ],
+        "answer": "match",
+        "explanation_ar": "تُضاف es بعد ch / sh / s / x: match ← matches."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 13,
+      "title": "كلمات عن أجزاء الجسم باللغة الإنجليزية : كورس تعليم اللغة الإنجليزية للمبتدئين مجانا : ١٣"
+    },
+    "global_vocabulary": [
+      {
+        "word": "back",
+        "meaning": "ظهر",
+        "example_en": "You should keep your back straight.",
+        "example_ar": "يجب أن تُبقي ظهرك مستقيماً."
+      },
+      {
+        "word": "chin",
+        "meaning": "ذقن",
+        "example_en": "Steve Jobs liked to hold his chin.",
+        "example_ar": "ستيف جوبز كان يحب أن يمسك ذقنه."
+      },
+      {
+        "word": "eyebrow",
+        "meaning": "حاجب العين",
+        "example_en": "Some people have thin eyebrows and some other people have thick eyebrows.",
+        "example_ar": "بعض الناس حاجباهم رفيعان وآخرون سميكان."
+      },
+      {
+        "word": "foot / feet",
+        "meaning": "قدم / أقدام",
+        "example_en": "What size are your feet?",
+        "example_ar": "ما مقاس قدميك؟"
+      },
+      {
+        "word": "size",
+        "meaning": "مقاس",
+        "example_en": "What size are your feet?",
+        "example_ar": "ما مقاس قدميك؟"
+      },
+      {
+        "word": "knee",
+        "meaning": "ركبة",
+        "example_en": "The fat man hurt his knee.",
+        "example_ar": "الرجل السمين جرح ركبته."
+      },
+      {
+        "word": "forehead",
+        "meaning": "جبين",
+        "example_en": "The little girl slapped her forehead.",
+        "example_ar": "الفتاة الصغيرة صفعت جبينها."
+      },
+      {
+        "word": "slap",
+        "meaning": "يلطم / صفعة",
+        "example_en": "He slapped his friend on the face.",
+        "example_ar": "هو صفَّع صديقه على الوجه."
+      },
+      {
+        "word": "face",
+        "meaning": "وجه",
+        "example_en": "He slapped his friend on the face.",
+        "example_ar": "هو صفَّع صديقه على الوجه."
+      },
+      {
+        "word": "ankle",
+        "meaning": "كاحل القدم",
+        "example_en": "The basketball player twisted his ankle.",
+        "example_ar": "لاعب كرة السلة لوّى كاحله."
+      },
+      {
+        "word": "twist",
+        "meaning": "يلوي / التواء",
+        "example_en": "The basketball player twisted his ankle.",
+        "example_ar": "لاعب كرة السلة لوّى كاحله."
+      },
+      {
+        "word": "toe",
+        "meaning": "إصبع القدم",
+        "example_en": "Can you walk on your toes?",
+        "example_ar": "هل تستطيع المشي على أصابع قدميك؟"
+      },
+      {
+        "word": "break / broke",
+        "meaning": "يكسر / كسر ( ماضي )",
+        "example_en": "The boy broke his arm yesterday.",
+        "example_ar": "الولد كسر ذراعه أمس."
+      },
+      {
+        "word": "arm",
+        "meaning": "ذراع",
+        "example_en": "The boy broke his arm yesterday.",
+        "example_ar": "الولد كسر ذراعه أمس."
+      },
+      {
+        "word": "headache",
+        "meaning": "صداع الرأس",
+        "example_en": "The man has a strong headache.",
+        "example_ar": "الرجل لديه صداع شديد."
+      },
+      {
+        "word": "toothache",
+        "meaning": "ألم الأسنان",
+        "example_en": "I have a toothache.",
+        "example_ar": "لدي ألم في الأسنان."
+      },
+      {
+        "word": "cheek",
+        "meaning": "خد",
+        "example_en": "Don't touch my cheek.",
+        "example_ar": "لا تلمس خدي."
+      },
+      {
+        "word": "stomachache",
+        "meaning": "ألم المعدة",
+        "example_en": "Stomachache is a very bad feeling.",
+        "example_ar": "ألم المعدة شعور سيئ جداً."
+      },
+      {
+        "word": "pain",
+        "meaning": "ألم",
+        "example_en": "I have a back pain.",
+        "example_ar": "لدي ألم في الظهر."
+      },
+      {
+        "word": "hurt",
+        "meaning": "يؤلم / يجرح",
+        "example_en": "My back hurts.",
+        "example_ar": "ظهري يؤلمني."
+      },
+      {
+        "word": "straight",
+        "meaning": "مستقيم",
+        "example_en": "You should keep your back straight.",
+        "example_ar": "يجب أن تُبقي ظهرك مستقيماً."
+      },
+      {
+        "word": "feeling",
+        "meaning": "شعور",
+        "example_en": "Stomachache is a very bad feeling.",
+        "example_ar": "ألم المعدة شعور سيئ جداً."
+      },
+      {
+        "word": "good-hearted",
+        "meaning": "طيب القلب",
+        "example_en": "He is a good-hearted man.",
+        "example_ar": "هو رجل طيب القلب."
+      }
+    ],
+    "lesson_notes": [
+      "شواذ الجمع: foot ← feet ( قدم/أقدام )، و tooth ← teeth ( سن/أسنان ).",
+      "المصدر والماضي: break ← broke — مع yesterday نستخدم الماضي: The boy BROKE his arm yesterday.",
+      "اللاحقة ache تعني ألماً: headache = head + ache ( صداع )، toothache = tooth + ache، stomachache = stomach + ache.",
+      "good-hearted صفة مركبة: good + heart + ed = طيب القلب.",
+      "السؤال عن المقاس: What size are your feet? — what size = ما المقاس.",
+      "twist = يلوي ( التواء ): The basketball player twisted his ankle — لوّى كاحله."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما جمع كلمة ( foot )؟",
+        "options": [
+          "feet",
+          "foots",
+          "feets",
+          "feet's"
+        ],
+        "answer": "feet",
+        "explanation_ar": "foot شاذة في الجمع: feet — مثل: What size are your feet?"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى ( headache )؟",
+        "options": [
+          "صداع الرأس",
+          "ألم الأسنان",
+          "ألم المعدة",
+          "ألم الظهر"
+        ],
+        "answer": "صداع الرأس",
+        "explanation_ar": "headache = head + ache: The man has a strong headache."
+      },
+      {
+        "type": "true_false",
+        "question": "الجملة الصحيحة: The boy break his arm yesterday.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "مع yesterday نستخدم الماضي: The boy BROKE his arm yesterday."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: الرجل السمين جرح ركبته.",
+        "answer": "The fat man hurt his knee.",
+        "explanation_ar": "الجملة وردت حرفيًا في الدرس: The fat man hurt his knee."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي جزء من الجسم كان ستيف جوبز يمسكه؟",
+        "options": [
+          "chin",
+          "cheek",
+          "knee",
+          "toe"
+        ],
+        "answer": "chin",
+        "explanation_ar": "الدرس: Steve Jobs liked to hold his chin — يمسك ذقنه."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بالماضي: The basketball player ______ his ankle ( لوّى ).",
+        "answer": "twisted",
+        "explanation_ar": "twist ← twisted في الماضي: The basketball player twisted his ankle."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( toothache ) تعني ألم المعدة.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "toothache = ألم الأسنان ( tooth + ache )، أما ألم المعدة فـ stomachache."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ترجمة: What size are your feet؟",
+        "options": [
+          "ما مقاس قدميك؟",
+          "كم طول قدميك؟",
+          "كم عدد أصابع قدميك؟",
+          "هل قدميك تؤلمان؟"
+        ],
+        "answer": "ما مقاس قدميك؟",
+        "explanation_ar": "size = مقاس — What size are your feet? = ما مقاس قدميك؟"
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: لا تلمس خدي، لدي ألم أسنان.",
+        "answer": "Don't touch my cheek. I have a toothache.",
+        "explanation_ar": "من جمل الدرس: Don't touch my cheek. I have a toothache."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى ( good-hearted )؟",
+        "options": [
+          "طيب القلب",
+          "قوي القلب",
+          "مكسور القلب",
+          "صغير القلب"
+        ],
+        "answer": "طيب القلب",
+        "explanation_ar": "good-hearted = طيب القلب، ووردت في: He is a good-hearted man."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 16,
+      "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين كورس كامل من البداية الى الاحتراف : الحلقة 16"
+    },
+    "global_vocabulary": [
+      {
+        "word": "weather",
+        "meaning": "الطقس",
+        "example_en": "What is the weather like today?",
+        "example_ar": "كيف هو الطقس اليوم؟"
+      },
+      {
+        "word": "What is the weather like?",
+        "meaning": "كيف هو الطقس؟",
+        "example_en": "What is the weather like? — It is sunny.",
+        "example_ar": "كيف هو الطقس؟ — إنه مشمس."
+      },
+      {
+        "word": "How is the weather?",
+        "meaning": "كيف حال الطقس؟",
+        "example_en": "How is the weather? — It is cloudy.",
+        "example_ar": "كيف حال الطقس؟ — إنه غائم."
+      },
+      {
+        "word": "sunny",
+        "meaning": "مشمس",
+        "example_en": "It is sunny.",
+        "example_ar": "الجو مشمس."
+      },
+      {
+        "word": "partly sunny",
+        "meaning": "مشمس جزئياً",
+        "example_en": "It is partly sunny.",
+        "example_ar": "الجو مشمس جزئياً."
+      },
+      {
+        "word": "mostly sunny",
+        "meaning": "مشمس في الغالب",
+        "example_en": "It is mostly sunny.",
+        "example_ar": "الجو مشمس في الغالب."
+      },
+      {
+        "word": "cloudy",
+        "meaning": "غائم",
+        "example_en": "It is cloudy.",
+        "example_ar": "الجو غائم."
+      },
+      {
+        "word": "partly cloudy",
+        "meaning": "غائم جزئياً",
+        "example_en": "It is partly cloudy.",
+        "example_ar": "الجو غائم جزئياً."
+      },
+      {
+        "word": "windy",
+        "meaning": "عاصف / فيه رياح",
+        "example_en": "It is windy.",
+        "example_ar": "الجو عاصف."
+      },
+      {
+        "word": "foggy",
+        "meaning": "ضبابي",
+        "example_en": "It is foggy.",
+        "example_ar": "الجو ضبابي."
+      },
+      {
+        "word": "stormy",
+        "meaning": "عاصف ( رياح وعواصف )",
+        "example_en": "It is stormy.",
+        "example_ar": "الجو عاصف والعواصف تشتد."
+      },
+      {
+        "word": "rainy",
+        "meaning": "ممطر",
+        "example_en": "It is rainy.",
+        "example_ar": "الجو ممطر."
+      },
+      {
+        "word": "snowy",
+        "meaning": "مثلج",
+        "example_en": "It is snowy.",
+        "example_ar": "الجو مثلج."
+      },
+      {
+        "word": "temperature",
+        "meaning": "درجة الحرارة",
+        "example_en": "What is the temperature today?",
+        "example_ar": "ما هي درجة الحرارة اليوم؟"
+      },
+      {
+        "word": "degree",
+        "meaning": "درجة",
+        "example_en": "It is about 30 degrees.",
+        "example_ar": "الحرارة حوالي 30 درجة."
+      },
+      {
+        "word": "hot",
+        "meaning": "حار",
+        "example_en": "It is hot today.",
+        "example_ar": "الجو حار اليوم."
+      },
+      {
+        "word": "What is the temperature today?",
+        "meaning": "ما هي درجة الحرارة اليوم؟",
+        "example_en": "What is the temperature today? — It is about 30 degrees.",
+        "example_ar": "ما درجة الحرارة اليوم؟ — حوالي 30 درجة."
+      },
+      {
+        "word": "baking hot",
+        "meaning": "حار جداً ( حار يخبز )",
+        "example_en": "It is baking hot.",
+        "example_ar": "الجو حار جداً."
+      },
+      {
+        "word": "freezing cold",
+        "meaning": "بارد جداً / متجمد",
+        "example_en": "It is freezing cold.",
+        "example_ar": "الجو بارد جداً."
+      },
+      {
+        "word": "pouring with rain",
+        "meaning": "تمطر بغزارة",
+        "example_en": "It is pouring with rain.",
+        "example_ar": "السماء تمطر بغزارة."
+      },
+      {
+        "word": "It is raining cats and dogs",
+        "meaning": "تمطر بغزارة شديدة ( تعبير )",
+        "example_en": "It is raining cats and dogs.",
+        "example_ar": "الجو ينهمر مطراً غزيراً."
+      },
+      {
+        "word": "thunder",
+        "meaning": "رعد",
+        "example_en": "Kids are usually scared by thunder.",
+        "example_ar": "الأطفال عادةً يخافون من الرعد."
+      },
+      {
+        "word": "lightning",
+        "meaning": "برق",
+        "example_en": "Two thousand people are killed by lightning every year.",
+        "example_ar": "ألفا شخص يقتلهن البرق كل عام."
+      },
+      {
+        "word": "There is not a cloud in the sky",
+        "meaning": "لا غيمة في السماء ( جو صافٍ )",
+        "example_en": "There is not a cloud in the sky.",
+        "example_ar": "لا غيمة واحدة في السماء."
+      },
+      {
+        "word": "summer",
+        "meaning": "الصيف",
+        "example_en": "Summer is hot.",
+        "example_ar": "الصيف حار."
+      },
+      {
+        "word": "autumn",
+        "meaning": "الخريف",
+        "example_en": "Autumn is nice.",
+        "example_ar": "الخريف جميل."
+      },
+      {
+        "word": "winter",
+        "meaning": "الشتاء",
+        "example_en": "Winter is cold.",
+        "example_ar": "الشتاء بارد."
+      }
+    ],
+    "lesson_notes": [
+      "طريقة السؤال عن الطقس بطرقتين مترادفتين: What is the weather like? و How is the weather? — والإجابة تبدأ بـ It is...",
+      "صيغة الجو: نضيف y إلى اسم الظاهرة: sun ← sunny، cloud ← cloudy، wind ← windy، fog ← foggy ( g مزدوجة )، storm ← stormy، rain ← rainy، snow ← snowy.",
+      "partly = جزئياً و mostly = في الغالب: partly sunny / mostly cloudy — درجات في وصف الطقس.",
+      "درجة الحرارة: temperature = درجة الحرارة، و degree = درجة، والجمع degrees: It is about 30 degrees.",
+      "تعابير شدة الجو: baking hot = حار جداً، و freezing cold = بارد جداً، و It is pouring with rain / It is raining cats and dogs = مطر غزير جداً.",
+      "thunder = الرعد و lightning = البرق — لا تخلط بينهما.",
+      "الفصول الأربعة: spring ( الربيع )، summer ( الصيف )، autumn / fall ( الخريف )، winter ( الشتاء )."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى ( cloudy )؟",
+        "options": [
+          "غائم",
+          "مشمس",
+          "ممطر",
+          "ضبابي"
+        ],
+        "answer": "غائم",
+        "explanation_ar": "cloudy = غائم ( cloud + y ): It is cloudy."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي سؤال صحيح عن الطقس؟",
+        "options": [
+          "What is the weather like?",
+          "What weather is like?",
+          "How weather like?",
+          "What is weather?"
+        ],
+        "answer": "What is the weather like?",
+        "explanation_ar": "السؤالان الصحيحان: What is the weather like? / How is the weather?"
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( foggy ) تعني ضبابي.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "fog = ضباب، و foggy = ضبابي: It is foggy."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: الجو حار اليوم.",
+        "answer": "It is hot today.",
+        "explanation_ar": "الجملة من الدرس: It is hot today."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى ( temperature )؟",
+        "options": [
+          "درجة الحرارة",
+          "الرطوبة",
+          "السرعة",
+          "الارتفاع"
+        ],
+        "answer": "درجة الحرارة",
+        "explanation_ar": "temperature = درجة الحرارة: What is the temperature today?"
+      },
+      {
+        "type": "written",
+        "question": "أكمل: It is about 30 ______ ( درجة ).",
+        "answer": "degrees",
+        "explanation_ar": "degree = درجة، والجمع degrees: It is about 30 degrees."
+      },
+      {
+        "type": "true_false",
+        "question": "( partly sunny ) تعني مشمس في الغالب.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "partly = جزئياً ( مشمس جزئياً )، أما mostly sunny فمشمس في الغالب."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "كيف نكوّن صيغة الجو من cloud؟",
+        "options": [
+          "cloudy",
+          "clouding",
+          "clouded",
+          "clouds"
+        ],
+        "answer": "cloudy",
+        "explanation_ar": "نضيف y إلى اسم الظاهرة: cloud ← cloudy، مثل sun ← sunny و wind ← windy."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: كيف هو الطقس اليوم؟",
+        "answer": "What is the weather like today?",
+        "explanation_ar": "من أسئلة الدرس المتكررة: What is the weather like today?"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ترجمة: It is snowy؟",
+        "options": [
+          "الجو مثلج",
+          "الجو ممطر",
+          "الجو عاصف",
+          "الجو مشمس"
+        ],
+        "answer": "الجو مثلج",
+        "explanation_ar": "snow = ثلج، و snowy = مثلج."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 17,
+      "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين كورس كامل من البداية الى الاحتراف : الحلقة 17"
+    },
+    "global_vocabulary": [
+      {
+        "word": "booking",
+        "meaning": "حجز ( مدفوع )",
+        "example_en": "I want to book a flight ticket.",
+        "example_ar": "أريد أن أحجز تذكرة طيران."
+      },
+      {
+        "word": "reservation",
+        "meaning": "حجز ( مبدئي لحين الدفع )",
+        "example_en": "This ticket is reserved for 24 hours.",
+        "example_ar": "هذه التذكرة محجوزة لمدة 24 ساعة."
+      },
+      {
+        "word": "restaurant",
+        "meaning": "مطعم",
+        "example_en": "The restaurant is open.",
+        "example_ar": "المطعم مفتوح."
+      },
+      {
+        "word": "cafeteria",
+        "meaning": "كافتيريا ( خدمة ذاتية )",
+        "example_en": "In a cafeteria, the customer serves himself.",
+        "example_ar": "في الكافتيريا يخدم الزبون نفسه."
+      },
+      {
+        "word": "diner",
+        "meaning": "مطعم صغير على الطريق السريع",
+        "example_en": "The diner is on the highway.",
+        "example_ar": "المطعم الصغير على الطريق السريع."
+      },
+      {
+        "word": "pub",
+        "meaning": "حانة / خمارة",
+        "example_en": "The pub serves drinks.",
+        "example_ar": "الحانة تقدم المشروبات."
+      },
+      {
+        "word": "pizzeria",
+        "meaning": "محل البيتزا",
+        "example_en": "We ordered from the pizzeria.",
+        "example_ar": "طلبنا من محل البيتزا."
+      },
+      {
+        "word": "steakhouse",
+        "meaning": "مطعم شرائح اللحم",
+        "example_en": "The steakhouse is famous.",
+        "example_ar": "مطعم شرائح اللحم مشهور."
+      },
+      {
+        "word": "appetizer",
+        "meaning": "مقبلات ( تعبير أمريكي )",
+        "example_en": "The appetizer opens the appetite.",
+        "example_ar": "المقبلات تفتح الشهية."
+      },
+      {
+        "word": "starter",
+        "meaning": "مقبلات ( تعبير بريطاني )",
+        "example_en": "Starters are first in the menu.",
+        "example_ar": "المقبلات أولاً في القائمة."
+      },
+      {
+        "word": "free (table)",
+        "meaning": "متاح / غير مشغول",
+        "example_en": "Do you have any free tables?",
+        "example_ar": "هل لديكم ترابيزات متاحة؟"
+      },
+      {
+        "word": "for how many people?",
+        "meaning": "لكم شخص؟",
+        "example_en": "A table for three people, please.",
+        "example_ar": "ترابيزة لثلاثة أشخاص من فضلك."
+      },
+      {
+        "word": "under the name",
+        "meaning": "باسم",
+        "example_en": "I have a reservation under the name Mohammed.",
+        "example_ar": "عندي حجز باسم محمد."
+      },
+      {
+        "word": "allergy",
+        "meaning": "حساسية",
+        "example_en": "I have an allergy to fish.",
+        "example_ar": "عندي حساسية من السمك."
+      },
+      {
+        "word": "vegetarian",
+        "meaning": "نباتي",
+        "example_en": "I'm vegetarian.",
+        "example_ar": "أنا نباتي."
+      },
+      {
+        "word": "pork",
+        "meaning": "لحم الخنزير",
+        "example_en": "I don't eat pork.",
+        "example_ar": "أنا لا آكل لحم الخنزير."
+      },
+      {
+        "word": "dish",
+        "meaning": "طبق / أكلة",
+        "example_en": "What is this dish?",
+        "example_ar": "ما هذه الأكلة؟"
+      },
+      {
+        "word": "order",
+        "meaning": "طلب / يطلب",
+        "example_en": "Are you ready to order?",
+        "example_ar": "هل أنت جاهز للطلب؟"
+      },
+      {
+        "word": "well-done",
+        "meaning": "مطبوخ جيداً ( لدرجات اللحم )",
+        "example_en": "The steak is well-done.",
+        "example_ar": "الشريحة مطبوخة جيداً."
+      },
+      {
+        "word": "salty",
+        "meaning": "مالح",
+        "example_en": "The food is salty.",
+        "example_ar": "الأكل مالح."
+      },
+      {
+        "word": "check",
+        "meaning": "الحساب ( تعبير أمريكي )",
+        "example_en": "Check, please.",
+        "example_ar": "الحساب من فضلك."
+      },
+      {
+        "word": "bill",
+        "meaning": "الحساب / الفاتورة ( تعبير بريطاني )",
+        "example_en": "Bill, please.",
+        "example_ar": "الحساب من فضلك."
+      },
+      {
+        "word": "credit card",
+        "meaning": "بطاقة ائتمانية",
+        "example_en": "Can I pay by credit card?",
+        "example_ar": "هل يمكنني الدفع بالبطاقة الائتمانية؟"
+      },
+      {
+        "word": "How long will it take?",
+        "meaning": "كم سيستغرق؟",
+        "example_en": "How long will it take?",
+        "example_ar": "كم سيستغرق ذلك؟"
+      }
+    ],
+    "lesson_notes": [
+      "booking = حجز مدفوع ( book a flight ticket / book a hotel room )، و reservation = حجز مبدئي يُحجز لك حتى تدفع ( reserved )؛ أما حجز ترابيزة المطعم فبدون دفع مسبق، لذلك الكلمتان مترادفتان فيه.",
+      "cafeteria في الإنجليزية تعني الخدمة الذاتية: الزبون يختار أكله ويحاسب ثم يقعد يأكل — وليست بمعنى الكافتيريا العربية.",
+      "appetizer أمريكي ( من appetite = شهية )، و starter بريطاني ( من start = البداية ) — كلاهما المقبلات.",
+      "اسم الحيوان يختلف عن اسم اللحم: pig = خنزير و pork = لحم الخنزير، و cow = بقرة و beef = لحم بقري.",
+      "درجات طهي الستيك: rare ( يادوب شاف النار / قريب من النيء )، medium rare، medium ( وسط )، well-done ( مطبوخ جيداً ).",
+      "الحساب: Check, please أمريكي، و Bill, please بريطاني — والبريطانيون يستخدمون the في الكلام أكثر قليلاً.",
+      "I have an allergy TO fish — حساسية من: نستخدم حرف الجر to مع allergy.",
+      "بعض الأفعال لا تحتاج وسيطاً بينها وبين الضمير ( أفعال متعدية ): Can I bring you anything? بدون for — وسيُشرح لاحقاً في القواعد."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما الفرق بين ( booking ) و ( reservation )؟",
+        "options": [
+          "booking حجز مدفوع و reservation حجز مبدئي لحين الدفع",
+          "reservation حجز مدفوع و booking مبدئي",
+          "لا يوجد فرق إطلاقاً",
+          "booking للمطاعم فقط"
+        ],
+        "answer": "booking حجز مدفوع و reservation حجز مبدئي لحين الدفع",
+        "explanation_ar": "book a hotel = حجزت ودفعت، أما reserved = محجوز لك مؤقتاً حتى تدفع."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ماذا تعني ( cafeteria ) في الإنجليزية؟",
+        "options": [
+          "مكان بخدمة ذاتية يخدم فيه الزبون نفسه",
+          "مطعم فاخر",
+          "مقهى صغير",
+          "بوفيه مدرسي فقط"
+        ],
+        "answer": "مكان بخدمة ذاتية يخدم فيه الزبون نفسه",
+        "explanation_ar": "شرح الأستاذ: في الكافتيريا الزبون يختار أكله ويحاسب ثم يأكل — خدمة ذاتية."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( appetizer ) بريطانية و ( starter ) أمريكية.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "العكس: appetizer أمريكي ( من appetite )، و starter بريطاني ( من start )."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: عندي حساسية من السمك.",
+        "answer": "I have an allergy to fish.",
+        "explanation_ar": "الجملة من الدرس: I have an allergy to fish — allergy تأتي مع to."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي درجة طهي تعني مطبوخة جيداً؟",
+        "options": [
+          "well-done",
+          "rare",
+          "medium rare",
+          "raw"
+        ],
+        "answer": "well-done",
+        "explanation_ar": "الدرجات: rare ( قريب من النيء )، medium rare، medium، well-done ( مطبوخ جيداً )."
+      },
+      {
+        "type": "written",
+        "question": "اكتب العبارة الأمريكية لطلب الحساب.",
+        "answer": "Check, please.",
+        "explanation_ar": "في أمريكا: Check, please — وفي بريطانيا: Bill, please."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمة ( pork ) تعني لحم الخنزير، وكلمة ( pig ) تعني الخنزير نفسه.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "كما في: cow = بقرة و beef = لحم بقري — اسم الحيوان يختلف عن اسم اللحم."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ماذا يعني ( free ) في: Do you have any free tables؟",
+        "options": [
+          "متاح / غير مشغول",
+          "مجاني",
+          "حر",
+          "جديد"
+        ],
+        "answer": "متاح / غير مشغول",
+        "explanation_ar": "free هنا تعني متاح: هل لديكم ترابيزات متاحة؟"
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: هل يمكنني الدفع بالبطاقة الائتمانية؟",
+        "answer": "Can I pay by credit card?",
+        "explanation_ar": "من جمل نهاية الدرس: Can I pay by credit card?"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ترجمة: I have a reservation under the name Mohammed؟",
+        "options": [
+          "عندي حجز باسم محمد",
+          "عندي طلب باسم محمد",
+          "محمد حجز ترابيزة",
+          "عندي حجز من محمد"
+        ],
+        "answer": "عندي حجز باسم محمد",
+        "explanation_ar": "under the name = باسم — عبارة الوصول للمطعم: عندي حجز باسم..."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 24,
+      "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين كورس كامل من البداية الى الاحتراف : الحلقة 24"
+    },
+    "global_vocabulary": [
+      {
+        "word": "ignorant",
+        "meaning": "جاهل / سفيه عدواني",
+        "example_en": "He was ignorant about what happens behind his back.",
+        "example_ar": "كان جاهلاً بما يحدث خلف ظهره."
+      },
+      {
+        "word": "educated",
+        "meaning": "متعلم / مثقف",
+        "example_en": "An educated person respects knowledge.",
+        "example_ar": "المتعلم يحترم المعرفة."
+      },
+      {
+        "word": "uneducated",
+        "meaning": "غير متعلم",
+        "example_en": "He is uneducated.",
+        "example_ar": "هو غير متعلم."
+      },
+      {
+        "word": "fool",
+        "meaning": "أحمق / سفيه",
+        "example_en": "Get lost, you ignorant fool!",
+        "example_ar": "اختفي من أمامي أيها الجاهل الأحمق!"
+      },
+      {
+        "word": "stupid",
+        "meaning": "غبي",
+        "example_en": "A stupid mistake can happen to anyone.",
+        "example_ar": "خطأ غبي يمكن أن يحدث لأي شخص."
+      },
+      {
+        "word": "naive",
+        "meaning": "ساذج",
+        "example_en": "Don't be naive.",
+        "example_ar": "لا تكن ساذجاً."
+      },
+      {
+        "word": "corrupt",
+        "meaning": "فاسد / يفسد",
+        "example_en": "Who is not corrupt?",
+        "example_ar": "مَن الذي ليس فاسداً؟"
+      },
+      {
+        "word": "evil",
+        "meaning": "شرير / الشر",
+        "example_en": "I saw him give me an evil eye.",
+        "example_ar": "رأيته ينظر إليّ نظرة شريرة."
+      },
+      {
+        "word": "evil eye",
+        "meaning": "العين الحاسدة",
+        "example_en": "He gave me an evil eye, so I walked the other way.",
+        "example_ar": "أعطاني نظرة حسد، فمشيت في الاتجاه الآخر."
+      },
+      {
+        "word": "ignorance is bliss",
+        "meaning": "الجهل نعمة ( مقوله )",
+        "example_en": "Ignorance is bliss.",
+        "example_ar": "الجهل نعمة."
+      },
+      {
+        "word": "knowledge",
+        "meaning": "معرفة / اطلاع",
+        "example_en": "Knowledge is power.",
+        "example_ar": "المعرفة قوة."
+      },
+      {
+        "word": "redneck",
+        "meaning": "قروي متخلف ( مصطلح ازدراء )",
+        "example_en": "Some people use this word as an insult.",
+        "example_ar": "بعض الناس يستخدمون هذه الكلمة كإهانة."
+      },
+      {
+        "word": "greedy",
+        "meaning": "طماع",
+        "example_en": "The greedy man wants more money.",
+        "example_ar": "الرجل الطماع يريد المزيد من المال."
+      }
+    ],
+    "lesson_notes": [
+      "ملاحظة مهمة من الأستاذ: كلمات هذا الدرس سلبية ( للغضب أو الوصف السيئ أو السب )، ونصح بعدم قولها لمن تريد الحفاظ على علاقتك به — والمحتوى كله بلا ألفاظ خادشة.",
+      "ignorant استخدامان: جاهل ( ضد educated )، وسفيه/عدواني السلوك — وفي العربية: إذا خاطبهم الجاهلون قالوا سلاماً.",
+      "الصفات المركبة: كلمتان معاً مع شرطة أو بدونها: un-educated، good-hearted، no-good — الشرطة اختيارية وكلا الكتابتين صحيحة.",
+      "الفرق المنتشر بين stupid و fool غير حقيقي — كلاهما قد يكون مؤقتاً أو دائماً حسب السياق.",
+      "naive مأخوذة من الفرنسية لذا تهجئتها تختلف عن نطقها، ومع 'بشأن' نقول: naive about.",
+      "redneck مصطلح ازدراء للقرويين غير المتحدرين — من احمرار الرقبة تحت الشمس في الحقول، ومشهور بولايات مثل تكساس وميسيسيبي ولويزيانا.",
+      "النفي بـ no أقوى من not: no one أقوى تعبيراً من not one — وسيأتي تفصيله في القواعد.",
+      "تذكير: give someone an evil eye = ينظر إليه بنظرة حسد/شر."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى كلمة ( ignorant )؟",
+        "options": [
+          "جاهل",
+          "متعلم",
+          "سعيد",
+          "غني"
+        ],
+        "answer": "جاهل",
+        "explanation_ar": "ignorant = جاهل ( ضد educated )، ووردت في: He was ignorant about what happens behind his back."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما ضد كلمة ( educated )؟",
+        "options": [
+          "uneducated",
+          "diseducated",
+          "ineducated",
+          "educated2"
+        ],
+        "answer": "uneducated",
+        "explanation_ar": "نضيف البادئة un- للتضاد: educated ( متعلم ) ← uneducated ( غير متعلم )."
+      },
+      {
+        "type": "true_false",
+        "question": "الفرق بين ( stupid ) و ( fool ) فرق حقيقي وثابت في اللغة.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "الأستاذ شدد أن هذا الفرق اختراع غير حقيقي؛ كلاهما قد يكون مؤقتاً أو دائماً."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: الجهل نعمة.",
+        "answer": "Ignorance is bliss.",
+        "explanation_ar": "المثل ورد حرفيًا: Ignorance is bliss — ignorance = جهل، bliss = نعيم."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ماذا تعني عبارة ( evil eye )؟",
+        "options": [
+          "العين الحاسدة",
+          "عين حمراء",
+          "نظرة خوف",
+          "بصر ضعيف"
+        ],
+        "answer": "العين الحاسدة",
+        "explanation_ar": "evil eye = العين الحاسدة/الشريرة: He gave me an evil eye."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بكلمة واحدة: Don't be ______ ( لا تكن ساذجاً ).",
+        "answer": "naive",
+        "explanation_ar": "naive = ساذج: Don't be naive — والكلمة فرنسية الأصل."
+      },
+      {
+        "type": "true_false",
+        "question": "تهجئة كلمة ( naive ) تطابق نطقها تماماً.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "الكلمة مأخوذة من الفرنسية لذا تهجئتها تختلف عن نطقها ( كما شرح الأستاذ )."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "أي من هذه الكلمات صفة مركبة ( كلمتان )؟",
+        "options": [
+          "good-hearted",
+          "happy",
+          "angry",
+          "tall"
+        ],
+        "answer": "good-hearted",
+        "explanation_ar": "good-hearted كلمتان ( good + heart + ed ) — صفة مركبة مثل uneducated و no-good."
+      },
+      {
+        "type": "written",
+        "question": "اكتب العبارة الإنجليزية: اختفي من أمامي أيها الجاهل الأحمق!",
+        "answer": "Get lost, you ignorant fool!",
+        "explanation_ar": "العبارة وردت في الدرس للرد على السلوك العدواني: Get lost, you ignorant fool!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى ( greedy )؟",
+        "options": [
+          "طماع",
+          "كريم",
+          "فقير",
+          "صادق"
+        ],
+        "answer": "طماع",
+        "explanation_ar": "greedy = طماع، و greed = الطمع."
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "course": "من الصفر",
+      "level": 1,
+      "lesson_no": 25,
+      "title": "كورس شامل لتعلم اللغة الانجليزية للمبتدئين من الصفر : الحلقة 25 مراجعة بالصوت والصورة"
+    },
+    "global_vocabulary": [
+      {
+        "word": "firefighter",
+        "meaning": "رجل / امرأة إطفاء",
+        "example_en": "The firefighter wears a jacket and a pair of pants.",
+        "example_ar": "رجل الإطفاء يرتدي سترة وبنطالاً."
+      },
+      {
+        "word": "fireman",
+        "meaning": "رجل إطفاء ( تعبير تقليدي )",
+        "example_en": "The fireman puts out the fire.",
+        "example_ar": "رجل الإطفاء يُطفئ الحريق."
+      },
+      {
+        "word": "firewoman",
+        "meaning": "امرأة إطفاء",
+        "example_en": "The firewoman is brave.",
+        "example_ar": "امرأة الإطفاء شجاعة."
+      },
+      {
+        "word": "uniform",
+        "meaning": "زي موحد",
+        "example_en": "It is the uniform.",
+        "example_ar": "إنه الزي الموحد."
+      },
+      {
+        "word": "jacket",
+        "meaning": "سترة / جاكيت",
+        "example_en": "The firefighter wears a jacket.",
+        "example_ar": "رجل الإطفاء يرتدي سترة."
+      },
+      {
+        "word": "pants",
+        "meaning": "بنطال",
+        "example_en": "He wears a pair of pants.",
+        "example_ar": "هو يرتدي بنطالاً."
+      },
+      {
+        "word": "shirt",
+        "meaning": "قميص",
+        "example_en": "My cousin is an engineer. He likes to wear shirts.",
+        "example_ar": "ابن عمي مهندس، يحب أن يرتدي القمصان."
+      },
+      {
+        "word": "sweatshirt",
+        "meaning": "سترة رياضية ( بكمام )",
+        "example_en": "My father-in-law is a coach. He wears a blue sweatshirt.",
+        "example_ar": "حموي مدرب، يرتدي سترة رياضية زرقاء."
+      },
+      {
+        "word": "sweater",
+        "meaning": "سترة صوفية",
+        "example_en": "This sweater is warm.",
+        "example_ar": "هذه السترة الصوفية دافئة."
+      },
+      {
+        "word": "wear",
+        "meaning": "يرتدي",
+        "example_en": "He wears a blue sweatshirt.",
+        "example_ar": "هو يرتدي سترة رياضية زرقاء."
+      },
+      {
+        "word": "coach",
+        "meaning": "مدرب",
+        "example_en": "My father-in-law is a coach.",
+        "example_ar": "حموي مدرب."
+      },
+      {
+        "word": "Do you know...?",
+        "meaning": "هل تعلم؟ ( لتتعلم المعلومة )",
+        "example_en": "Do you speak Chinese?",
+        "example_ar": "هل تتحدث الصينية؟"
+      },
+      {
+        "word": "Did you know...?",
+        "meaning": "هل تعلم؟ ( لعرض معلومة )",
+        "example_en": "Did you know that there are two moons orbiting Mars?",
+        "example_ar": "هل تعلم أن هناك قمرين يدوران حول المريخ؟"
+      }
+    ],
+    "lesson_notes": [
+      "قاعدة s المزدوجة: He LIKES to WEAR shirts — الفعل بعد to لا يأخذ s، أما الفعل الأول بعد الفاعل المفرد فتأخذ s.",
+      "Do you know...؟ عندما تريد معرفة المعلومة فعلاً ( Do you speak Chinese? / Do you work here? )، أما Did you know...؟ فلعرض معلومة تشاركها مع الناس دون أن تنتظر إجابتهم ( Did you know that there are two moons orbiting Mars? ).",
+      "ثلاثة أسماء لمن يُطفئ الحريق: firefighter ( محايد )، fireman، firewoman.",
+      "sweatshirt ليست sweater — الأول سترة رياضية بكمام، والثاني ستره صوفية ( كما شدد الأستاذ في المراجعة ).",
+      "a pair of pants جمعها: pairs of pants.",
+      "مراجعة من الدروس السابقة: couch = sofa بدون أي فرق، و on ملامسة أما above ففوق بدون ملامسة ( The clock is on the wall above the couch )."
+    ],
+    "quiz": [
+      {
+        "type": "multiple_choice",
+        "question": "لماذا أُضيفت s إلى الفعل في: He likes to wear shirts؟",
+        "options": [
+          "لأن الفاعل he مفرد غائب",
+          "لأن shirts جمع",
+          "لأن wear تسبقها s",
+          "خطأ إملائي"
+        ],
+        "answer": "لأن الفاعل he مفرد غائب",
+        "explanation_ar": "مع he/she/it نضيف s للفعل الأول ( likes )، أما الفعل بعد to فيبقى كما هو ( to wear )."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "متى نستخدم صيغة ( Did you know )؟",
+        "options": [
+          "عند عرض معلومة نشاركها",
+          "عندما نريد معرفة معلومة",
+          "للتحية",
+          "للاعتذار"
+        ],
+        "answer": "عند عرض معلومة نشاركها",
+        "explanation_ar": "Did you know...? = لعرض معلومة ( قمرا المريخ )، أما Do you know / Do you speak؟ فلأن نريد المعلومة فعلاً."
+      },
+      {
+        "type": "true_false",
+        "question": "كلمتا ( sweatshirt ) و ( sweater ) تعنيان نفس الشيء تماماً.",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "خطأ",
+        "explanation_ar": "شدّد الأستاذ في المراجعة: sweatshirt سترة رياضية، و sweater سترة صوفية."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: ابن عمي مهندس، يحب أن يرتدي القمصان.",
+        "answer": "My cousin is an engineer. He likes to wear shirts.",
+        "explanation_ar": "الجملة من مراجعة الدرس، وانتبه: likes ( بعد he ) و to wear ( بدون s )."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى ( firefighter )؟",
+        "options": [
+          "رجل إطفاء",
+          "مدرب",
+          "لاعب كرة",
+          "سائق"
+        ],
+        "answer": "رجل إطفاء",
+        "explanation_ar": "firefighter = رجل/امرأة إطفاء، و fireman و firewoman صيغتان أخريان."
+      },
+      {
+        "type": "written",
+        "question": "أكمل بكلمة واحدة: The firefighter wears a jacket and a pair of ______.",
+        "answer": "pants",
+        "explanation_ar": "a pair of pants = بنطال — والجملة من الدرس."
+      },
+      {
+        "type": "true_false",
+        "question": "جمع ( a pair of pants ) هو ( pairs of pants ).",
+        "options": [
+          "صحيح",
+          "خطأ"
+        ],
+        "answer": "صحيح",
+        "explanation_ar": "الجمع يدخل على pair: a pair of pants ← pairs of pants."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما معنى: The children's swimming pool is shallow؟",
+        "options": [
+          "حمام سباحة الأطفال ضحل",
+          "حمام سباحة الأطفال عميق",
+          "حمام سباحة الأطفال مغلق",
+          "حمام سباحة الأطفال جديد"
+        ],
+        "answer": "حمام سباحة الأطفال ضحل",
+        "explanation_ar": "مراجعة للدرس السابع: shallow = ضحل ( ضد deep )."
+      },
+      {
+        "type": "written",
+        "question": "ترجم إلى الإنجليزية: الكنبة في الأمام من السبورة.",
+        "answer": "The couch is in front of the blackboard.",
+        "explanation_ar": "من جمل المراجعة: The couch is in front of the blackboard."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "ما العلاقة بين ( couch ) و ( sofa )؟",
+        "options": [
+          "لا يوجد فرق بينهما",
+          "couch أكبر",
+          "sofa للمكاتب",
+          "couch للمراكب"
+        ],
+        "answer": "لا يوجد فرق بينهما",
+        "explanation_ar": "مراجعة للدرس الرابع: الاسمان لنفس الشيء ولا أي فرق بينهما."
+      }
+    ]
+  }
+]

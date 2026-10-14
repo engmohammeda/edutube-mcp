@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 9,
+    "title": "تعلم الأرقام الإنجليزية : كورس تعليم اللغة الإنجليزية للمبتدئين من الصفر : ٩"
+  },
+  "global_vocabulary": [
+    { "word": "one", "meaning": "واحد", "example_en": "I have one brother.", "example_ar": "لدي أخ واحد." },
+    { "word": "two", "meaning": "اثنان", "example_en": "I have two cats.", "example_ar": "عندي قطتان." },
+    { "word": "three", "meaning": "ثلاثة", "example_en": "There are three books on the table.", "example_ar": "هناك ثلاثة كتب على الطاولة." },
+    { "word": "four", "meaning": "أربعة", "example_en": "The car has four wheels.", "example_ar": "السيارة لها أربعة عجلات." },
+    { "word": "five", "meaning": "خمسة", "example_en": "I wake up at five o'clock.", "example_ar": "أستيقظ في الساعة الخامسة." },
+    { "word": "six", "meaning": "ستة", "example_en": "There are six chairs in the room.", "example_ar": "هناك ستة كراسي في الغرفة." },
+    { "word": "seven", "meaning": "سبعة", "example_en": "There are seven days in a week.", "example_ar": "هناك سبعة أيام في الأسبوع." },
+    { "word": "eight", "meaning": "ثمانية", "example_en": "My son is eight years old.", "example_ar": "ابني عمره ثماني سنوات." },
+    { "word": "nine", "meaning": "تسعة", "example_en": "The meeting starts at nine.", "example_ar": "الاجتماع يبدأ في التاسعة." },
+    { "word": "ten", "meaning": "عشرة", "example_en": "I have ten fingers.", "example_ar": "لدي عشرة أصابع." },
+    { "word": "eleven", "meaning": "أحد عشر", "example_en": "There are eleven players in a football team.", "example_ar": "هناك أحد عشر لاعباً في فريق كرة القدم." },
+    { "word": "twelve", "meaning": "اثنا عشر", "example_en": "There are twelve months in a year.", "example_ar": "هناك اثنا عشر شهراً في السنة." },
+    { "word": "thirteen", "meaning": "ثلاثة عشر", "example_en": "My cousin is thirteen years old.", "example_ar": "ابن عمي عمره ثلاث عشرة سنة." },
+    { "word": "fourteen", "meaning": "أربعة عشر", "example_en": "Fourteen students are in the class.", "example_ar": "أربعة عشر طالباً في الفصل." },
+    { "word": "fifteen", "meaning": "خمسة عشر", "example_en": "The lesson is fifteen minutes long.", "example_ar": "الدرس مدته خمس عشرة دقيقة." },
+    { "word": "sixteen", "meaning": "ستة عشر", "example_en": "She is sixteen years old.", "example_ar": "عمرها ست عشرة سنة." },
+    { "word": "seventeen", "meaning": "سبعة عشر", "example_en": "Seventeen boys are playing.", "example_ar": "سبعة عشر ولداً يلعبون." },
+    { "word": "eighteen", "meaning": "ثمانية عشر", "example_en": "He is eighteen years old.", "example_ar": "عمره ثمانية عشر عاماً." },
+    { "word": "nineteen", "meaning": "تسعة عشر", "example_en": "Nineteen girls are in the school.", "example_ar": "تسعة عشر فتاة في المدرسة." },
+    { "word": "twenty", "meaning": "عشرون", "example_en": "I have twenty books.", "example_ar": "عندي عشرون كتاباً." },
+    { "word": "thirty", "meaning": "ثلاثون", "example_en": "There are thirty minutes in half an hour.", "example_ar": "هناك ثلاثون دقيقة في نصف ساعة." },
+    { "word": "forty", "meaning": "أربعون", "example_en": "My father is forty years old.", "example_ar": "أبي عمره أربعون عاماً." },
+    { "word": "fifty", "meaning": "خمسون", "example_en": "Fifty students are in the school.", "example_ar": "خمسون طالباً في المدرسة." },
+    { "word": "hundred", "meaning": "مائة", "example_en": "There are one hundred pages in the book.", "example_ar": "هناك مائة صفحة في الكتاب." },
+    { "word": "thousand", "meaning": "ألف", "example_en": "The car costs one thousand dollars.", "example_ar": "السيارة تكلف ألف دولار." },
+    { "word": "million", "meaning": "مليون", "example_en": "The video has one million views.", "example_ar": "الفيديو لديه مليون مشاهدة." }
+  ],
+  "lesson_notes": [
+    "الأرقام من 13 إلى 19 تنتهي بـ teen: thirteen / fourteen / fifteen... بينما العشرات تنتهي بـ ty: thirty / forty / fifty — انتبه للفرق في النطق والمعنى ( thirteen = 13 و thirty = 30 ).",
+    "التركيب المركب للتواريخ والأعمار: twenty-one ( 21 ) يُكتب بشرطة، و years old للعمر: He is eight YEARS old.",
+    "o'clock للساعة الكاملة فقط: five o'clock = الساعة الخامسة تماماً.",
+    "الترتيب: رقم + اسم مفرد عادة ( two cats / ten fingers )، و hundred / thousand / million لا تأخذ جمعاً مع رقم محدد: two HUNDRED ( وليس hundreds )."
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "ما العدد ( thirteen )؟", "options": ["13", "30", "3", "103"], "answer": "13", "explanation_ar": "thirteen = ثلاثة عشر، أما thirty فثلاثون — الفرق في النهاية teen مقابل ty." },
+    { "type": "multiple_choice", "question": "كم عدد أيام الأسبوع بالإنجليزية؟", "options": ["seven", "six", "eight", "ten"], "answer": "seven", "explanation_ar": "الدرس: There are seven days in a week — سبعة أيام." },
+    { "type": "true_false", "question": "كلمة ( fifty ) تعني خمسة عشر.", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "fifty = خمسون ( 50 )، أما خمسة عشر فـ fifteen." },
+    { "type": "written", "question": "اكتب بالحروف الإنجليزية: 12.", "answer": "twelve", "explanation_ar": "twelve = اثنا عشر، وهي كلمة شاذة لا تنتهي بـ teen." },
+    { "type": "multiple_choice", "question": "ما معنى ( thousand )؟", "options": ["ألف", "مائة", "مليون", "عشرة"], "answer": "ألف", "explanation_ar": "thousand = ألف، و hundred = مائة، و million = مليون." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: عمره ثماني سنوات.", "answer": "He is eight years old.", "explanation_ar": "التركيب للعمر: He is + الرقم + years old — He is eight years old." },
+    { "type": "true_false", "question": "نقول: two hundreds books ( مئتا كتاب ).", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "مع رقم محدد لا نجمع: two HUNDRED books — الجمع hundreds يأتي بلا رقم: hundreds of books." },
+    { "type": "multiple_choice", "question": "كيف نقول الساعة الخامسة تماماً؟", "options": ["five o'clock", "five clock", "five hours", "five time"], "answer": "five o'clock", "explanation_ar": "o'clock تُستخدم للساعة الكاملة: five o'clock = الساعة الخامسة." },
+    { "type": "written", "question": "اكتب بالحروف الإنجليزية: 20.", "answer": "twenty", "explanation_ar": "twenty = عشرون — تنتهي بـ ty مثل thirty / forty / fifty." },
+    { "type": "multiple_choice", "question": "ما ترجمة: There are twelve months in a year؟", "options": ["هناك اثنا عشر شهراً في السنة", "هناك عشرة أشهر في السنة", "هناك اثنا عشر يوماً في الشهر", "السنة فيها شهران"], "answer": "هناك اثنا عشر شهراً في السنة", "explanation_ar": "twelve = اثنا عشر، و months = أشهر، و year = سنة." }
+  ]
+}

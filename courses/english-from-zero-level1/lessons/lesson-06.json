@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 6,
+    "title": "تعلم اللغة الإنجليزية للمبتدئين : الدرس السادس : مفردات عن الحيوانات"
+  },
+  "global_vocabulary": [
+    { "word": "bee", "meaning": "نحلة", "example_en": "Bees make honey.", "example_ar": "النحل يصنع العسل." },
+    { "word": "camel", "meaning": "جمل / ناقة", "example_en": "Camels are patient.", "example_ar": "الجمال صبورة." },
+    { "word": "chicken", "meaning": "دجاجة", "example_en": "The chicken has many eggs.", "example_ar": "الدجاجة لديها بيض كثير." },
+    { "word": "crocodile", "meaning": "تمساح", "example_en": "Crocodiles are very dangerous animals.", "example_ar": "التماسيح حيوانات خطيرة جداً." },
+    { "word": "deer", "meaning": "غزال", "example_en": "Look at the beautiful deer.", "example_ar": "انظر إلى الغزال الجميل." },
+    { "word": "dolphin", "meaning": "دلفين", "example_en": "Dolphins are very friendly to people.", "example_ar": "الدلافين ودودة جداً مع الناس." },
+    { "word": "duck", "meaning": "بطة", "example_en": "Ducks like to swim.", "example_ar": "البط يحب السباحة." },
+    { "word": "elephant", "meaning": "فيل", "example_en": "Did you know that elephants can swim?", "example_ar": "هل تعلم أن الفيلة تستطيع السباحة؟" },
+    { "word": "fly", "meaning": "ذبابة", "example_en": "Flies are very annoying.", "example_ar": "الذباب مزعج جداً." },
+    { "word": "fox", "meaning": "ثعلب", "example_en": "Foxes are very sly.", "example_ar": "الثعالب ماكرة جداً." },
+    { "word": "frog", "meaning": "ضفدع", "example_en": "The frog wants to eat.", "example_ar": "الضفدع يريد أن يأكل." },
+    { "word": "goat", "meaning": "ماعز", "example_en": "My nephew plays with the goat.", "example_ar": "ابن أخي يلعب بالماعز." },
+    { "word": "hippo", "meaning": "فرس النهر", "example_en": "The hippo can walk underwater.", "example_ar": "فرس النهر يستطيع المشي تحت الماء." },
+    { "word": "kangaroo", "meaning": "كنغر", "example_en": "Kangaroos can run fast.", "example_ar": "الكنغر يركض بسرعة." },
+    { "word": "octopus", "meaning": "أخطبوط", "example_en": "The octopus can swim and walk.", "example_ar": "الأخطبوط يستطيع السباحة والمشي." },
+    { "word": "owl", "meaning": "بومة", "example_en": "Baby owls are very cute.", "example_ar": "صغار البوم لطيفون جداً." },
+    { "word": "bear", "meaning": "دب", "example_en": "Bears are lazy animals.", "example_ar": "الدباب حيوانات كسولة." },
+    { "word": "ant", "meaning": "نملة", "example_en": "Ants are very hard-working.", "example_ar": "النمل مجتهد جداً." },
+    { "word": "honey", "meaning": "عسل", "example_en": "Bees make honey.", "example_ar": "النحل يصنع العسل." },
+    { "word": "patient", "meaning": "صبور", "example_en": "Camels are patient.", "example_ar": "الجمال صبورة." },
+    { "word": "annoying", "meaning": "مزعج", "example_en": "Flies are very annoying.", "example_ar": "الذباب مزعج جداً." },
+    { "word": "sly", "meaning": "ماكر", "example_en": "Foxes are very sly.", "example_ar": "الثعالب ماكرة جداً." },
+    { "word": "lazy", "meaning": "كسول", "example_en": "Bears are lazy animals.", "example_ar": "الدباب حيوانات كسولة." },
+    { "word": "hard-working", "meaning": "مجتهد / يحب العمل", "example_en": "Ants are very hard-working.", "example_ar": "النمل مجتهد جداً." },
+    { "word": "underwater", "meaning": "تحت الماء", "example_en": "The hippo can walk underwater.", "example_ar": "فرس النهر يستطيع المشي تحت الماء." }
+  ],
+  "lesson_notes": [
+    "قواعد الجمع في الدرس: نضيف s غالباً ( camels / ducks / bears )، و es بعد s / sh / ch / x ( fox → foxes )، و عندما تسبق y حرف ساكن تتحول إلى ies ( fly → flies ).",
+    "sly تعني ماكر، والثعلب رمز المكر: الثعالب ماكرة ( Foxes are very sly ) — وهي صفة سلبية.",
+    "hard-working مركبة من hard ( بجد / بشدة ) + working ( يعمل ) = مجتهد.",
+    "صيغة Did you know that...؟ تُستخدم لتقديم معلومة مدهشة: Did you know that elephants can swim? — هل تعلم أن الفيلة تستطيع السباحة؟"
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "ما معنى كلمة ( camel )؟", "options": ["جمل", "غزال", "دلفين", "دب"], "answer": "جمل", "explanation_ar": "camel = جمل / ناقة، والجملة: Camels are patient — الجمال صبورة." },
+    { "type": "multiple_choice", "question": "ما جمع كلمة ( fly )؟", "options": ["flies", "flys", "flyes", "fliies"], "answer": "flies", "explanation_ar": "عندما تسبق y حرف ساكن يتحول الجمع إلى ies: fly ← flies، كما في: Flies are very annoying." },
+    { "type": "true_false", "question": "يُوصف الثعلب في الدرس بـ ( sly ) أي ماكر.", "options": ["صحيح", "خطأ"], "answer": "صحيح", "explanation_ar": "الجملة من الدرس: Foxes are very sly — الثعالب ماكرة جداً." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: النحل يصنع العسل.", "answer": "Bees make honey.", "explanation_ar": "الجملة وردت حرفيًا في الدرس: Bees make honey." },
+    { "type": "multiple_choice", "question": "أي حيوان يستطيع المشي تحت الماء؟", "options": ["hippo", "camel", "deer", "duck"], "answer": "hippo", "explanation_ar": "الدرس: The hippo can walk underwater — فرس النهر يستطيع المشي تحت الماء." },
+    { "type": "written", "question": "أكمل بكلمة واحدة: Kangaroos can run ______ ( بسرعة ).", "answer": "fast", "explanation_ar": "fast = سريع / بسرعة: Kangaroos can run fast." },
+    { "type": "true_false", "question": "الجملة ( Ducks like to swim ) تعني: البط يحب السباحة.", "options": ["صحيح", "خطأ"], "answer": "صحيح", "explanation_ar": "وردت الجملة في الدرس: Ducks like to swim — البط يحب السباحة." },
+    { "type": "multiple_choice", "question": "ما معنى ( hard-working )؟", "options": ["مجتهد", "كسول", "مزعج", "صبور"], "answer": "مجتهد", "explanation_ar": "hard-working = مجتهد، ووردت في: Ants are very hard-working — النمل مجتهد جداً." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: التماسيح حيوانات خطيرة جداً.", "answer": "Crocodiles are very dangerous animals.", "explanation_ar": "الجملة كما وردت في الدرس: Crocodiles are very dangerous animals." },
+    { "type": "multiple_choice", "question": "ما ترجمة: Baby owls are very cute؟", "options": ["صغار البوم لطيفون جداً", "البوم الكبار خطيرون", "صغار البوم كسالى", "البوم يطير بسرعة"], "answer": "صغار البوم لطيفون جداً", "explanation_ar": "baby = صغار، owls = بوم، cute = لطيف — صغار البوم لطيفون جداً." }
+  ]
+}

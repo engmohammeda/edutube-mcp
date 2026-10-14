@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 16,
+    "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين كورس كامل من البداية الى الاحتراف : الحلقة 16"
+  },
+  "global_vocabulary": [
+    {
+      "word": "weather",
+      "meaning": "الطقس",
+      "example_en": "What is the weather like today?",
+      "example_ar": "كيف هو الطقس اليوم؟"
+    },
+    {
+      "word": "What is the weather like?",
+      "meaning": "كيف هو الطقس؟",
+      "example_en": "What is the weather like? — It is sunny.",
+      "example_ar": "كيف هو الطقس؟ — إنه مشمس."
+    },
+    {
+      "word": "How is the weather?",
+      "meaning": "كيف حال الطقس؟",
+      "example_en": "How is the weather? — It is cloudy.",
+      "example_ar": "كيف حال الطقس؟ — إنه غائم."
+    },
+    {
+      "word": "sunny",
+      "meaning": "مشمس",
+      "example_en": "It is sunny.",
+      "example_ar": "الجو مشمس."
+    },
+    {
+      "word": "partly sunny",
+      "meaning": "مشمس جزئياً",
+      "example_en": "It is partly sunny.",
+      "example_ar": "الجو مشمس جزئياً."
+    },
+    {
+      "word": "mostly sunny",
+      "meaning": "مشمس في الغالب",
+      "example_en": "It is mostly sunny.",
+      "example_ar": "الجو مشمس في الغالب."
+    },
+    {
+      "word": "cloudy",
+      "meaning": "غائم",
+      "example_en": "It is cloudy.",
+      "example_ar": "الجو غائم."
+    },
+    {
+      "word": "partly cloudy",
+      "meaning": "غائم جزئياً",
+      "example_en": "It is partly cloudy.",
+      "example_ar": "الجو غائم جزئياً."
+    },
+    {
+      "word": "windy",
+      "meaning": "عاصف / فيه رياح",
+      "example_en": "It is windy.",
+      "example_ar": "الجو عاصف."
+    },
+    {
+      "word": "foggy",
+      "meaning": "ضبابي",
+      "example_en": "It is foggy.",
+      "example_ar": "الجو ضبابي."
+    },
+    {
+      "word": "stormy",
+      "meaning": "عاصف ( رياح وعواصف )",
+      "example_en": "It is stormy.",
+      "example_ar": "الجو عاصف والعواصف تشتد."
+    },
+    {
+      "word": "rainy",
+      "meaning": "ممطر",
+      "example_en": "It is rainy.",
+      "example_ar": "الجو ممطر."
+    },
+    {
+      "word": "snowy",
+      "meaning": "مثلج",
+      "example_en": "It is snowy.",
+      "example_ar": "الجو مثلج."
+    },
+    {
+      "word": "temperature",
+      "meaning": "درجة الحرارة",
+      "example_en": "What is the temperature today?",
+      "example_ar": "ما هي درجة الحرارة اليوم؟"
+    },
+    {
+      "word": "degree",
+      "meaning": "درجة",
+      "example_en": "It is about 30 degrees.",
+      "example_ar": "الحرارة حوالي 30 درجة."
+    },
+    {
+      "word": "hot",
+      "meaning": "حار",
+      "example_en": "It is hot today.",
+      "example_ar": "الجو حار اليوم."
+    },
+    {
+      "word": "What is the temperature today?",
+      "meaning": "ما هي درجة الحرارة اليوم؟",
+      "example_en": "What is the temperature today? — It is about 30 degrees.",
+      "example_ar": "ما درجة الحرارة اليوم؟ — حوالي 30 درجة."
+    },
+    {
+      "word": "baking hot",
+      "meaning": "حار جداً ( حار يخبز )",
+      "example_en": "It is baking hot.",
+      "example_ar": "الجو حار جداً."
+    },
+    {
+      "word": "freezing cold",
+      "meaning": "بارد جداً / متجمد",
+      "example_en": "It is freezing cold.",
+      "example_ar": "الجو بارد جداً."
+    },
+    {
+      "word": "pouring with rain",
+      "meaning": "تمطر بغزارة",
+      "example_en": "It is pouring with rain.",
+      "example_ar": "السماء تمطر بغزارة."
+    },
+    {
+      "word": "It is raining cats and dogs",
+      "meaning": "تمطر بغزارة شديدة ( تعبير )",
+      "example_en": "It is raining cats and dogs.",
+      "example_ar": "الجو ينهمر مطراً غزيراً."
+    },
+    {
+      "word": "thunder",
+      "meaning": "رعد",
+      "example_en": "Kids are usually scared by thunder.",
+      "example_ar": "الأطفال عادةً يخافون من الرعد."
+    },
+    {
+      "word": "lightning",
+      "meaning": "برق",
+      "example_en": "Two thousand people are killed by lightning every year.",
+      "example_ar": "ألفا شخص يقتلهن البرق كل عام."
+    },
+    {
+      "word": "There is not a cloud in the sky",
+      "meaning": "لا غيمة في السماء ( جو صافٍ )",
+      "example_en": "There is not a cloud in the sky.",
+      "example_ar": "لا غيمة واحدة في السماء."
+    },
+    {
+      "word": "summer",
+      "meaning": "الصيف",
+      "example_en": "Summer is hot.",
+      "example_ar": "الصيف حار."
+    },
+    {
+      "word": "autumn",
+      "meaning": "الخريف",
+      "example_en": "Autumn is nice.",
+      "example_ar": "الخريف جميل."
+    },
+    {
+      "word": "winter",
+      "meaning": "الشتاء",
+      "example_en": "Winter is cold.",
+      "example_ar": "الشتاء بارد."
+    }
+  ],
+  "lesson_notes": [
+    "طريقة السؤال عن الطقس بطرقتين مترادفتين: What is the weather like? و How is the weather? — والإجابة تبدأ بـ It is...",
+    "صيغة الجو: نضيف y إلى اسم الظاهرة: sun ← sunny، cloud ← cloudy، wind ← windy، fog ← foggy ( g مزدوجة )، storm ← stormy، rain ← rainy، snow ← snowy.",
+    "partly = جزئياً و mostly = في الغالب: partly sunny / mostly cloudy — درجات في وصف الطقس.",
+    "درجة الحرارة: temperature = درجة الحرارة، و degree = درجة، والجمع degrees: It is about 30 degrees.",
+    "تعابير شدة الجو: baking hot = حار جداً، و freezing cold = بارد جداً، و It is pouring with rain / It is raining cats and dogs = مطر غزير جداً.",
+    "thunder = الرعد و lightning = البرق — لا تخلط بينهما.",
+    "الفصول الأربعة: spring ( الربيع )، summer ( الصيف )، autumn / fall ( الخريف )، winter ( الشتاء )."
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "question": "ما معنى ( cloudy )؟",
+      "options": [
+        "غائم",
+        "مشمس",
+        "ممطر",
+        "ضبابي"
+      ],
+      "answer": "غائم",
+      "explanation_ar": "cloudy = غائم ( cloud + y ): It is cloudy."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "أي سؤال صحيح عن الطقس؟",
+      "options": [
+        "What is the weather like?",
+        "What weather is like?",
+        "How weather like?",
+        "What is weather?"
+      ],
+      "answer": "What is the weather like?",
+      "explanation_ar": "السؤالان الصحيحان: What is the weather like? / How is the weather?"
+    },
+    {
+      "type": "true_false",
+      "question": "كلمة ( foggy ) تعني ضبابي.",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "answer": "صحيح",
+      "explanation_ar": "fog = ضباب، و foggy = ضبابي: It is foggy."
+    },
+    {
+      "type": "written",
+      "question": "ترجم إلى الإنجليزية: الجو حار اليوم.",
+      "answer": "It is hot today.",
+      "explanation_ar": "الجملة من الدرس: It is hot today."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "ما معنى ( temperature )؟",
+      "options": [
+        "درجة الحرارة",
+        "الرطوبة",
+        "السرعة",
+        "الارتفاع"
+      ],
+      "answer": "درجة الحرارة",
+      "explanation_ar": "temperature = درجة الحرارة: What is the temperature today?"
+    },
+    {
+      "type": "written",
+      "question": "أكمل: It is about 30 ______ ( درجة ).",
+      "answer": "degrees",
+      "explanation_ar": "degree = درجة، والجمع degrees: It is about 30 degrees."
+    },
+    {
+      "type": "true_false",
+      "question": "( partly sunny ) تعني مشمس في الغالب.",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "answer": "خطأ",
+      "explanation_ar": "partly = جزئياً ( مشمس جزئياً )، أما mostly sunny فمشمس في الغالب."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "كيف نكوّن صيغة الجو من cloud؟",
+      "options": [
+        "cloudy",
+        "clouding",
+        "clouded",
+        "clouds"
+      ],
+      "answer": "cloudy",
+      "explanation_ar": "نضيف y إلى اسم الظاهرة: cloud ← cloudy، مثل sun ← sunny و wind ← windy."
+    },
+    {
+      "type": "written",
+      "question": "ترجم إلى الإنجليزية: كيف هو الطقس اليوم؟",
+      "answer": "What is the weather like today?",
+      "explanation_ar": "من أسئلة الدرس المتكررة: What is the weather like today?"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "ما ترجمة: It is snowy؟",
+      "options": [
+        "الجو مثلج",
+        "الجو ممطر",
+        "الجو عاصف",
+        "الجو مشمس"
+      ],
+      "answer": "الجو مثلج",
+      "explanation_ar": "snow = ثلج، و snowy = مثلج."
+    }
+  ]
+}

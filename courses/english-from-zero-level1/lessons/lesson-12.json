@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 12,
+    "title": "تعلم كلمات انجليزية عن الرياضة : كورس تعلم اللغة الانجليزية للمبتدئين كامل مجانا : ١٢"
+  },
+  "global_vocabulary": [
+    { "word": "football", "meaning": "كرة القدم", "example_en": "Football is a popular sport.", "example_ar": "كرة القدم رياضة شائعة." },
+    { "word": "basketball", "meaning": "كرة السلة", "example_en": "My brother plays basketball.", "example_ar": "أخي يلعب كرة السلة." },
+    { "word": "volleyball", "meaning": "الكرة الطائرة", "example_en": "The girls play volleyball.", "example_ar": "الفتيات يلعبن الكرة الطائرة." },
+    { "word": "tennis", "meaning": "التنس", "example_en": "She plays tennis every Friday.", "example_ar": "هي تلعب التنس كل جمعة." },
+    { "word": "swimming", "meaning": "السباحة", "example_en": "Swimming is my favorite sport.", "example_ar": "السباحة رياضتي المفضلة." },
+    { "word": "running", "meaning": "الجري", "example_en": "Running is easy and healthy.", "example_ar": "الجري سهل وصحي." },
+    { "word": "boxing", "meaning": "الملاكمة", "example_en": "Boxing is a hard sport.", "example_ar": "الملاكمة رياضة قاسية." },
+    { "word": "golf", "meaning": "الجولف", "example_en": "My father plays golf.", "example_ar": "أبي يلعب الجولف." },
+    { "word": "skiing", "meaning": "التزلج", "example_en": "We go skiing in winter.", "example_ar": "نذهب للتزلج في الشتاء." },
+    { "word": "cycling", "meaning": "ركوب الدراجات", "example_en": "Cycling is fun.", "example_ar": "ركوب الدراجات ممتع." },
+    { "word": "player", "meaning": "لاعب", "example_en": "He is a football player.", "example_ar": "هو لاعب كرة قدم." },
+    { "word": "team", "meaning": "فريق", "example_en": "My team is the best.", "example_ar": "فريقي هو الأفضل." },
+    { "word": "ball", "meaning": "كرة", "example_en": "The ball is on the ground.", "example_ar": "الكرة على الأرض." },
+    { "word": "match", "meaning": "مباراة", "example_en": "The match is on Saturday.", "example_ar": "المباراة يوم السبت." },
+    { "word": "race", "meaning": "سباق", "example_en": "He wins the race.", "example_ar": "هو يفوز بالسباق." }
+  ],
+  "lesson_notes": [
+    "أسماء الألعاب الرياضية بدون أداة عند الحديث عن الرياضة بصفة عامة: Football is popular / I like swimming.",
+    "play تُستخدم مع الألعاب الجماعية والكرات: play football / play tennis، أما swimming و running و cycling فتأتي كأسماء أنشطة ( I like swimming ).",
+    "الجمع: player ← players، team ← teams، match ← matches ( es بعد ch / sh / s / x )."
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "ما معنى ( basketball )؟", "options": ["كرة السلة", "كرة القدم", "التنس", "السباحة"], "answer": "كرة السلة", "explanation_ar": "basketball = كرة السلة ( basket = سلة + ball = كرة )." },
+    { "type": "multiple_choice", "question": "أي جملة صحيحة؟", "options": ["My brother plays basketball.", "My brother plays the basketball.", "My brother play basketball.", "My brother is play basketball."], "answer": "My brother plays basketball.", "explanation_ar": "مع الألعاب نستخدم play بدون أداة، ومع he/she/it نضيف s: plays." },
+    { "type": "true_false", "question": "كلمة ( match ) تعني مباراة.", "options": ["صحيح", "خطأ"], "answer": "صحيح", "explanation_ar": "match = مباراة: The match is on Saturday — المباراة يوم السبت." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: السباحة رياضتي المفضلة.", "answer": "Swimming is my favorite sport.", "explanation_ar": "Swimming is my favorite sport — كما في الدرس." },
+    { "type": "multiple_choice", "question": "ما معنى ( race )؟", "options": ["سباق", "مباراة", "فريق", "كرة"], "answer": "سباق", "explanation_ar": "race = سباق: He wins the race — هو يفوز بالسباق." },
+    { "type": "written", "question": "أكمل بكلمة واحدة: He is a football ______ ( لاعب ).", "answer": "player", "explanation_ar": "player = لاعب: He is a football player." },
+    { "type": "true_false", "question": "نقول: I go skiing in summer.", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "التزلج رياضة شتوية: We go skiing in WINTER — في الشتاء وليس الصيف." },
+    { "type": "multiple_choice", "question": "ما ترجمة: The match is on Saturday؟", "options": ["المباراة يوم السبت", "المباراة يوم الأحد", "الفريق يلعب السبت", "السباق يوم السبت"], "answer": "المباراة يوم السبت", "explanation_ar": "match = مباراة، و on Saturday = يوم السبت ( on مع أيام الأسبوع )." },
+    { "type": "written", "question": "ما الإنجليزية لكلمة ( فريق )؟", "answer": "team", "explanation_ar": "team = فريق: My team is the best." },
+    { "type": "multiple_choice", "question": "أي كلمة جمعها matches؟", "options": ["match", "player", "team", "ball"], "answer": "match", "explanation_ar": "تُضاف es بعد ch / sh / s / x: match ← matches." }
+  ]
+}

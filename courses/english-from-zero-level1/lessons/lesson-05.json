@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 5,
+    "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين : تكملة كلمات الوظائف : الحلقة 5"
+  },
+  "global_vocabulary": [
+    { "word": "doctor", "meaning": "طبيب", "example_en": "My father is a doctor.", "example_ar": "أبي طبيب." },
+    { "word": "engineer", "meaning": "مهندس", "example_en": "My uncle is an engineer.", "example_ar": "عمي مهندس." },
+    { "word": "nurse", "meaning": "ممرضة / ممرض", "example_en": "My sister is a nurse.", "example_ar": "أختي ممرضة." },
+    { "word": "teacher", "meaning": "معلم / معلمة", "example_en": "My mother is a teacher.", "example_ar": "أمي معلمة." },
+    { "word": "farmer", "meaning": "مزارع / فلاح", "example_en": "My grandfather is a farmer.", "example_ar": "جدي مزارع." },
+    { "word": "lawyer", "meaning": "محامٍ", "example_en": "My neighbor is a lawyer.", "example_ar": "جاري محامٍ." },
+    { "word": "pilot", "meaning": "طيّار", "example_en": "My brother is a pilot.", "example_ar": "أخي طيّار." },
+    { "word": "driver", "meaning": "سائق", "example_en": "This man is a driver.", "example_ar": "هذا الرجل سائق." },
+    { "word": "waiter", "meaning": "نادل", "example_en": "The waiter is friendly.", "example_ar": "النادل ودود." },
+    { "word": "secretary", "meaning": "سكرتيرة / سكرتير", "example_en": "My aunt is a secretary.", "example_ar": "خالتي سكرتيرة." },
+    { "word": "judge", "meaning": "قاضٍ", "example_en": "The judge is fair.", "example_ar": "القاضي عادل." },
+    { "word": "dentist", "meaning": "طبيب أسنان", "example_en": "My cousin is a dentist.", "example_ar": "ابن عمي طبيب أسنان." },
+    { "word": "pharmacist", "meaning": "صيدلي", "example_en": "The pharmacist works in a pharmacy.", "example_ar": "الصيدلي يعمل في صيدلية." }
+  ],
+  "lesson_notes": [
+    "تذكير من الأستاذ في وصف الحلقة: التهجئة الصحيحة لكلمة ابن العم / بنت العم هي cousin ( كانت وردت في الحلقة بخطأ مطبعي ثم صُححت ).",
+    "استكمال لنمط الدرس الثاني: My + قرابة + is a/an + وظيفة — مع الانتباه إلى an قبل الأصوات المتحركة: an engineer، a doctor.",
+    "نادراً ما تتغير أسماء الوظائف للمؤنث في الإنجليزية؛ nurse و teacher و secretary و judge تناسب الرجل والمرأة."
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "ما معنى كلمة ( engineer )؟", "options": ["مهندس", "طبيب", "محامٍ", "طيّار"], "answer": "مهندس", "explanation_ar": "engineer تعني مهندس، ونقول: My uncle is an engineer — عمي مهندس." },
+    { "type": "multiple_choice", "question": "أي كلمة تبدأ بأداة ( an ) عند استخدامها في جملة؟", "options": ["engineer", "doctor", "farmer", "pilot"], "answer": "engineer", "explanation_ar": "engineer تبدأ بصوت متحرك، لذلك: My uncle IS AN engineer، أما doctor / farmer / pilot فتبدأ بحروف ساكنة وتأخذ a." },
+    { "type": "true_false", "question": "كلمة ( nurse ) خاصة بالنساء فقط ولا تُستخدم للممرض الذكر.", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "أغلب أسماء الوظائف في الإنجليزية محايدة: nurse = ممرضة أو ممرض، و teacher و secretary و judge كذلك." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: أبي طبيب.", "answer": "My father is a doctor.", "explanation_ar": "النمط: My + القرابة + is a/an + الوظيفة — My father is a doctor." },
+    { "type": "multiple_choice", "question": "ما معنى كلمة ( farmer )؟", "options": ["مزارع", "خباز", "جزار", "سائق"], "answer": "مزارع", "explanation_ar": "farmer = مزارع / فلاح، و farm = مزرعة." },
+    { "type": "written", "question": "أكمل بكلمة واحدة: My brother is a ______ ( طيّار ).", "answer": "pilot", "explanation_ar": "pilot = طيّار: My brother is a pilot." },
+    { "type": "true_false", "question": "التهجئة الصحيحة لكلمة ابن العم هي cousin.", "options": ["صحيح", "خطأ"], "answer": "صحيح", "explanation_ar": "وثّق الأستاذ ذلك في وصف الحلقة: التهجئة الصحيحة cousin ( ووردت في الفيديو بخطأ ثم صُححت )." },
+    { "type": "multiple_choice", "question": "ما وظيفة شخص يعمل في المحكمة وينطق الأحكام؟", "options": ["judge", "lawyer", "secretary", "dentist"], "answer": "judge", "explanation_ar": "judge = قاضٍ، أما lawyer فمحامٍ، و secretary سكرتير، و dentist طبيب أسنان." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: أختي ممرضة.", "answer": "My sister is a nurse.", "explanation_ar": "My sister is a nurse — nurse لا تتغير للمؤنث والمذكر." },
+    { "type": "multiple_choice", "question": "ما معنى ( pharmacist )؟", "options": ["صيدلي", "طبيب", "مزارع", "نادل"], "answer": "صيدلي", "explanation_ar": "pharmacist = صيدلي، و pharmacy = صيدلية." }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 24,
+    "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين كورس كامل من البداية الى الاحتراف : الحلقة 24"
+  },
+  "global_vocabulary": [
+    { "word": "ignorant", "meaning": "جاهل / سفيه عدواني", "example_en": "He was ignorant about what happens behind his back.", "example_ar": "كان جاهلاً بما يحدث خلف ظهره." },
+    { "word": "educated", "meaning": "متعلم / مثقف", "example_en": "An educated person respects knowledge.", "example_ar": "المتعلم يحترم المعرفة." },
+    { "word": "uneducated", "meaning": "غير متعلم", "example_en": "He is uneducated.", "example_ar": "هو غير متعلم." },
+    { "word": "fool", "meaning": "أحمق / سفيه", "example_en": "Get lost, you ignorant fool!", "example_ar": "اختفي من أمامي أيها الجاهل الأحمق!" },
+    { "word": "stupid", "meaning": "غبي", "example_en": "A stupid mistake can happen to anyone.", "example_ar": "خطأ غبي يمكن أن يحدث لأي شخص." },
+    { "word": "naive", "meaning": "ساذج", "example_en": "Don't be naive.", "example_ar": "لا تكن ساذجاً." },
+    { "word": "corrupt", "meaning": "فاسد / يفسد", "example_en": "Who is not corrupt?", "example_ar": "مَن الذي ليس فاسداً؟" },
+    { "word": "evil", "meaning": "شرير / الشر", "example_en": "I saw him give me an evil eye.", "example_ar": "رأيته ينظر إليّ نظرة شريرة." },
+    { "word": "evil eye", "meaning": "العين الحاسدة", "example_en": "He gave me an evil eye, so I walked the other way.", "example_ar": "أعطاني نظرة حسد، فمشيت في الاتجاه الآخر." },
+    { "word": "ignorance is bliss", "meaning": "الجهل نعمة ( مقوله )", "example_en": "Ignorance is bliss.", "example_ar": "الجهل نعمة." },
+    { "word": "knowledge", "meaning": "معرفة / اطلاع", "example_en": "Knowledge is power.", "example_ar": "المعرفة قوة." },
+    { "word": "redneck", "meaning": "قروي متخلف ( مصطلح ازدراء )", "example_en": "Some people use this word as an insult.", "example_ar": "بعض الناس يستخدمون هذه الكلمة كإهانة." },
+    { "word": "greedy", "meaning": "طماع", "example_en": "The greedy man wants more money.", "example_ar": "الرجل الطماع يريد المزيد من المال." }
+  ],
+  "lesson_notes": [
+    "ملاحظة مهمة من الأستاذ: كلمات هذا الدرس سلبية ( للغضب أو الوصف السيئ أو السب )، ونصح بعدم قولها لمن تريد الحفاظ على علاقتك به — والمحتوى كله بلا ألفاظ خادشة.",
+    "ignorant استخدامان: جاهل ( ضد educated )، وسفيه/عدواني السلوك — وفي العربية: إذا خاطبهم الجاهلون قالوا سلاماً.",
+    "الصفات المركبة: كلمتان معاً مع شرطة أو بدونها: un-educated، good-hearted، no-good — الشرطة اختيارية وكلا الكتابتين صحيحة.",
+    "الفرق المنتشر بين stupid و fool غير حقيقي — كلاهما قد يكون مؤقتاً أو دائماً حسب السياق.",
+    "naive مأخوذة من الفرنسية لذا تهجئتها تختلف عن نطقها، ومع 'بشأن' نقول: naive about.",
+    "redneck مصطلح ازدراء للقرويين غير المتحدرين — من احمرار الرقبة تحت الشمس في الحقول، ومشهور بولايات مثل تكساس وميسيسيبي ولويزيانا.",
+    "النفي بـ no أقوى من not: no one أقوى تعبيراً من not one — وسيأتي تفصيله في القواعد.",
+    "تذكير: give someone an evil eye = ينظر إليه بنظرة حسد/شر."
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "ما معنى كلمة ( ignorant )؟", "options": ["جاهل", "متعلم", "سعيد", "غني"], "answer": "جاهل", "explanation_ar": "ignorant = جاهل ( ضد educated )، ووردت في: He was ignorant about what happens behind his back." },
+    { "type": "multiple_choice", "question": "ما ضد كلمة ( educated )؟", "options": ["uneducated", "diseducated", "ineducated", "educated2"], "answer": "uneducated", "explanation_ar": "نضيف البادئة un- للتضاد: educated ( متعلم ) ← uneducated ( غير متعلم )." },
+    { "type": "true_false", "question": "الفرق بين ( stupid ) و ( fool ) فرق حقيقي وثابت في اللغة.", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "الأستاذ شدد أن هذا الفرق اختراع غير حقيقي؛ كلاهما قد يكون مؤقتاً أو دائماً." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: الجهل نعمة.", "answer": "Ignorance is bliss.", "explanation_ar": "المثل ورد حرفيًا: Ignorance is bliss — ignorance = جهل، bliss = نعيم." },
+    { "type": "multiple_choice", "question": "ماذا تعني عبارة ( evil eye )؟", "options": ["العين الحاسدة", "عين حمراء", "نظرة خوف", "بصر ضعيف"], "answer": "العين الحاسدة", "explanation_ar": "evil eye = العين الحاسدة/الشريرة: He gave me an evil eye." },
+    { "type": "written", "question": "أكمل بكلمة واحدة: Don't be ______ ( لا تكن ساذجاً ).", "answer": "naive", "explanation_ar": "naive = ساذج: Don't be naive — والكلمة فرنسية الأصل." },
+    { "type": "true_false", "question": "تهجئة كلمة ( naive ) تطابق نطقها تماماً.", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "الكلمة مأخوذة من الفرنسية لذا تهجئتها تختلف عن نطقها ( كما شرح الأستاذ )." },
+    { "type": "multiple_choice", "question": "أي من هذه الكلمات صفة مركبة ( كلمتان )؟", "options": ["good-hearted", "happy", "angry", "tall"], "answer": "good-hearted", "explanation_ar": "good-hearted كلمتان ( good + heart + ed ) — صفة مركبة مثل uneducated و no-good." },
+    { "type": "written", "question": "اكتب العبارة الإنجليزية: اختفي من أمامي أيها الجاهل الأحمق!", "answer": "Get lost, you ignorant fool!", "explanation_ar": "العبارة وردت في الدرس للرد على السلوك العدواني: Get lost, you ignorant fool!" },
+    { "type": "multiple_choice", "question": "ما معنى ( greedy )؟", "options": ["طماع", "كريم", "فقير", "صادق"], "answer": "طماع", "explanation_ar": "greedy = طماع، و greed = الطمع." }
+  ]
+}

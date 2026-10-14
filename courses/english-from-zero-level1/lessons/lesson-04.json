@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 4,
+    "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين: كلمات المنزل والفصل : الحلقة 4"
+  },
+  "global_vocabulary": [
+    { "word": "chair", "meaning": "كرسي", "example_en": "The chair is in front of the bookcase.", "example_ar": "الكرسي في الأمام من رف الكتب." },
+    { "word": "clock", "meaning": "ساعة حائط", "example_en": "The clock is on the wall.", "example_ar": "الساعة على الحائط." },
+    { "word": "wall", "meaning": "حائط / جدار", "example_en": "The clock is on the wall.", "example_ar": "الساعة على الحائط." },
+    { "word": "couch", "meaning": "كنبة / أريكة", "example_en": "The clock is above the couch.", "example_ar": "الساعة فوق الكنبة." },
+    { "word": "sofa", "meaning": "كنبة / أريكة ( نفس couch تماماً )", "example_en": "The sofa is next to the wall.", "example_ar": "الكنبة بجانب الحائط." },
+    { "word": "calendar", "meaning": "تقويم / رزنامة", "example_en": "The calendar is above the bed.", "example_ar": "التقويم فوق السرير." },
+    { "word": "bed", "meaning": "سرير", "example_en": "The calendar is above the bed.", "example_ar": "التقويم فوق السرير." },
+    { "word": "eraser", "meaning": "ممحاة", "example_en": "The eraser is next to the pencil.", "example_ar": "الممحاة بجانب القلم الرصاص." },
+    { "word": "pencil", "meaning": "قلم رصاص", "example_en": "The eraser is next to the pencil.", "example_ar": "الممحاة بجانب القلم الرصاص." },
+    { "word": "dictionary", "meaning": "قاموس", "example_en": "The dictionary is under the chair.", "example_ar": "القاموس تحت الكرسي." },
+    { "word": "book", "meaning": "كتاب", "example_en": "This book is new.", "example_ar": "هذا الكتاب جديد." },
+    { "word": "blackboard", "meaning": "سبورة", "example_en": "The teacher writes on the blackboard.", "example_ar": "المعلم يكتب على السبورة." },
+    { "word": "bookcase", "meaning": "رف الكتب / خزانة الكتب", "example_en": "The chair is in front of the bookcase.", "example_ar": "الكرسي في الأمام من رف الكتب." },
+    { "word": "armchair", "meaning": "كرسي ذو أذرع", "example_en": "My father sits in the armchair.", "example_ar": "أبي يجلس في الكرسي ذي الأذرع." },
+    { "word": "notebook", "meaning": "كراسة / دفتر", "example_en": "I write in my notebook.", "example_ar": "أنا أكتب في كراستي." },
+    { "word": "pen", "meaning": "قلم حبر", "example_en": "This pen is blue.", "example_ar": "هذا القلم أزرق." },
+    { "word": "sharpener", "meaning": "مبراة", "example_en": "The sharpener is next to the pencil.", "example_ar": "المبراة بجانب القلم الرصاص." },
+    { "word": "cat", "meaning": "قطة", "example_en": "The cat is on the couch.", "example_ar": "القطة على الكنبة." },
+    { "word": "on", "meaning": "على ( مع الملامسة )", "example_en": "The clock is on the wall.", "example_ar": "الساعة على الحائط." },
+    { "word": "above", "meaning": "فوق ( بدون ملامسة )", "example_en": "The calendar is above the bed.", "example_ar": "التقويم فوق السرير." },
+    { "word": "under", "meaning": "تحت", "example_en": "The dictionary is under the chair.", "example_ar": "القاموس تحت الكرسي." },
+    { "word": "next to", "meaning": "بجانب", "example_en": "The eraser is next to the pencil.", "example_ar": "الممحاة بجانب القلم الرصاص." },
+    { "word": "in front of", "meaning": "في الأمام من", "example_en": "The chair is in front of the bookcase.", "example_ar": "الكرسي في الأمام من رف الكتب." }
+  ],
+  "lesson_notes": [
+    "الفرق بين on و above: on تعني على مع ملامسة الشيء ( الساعة على الحائط )، أما above فتعني فوق بدون ملامسة ( التقويم فوق السرير ) — نفس المنطق في العربية: نقول 'الساعة على الحائط' و'الساعة فوق الكنبة'.",
+    "couch و sofa اسمان لنفس الشيء تماماً ولا يوجد أي فرق حقيقي بينهما — احذر من اختراع فروق غير صحيحة بينهما.",
+    "blackboard كلمة واحدة مركبة من black ( أسمر / أسود ) + board ( لوحة ) = السبورة، وتُكتب كلمة واحدة لا كلمتين.",
+    "bookcase = book ( كتاب ) + case ( صندوق / خزانة ) = رف الكتب — وليست 'book'؛ book تعني كتاب فقط.",
+    "in front of تُترجم: في الأمام من كذا — ثلاث كلمات مع بعضها ككتلة واحدة، وليس 'في الأمام' فقط.",
+    "armchair = arm ( ذراع ) + chair ( كرسي ) = الكرسي ذو الأذرع.",
+    "عند التقاء حرف t في next + to ننطق t واحدة فقط — وهذا ليس قاعدة بل نطق طبيعي ( ونفس الشيء مع t + d ).",
+    "نصيحة الأستاذ الختامية: ابدأ تأخذ فكرة عن القواعد بمشاهدة حلقة أو اثنتين يومياً بدون كتابة أي ملاحظات، ولا تتجاوز موضوعين في اليوم، ثم يأتي دور القواعد لاحقاً."
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "ما معنى كلمة ( bookcase )؟", "options": ["رف الكتب", "كتاب", "سبورة", "مبراة"], "answer": "رف الكتب", "explanation_ar": "bookcase = book ( كتاب ) + case ( خزانة ) = رف / خزانة الكتب، وليست book وحدها." },
+    { "type": "multiple_choice", "question": "ما الفرق بين ( on ) و ( above )؟", "options": ["on مع الملامسة و above بدون ملامسة", "above مع الملامسة و on بدون ملامسة", "لا يوجد فرق", "on للأسفل و above للداخل"], "answer": "on مع الملامسة و above بدون ملامسة", "explanation_ar": "The clock is ON the wall ( ملامسة للحائط )، أما The calendar is ABOVE the bed ( فوق السرير بدون ملامسة )." },
+    { "type": "true_false", "question": "كلمتا ( couch ) و ( sofa ) بينهما فرق كبير في المعنى.", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "الأستاذ شدد على أنهما اسمان لنفس الشيء ( كنبة / أريكة ) ولا يوجد أي فرق بينهما." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: التقويم فوق السرير.", "answer": "The calendar is above the bed.", "explanation_ar": "التقويم calendar، فوق بدون ملامسة above، السرير bed — والجملة وردت في مراجعة الدرس." },
+    { "type": "multiple_choice", "question": "كيف تُكتب كلمة ( blackboard )؟", "options": ["كلمة واحدة: blackboard", "كلمتين: black board", "بشرطة: black-board", "بأي طريقة"], "answer": "كلمة واحدة: blackboard", "explanation_ar": "الأستاذ شدد أنها كلمة واحدة مركبة من black + board، وليست كلمتين." },
+    { "type": "written", "question": "أكمل بكلمة واحدة: The eraser is next to the ______ ( قلم رصاص ).", "answer": "pencil", "explanation_ar": "pencil = قلم رصاص، والجملة من مراجعة الدرس: The eraser is next to the pencil." },
+    { "type": "true_false", "question": "عبارة ( in front of ) تتكوّن من ثلاث كلمات وتُترجم: في الأمام من كذا.", "options": ["صحيح", "خطأ"], "answer": "صحيح", "explanation_ar": "in front of ثلاث كلمات تُؤخذ ككتلة واحدة، وترجمتها الصحيحة: في الأمام من كذا." },
+    { "type": "multiple_choice", "question": "ما معنى كلمة ( armchair )؟", "options": ["كرسي ذو أذرع", "كنبة", "سرير", "طاولة"], "answer": "كرسي ذو أذرع", "explanation_ar": "armchair = arm ( ذراع ) + chair ( كرسي ) = الكرسي ذو الأذرع." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: الساعة على الحائط.", "answer": "The clock is on the wall.", "explanation_ar": "نستخدم on لأن الساعة تلامس الحائط: The clock is on the wall." },
+    { "type": "multiple_choice", "question": "ما ترجمة حرف الجر ( under )؟", "options": ["تحت", "فوق", "على", "بجانب"], "answer": "تحت", "explanation_ar": "under = تحت، مثل: The dictionary is under the chair — القاموس تحت الكرسي." }
+  ]
+}

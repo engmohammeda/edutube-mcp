@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 1,
+    "title": "تعلم اللغة الإنجليزية من الصفر للمبتدئين بأفضل طريقة من أكبر قناة في العالم"
+  },
+  "global_vocabulary": [
+    {
+      "word": "angry",
+      "meaning": "غاضب / غاضبة",
+      "example_en": "The small girl is angry.",
+      "example_ar": "الفتاة الصغيرة غاضبة."
+    },
+    {
+      "word": "beautiful",
+      "meaning": "جميل / جميلة",
+      "example_en": "The tree is very beautiful.",
+      "example_ar": "الشجرة جميلة جداً."
+    },
+    {
+      "word": "brave",
+      "meaning": "شجاع / شجاعة",
+      "example_en": "The man is very brave.",
+      "example_ar": "الرجل شجاع جداً."
+    },
+    {
+      "word": "coward",
+      "meaning": "جبان / خوّاف",
+      "example_en": "Look at the coward boy.",
+      "example_ar": "انظر إلى الولد الجبان."
+    },
+    {
+      "word": "careful",
+      "meaning": "حذر / مُتَّقِن",
+      "example_en": "The fat man is not careful.",
+      "example_ar": "الرجل السمين ليس حذراً."
+    },
+    {
+      "word": "careless",
+      "meaning": "متهور / غير حذر",
+      "example_en": "I don't like this careless man.",
+      "example_ar": "لا أحب هذا الرجل المتهور."
+    },
+    {
+      "word": "clever",
+      "meaning": "ذكي / ذكية",
+      "example_en": "My friend is very clever.",
+      "example_ar": "صديقي ذكي جداً."
+    },
+    {
+      "word": "cute",
+      "meaning": "لطيف / جميل ( بشكل خاص للصغار والحيوانات )",
+      "example_en": "I have a cat. It is very cute.",
+      "example_ar": "عندي قطة، إنها لطيفة جداً."
+    },
+    {
+      "word": "dangerous",
+      "meaning": "خطير / خطيرة",
+      "example_en": "The lion is not cute. It is dangerous.",
+      "example_ar": "الأسد ليس لطيفاً، إنه خطير."
+    },
+    {
+      "word": "happy",
+      "meaning": "سعيد / سعيدة",
+      "example_en": "The cute baby is very happy.",
+      "example_ar": "الطفل اللطيف سعيد جداً."
+    },
+    {
+      "word": "excited",
+      "meaning": "متحمس / متحمسة",
+      "example_en": "The small girl is excited.",
+      "example_ar": "الفتاة الصغيرة متحمسة."
+    },
+    {
+      "word": "famous",
+      "meaning": "مشهور / مشهورة",
+      "example_en": "The boy and the girl are famous.",
+      "example_ar": "الولد والبنت مشهوران."
+    },
+    {
+      "word": "friendly",
+      "meaning": "ودود / ودودة",
+      "example_en": "My work friends are friendly.",
+      "example_ar": "زملائي في العمل ودودون."
+    },
+    {
+      "word": "lucky",
+      "meaning": "محظوظ / محظوظة",
+      "example_en": "The football player is lucky.",
+      "example_ar": "لاعب كرة القدم محظوظ."
+    },
+    {
+      "word": "unlucky",
+      "meaning": "سيئ الحظ",
+      "example_en": "The goalkeeper is very unlucky.",
+      "example_ar": "حارس المرمى سيئ الحظ جداً."
+    },
+    {
+      "word": "ugly",
+      "meaning": "قبيح / قبيحة",
+      "example_en": "I don't like this ugly tree.",
+      "example_ar": "لا أحب هذه الشجرة القبيحة."
+    },
+    {
+      "word": "old",
+      "meaning": "عجوز / قديم / أكبر سناً",
+      "example_en": "The old man is happy.",
+      "example_ar": "الرجل العجوز سعيد."
+    },
+    {
+      "word": "young",
+      "meaning": "صغير / شاب",
+      "example_en": "I am young, but my grandmother is old.",
+      "example_ar": "أنا شاب، لكن جدتي عجوز."
+    },
+    {
+      "word": "grandmother",
+      "meaning": "جدة",
+      "example_en": "I am young, but my grandmother is old.",
+      "example_ar": "أنا شاب، لكن جدتي عجوز."
+    },
+    {
+      "word": "goalkeeper",
+      "meaning": "حارس المرمى",
+      "example_en": "The goalkeeper is very unlucky.",
+      "example_ar": "حارس المرمى سيئ الحظ جداً."
+    }
+  ],
+  "lesson_notes": [
+    "الصفة في الإنجليزية تأتي بعد فعل الكينونة ( is / are ) مباشرة: The girl IS angry — الصفة نفسها تُستخدم للمذكر والمؤنث دون تغيير.",
+    "careless = care ( يهتم ) + less ( بدون ) — اللاحقة less تُضيف معنى النفي أو الغياب، فتصبح careless: غير حذر / متهور.",
+    "صيغة المقارنة لـ old هي older: my grandmother is older ( جدتي أكبر سناً ).",
+    "ouch تُنطق عند الشعور بألم مفاجئ، وتُستخدم كتعبير عفوي غير رسمي."
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "question": "ما معنى كلمة ( brave )؟",
+      "options": [
+        "شجاع",
+        "جبان",
+        "محظوظ",
+        "قبيح"
+      ],
+      "answer": "شجاع",
+      "explanation_ar": "brave تعني شجاع، كما في جملة الدرس: The man is very brave — الرجل شجاع جداً."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "أي جملة صحيحة نحوياً من الدرس؟",
+      "options": [
+        "The small girl is angry.",
+        "The small girl angry is.",
+        "Is the small girl angry.",
+        "The angry is small girl."
+      ],
+      "answer": "The small girl is angry.",
+      "explanation_ar": "الترتيب الصحيح: فاعل + فعل الكينونة ( is ) + صفة، لذلك The small girl is angry هي الجملة الصحيحة."
+    },
+    {
+      "type": "true_false",
+      "question": "كلمة ( careless ) تعني العكس من كلمة ( careful ).",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "answer": "صحيح",
+      "explanation_ar": "careful تعني حذر، أما careless ( care + less ) فتعني متهور / غير حذر، وهما متضادان."
+    },
+    {
+      "type": "written",
+      "question": "ترجم إلى الإنجليزية: الفتاة الصغيرة غاضبة.",
+      "answer": "The small girl is angry.",
+      "explanation_ar": "الترجمة كما وردت في الدرس: The small girl is angry — نستخدم is لأن الفاعل مفرد."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "ما ضد كلمة ( lucky )؟",
+      "options": [
+        "unlucky",
+        "famous",
+        "friendly",
+        "brave"
+      ],
+      "answer": "unlucky",
+      "explanation_ar": "نضيف البادئة un- للتضاد: lucky ( محظوظ ) ← unlucky ( سيئ الحظ )."
+    },
+    {
+      "type": "written",
+      "question": "أكمل الجملة بكلمة واحدة: The lion is not cute. It is ______ ( خطير ).",
+      "answer": "dangerous",
+      "explanation_ar": "dangerous تعني خطير، والجملة كما وردت في الدرس: The lion is not cute. It is dangerous."
+    },
+    {
+      "type": "true_false",
+      "question": "تُستخدم كلمة ( ouch ) عند الشعور بألم مفاجئ.",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "answer": "صحيح",
+      "explanation_ar": "ouch تعبير عفوي ننطقه لحظة الشعور بألم مفاجئ، كما ظهر في مشهد الدرس."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "ما ترجمة جملة: My friend is very clever؟",
+      "options": [
+        "صديقي ذكي جداً",
+        "صديقي لطيف جداً",
+        "صديقي محظوظ جداً",
+        "صديقي غاضب جداً"
+      ],
+      "answer": "صديقي ذكي جداً",
+      "explanation_ar": "clever تعني ذكي، والجملة تترجم: صديقي ذكي جداً."
+    },
+    {
+      "type": "written",
+      "question": "ما ضد كلمة ( old ) كما ورد في الدرس؟",
+      "answer": "young",
+      "explanation_ar": "الدرس قدم التضاد مباشرة: I am young, but my grandmother is old — ضد old هو young."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "أي كلمة تصف شخصاً مشهوراً؟",
+      "options": [
+        "famous",
+        "ugly",
+        "careless",
+        "coward"
+      ],
+      "answer": "famous",
+      "explanation_ar": "famous تعني مشهور، كما في المثال: The boy and the girl are famous."
+    }
+  ]
+}

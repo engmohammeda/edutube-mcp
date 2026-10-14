@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 25,
+    "title": "كورس شامل لتعلم اللغة الانجليزية للمبتدئين من الصفر : الحلقة 25 مراجعة بالصوت والصورة"
+  },
+  "global_vocabulary": [
+    { "word": "firefighter", "meaning": "رجل / امرأة إطفاء", "example_en": "The firefighter wears a jacket and a pair of pants.", "example_ar": "رجل الإطفاء يرتدي سترة وبنطالاً." },
+    { "word": "fireman", "meaning": "رجل إطفاء ( تعبير تقليدي )", "example_en": "The fireman puts out the fire.", "example_ar": "رجل الإطفاء يُطفئ الحريق." },
+    { "word": "firewoman", "meaning": "امرأة إطفاء", "example_en": "The firewoman is brave.", "example_ar": "امرأة الإطفاء شجاعة." },
+    { "word": "uniform", "meaning": "زي موحد", "example_en": "It is the uniform.", "example_ar": "إنه الزي الموحد." },
+    { "word": "jacket", "meaning": "سترة / جاكيت", "example_en": "The firefighter wears a jacket.", "example_ar": "رجل الإطفاء يرتدي سترة." },
+    { "word": "pants", "meaning": "بنطال", "example_en": "He wears a pair of pants.", "example_ar": "هو يرتدي بنطالاً." },
+    { "word": "shirt", "meaning": "قميص", "example_en": "My cousin is an engineer. He likes to wear shirts.", "example_ar": "ابن عمي مهندس، يحب أن يرتدي القمصان." },
+    { "word": "sweatshirt", "meaning": "سترة رياضية ( بكمام )", "example_en": "My father-in-law is a coach. He wears a blue sweatshirt.", "example_ar": "حموي مدرب، يرتدي سترة رياضية زرقاء." },
+    { "word": "sweater", "meaning": "سترة صوفية", "example_en": "This sweater is warm.", "example_ar": "هذه السترة الصوفية دافئة." },
+    { "word": "wear", "meaning": "يرتدي", "example_en": "He wears a blue sweatshirt.", "example_ar": "هو يرتدي سترة رياضية زرقاء." },
+    { "word": "coach", "meaning": "مدرب", "example_en": "My father-in-law is a coach.", "example_ar": "حموي مدرب." },
+    { "word": "Do you know...?", "meaning": "هل تعلم؟ ( لتتعلم المعلومة )", "example_en": "Do you speak Chinese?", "example_ar": "هل تتحدث الصينية؟" },
+    { "word": "Did you know...?", "meaning": "هل تعلم؟ ( لعرض معلومة )", "example_en": "Did you know that there are two moons orbiting Mars?", "example_ar": "هل تعلم أن هناك قمرين يدوران حول المريخ؟" }
+  ],
+  "lesson_notes": [
+    "قاعدة s المزدوجة: He LIKES to WEAR shirts — الفعل بعد to لا يأخذ s، أما الفعل الأول بعد الفاعل المفرد فتأخذ s.",
+    "Do you know...؟ عندما تريد معرفة المعلومة فعلاً ( Do you speak Chinese? / Do you work here? )، أما Did you know...؟ فلعرض معلومة تشاركها مع الناس دون أن تنتظر إجابتهم ( Did you know that there are two moons orbiting Mars? ).",
+    "ثلاثة أسماء لمن يُطفئ الحريق: firefighter ( محايد )، fireman، firewoman.",
+    "sweatshirt ليست sweater — الأول سترة رياضية بكمام، والثاني ستره صوفية ( كما شدد الأستاذ في المراجعة ).",
+    "a pair of pants جمعها: pairs of pants.",
+    "مراجعة من الدروس السابقة: couch = sofa بدون أي فرق، و on ملامسة أما above ففوق بدون ملامسة ( The clock is on the wall above the couch )."
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "لماذا أُضيفت s إلى الفعل في: He likes to wear shirts؟", "options": ["لأن الفاعل he مفرد غائب", "لأن shirts جمع", "لأن wear تسبقها s", "خطأ إملائي"], "answer": "لأن الفاعل he مفرد غائب", "explanation_ar": "مع he/she/it نضيف s للفعل الأول ( likes )، أما الفعل بعد to فيبقى كما هو ( to wear )." },
+    { "type": "multiple_choice", "question": "متى نستخدم صيغة ( Did you know )؟", "options": ["عند عرض معلومة نشاركها", "عندما نريد معرفة معلومة", "للتحية", "للاعتذار"], "answer": "عند عرض معلومة نشاركها", "explanation_ar": "Did you know...? = لعرض معلومة ( قمرا المريخ )، أما Do you know / Do you speak؟ فلأن نريد المعلومة فعلاً." },
+    { "type": "true_false", "question": "كلمتا ( sweatshirt ) و ( sweater ) تعنيان نفس الشيء تماماً.", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "شدّد الأستاذ في المراجعة: sweatshirt سترة رياضية، و sweater سترة صوفية." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: ابن عمي مهندس، يحب أن يرتدي القمصان.", "answer": "My cousin is an engineer. He likes to wear shirts.", "explanation_ar": "الجملة من مراجعة الدرس، وانتبه: likes ( بعد he ) و to wear ( بدون s )." },
+    { "type": "multiple_choice", "question": "ما معنى ( firefighter )؟", "options": ["رجل إطفاء", "مدرب", "لاعب كرة", "سائق"], "answer": "رجل إطفاء", "explanation_ar": "firefighter = رجل/امرأة إطفاء، و fireman و firewoman صيغتان أخريان." },
+    { "type": "written", "question": "أكمل بكلمة واحدة: The firefighter wears a jacket and a pair of ______.", "answer": "pants", "explanation_ar": "a pair of pants = بنطال — والجملة من الدرس." },
+    { "type": "true_false", "question": "جمع ( a pair of pants ) هو ( pairs of pants ).", "options": ["صحيح", "خطأ"], "answer": "صحيح", "explanation_ar": "الجمع يدخل على pair: a pair of pants ← pairs of pants." },
+    { "type": "multiple_choice", "question": "ما معنى: The children's swimming pool is shallow؟", "options": ["حمام سباحة الأطفال ضحل", "حمام سباحة الأطفال عميق", "حمام سباحة الأطفال مغلق", "حمام سباحة الأطفال جديد"], "answer": "حمام سباحة الأطفال ضحل", "explanation_ar": "مراجعة للدرس السابع: shallow = ضحل ( ضد deep )." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: الكنبة في الأمام من السبورة.", "answer": "The couch is in front of the blackboard.", "explanation_ar": "من جمل المراجعة: The couch is in front of the blackboard." },
+    { "type": "multiple_choice", "question": "ما العلاقة بين ( couch ) و ( sofa )؟", "options": ["لا يوجد فرق بينهما", "couch أكبر", "sofa للمكاتب", "couch للمراكب"], "answer": "لا يوجد فرق بينهما", "explanation_ar": "مراجعة للدرس الرابع: الاسمان لنفس الشيء ولا أي فرق بينهما." }
+  ]
+}

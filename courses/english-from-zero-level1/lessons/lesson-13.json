@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 13,
+    "title": "كلمات عن أجزاء الجسم باللغة الإنجليزية : كورس تعليم اللغة الإنجليزية للمبتدئين مجانا : ١٣"
+  },
+  "global_vocabulary": [
+    { "word": "back", "meaning": "ظهر", "example_en": "You should keep your back straight.", "example_ar": "يجب أن تُبقي ظهرك مستقيماً." },
+    { "word": "chin", "meaning": "ذقن", "example_en": "Steve Jobs liked to hold his chin.", "example_ar": "ستيف جوبز كان يحب أن يمسك ذقنه." },
+    { "word": "eyebrow", "meaning": "حاجب العين", "example_en": "Some people have thin eyebrows and some other people have thick eyebrows.", "example_ar": "بعض الناس حاجباهم رفيعان وآخرون سميكان." },
+    { "word": "foot / feet", "meaning": "قدم / أقدام", "example_en": "What size are your feet?", "example_ar": "ما مقاس قدميك؟" },
+    { "word": "size", "meaning": "مقاس", "example_en": "What size are your feet?", "example_ar": "ما مقاس قدميك؟" },
+    { "word": "knee", "meaning": "ركبة", "example_en": "The fat man hurt his knee.", "example_ar": "الرجل السمين جرح ركبته." },
+    { "word": "forehead", "meaning": "جبين", "example_en": "The little girl slapped her forehead.", "example_ar": "الفتاة الصغيرة صفعت جبينها." },
+    { "word": "slap", "meaning": "يلطم / صفعة", "example_en": "He slapped his friend on the face.", "example_ar": "هو صفَّع صديقه على الوجه." },
+    { "word": "face", "meaning": "وجه", "example_en": "He slapped his friend on the face.", "example_ar": "هو صفَّع صديقه على الوجه." },
+    { "word": "ankle", "meaning": "كاحل القدم", "example_en": "The basketball player twisted his ankle.", "example_ar": "لاعب كرة السلة لوّى كاحله." },
+    { "word": "twist", "meaning": "يلوي / التواء", "example_en": "The basketball player twisted his ankle.", "example_ar": "لاعب كرة السلة لوّى كاحله." },
+    { "word": "toe", "meaning": "إصبع القدم", "example_en": "Can you walk on your toes?", "example_ar": "هل تستطيع المشي على أصابع قدميك؟" },
+    { "word": "break / broke", "meaning": "يكسر / كسر ( ماضي )", "example_en": "The boy broke his arm yesterday.", "example_ar": "الولد كسر ذراعه أمس." },
+    { "word": "arm", "meaning": "ذراع", "example_en": "The boy broke his arm yesterday.", "example_ar": "الولد كسر ذراعه أمس." },
+    { "word": "headache", "meaning": "صداع الرأس", "example_en": "The man has a strong headache.", "example_ar": "الرجل لديه صداع شديد." },
+    { "word": "toothache", "meaning": "ألم الأسنان", "example_en": "I have a toothache.", "example_ar": "لدي ألم في الأسنان." },
+    { "word": "cheek", "meaning": "خد", "example_en": "Don't touch my cheek.", "example_ar": "لا تلمس خدي." },
+    { "word": "stomachache", "meaning": "ألم المعدة", "example_en": "Stomachache is a very bad feeling.", "example_ar": "ألم المعدة شعور سيئ جداً." },
+    { "word": "pain", "meaning": "ألم", "example_en": "I have a back pain.", "example_ar": "لدي ألم في الظهر." },
+    { "word": "hurt", "meaning": "يؤلم / يجرح", "example_en": "My back hurts.", "example_ar": "ظهري يؤلمني." },
+    { "word": "straight", "meaning": "مستقيم", "example_en": "You should keep your back straight.", "example_ar": "يجب أن تُبقي ظهرك مستقيماً." },
+    { "word": "feeling", "meaning": "شعور", "example_en": "Stomachache is a very bad feeling.", "example_ar": "ألم المعدة شعور سيئ جداً." },
+    { "word": "good-hearted", "meaning": "طيب القلب", "example_en": "He is a good-hearted man.", "example_ar": "هو رجل طيب القلب." }
+  ],
+  "lesson_notes": [
+    "شواذ الجمع: foot ← feet ( قدم/أقدام )، و tooth ← teeth ( سن/أسنان ).",
+    "المصدر والماضي: break ← broke — مع yesterday نستخدم الماضي: The boy BROKE his arm yesterday.",
+    "اللاحقة ache تعني ألماً: headache = head + ache ( صداع )، toothache = tooth + ache، stomachache = stomach + ache.",
+    "good-hearted صفة مركبة: good + heart + ed = طيب القلب.",
+    "السؤال عن المقاس: What size are your feet? — what size = ما المقاس.",
+    "twist = يلوي ( التواء ): The basketball player twisted his ankle — لوّى كاحله."
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "ما جمع كلمة ( foot )؟", "options": ["feet", "foots", "feets", "feet's"], "answer": "feet", "explanation_ar": "foot شاذة في الجمع: feet — مثل: What size are your feet?" },
+    { "type": "multiple_choice", "question": "ما معنى ( headache )؟", "options": ["صداع الرأس", "ألم الأسنان", "ألم المعدة", "ألم الظهر"], "answer": "صداع الرأس", "explanation_ar": "headache = head + ache: The man has a strong headache." },
+    { "type": "true_false", "question": "الجملة الصحيحة: The boy break his arm yesterday.", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "مع yesterday نستخدم الماضي: The boy BROKE his arm yesterday." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: الرجل السمين جرح ركبته.", "answer": "The fat man hurt his knee.", "explanation_ar": "الجملة وردت حرفيًا في الدرس: The fat man hurt his knee." },
+    { "type": "multiple_choice", "question": "أي جزء من الجسم كان ستيف جوبز يمسكه؟", "options": ["chin", "cheek", "knee", "toe"], "answer": "chin", "explanation_ar": "الدرس: Steve Jobs liked to hold his chin — يمسك ذقنه." },
+    { "type": "written", "question": "أكمل بالماضي: The basketball player ______ his ankle ( لوّى ).", "answer": "twisted", "explanation_ar": "twist ← twisted في الماضي: The basketball player twisted his ankle." },
+    { "type": "true_false", "question": "كلمة ( toothache ) تعني ألم المعدة.", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "toothache = ألم الأسنان ( tooth + ache )، أما ألم المعدة فـ stomachache." },
+    { "type": "multiple_choice", "question": "ما ترجمة: What size are your feet؟", "options": ["ما مقاس قدميك؟", "كم طول قدميك؟", "كم عدد أصابع قدميك؟", "هل قدميك تؤلمان؟"], "answer": "ما مقاس قدميك؟", "explanation_ar": "size = مقاس — What size are your feet? = ما مقاس قدميك؟" },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: لا تلمس خدي، لدي ألم أسنان.", "answer": "Don't touch my cheek. I have a toothache.", "explanation_ar": "من جمل الدرس: Don't touch my cheek. I have a toothache." },
+    { "type": "multiple_choice", "question": "ما معنى ( good-hearted )؟", "options": ["طيب القلب", "قوي القلب", "مكسور القلب", "صغير القلب"], "answer": "طيب القلب", "explanation_ar": "good-hearted = طيب القلب، ووردت في: He is a good-hearted man." }
+  ]
+}

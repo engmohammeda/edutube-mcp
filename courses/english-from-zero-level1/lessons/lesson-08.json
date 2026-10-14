@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 8,
+    "title": "تعلم كلمات إنجليزية عن الخضروات : كورس شامل لتعلم الانجليزي من الصفر : ٨"
+  },
+  "global_vocabulary": [
+    { "word": "potato", "meaning": "بطاطس", "example_en": "The potato is in the kitchen.", "example_ar": "البطاطس في المطبخ." },
+    { "word": "tomato", "meaning": "طماطم", "example_en": "The tomato is red.", "example_ar": "الطماطم حمراء." },
+    { "word": "onion", "meaning": "بصل", "example_en": "The onion is on the table.", "example_ar": "البصل على الطاولة." },
+    { "word": "garlic", "meaning": "ثوم", "example_en": "My mother cooks with garlic.", "example_ar": "أمي تطبخ بالثوم." },
+    { "word": "cucumber", "meaning": "خيار", "example_en": "The cucumber is green.", "example_ar": "الخيار أخضر." },
+    { "word": "carrot", "meaning": "جزر", "example_en": "The rabbit likes the carrot.", "example_ar": "الأرنب يحب الجزر." },
+    { "word": "eggplant", "meaning": "باذنجان", "example_en": "The eggplant is purple.", "example_ar": "الباذنجان بنفسجي." },
+    { "word": "pepper", "meaning": "فلفل", "example_en": "The pepper is spicy.", "example_ar": "الفلفل حار." },
+    { "word": "spinach", "meaning": "سبانخ", "example_en": "Spinach is a green vegetable.", "example_ar": "السبانخ خضرة خضراء." },
+    { "word": "cabbage", "meaning": "كرنب / ملفوف", "example_en": "The cabbage is big.", "example_ar": "الملفوف كبير." },
+    { "word": "cauliflower", "meaning": "قرنبيط", "example_en": "The cauliflower is white.", "example_ar": "القرنبيط أبيض." },
+    { "word": "zucchini", "meaning": "كوسة", "example_en": "My grandmother cooks zucchini.", "example_ar": "جدتي تطبخ الكوسة." },
+    { "word": "celery", "meaning": "كرفس", "example_en": "The celery is next to the lettuce.", "example_ar": "الكرفس بجانب الخس." },
+    { "word": "parsley", "meaning": "بقدونس", "example_en": "The parsley is green.", "example_ar": "البقدونس أخضر." },
+    { "word": "lettuce", "meaning": "خس", "example_en": "The lettuce is in the salad.", "example_ar": "الخس في السلطة." }
+  ],
+  "lesson_notes": [
+    "معظم أسماء الخضروات في الإنجليزية تُستخدم للمفرد والجمع دون تغيير عندما نتحدث عن النوع بصفة عامة: Spinach is green / I like cucumber.",
+    "النطق: tomato تُنطق توميتو ( أمريكي: توميهتو )، و potato بوتيتو — النهاية to.",
+    "الترتيب النمطي للجملة في الدرس: الأداة/الفاعل + فعل الكينونة + الصفة ( The carrot IS orange ) أو المكان ( on the table / in the kitchen )."
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "ما معنى كلمة ( carrot )؟", "options": ["جزر", "بطاطس", "خيار", "بصل"], "answer": "جزر", "explanation_ar": "carrot = جزر، وهي الخضرة البرتقالية التي يحبها الأرنب." },
+    { "type": "multiple_choice", "question": "أي خضرة لونها بنفسجي؟", "options": ["eggplant", "cucumber", "spinach", "lettuce"], "answer": "eggplant", "explanation_ar": "eggplant = باذنجان ولونه بنفسجي، أما cucumber و spinach و lettuce فخضراء." },
+    { "type": "true_false", "question": "كلمة ( garlic ) تعني ثوم.", "options": ["صحيح", "خطأ"], "answer": "صحيح", "explanation_ar": "garlic = ثوم، و onion = بصل — لا تخلط بينهما." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: الطماطم حمراء.", "answer": "The tomato is red.", "explanation_ar": "الطماطم tomato، حمراء red — The tomato is red." },
+    { "type": "multiple_choice", "question": "ما معنى ( cauliflower )؟", "options": ["قرنبيط", "ملفوف", "سبانخ", "كرفس"], "answer": "قرنبيط", "explanation_ar": "cauliflower = قرنبيط أبيض، أما cabbage فملفوف أخضر." },
+    { "type": "written", "question": "أكمل بكلمة واحدة: The ______ is spicy ( فلفل ).", "answer": "pepper", "explanation_ar": "pepper = فلفل: The pepper is spicy — الفلفل حار." },
+    { "type": "true_false", "question": "كلمة ( lettuce ) تعني خس.", "options": ["صحيح", "خطأ"], "answer": "صحيح", "explanation_ar": "lettuce = خس، ويأتي في السلطة: The lettuce is in the salad." },
+    { "type": "multiple_choice", "question": "ما ترجمة: My mother cooks with garlic؟", "options": ["أمي تطبخ بالثوم", "أمي تطبخ بالبصل", "أمي تشتري الثوم", "أمي تزرع البصل"], "answer": "أمي تطبخ بالثوم", "explanation_ar": "garlic = ثوم، و cooks with = تطبخ بـ — أمي تطبخ بالثوم." },
+    { "type": "written", "question": "ما الإنجليزية لكلمة ( كوسة )؟", "answer": "zucchini", "explanation_ar": "zucchini = كوسة، وتنطق زوكيني." },
+    { "type": "multiple_choice", "question": "أي جملة صحيحة؟", "options": ["Spinach is a green vegetable.", "Spinach are a green vegetable.", "Spinach is green vegetable.", "Spinach be a green vegetable."], "answer": "Spinach is a green vegetable.", "explanation_ar": "spinach اسم مفرد غير معدود هنا، لذلك يأخذ is: Spinach is a green vegetable." }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 17,
+    "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين كورس كامل من البداية الى الاحتراف : الحلقة 17"
+  },
+  "global_vocabulary": [
+    {
+      "word": "booking",
+      "meaning": "حجز ( مدفوع )",
+      "example_en": "I want to book a flight ticket.",
+      "example_ar": "أريد أن أحجز تذكرة طيران."
+    },
+    {
+      "word": "reservation",
+      "meaning": "حجز ( مبدئي لحين الدفع )",
+      "example_en": "This ticket is reserved for 24 hours.",
+      "example_ar": "هذه التذكرة محجوزة لمدة 24 ساعة."
+    },
+    {
+      "word": "restaurant",
+      "meaning": "مطعم",
+      "example_en": "The restaurant is open.",
+      "example_ar": "المطعم مفتوح."
+    },
+    {
+      "word": "cafeteria",
+      "meaning": "كافتيريا ( خدمة ذاتية )",
+      "example_en": "In a cafeteria, the customer serves himself.",
+      "example_ar": "في الكافتيريا يخدم الزبون نفسه."
+    },
+    {
+      "word": "diner",
+      "meaning": "مطعم صغير على الطريق السريع",
+      "example_en": "The diner is on the highway.",
+      "example_ar": "المطعم الصغير على الطريق السريع."
+    },
+    {
+      "word": "pub",
+      "meaning": "حانة / خمارة",
+      "example_en": "The pub serves drinks.",
+      "example_ar": "الحانة تقدم المشروبات."
+    },
+    {
+      "word": "pizzeria",
+      "meaning": "محل البيتزا",
+      "example_en": "We ordered from the pizzeria.",
+      "example_ar": "طلبنا من محل البيتزا."
+    },
+    {
+      "word": "steakhouse",
+      "meaning": "مطعم شرائح اللحم",
+      "example_en": "The steakhouse is famous.",
+      "example_ar": "مطعم شرائح اللحم مشهور."
+    },
+    {
+      "word": "appetizer",
+      "meaning": "مقبلات ( تعبير أمريكي )",
+      "example_en": "The appetizer opens the appetite.",
+      "example_ar": "المقبلات تفتح الشهية."
+    },
+    {
+      "word": "starter",
+      "meaning": "مقبلات ( تعبير بريطاني )",
+      "example_en": "Starters are first in the menu.",
+      "example_ar": "المقبلات أولاً في القائمة."
+    },
+    {
+      "word": "free (table)",
+      "meaning": "متاح / غير مشغول",
+      "example_en": "Do you have any free tables?",
+      "example_ar": "هل لديكم ترابيزات متاحة؟"
+    },
+    {
+      "word": "for how many people?",
+      "meaning": "لكم شخص؟",
+      "example_en": "A table for three people, please.",
+      "example_ar": "ترابيزة لثلاثة أشخاص من فضلك."
+    },
+    {
+      "word": "under the name",
+      "meaning": "باسم",
+      "example_en": "I have a reservation under the name Mohammed.",
+      "example_ar": "عندي حجز باسم محمد."
+    },
+    {
+      "word": "allergy",
+      "meaning": "حساسية",
+      "example_en": "I have an allergy to fish.",
+      "example_ar": "عندي حساسية من السمك."
+    },
+    {
+      "word": "vegetarian",
+      "meaning": "نباتي",
+      "example_en": "I'm vegetarian.",
+      "example_ar": "أنا نباتي."
+    },
+    {
+      "word": "pork",
+      "meaning": "لحم الخنزير",
+      "example_en": "I don't eat pork.",
+      "example_ar": "أنا لا آكل لحم الخنزير."
+    },
+    {
+      "word": "dish",
+      "meaning": "طبق / أكلة",
+      "example_en": "What is this dish?",
+      "example_ar": "ما هذه الأكلة؟"
+    },
+    {
+      "word": "order",
+      "meaning": "طلب / يطلب",
+      "example_en": "Are you ready to order?",
+      "example_ar": "هل أنت جاهز للطلب؟"
+    },
+    {
+      "word": "well-done",
+      "meaning": "مطبوخ جيداً ( لدرجات اللحم )",
+      "example_en": "The steak is well-done.",
+      "example_ar": "الشريحة مطبوخة جيداً."
+    },
+    {
+      "word": "salty",
+      "meaning": "مالح",
+      "example_en": "The food is salty.",
+      "example_ar": "الأكل مالح."
+    },
+    {
+      "word": "check",
+      "meaning": "الحساب ( تعبير أمريكي )",
+      "example_en": "Check, please.",
+      "example_ar": "الحساب من فضلك."
+    },
+    {
+      "word": "bill",
+      "meaning": "الحساب / الفاتورة ( تعبير بريطاني )",
+      "example_en": "Bill, please.",
+      "example_ar": "الحساب من فضلك."
+    },
+    {
+      "word": "credit card",
+      "meaning": "بطاقة ائتمانية",
+      "example_en": "Can I pay by credit card?",
+      "example_ar": "هل يمكنني الدفع بالبطاقة الائتمانية؟"
+    },
+    {
+      "word": "How long will it take?",
+      "meaning": "كم سيستغرق؟",
+      "example_en": "How long will it take?",
+      "example_ar": "كم سيستغرق ذلك؟"
+    }
+  ],
+  "lesson_notes": [
+    "booking = حجز مدفوع ( book a flight ticket / book a hotel room )، و reservation = حجز مبدئي يُحجز لك حتى تدفع ( reserved )؛ أما حجز ترابيزة المطعم فبدون دفع مسبق، لذلك الكلمتان مترادفتان فيه.",
+    "cafeteria في الإنجليزية تعني الخدمة الذاتية: الزبون يختار أكله ويحاسب ثم يقعد يأكل — وليست بمعنى الكافتيريا العربية.",
+    "appetizer أمريكي ( من appetite = شهية )، و starter بريطاني ( من start = البداية ) — كلاهما المقبلات.",
+    "اسم الحيوان يختلف عن اسم اللحم: pig = خنزير و pork = لحم الخنزير، و cow = بقرة و beef = لحم بقري.",
+    "درجات طهي الستيك: rare ( يادوب شاف النار / قريب من النيء )، medium rare، medium ( وسط )، well-done ( مطبوخ جيداً ).",
+    "الحساب: Check, please أمريكي، و Bill, please بريطاني — والبريطانيون يستخدمون the في الكلام أكثر قليلاً.",
+    "I have an allergy TO fish — حساسية من: نستخدم حرف الجر to مع allergy.",
+    "بعض الأفعال لا تحتاج وسيطاً بينها وبين الضمير ( أفعال متعدية ): Can I bring you anything? بدون for — وسيُشرح لاحقاً في القواعد."
+  ],
+  "quiz": [
+    {
+      "type": "multiple_choice",
+      "question": "ما الفرق بين ( booking ) و ( reservation )؟",
+      "options": [
+        "booking حجز مدفوع و reservation حجز مبدئي لحين الدفع",
+        "reservation حجز مدفوع و booking مبدئي",
+        "لا يوجد فرق إطلاقاً",
+        "booking للمطاعم فقط"
+      ],
+      "answer": "booking حجز مدفوع و reservation حجز مبدئي لحين الدفع",
+      "explanation_ar": "book a hotel = حجزت ودفعت، أما reserved = محجوز لك مؤقتاً حتى تدفع."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "ماذا تعني ( cafeteria ) في الإنجليزية؟",
+      "options": [
+        "مكان بخدمة ذاتية يخدم فيه الزبون نفسه",
+        "مطعم فاخر",
+        "مقهى صغير",
+        "بوفيه مدرسي فقط"
+      ],
+      "answer": "مكان بخدمة ذاتية يخدم فيه الزبون نفسه",
+      "explanation_ar": "شرح الأستاذ: في الكافتيريا الزبون يختار أكله ويحاسب ثم يأكل — خدمة ذاتية."
+    },
+    {
+      "type": "true_false",
+      "question": "كلمة ( appetizer ) بريطانية و ( starter ) أمريكية.",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "answer": "خطأ",
+      "explanation_ar": "العكس: appetizer أمريكي ( من appetite )، و starter بريطاني ( من start )."
+    },
+    {
+      "type": "written",
+      "question": "ترجم إلى الإنجليزية: عندي حساسية من السمك.",
+      "answer": "I have an allergy to fish.",
+      "explanation_ar": "الجملة من الدرس: I have an allergy to fish — allergy تأتي مع to."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "أي درجة طهي تعني مطبوخة جيداً؟",
+      "options": [
+        "well-done",
+        "rare",
+        "medium rare",
+        "raw"
+      ],
+      "answer": "well-done",
+      "explanation_ar": "الدرجات: rare ( قريب من النيء )، medium rare، medium، well-done ( مطبوخ جيداً )."
+    },
+    {
+      "type": "written",
+      "question": "اكتب العبارة الأمريكية لطلب الحساب.",
+      "answer": "Check, please.",
+      "explanation_ar": "في أمريكا: Check, please — وفي بريطانيا: Bill, please."
+    },
+    {
+      "type": "true_false",
+      "question": "كلمة ( pork ) تعني لحم الخنزير، وكلمة ( pig ) تعني الخنزير نفسه.",
+      "options": [
+        "صحيح",
+        "خطأ"
+      ],
+      "answer": "صحيح",
+      "explanation_ar": "كما في: cow = بقرة و beef = لحم بقري — اسم الحيوان يختلف عن اسم اللحم."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "ماذا يعني ( free ) في: Do you have any free tables؟",
+      "options": [
+        "متاح / غير مشغول",
+        "مجاني",
+        "حر",
+        "جديد"
+      ],
+      "answer": "متاح / غير مشغول",
+      "explanation_ar": "free هنا تعني متاح: هل لديكم ترابيزات متاحة؟"
+    },
+    {
+      "type": "written",
+      "question": "ترجم إلى الإنجليزية: هل يمكنني الدفع بالبطاقة الائتمانية؟",
+      "answer": "Can I pay by credit card?",
+      "explanation_ar": "من جمل نهاية الدرس: Can I pay by credit card?"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "ما ترجمة: I have a reservation under the name Mohammed؟",
+      "options": [
+        "عندي حجز باسم محمد",
+        "عندي طلب باسم محمد",
+        "محمد حجز ترابيزة",
+        "عندي حجز من محمد"
+      ],
+      "answer": "عندي حجز باسم محمد",
+      "explanation_ar": "under the name = باسم — عبارة الوصول للمطعم: عندي حجز باسم..."
+    }
+  ]
+}

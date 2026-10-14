@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 7,
+    "title": "تعلم الصفات المضادة في اللغة الإنجليزية : كورس تعلم اللغة الانجليزية للمبتدئين من الصفر : ٧"
+  },
+  "global_vocabulary": [
+    { "word": "big", "meaning": "كبير", "example_en": "The little boy rides the big elephant.", "example_ar": "الولد الصغير يمتطي الفيل الكبير." },
+    { "word": "small", "meaning": "صغير", "example_en": "The little boy rides the big elephant.", "example_ar": "الولد الصغير يمتطي الفيل الكبير." },
+    { "word": "cheap", "meaning": "رخيص", "example_en": "Some people have cheap cars.", "example_ar": "بعض الناس لديهم سيارات رخيصة." },
+    { "word": "expensive", "meaning": "غالٍ", "example_en": "Some people have expensive cars.", "example_ar": "بعض الناس لديهم سيارات باهظة الثمن." },
+    { "word": "hot", "meaning": "ساخن / حار", "example_en": "My drink is hot.", "example_ar": "مشروبي ساخن." },
+    { "word": "cold", "meaning": "بارد", "example_en": "Your drink is cold.", "example_ar": "مشروبك بارد." },
+    { "word": "deep", "meaning": "عميق", "example_en": "The sea is deep.", "example_ar": "البحر عميق." },
+    { "word": "shallow", "meaning": "ضحل / غير عميق", "example_en": "The children's swimming pool is shallow.", "example_ar": "حمام سباحة الأطفال ضحل." },
+    { "word": "easy", "meaning": "سهل", "example_en": "I think English is very easy.", "example_ar": "أعتقد أن الإنجليزية سهلة جداً." },
+    { "word": "difficult", "meaning": "صعب", "example_en": "People say English is difficult.", "example_ar": "الناس يقولون إن الإنجليزية صعبة." },
+    { "word": "hard", "meaning": "صعب ( نفس difficult )", "example_en": "People say English is hard, but I think it is very easy.", "example_ar": "الناس يقولون إن الإنجليزية صعبة، لكنني أعتقد أنها سهلة جداً." },
+    { "word": "heavy", "meaning": "ثقيل", "example_en": "The black ball is heavy.", "example_ar": "الكرة السوداء ثقيلة." },
+    { "word": "light", "meaning": "خفيف", "example_en": "The red ball is light.", "example_ar": "الكرة الحمراء خفيفة." },
+    { "word": "tall", "meaning": "طويل ( القامة )", "example_en": "The tree is tall.", "example_ar": "الشجرة طويلة." },
+    { "word": "short", "meaning": "قصير", "example_en": "The tree is short.", "example_ar": "الشجرة قصيرة." },
+    { "word": "long", "meaning": "طويل ( الطول )", "example_en": "The snake is long.", "example_ar": "الأفعى طويلة." },
+    { "word": "many", "meaning": "كثير ( للمعدود )", "example_en": "Many people play games.", "example_ar": "كثير من الناس يلعبون الألعاب." },
+    { "word": "few", "meaning": "قليل ( للمعدود )", "example_en": "A few people read books.", "example_ar": "قليل من الناس يقرؤون الكتب." },
+    { "word": "much", "meaning": "كثير ( لغير المعدود )", "example_en": "He drinks much coffee.", "example_ar": "هو يشرب قهوة كثيرة." },
+    { "word": "little", "meaning": "قليل ( لغير المعدود ) / صغير", "example_en": "He drinks a little water.", "example_ar": "هو يشرب ماءً قليلاً." },
+    { "word": "rich", "meaning": "غني", "example_en": "Only a few people in the world are super rich.", "example_ar": "قليل من الناس فقط في العالم أثرياء جداً." },
+    { "word": "poor", "meaning": "فقير", "example_en": "Only a few people in the world are super rich, and many are poor.", "example_ar": "قليل من الناس فقط أثرياء جداً، والكثير فقراء." },
+    { "word": "single", "meaning": "أعزب / غير متزوج", "example_en": "He is single.", "example_ar": "هو أعزب." },
+    { "word": "married", "meaning": "متزوج", "example_en": "He is married.", "example_ar": "هو متزوج." },
+    { "word": "divorced", "meaning": "مطلق", "example_en": "He is divorced.", "example_ar": "هو مطلق." },
+    { "word": "strong", "meaning": "قوي", "example_en": "The boy in blue is strong.", "example_ar": "الولد الذي يرتدي الأزرق قوي." },
+    { "word": "weak", "meaning": "ضعيف", "example_en": "The boy in pink is weak.", "example_ar": "الولد الذي يرتدي الوردي ضعيف." },
+    { "word": "narrow", "meaning": "ضيق", "example_en": "Our street is very narrow.", "example_ar": "شارعنا ضيق جداً." },
+    { "word": "wide", "meaning": "واسع", "example_en": "The car is very wide.", "example_ar": "السيارة واسعة جداً." },
+    { "word": "thick", "meaning": "سميك", "example_en": "The book is thick.", "example_ar": "الكتاب سميك." },
+    { "word": "thin", "meaning": "رفيع / نحيف", "example_en": "The man is thin.", "example_ar": "الرجل نحيف." },
+    { "word": "fat", "meaning": "سمين", "example_en": "The man is fat.", "example_ar": "الرجل سمين." },
+    { "word": "super", "meaning": "جداً / فائق", "example_en": "Only a few people in the world are super rich.", "example_ar": "قليل من الناس فقط في العالم أثرياء جداً." }
+  ],
+  "lesson_notes": [
+    "تنويه الأستاذ ( تصحيح إملائي ): التهجئة الصحيحة weak = ضعيف، و week = أسبوع — وردت بالخطأ في الحلقة.",
+    "الملكية بـ 's: Michael's book = كتاب مايكل — نضيف 's إلى صاحب الشيء للتعبير عن الملكية.",
+    "much لغير المعدود ( much coffee ) و many للمعدود ( many people )، أما a few و a little فتعنيان بعض القليل.",
+    "المقارنة بالتقابل المباشر مع but: The boy in blue is strong BUT the boy in pink is weak — نستخدم but لربط المتقابلين.",
+    "super = جداً / فائق، تُستخدم لتقوية الصفة: super rich = أثرياء جداً."
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "ما ضد كلمة ( expensive )؟", "options": ["cheap", "rich", "heavy", "deep"], "answer": "cheap", "explanation_ar": "expensive = غالٍ، و cheap = رخيص — كما في: Some people have cheap cars and some people have expensive cars." },
+    { "type": "multiple_choice", "question": "أي زوج من التضادين مكتوب بشكل صحيح؟", "options": ["strong / weak", "strong / week", "weak / streng", "strong / weakly"], "answer": "strong / weak", "explanation_ar": "weak بمعنى ضعيف تُكتب بـ ea؛ أما week فتعني أسبوع ( كما صحح الأستاذ في وصف الحلقة )." },
+    { "type": "true_false", "question": "كلمة ( week ) تعني ضعيف، وكلمة ( weak ) تعني أسبوع.", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "التصحيح المطابق للدرس: weak = ضعيف، و week = أسبوع — العكس تماماً." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: شارعنا ضيق جداً.", "answer": "Our street is very narrow.", "explanation_ar": "الجملة وردت حرفيًا في الدرس: Our street is very narrow." },
+    { "type": "multiple_choice", "question": "ما ضد كلمة ( fat )؟", "options": ["thin", "tall", "thick", "wide"], "answer": "thin", "explanation_ar": "fat = سمين، و thin = نحيف — من التقابلات في الدرس." },
+    { "type": "written", "question": "أكمل بكلمة واحدة: He drinks ______ coffee ( كثير من ).", "answer": "much", "explanation_ar": "much تُستخدم مع غير المعدود مثل coffee: He drinks much coffee." },
+    { "type": "true_false", "question": "كلمة ( single ) تعني متزوج.", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "single = أعزب / غير متزوج، أما married فالمتزوج و divorced فالمطلق." },
+    { "type": "multiple_choice", "question": "ما معنى كلمة ( shallow )؟", "options": ["ضحل / غير عميق", "عميق", "ضيق", "واسع"], "answer": "ضحل / غير عميق", "explanation_ar": "shallow ضد deep: The children's swimming pool is shallow — حمام سباحة الأطفال ضحل." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: الكتاب سميك، والرجل نحيف.", "answer": "The book is thick. The man is thin.", "explanation_ar": "من مراجعة الدرس: The book is thick / The man is thin — thick = سميك و thin = نحيف." },
+    { "type": "multiple_choice", "question": "ما ترجمة: Many people play games but a few people read books؟", "options": ["كثير من الناس يلعبون، لكن قليلاً منهم يقرؤون الكتب", "قليل من الناس يلعبون، والكثير يقرؤون الكتب", "الناس يلعبون كثيراً ويقرؤون كثيراً", "لا أحد يلعب ولا أحد يقرأ"], "answer": "كثير من الناس يلعبون، لكن قليلاً منهم يقرؤون الكتب", "explanation_ar": "many = كثير للمعدود، و a few = قليل، و but = لكن — الجملة كما وردت في الدرس." }
+  ]
+}

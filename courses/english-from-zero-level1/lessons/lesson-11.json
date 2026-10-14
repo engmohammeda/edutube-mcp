@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 11,
+    "title": "تعلم كلمات انجليزية عن التاريخ : كورس تعليم اللغة الإنجليزية للمبتدئين من الصفر : ١١"
+  },
+  "global_vocabulary": [
+    { "word": "date", "meaning": "تاريخ", "example_en": "What is the date?", "example_ar": "ما هو التاريخ؟" },
+    { "word": "day", "meaning": "يوم", "example_en": "What day is it today?", "example_ar": "النهاردة إيه؟ ( ما هو اليوم؟ )" },
+    { "word": "month", "meaning": "شهر", "example_en": "There are twelve months in a year.", "example_ar": "هناك اثنا عشر شهراً في السنة." },
+    { "word": "year", "meaning": "سنة / عام", "example_en": "I was born in 1985.", "example_ar": "وُلدت في عام 1985." },
+    { "word": "born", "meaning": "وُلد / مولود", "example_en": "I was born in August 1985.", "example_ar": "وُلدت في أغسطس 1985." },
+    { "word": "first (1st)", "meaning": "الأول", "example_en": "January is the first month.", "example_ar": "يناير هو الشهر الأول." },
+    { "word": "second (2nd)", "meaning": "الثاني", "example_en": "Today is the twenty-second of January.", "example_ar": "اليوم هو الثاني والعشرون من يناير." },
+    { "word": "third (3rd)", "meaning": "الثالث", "example_en": "It is the third of April.", "example_ar": "إنه الثالث من أبريل." },
+    { "word": "fourth (4th)", "meaning": "الرابع", "example_en": "April is the fourth month.", "example_ar": "أبريل هو الشهر الرابع." },
+    { "word": "BC", "meaning": "قبل الميلاد ( Before Christ )", "example_en": "This date is 500 BC.", "example_ar": "هذا التاريخ 500 قبل الميلاد." },
+    { "word": "AD", "meaning": "بعد الميلاد ( Anno Domini )", "example_en": "It happened in 2018 AD.", "example_ar": "حدث في عام 2018 ميلادية." },
+    { "word": "What day is it today?", "meaning": "النهاردة إيه؟ ( ما هو اليوم؟ )", "example_en": "What day is it today? — It is the nineteenth.", "example_ar": "النهاردة إيه؟ — إنه التاسع عشر." },
+    { "word": "What is the date?", "meaning": "ما هو التاريخ؟", "example_en": "What is the date? — It is the nineteenth of May.", "example_ar": "ما هو التاريخ؟ — إنه التاسع عشر من مايو." },
+    { "word": "I was born in...", "meaning": "وُلدت في...", "example_en": "I was born in August 1985.", "example_ar": "وُلدت في أغسطس 1985." },
+    { "word": "January", "meaning": "يناير", "example_en": "January is the first month.", "example_ar": "يناير هو الشهر الأول." },
+    { "word": "August", "meaning": "أغسطس", "example_en": "I was born in August 1985.", "example_ar": "وُلدت في أغسطس 1985." },
+    { "word": "December", "meaning": "ديسمبر", "example_en": "It is 24 December.", "example_ar": "إنه الرابع والعشرون من ديسمبر." }
+  ],
+  "lesson_notes": [
+    "طريقة نطق السنوات: تُقسم قسمين — 1990 تُقرأ nineteen ninety، و 2018 تُقرأ twenty eighteen، أما الأعوام من 2000 إلى 2010 فتُقرأ كاملة: two thousand / two thousand one.",
+    "BC = Before Christ ( قبل المسيح / قبل الميلاد )، و AD = Anno Domini ( اللاتينية: in the year of our Lord ) — وليست After Death كما يعتقد الكثيرون؛ الأستاذ فنّد ذلك لسببين: المسيحيون الذين وضعوا التقويم يعتقدون أن المسيح حي، وسِنَي حياة المسيح ستكون فجوة غير مؤرخة.",
+    "التحدث عن سنة أو مكان يتطلب فعل كينونة: We ARE in 2018 / I AM in Egypt — لا يصح قول We in 2018 بدون فعل مساعد.",
+    "التحدث: نقول اليوم ثم الشهر ( the twenty-second of January )؛ الكتابة الأمريكية تبدأ بالشهر ( Jan 24 ) والبريطانية والعربية تبدأ باليوم ( 24 Dec )؛ ولتجنب اللبس يُعتمد عالمياً كتابة اسم الشهر: March 4 أو 4 March.",
+    "الترتيبات: 1st / 2nd / 3rd من first / second / third، ومن 4th فأعلى اللاحقة th، والشواذ: 21st و 22nd و 23rd ( آخر حرفين من الكلمة: firST / secoND / thiRD ).",
+    "أسماء الشهور تبدأ دائماً بحرف كبير: January / August / December.",
+    "الميلاد: I was born IN مع السنة والشهر، و ON مع اليوم المحدد: I was born ON August 12, 1985."
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "كيف نقرأ سنة 1990؟", "options": ["nineteen ninety", "one thousand nine hundred ninety", "nineteen hundred nine", "ninety nineteen"], "answer": "nineteen ninety", "explanation_ar": "السنوات تُقسم قسمين وتنطق: nineteen ninety — كما شرح الأستاذ." },
+    { "type": "multiple_choice", "question": "ماذا يعني الاختصار ( AD ) في التقويم؟", "options": ["Anno Domini — in the year of our Lord", "After Death", "Ancient Date", "Always Day"], "answer": "Anno Domini — in the year of our Lord", "explanation_ar": "AD اختصار لاتيني يعني in the year of our Lord — وليست After Death كما يظن الكثيرون." },
+    { "type": "true_false", "question": "الاختصار ( AD ) يعني After Death ( بعد الوفاة ).", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "فنّد الأستاذ هذه المعلومة الشائعة: AD = Anno Domini، والسبب الأول أن المسيحيين الذين وضعوا التقويم يعتقدون أن المسيح حي." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: وُلدت في أغسطس 1985.", "answer": "I was born in August 1985.", "explanation_ar": "الجملة كما وردت في الدرس: I was born in August 1985 — in مع السنة والشهر." },
+    { "type": "multiple_choice", "question": "أي صيغة صحيحة للترتيب ( الثاني والعشرون )؟", "options": ["22nd", "22th", "22st", "22rd"], "answer": "22nd", "explanation_ar": "الشواذ في الترتيبات: 21st و 22nd و 23rd — الثاني والعشرون تأخذ nd." },
+    { "type": "written", "question": "أكمل بالفعل الصحيح: We ______ in 2018.", "answer": "are", "explanation_ar": "التحدث عن السنة يتطلب فعل كينونة: We are in 2018 ( وليس We in 2018 )." },
+    { "type": "true_false", "question": "في الكتابة الأمريكية للتاريخ يُكتب اليوم قبل الشهر.", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "الأمريكيون يبدأون بالشهر ( Jan 24 )، أما البريطانية والعربية فتبدأ باليوم ( 24 Dec )." },
+    { "type": "multiple_choice", "question": "إجابة سؤال ( What is the date? ) تكون...", "options": ["تاريخ مثل: the nineteenth of May", "اسم يوم مثل: Monday", "الوقت: 5 o'clock", "اسم شهر فقط"], "answer": "تاريخ مثل: the nineteenth of May", "explanation_ar": "What is the date? تسأل عن التاريخ الكامل، أما What day is it today? فتُجاب باسم اليوم أو التاريخ." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: وُلدت في 12 أغسطس 1985.", "answer": "I was born on August 12, 1985.", "explanation_ar": "عند تحديد يوم محدد نستخدم on: I was born on August 12, 1985." },
+    { "type": "multiple_choice", "question": "كيف تُكتب أسماء الشهور؟", "options": ["بحرف أول كبير: January", "بأحرف صغيرة: january", "بأحرف كبيرة كلها: JANUARY", "لا فرق"], "answer": "بحرف أول كبير: January", "explanation_ar": "أسماء الشهور تبدأ دائماً بحرف كبير: January / August / December." }
+  ]
+}

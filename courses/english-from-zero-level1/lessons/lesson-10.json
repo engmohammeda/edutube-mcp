@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 10,
+    "title": "كلمات انجليزية عن الوقت : كورس تعلم اللغة الانجليزية من الصفر: ١٠"
+  },
+  "global_vocabulary": [
+    { "word": "time", "meaning": "وقت / زمن", "example_en": "What is the time?", "example_ar": "كم الساعة؟" },
+    { "word": "hour", "meaning": "ساعة ( 60 دقيقة )", "example_en": "The lesson is one hour.", "example_ar": "الدرس مدته ساعة واحدة." },
+    { "word": "minute", "meaning": "دقيقة", "example_en": "There are sixty minutes in an hour.", "example_ar": "هناك ستون دقيقة في الساعة." },
+    { "word": "second", "meaning": "ثانية", "example_en": "There are sixty seconds in a minute.", "example_ar": "هناك ستون ثانية في الدقيقة." },
+    { "word": "moment", "meaning": "لحظة", "example_en": "Wait a moment, please.", "example_ar": "انتظر لحظة من فضلك." },
+    { "word": "o'clock", "meaning": "تمام ( للساعة الكاملة )", "example_en": "It is 4 o'clock.", "example_ar": "الساعة الرابعة تماماً." },
+    { "word": "clock", "meaning": "ساعة حائط / مكتب", "example_en": "The clock is on the wall.", "example_ar": "الساعة على الحائط." },
+    { "word": "watch", "meaning": "ساعة يد / جيب", "example_en": "This is a pocket watch.", "example_ar": "هذه ساعة جيب." },
+    { "word": "quarter", "meaning": "ربع ساعة ( 15 دقيقة )", "example_en": "It's a quarter past nine.", "example_ar": "الساعة التاسعة والربع." },
+    { "word": "half past", "meaning": "و النصف", "example_en": "It is half past ten.", "example_ar": "الساعة العاشرة والنصف." },
+    { "word": "past", "meaning": "و ( للدقائق بعد الساعة )", "example_en": "It is 25 past 6.", "example_ar": "الساعة السادسة و25 دقيقة." },
+    { "word": "to", "meaning": "إلا ( للدقائق قبل الساعة التالية )", "example_en": "It is 10 to 11.", "example_ar": "الساعة الحادية عشرة إلا عشر دقائق." },
+    { "word": "morning", "meaning": "صباح", "example_en": "I wake up at 7 in the morning.", "example_ar": "أستيقظ في السابعة صباحاً." },
+    { "word": "afternoon", "meaning": "بعد الظهر", "example_en": "She plays in the park at five in the afternoon.", "example_ar": "هي تلعب في الحديقة في الخامسة بعد الظهر." },
+    { "word": "evening", "meaning": "مساء", "example_en": "He eats dinner at 8:00 in the evening.", "example_ar": "هو يتناول العشاء في الثامنة مساءً." }
+  ],
+  "lesson_notes": [
+    "الفرق بين clock و watch: clock للساعة الحائطية أو المكتبية، و watch للساعة التي تُلبس على اليد أو تُوضع في الجيب ( pocket watch ).",
+    "o'clock تُستخدم للساعة الكاملة فقط: It is 4 o'clock — ولا تقول 4:30 o'clock.",
+    "قراءة الدقائق: past للدقائق بعد الساعة ( It is 25 past 6 = 6:25 )، و to للدقائق قبل الساعة التالية ( It is 10 to 11 = 10:50 ).",
+    "quarter = ربع ساعة ( 15 دقيقة ): It's a quarter past nine = التاسعة والربع، و It's a quarter to ten = العاشرة إلا ربعاً.",
+    "Do you have the time? تعني كم الساعة؟ ( طلب مهذب لمعرفة الوقت )، وليست سؤالاً عن انشغالك.",
+    "حروف الجر مع الوقت: at للساعات ( at 7 in the morning )، و on لأيام الأسبوع ( on Saturday / on Monday )."
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "ما الفرق بين ( clock ) و ( watch )؟", "options": ["clock حائطية و watch ساعة يد", "watch حائطية و clock ساعة يد", "لا يوجد فرق", "clock للوقت و watch للتاريخ"], "answer": "clock حائطية و watch ساعة يد", "explanation_ar": "clock = ساعة الحائط/المكتب، و watch = ساعة اليد أو الجيب ( pocket watch )." },
+    { "type": "multiple_choice", "question": "الجملة ( It's a quarter past nine ) تعني الساعة...", "options": ["التاسعة والربع", "العاشرة إلا ربعاً", "التاسعة والنصف", "الثامنة إلا ربعاً"], "answer": "التاسعة والربع", "explanation_ar": "quarter past = والربع — التاسعة و15 دقيقة." },
+    { "type": "true_false", "question": "العبارة ( Do you have the time? ) تعني: هل أنت مشغول ولديك وقت؟", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "تعني كم الساعة؟ — طلب مهذب لمعرفة الوقت كما شرح الأستاذ." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: أستيقظ في السابعة صباحاً.", "answer": "I wake up at 7 in the morning.", "explanation_ar": "الجملة وردت حرفيًا في الدرس: I wake up at 7 in the morning." },
+    { "type": "multiple_choice", "question": "الجملة ( It is 10 to 11 ) تعني الساعة...", "options": ["الحادية عشرة إلا عشر دقائق", "العاشرة وعشر دقائق", "العاشرة والحادية عشرة", "الحادية عشرة وعشر دقائق"], "answer": "الحادية عشرة إلا عشر دقائق", "explanation_ar": "to تعني إلا — 10 to 11 = 10:50 ( الحادية عشرة إلا عشراً )." },
+    { "type": "written", "question": "أكمل بكلمة واحدة: It is half ______ ten ( والنصف ).", "answer": "past", "explanation_ar": "half past = والنصف: It is half past ten = العاشرة والنصف." },
+    { "type": "true_false", "question": "نقول: It is 4:30 o'clock.", "options": ["صحيح", "خطأ"], "answer": "خطأ", "explanation_ar": "o'clock للساعة الكاملة فقط ( 4 o'clock )، أما 4:30 فنقول: It is half past four." },
+    { "type": "multiple_choice", "question": "كم دقيقة في الساعة الواحدة؟", "options": ["60", "30", "100", "15"], "answer": "60", "explanation_ar": "الدرس: There are sixty minutes in an hour — ستون دقيقة في الساعة." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: كم الساعة؟", "answer": "What time is it?", "explanation_ar": "من أكثر جمل الدرس تكراراً: What time is it? / What is the time?" },
+    { "type": "multiple_choice", "question": "أي حرف جر يُستخدم مع أيام الأسبوع؟", "options": ["on", "in", "at", "to"], "answer": "on", "explanation_ar": "نقول: on Saturday / on Sunday / on Monday — on مع الأيام." }
+  ]
+}

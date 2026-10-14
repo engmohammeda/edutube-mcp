@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 2,
+    "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين : تعلم الوظائف باللغة الإنجليزية : الحلقة 2"
+  },
+  "global_vocabulary": [
+    { "word": "accountant", "meaning": "محاسب", "example_en": "My father is an accountant.", "example_ar": "أبي محاسب." },
+    { "word": "actor", "meaning": "ممثل", "example_en": "My uncle is an actor.", "example_ar": "عمي ممثل." },
+    { "word": "actress", "meaning": "ممثلة", "example_en": "My aunt is an actress.", "example_ar": "خالتي ممثلة." },
+    { "word": "author", "meaning": "كاتب / مؤلف", "example_en": "Shakespeare is a famous author.", "example_ar": "شكسبير كاتب مشهور." },
+    { "word": "baker", "meaning": "خباز", "example_en": "My grandfather is a baker.", "example_ar": "جدي خباز." },
+    { "word": "banker", "meaning": "موظف بنك / مصرفي", "example_en": "My mother is a banker.", "example_ar": "أمي موظفة بنك." },
+    { "word": "barber", "meaning": "حلاق", "example_en": "My brother is a barber.", "example_ar": "أخي حلاق." },
+    { "word": "butcher", "meaning": "جزار", "example_en": "My neighbor is a butcher.", "example_ar": "جاري جزار." },
+    { "word": "burglar", "meaning": "لص / سارق منازل", "example_en": "This man is a burglar.", "example_ar": "هذا الرجل لص." },
+    { "word": "chef", "meaning": "طاهٍ / شيف", "example_en": "My friend is a chef.", "example_ar": "صديقي طاهٍ." },
+    { "word": "carpenter", "meaning": "نجّار", "example_en": "My brother is a carpenter.", "example_ar": "أخي نجّار." },
+    { "word": "criminal", "meaning": "مجرم", "example_en": "I don't like criminals.", "example_ar": "لا أحب المجرمين." },
+    { "word": "police officer", "meaning": "ضابط شرطة / رجل شرطة", "example_en": "My aunt is a police officer.", "example_ar": "خالتي ضابطة شرطة." }
+  ],
+  "lesson_notes": [
+    "قبل اسم الوظيفة المفردة نضع a أو an: My father is AN accountant / My uncle is AN actor — تُستخدم an مع الأصوات المتحركة ( a / e / i / o / u غالباً ).",
+    "معظم أسماء الوظائف لا تتغير للمؤنث: police officer تناسب الرجل والمرأة، و actOR / actRESS من الاستثناءات الشائعة.",
+    "criminal = مجرم، والجمع بإضافة s: criminals — I don't like criminals ( جمع عام بدون أداة تعريف ).",
+    "الجملة الاسمية للتعريف بالوظيفة: My + قرابة + is a/an + وظيفة — وهي النمط الأساسي في هذا الدرس كله."
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "ما معنى كلمة ( accountant )؟", "options": ["محاسب", "خباز", "حلاق", "طاهٍ"], "answer": "محاسب", "explanation_ar": "accountant تعني محاسب، كما في الجملة: My father is an accountant — أبي محاسب." },
+    { "type": "multiple_choice", "question": "أكمل: My father is ______ accountant.", "options": ["an", "a", "the", "no article"], "answer": "an", "explanation_ar": "accountant تبدأ بصوت متحرك، لذلك نستخدم an قبلها: My father is an accountant." },
+    { "type": "true_false", "question": "Shakespeare is a famous author هي جملة صحيحة من الدرس.", "options": ["صحيح", "خطأ"], "answer": "صحيح", "explanation_ar": "وردت الجملة هكذا في الدرس لتعليم كلمة author ( كاتب / مؤلف )." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: جدي خباز.", "answer": "My grandfather is a baker.", "explanation_ar": "كما وردت في الدرس حرفيًا: My grandfather is a baker." },
+    { "type": "multiple_choice", "question": "ما معنى كلمة ( chef )؟", "options": ["طاهٍ", "جزار", "نجّار", "مصرفي"], "answer": "طاهٍ", "explanation_ar": "chef تعني طاهٍ / شيف: My friend is a chef — صديقي طاهٍ." },
+    { "type": "written", "question": "أكمل بكلمة واحدة: This man is a ______ ( لص / سارق منازل ).", "answer": "burglar", "explanation_ar": "burglar تعني لص / سارق منازل، والجملة من الدرس: This man is a burglar." },
+    { "type": "true_false", "question": "كلمة ( actress ) هي المؤنث لكلمة ( actor ).", "options": ["صحيح", "خطأ"], "answer": "صحيح", "explanation_ar": "actor ممثل و actress ممثلة — الدرس استخدم كليهما: My uncle is an actor / My aunt is an actress." },
+    { "type": "multiple_choice", "question": "ما ترجمة: My neighbor is a butcher؟", "options": ["جاري جزار", "جاري حلاق", "جاري نجّار", "جاري طاهٍ"], "answer": "جاري جزار", "explanation_ar": "butcher تعني جزار، و neighbor تعني جار — جاري جزار." },
+    { "type": "written", "question": "أكمل بكلمة واحدة: My brother is a ______ ( نجّار ).", "answer": "carpenter", "explanation_ar": "carpenter تعني نجّار، والجملة من الدرس: My brother is a carpenter." },
+    { "type": "multiple_choice", "question": "أي كلمة تصف شخصاً يعمل في الشرطة؟", "options": ["police officer", "burglar", "criminal", "banker"], "answer": "police officer", "explanation_ar": "police officer = ضابط / رجل شرطة، أما burglar و criminal فهما لص ومجرم، و banker موظف بنك." }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "course": "من الصفر",
+    "level": 1,
+    "lesson_no": 3,
+    "title": "كورس شامل لتعلم اللغة الانجليزية من الصفر للمبتدئين كلمات عن العائلة : الحلقة 3"
+  },
+  "global_vocabulary": [
+    { "word": "cousin", "meaning": "ابن/بنت العم أو الخال", "example_en": "My cousin likes pineapple.", "example_ar": "ابن عمي يحب الأناناس." },
+    { "word": "daughter", "meaning": "ابنة", "example_en": "My daughter eats plum.", "example_ar": "ابنتي تأكل البرقوق." },
+    { "word": "son", "meaning": "ابن", "example_en": "My son is excited. He likes strawberry.", "example_ar": "ابني متحمس، يحب الفراولة." },
+    { "word": "niece", "meaning": "ابنة الأخ أو الأخت", "example_en": "My niece eats watermelon.", "example_ar": "ابنة أخي تأكل البطيخ." },
+    { "word": "nephew", "meaning": "ابن الأخ أو الأخت", "example_en": "My nephew likes to eat peach.", "example_ar": "ابن أخي يحب أكل الخوخ." },
+    { "word": "grandson", "meaning": "حفيد", "example_en": "My grandson is cute. He likes to eat pear.", "example_ar": "حفيدي لطيف، يحب أكل الكمثرى." },
+    { "word": "granddaughter", "meaning": "حفيدة", "example_en": "My granddaughter plays with grapes.", "example_ar": "حفيدتي تلعب بالعنب." },
+    { "word": "stepfather", "meaning": "زوج الأم ( أب بالتبني )", "example_en": "My stepfather hates lemon.", "example_ar": "زوج أمي يكره الليمون." },
+    { "word": "stepmother", "meaning": "زوجة الأب ( أم بالتبني )", "example_en": "My stepmother cooks with lime.", "example_ar": "زوجة أبي تطبخ بالليمون الأخضر." },
+    { "word": "mother-in-law", "meaning": "حماتي ( أم الزوج أو الزوجة )", "example_en": "My mother-in-law likes tangerine.", "example_ar": "حماتي تحب اليوسفي." },
+    { "word": "father-in-law", "meaning": "حموي ( أب الزوج أو الزوجة )", "example_en": "My father-in-law picks cherries.", "example_ar": "حموي يقطف الكرز." },
+    { "word": "parents", "meaning": "الوالدان", "example_en": "My parents make fruit juice.", "example_ar": "والداي يصنعان عصير الفاكهة." },
+    { "word": "grandparents", "meaning": "الجدان", "example_en": "My grandparents give me fruit.", "example_ar": "جداي يعطيانني الفاكهة." },
+    { "word": "pineapple", "meaning": "أناناس", "example_en": "My cousin likes pineapple.", "example_ar": "ابن عمي يحب الأناناس." },
+    { "word": "plum", "meaning": "برقوق", "example_en": "My daughter eats plum.", "example_ar": "ابنتي تأكل البرقوق." },
+    { "word": "strawberry", "meaning": "فراولة", "example_en": "My son is excited. He likes strawberry.", "example_ar": "ابني متحمس، يحب الفراولة." },
+    { "word": "watermelon", "meaning": "بطيخ", "example_en": "My niece eats watermelon.", "example_ar": "ابنة أخي تأكل البطيخ." },
+    { "word": "peach", "meaning": "خوخ / دراق", "example_en": "My nephew likes to eat peach.", "example_ar": "ابن أخي يحب أكل الخوخ." },
+    { "word": "pear", "meaning": "كمثرى / إجاص", "example_en": "My grandson is cute. He likes to eat pear.", "example_ar": "حفيدي لطيف، يحب أكل الكمثرى." },
+    { "word": "grapes", "meaning": "عنب", "example_en": "My granddaughter plays with grapes.", "example_ar": "حفيدتي تلعب بالعنب." },
+    { "word": "lemon", "meaning": "ليمون", "example_en": "My stepfather hates lemon.", "example_ar": "زوج أمي يكره الليمون." },
+    { "word": "lime", "meaning": "ليمون أخضر / حامض", "example_en": "My stepmother cooks with lime.", "example_ar": "زوجة أبي تطبخ بالليمون الأخضر." },
+    { "word": "tangerine", "meaning": "يوسفي / ماندرين", "example_en": "My mother-in-law likes tangerine.", "example_ar": "حماتي تحب اليوسفي." },
+    { "word": "cherries", "meaning": "كرز", "example_en": "My father-in-law picks cherries.", "example_ar": "حموي يقطف الكرز." },
+    { "word": "fruit", "meaning": "فاكهة / فواكه", "example_en": "My parents make fruit juice.", "example_ar": "والداي يصنعان عصير الفاكهة." },
+    { "word": "like", "meaning": "يحب / يعجب بـ", "example_en": "My cousin likes pineapple.", "example_ar": "ابن عمي يحب الأناناس." },
+    { "word": "hate", "meaning": "يكره", "example_en": "My stepfather hates lemon.", "example_ar": "زوج أمي يكره الليمون." },
+    { "word": "eat", "meaning": "يأكل", "example_en": "My daughter eats plum.", "example_ar": "ابنتي تأكل البرقوق." },
+    { "word": "play", "meaning": "يلعب", "example_en": "My granddaughter plays with grapes.", "example_ar": "حفيدتي تلعب بالعنب." },
+    { "word": "cook", "meaning": "يطبخ", "example_en": "My stepmother cooks with lime.", "example_ar": "زوجة أبي تطبخ بالليمون الأخضر." },
+    { "word": "pick", "meaning": "يقطف / ينتقي", "example_en": "My father-in-law picks cherries.", "example_ar": "حموي يقطف الكرز." },
+    { "word": "make", "meaning": "يصنع / يجهّز", "example_en": "My parents make fruit juice.", "example_ar": "والداي يصنعان عصير الفاكهة." },
+    { "word": "give", "meaning": "يعطي", "example_en": "My grandparents give me fruit.", "example_ar": "جداي يعطيانني الفاكهة." }
+  ],
+  "lesson_notes": [
+    "أفعال المضارع البسيط مع he / she / it تأخذ s في نهايتها: likes / eats / hates / plays / cooks / picks — انتبه: My son LIKES strawberry.",
+    "step- للقرابة بالتبني: stepfather هو زوج الأم، و stepmother هي زوجة الأب.",
+    "in-law لقرابة الزواج: mother-in-law ( حماة )، father-in-law ( حمو ).",
+    "grand- قبل الكلمة للجيل الأكبر: grandfather / grandmother / grandparents، وبعدها للجيل الأصغر: grandson / granddaughter.",
+    "الجمع بتحويل y إلى ies عندما يسبقها حرف ساكن: cherry ← cherries، أما berry ← strawberries في نفس القاعدة."
+  ],
+  "quiz": [
+    { "type": "multiple_choice", "question": "ما معنى كلمة ( niece )؟", "options": ["ابنة الأخ أو الأخت", "ابن العم", "الحفيدة", "الزوجة"], "answer": "ابنة الأخ أو الأخت", "explanation_ar": "niece = ابنة الأخ أو الأخت، أما ابن العم فـ cousin، والحفيدة granddaughter." },
+    { "type": "multiple_choice", "question": "أكمل: My son ______ strawberry.", "options": ["likes", "like", "liking", "liked"], "answer": "likes", "explanation_ar": "مع he / she / it في المضارع البسيط تأخذ الفعل s: My son LIKES strawberry." },
+    { "type": "true_false", "question": "كلمة ( stepfather ) تعني زوج الأم.", "options": ["صحيح", "خطأ"], "answer": "صحيح", "explanation_ar": "stepfather = زوج الأم ( أب بالتبني )، والجملة من الدرس: My stepfather hates lemon." },
+    { "type": "written", "question": "ترجم إلى الإنجليزية: والداي يصنعان عصير الفاكهة.", "answer": "My parents make fruit juice.", "explanation_ar": "الجملة وردت هكذا في الدرس: My parents make fruit juice — parents تعني الوالدان." },
+    { "type": "multiple_choice", "question": "ما معنى كلمة ( granddaughter )؟", "options": ["حفيدة", "حفيد", "ابنة", "أم"], "answer": "حفيدة", "explanation_ar": "granddaughter = حفيدة، أما grandson فتعني حفيد." },
+    { "type": "written", "question": "أكمل بكلمة واحدة: My nephew likes to eat ______ ( خوخ ).", "answer": "peach", "explanation_ar": "peach تعني خوخ، والجملة كما وردت في الدرس: My nephew likes to eat peach." },
+    { "type": "true_false", "question": "كلمة ( cherries ) هي جمع كلمة ( cherry ).", "options": ["صحيح", "خطأ"], "answer": "صحيح", "explanation_ar": "عندما تسبق y حرف ساكن يتحول الجمع إلى ies: cherry ← cherries، كما في: My father-in-law picks cherries." },
+    { "type": "multiple_choice", "question": "أي جملة صحيحة نحوياً؟", "options": ["My parents make fruit juice.", "My parents makes fruit juice.", "My parents making fruit juice.", "My parents made fruit juice now."], "answer": "My parents make fruit juice.", "explanation_ar": "parents جمع، لذلك يأخذ الفعل شكله الأساسي بدون s: My parents make fruit juice." },
+    { "type": "written", "question": "ما ترجمة كلمة ( stepmother )؟", "answer": "زوجة الأب", "explanation_ar": "stepmother = زوجة الأب ( أم بالتبني )، والجملة من الدرس: My stepmother cooks with lime." },
+    { "type": "multiple_choice", "question": "ما معنى جملة: My mother-in-law likes tangerine؟", "options": ["حماتي تحب اليوسفي", "أمي تحب الليمون", "جدتي تحب الكرز", "خالتي تحب الفراولة"], "answer": "حماتي تحب اليوسفي", "explanation_ar": "mother-in-law = حماتي، و tangerine = يوسفي — حماتي تحب اليوسفي." }
+  ]
+}
