@@ -65,3 +65,7 @@ The studio exposes a small JSON API under `/api/`:
 - The studio runs the exact same pipeline as the MCP tool and CLI: long-video pass → 150s windowed fallback, resume-safe skipping, automatic model rotation.
 - Requires Node.js ≥ 20; `yt-dlp` + `ffmpeg` are recommended (bigger videos, frames).
 - Media, URLs and prompts are sent to Google Gemini — same privacy terms as the rest of the project.
+
+## Running extraction on GitHub Actions
+
+When your local machine lacks the tools or you prefer CI execution, `ci/extract-lessons.yml` is a ready-to-activate workflow template: copy it to `.github/workflows/extract-lessons.yml`, set the `GEMINI_API_KEY` repository secret, then trigger it from the Actions tab (or `gh workflow run`) with a CSV path / playlist URL and course preset. The extracted lessons and the validation report arrive as a downloadable artifact.

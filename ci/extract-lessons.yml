@@ -1,3 +1,8 @@
+# To activate: copy this file to .github/workflows/extract-lessons.yml in your
+# repository (the sandbox used to author this file cannot push workflow files).
+# Then: gh secret set GEMINI_API_KEY   and trigger from the Actions tab or:
+#   gh workflow run extract-lessons.yml -f source=courses/english-from-zero-level1/playlist.csv -f course=conversation -f max_videos=25
+
 # Extract structured lessons on GitHub Actions runners (full internet access).
 # Trigger manually from the Actions tab (or `gh workflow run`), pick the course
 # preset and the CSV/playlist source, then download the lessons artifact.
