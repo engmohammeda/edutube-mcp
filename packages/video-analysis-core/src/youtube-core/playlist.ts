@@ -70,10 +70,16 @@ function isLikelyVideoUrl(input: string): boolean {
 export function extractVideoId(input: string): string | null {
   const trimmed = input.trim();
   if (/^[\w-]{11}$/.test(trimmed)) return trimmed;
+  // Regex fallback first: tolerate cells wrapped in markdown links, HTML
+  // entities, or extra comma-fields (common in playlist CSV exports).
+  const regex =
+    /(?:youtube\.com\/watch\?(?:[^#\s]*&)?v=|youtu\.be\/|youtube\.com\/(?:shorts|live|embed)\/)([\w-]{11})/i;
+  const rm = trimmed.match(regex);
+  if (rm) return rm[1];
   try {
     const url = new URL(trimmed);
     const v = url.searchParams.get("v");
-    if (v) return v;
+    if (v && /^[\w-]{11}$/.test(v)) return v;
     if (/youtu\.be$/i.test(url.hostname)) {
       const m = url.pathname.match(/^\/([\w-]{11})/);
       if (m) return m[1];
@@ -143,12 +149,22 @@ export function parseCsvRows(text: string): string[][] {
   return rows.filter((r) => r.some((cell) => cell.trim().length > 0));
 }
 
-const CSV_URL_COLUMNS = ["url", "video_url", "video_url_or_id", "link", "video", "video_id", "videoid", "id"];
+const CSV_URL_COLUMNS = ["url", "video_url", "video_url_or_id", "videourl", "link", "video", "video_id", "videoid", "id"];
 const CSV_TITLE_COLUMNS = ["title", "name", "video_title", "lesson_title"];
-const CSV_LESSON_NO_COLUMNS = ["lesson_no", "lessonno", "lesson", "no", "index", "position", "order"];
+const CSV_LESSON_NO_COLUMNS = ["lesson_no", "lessonno", "lesson", "no", "#", "num", "number", "index", "position", "order"];
+
+/** Normalize a CSV cell: HTML entities, markdown link wrappers, stray quotes. */
+function normalizeCsvCell(cell: string): string {
+  let s = cell.trim();
+  s = s.replace(/&amp;/gi, "&").replace(/&quot;/gi, '"').replace(/&#39;/g, "'");
+  // markdown link "[text](target)" → prefer the link text (it holds the URL/data)
+  const md = s.match(/^\[([\s\S]*)\]\([\s\S]*\)$/);
+  if (md) s = md[1].trim();
+  return s;
+}
 
 function findColumn(header: string[], candidates: string[]): number {
-  return header.findIndex((h) => candidates.includes(h.trim().toLowerCase()));
+  return header.findIndex((h) => candidates.includes(normalizeCsvCell(h).toLowerCase()));
 }
 
 /**
@@ -187,14 +203,14 @@ export function parseCsvPlaylist(csvText: string): { playlistId: string | null; 
 
   const entries: PlaylistEntry[] = [];
   for (const row of dataRows) {
-    const rawUrl = (row[urlCol] ?? "").trim();
+    const rawUrl = normalizeCsvCell(row[urlCol] ?? "");
     if (!rawUrl) continue;
     const videoId = extractVideoId(rawUrl);
     if (!videoId) {
       throw new Error(`CSV row ${entries.length + 1}: cannot extract a YouTube video id from "${rawUrl.slice(0, 120)}".`);
     }
-    const rawTitle = titleCol >= 0 ? (row[titleCol] ?? "").trim() : "";
-    const rawLessonNo = lessonNoCol >= 0 ? (row[lessonNoCol] ?? "").trim() : "";
+    const rawTitle = titleCol >= 0 ? normalizeCsvCell(row[titleCol] ?? "") : "";
+    const rawLessonNo = lessonNoCol >= 0 ? normalizeCsvCell(row[lessonNoCol] ?? "") : "";
     const lessonNo = rawLessonNo ? Number(rawLessonNo) : null;
     entries.push({
       index: entries.length,

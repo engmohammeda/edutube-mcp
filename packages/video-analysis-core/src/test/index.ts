@@ -266,6 +266,26 @@ async function runCsvPlaylistTests(): Promise<void> {
   assert.equal(isCsvPlaylistPath("playlist.csv"), true);
   assert.equal(isCsvPlaylistPath("https://example.com/playlist.csv"), false);
   assert.equal(extractVideoId("https://www.youtube.com/watch?v=jNQXAC9IVRw&list=PLx"), "jNQXAC9IVRw");
+
+  // Real-world YouTube playlist export (ZAmericanEnglish format):
+  // #,title,videoUrl,videoId,publishedAt,position — with markdown-mangled cells.
+  const exported = parseCsvPlaylist(
+    [
+      "#,title,videoUrl,videoId,publishedAt,position",
+      '1,تعلم اللغة الإنجليزية من الصفر,[https://www.youtube.com/watch?v=77IK9T45kiU&amp;list=PLx&amp;index=1,77IK9T45kiU,2017-12-22T10:39:06Z,0](https://www.youtube.com/watch?v=77IK9T45kiU&list=PLx&index=1,77IK9T45kiU,2017-12-22T10:39:06Z,0)',
+      "2,تعلم الوظائف,https://www.youtube.com/watch?v=AZZCsweJaiw,AZZCsweJaiw,2017-12-24T09:29:25Z,1",
+    ].join("\n")
+  );
+  assert.equal(exported.entries.length, 2);
+  assert.equal(exported.entries[0].videoId, "77IK9T45kiU");
+  assert.equal(exported.entries[0].lessonNo, 1); // the "#" column wins over 0-based position
+  assert.equal(exported.entries[0].title, "تعلم اللغة الإنجليزية من الصفر");
+  assert.equal(exported.entries[1].videoId, "AZZCsweJaiw");
+  assert.equal(exported.entries[1].lessonNo, 2);
+
+  // videoId-only cell still resolves; markdown/HTML junk is tolerated.
+  assert.equal(extractVideoId("[https://youtu.be/jNQXAC9IVRw](https://youtu.be/jNQXAC9IVRw)"), "jNQXAC9IVRw");
+  assert.equal(extractVideoId("https://www.youtube.com/watch?v=jNQXAC9IVRw&amp;t=30s"), "jNQXAC9IVRw");
 }
 
 async function runLessonValidatorTests(): Promise<void> {

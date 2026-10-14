@@ -1,0 +1,77 @@
+# Extract structured lessons on GitHub Actions runners (full internet access).
+# Trigger manually from the Actions tab (or `gh workflow run`), pick the course
+# preset and the CSV/playlist source, then download the lessons artifact.
+#
+# Requires repository secret: GEMINI_API_KEY   (gh secret set GEMINI_API_KEY)
+name: extract-lessons
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "Playlist URL, video URL, or CSV path inside the repo"
+        required: true
+        default: "courses/english-from-zero-level1/playlist.csv"
+      course:
+        description: "Course preset"
+        type: choice
+        options: [conversation, phonetics, writing]
+        default: conversation
+      max_videos:
+        description: "Max videos to process"
+        required: true
+        default: "25"
+      model:
+        description: "Gemini model (optional)"
+        required: false
+        default: ""
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Install yt-dlp + ffmpeg
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg
+          python3 -m pip install -q -U yt-dlp
+
+      - name: Extract lessons
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          GEMINI_MODEL: ${{ inputs.model }}
+        run: |
+          node bin/edutube-mcp.js extract "${{ inputs.source }}" \
+            --out ./edutube-output \
+            --course "${{ inputs.course }}" \
+            --max "${{ inputs.max_videos }}"
+
+      - name: Validate lessons
+        if: always()
+        run: |
+          node bin/edutube-mcp.js validate ./edutube-output --course "${{ inputs.course }}" | tee validation-report.json
+
+      - name: Upload lessons artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: edutube-lessons-${{ inputs.course }}-${{ github.run_number }}
+          path: |
+            edutube-output/
+            validation-report.json
+          retention-days: 30
