@@ -39,6 +39,7 @@
     "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
     "build": "npm run build --workspace @engmohammeda/edutube-core && npm run clean && tsc -p tsconfig.json",
     "start": "node dist/index.js",
+    "gui": "node gui/server.mjs",
     "test": "npm run test --workspace @engmohammeda/edutube-core && npm run build --workspace @engmohammeda/edutube-core && tsx src/test/index.ts",
     "release:check": "npm run test && npm run build"
   },

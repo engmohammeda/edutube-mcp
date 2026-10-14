@@ -22,6 +22,7 @@ playlist URL ──▶ Edutube ──▶ lesson-01.json … lesson-NN.json + les
 - **Resume-safe batches** — already-valid lesson files are skipped (checked against the chosen course); interrupted runs continue where they stopped.
 - **Strict batch validation** — `edutube-mcp validate <dir> --course <preset>` enforces the full preset contract (metadata, Arabic translations, zero-orphan vocabulary, quiz shape) with a CI-friendly report. See [docs/validation.md](docs/validation.md).
 - **CLI mode** — `edutube-mcp extract <url|csv>` works without any MCP client.
+- **Edutube Studio (Web GUI)** — `npm run gui` launches a professional bilingual (AR/EN) web interface: start extraction jobs, watch live progress, browse lessons with a course-aware viewer, run validation, and manage keys. See [docs/gui.md](docs/gui.md).
 
 ## Requirements
 
@@ -71,6 +72,9 @@ edutube-mcp extract ./my-course.csv --out ./writing-lessons --course writing
 
 # validate the extracted batch before publishing
 edutube-mcp validate ./writing-lessons --course writing
+
+# or launch the web GUI (Edutube Studio) at http://localhost:4173
+npm run gui
 ```
 
 Stdout is clean JSON (progress goes to stderr), so it pipes straight into scripts and LMS importers.
@@ -136,6 +140,7 @@ env = { GEMINI_API_KEY = "..." }
 
 - [Installation](docs/installation.md)
 - [Configuration](docs/configuration.md)
+- [Edutube Studio (Web GUI)](docs/gui.md)
 - [Tools](docs/tools.md)
 - [Playlist lessons (Edutube pipeline)](docs/edutube-playlist.md)
 - [Course presets (conversation / phonetics / writing)](docs/course-presets.md)
@@ -166,6 +171,7 @@ MIT — see [LICENSE](LICENSE).
 - **قواعد دروس جاهزة (Course Presets)**: `conversation` (المحادثة) و`phonetics` (الصوتيات) و`writing` (الكتابة) — لكل منها مخطط JSON وبرومبت وقواعد اختبار خاصة. التفاصيل الكاملة في [docs/course-presets.md](docs/course-presets.md).
 - **إمكانية تخصيص البرومبت والمخطط**: `analysisPrompt`/`--prompt-file` لاستبدال البرومبت مع الاحتفاظ بالمخطط، و`schemaJson`/`--schema-file` لاستبدال المخطط بالكامل بهيكلك الخاص.
 - **تحقق صارم من الدروس**: `edutube-mcp validate <dir> --course <preset>` يفحص كل درس (البيانات الوصفية، الترجمات العربية، المفردات بلا أيتام، شكل الاختبار) ويخرج بتقرير مناسب لـ CI. التفاصيل في [docs/validation.md](docs/validation.md).
+- **واجهة رسومية احترافية (Edutube Studio)**: `npm run gui` يشغّل واجهة ويب ثنائية اللغة (عربي/إنجليزي) لتشغيل الاستخراج ومتابعة التقدم مباشرة وتصفح الدروس والتحقق وإدارة المفاتيح. التفاصيل في [docs/gui.md](docs/gui.md).
 - **تدوير تلقائي بين نماذج Gemini**: عند استنفاد حصة أي نموذج (429) يُعاد الطلب على النموذج التالي تلقائيًا، مع اكتشاف ديناميكي لأي نماذج جديدة متاحة لمفتاحك.
 - مسار فيديو طويل + بديل نوافذ 150 ثانية عند الفشل، ودمج وإزالة تكرار.
 - 15 أداة MCP تشمل التحليل متعدد الوسائط، استخراج إطارات JPEG دقيقة، البيانات الوصفية، والوظائف الخلفية للعملاء ذات المهل الثابتة.

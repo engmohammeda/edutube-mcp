@@ -1,0 +1,67 @@
+# Edutube Studio (Web GUI)
+
+**Edutube Studio** is the official web interface for the extraction pipeline: start lesson-extraction jobs from a playlist/video URL or CSV, watch live progress, browse extracted lessons with a course-aware viewer, and run strict preset validation — all without an MCP client.
+
+## Start
+
+```bash
+npm run build   # once
+npm run gui     # → http://localhost:4173
+```
+
+Options (environment):
+
+| Variable | Default | Meaning |
+|---|---|---|
+| `EDUTUBE_GUI_PORT` | `4173` | HTTP port |
+| `EDUTUBE_GUI_HOST` | `0.0.0.0` | bind address (0.0.0.0 for remote access) |
+
+The studio reuses the same config as the CLI/MCP server (`~/.edutube-mcp/config.json`, `.env`), so keys saved via the **Settings** tab apply everywhere.
+
+## Screens
+
+### 🚀 Extract
+
+- **Source**: playlist URL / playlist id / single video URL / local `.csv` ([CSV format](csv-import.md)).
+- **Course preset** cards: `conversation` (المحادثة) · `phonetics` (الصوتيات) · `writing` (الكتابة) — see [course presets](course-presets.md).
+- Output directory, max videos, and advanced options: preferred model, custom extraction prompt, custom JSON schema.
+- Live job panel: progress bar, status chip, and a terminal-style activity log with per-lesson updates. Cancel any running job with one click.
+
+### 📚 Lessons
+
+Browse `lesson-NN.json` files from any output directory. The viewer is **course-aware**:
+
+- conversation → dialogue lines + key expressions
+- phonetics → focus sounds + minimal pairs + practice scripts
+- writing → topic + brainstorming + guided sentences + final draft
+
+plus shared sections (vocabulary, teacher notes, quiz) and a raw-JSON toggle.
+
+### ✅ Validate
+
+Runs the [strict validator](validation.md) over a directory and shows a summary (passing / need review / total) with the exact problem list per file — the same rules `edutube-mcp validate` enforces.
+
+### ⚙️ Settings
+
+- **Keys**: `GEMINI_API_KEY` (required), `YOUTUBE_API_KEY` (optional) — saved to `~/.edutube-mcp/config.json`, never displayed again.
+- **Runtime**: `GEMINI_MODEL`, `EDUTUBE_OUTPUT_DIR`, `YT_DLP_PATH`.
+
+## API (for scripting)
+
+The studio exposes a small JSON API under `/api/`:
+
+| Method | Path | Purpose |
+|---|---|---|
+| GET | `/api/health` | runtime status (keys, yt-dlp, ffmpeg) |
+| GET/PUT | `/api/config` | read/update settings |
+| POST | `/api/jobs` | start extraction `{url, course, outputDir, maxVideos, model, analysisPrompt, schemaJson}` |
+| GET | `/api/jobs`, `/api/jobs/:id` | list / poll jobs (status, progress, log, entries) |
+| POST | `/api/jobs/:id/cancel` | cancel a job |
+| GET | `/api/lessons?dir=` · `/api/lesson?dir=&file=` | browse / read lessons |
+| POST | `/api/validate` | `{dir, course}` → validation report |
+
+## Notes
+
+- The studio runs the exact same pipeline as the MCP tool and CLI: long-video pass → 150s windowed fallback, resume-safe skipping, automatic model rotation.
+- Requires Node.js ≥ 20; `yt-dlp` + `ffmpeg` are recommended (bigger videos, frames).
+- Media, URLs and prompts are sent to Google Gemini — same privacy terms as the rest of the project.

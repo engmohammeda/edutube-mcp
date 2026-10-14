@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Edutube Studio — استخراج دروس يوتيوب</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white'>E</text></svg>" />
+</head>
+<body>
+<header>
+  <div class="hwrap">
+    <div class="logo">
+      <div class="mark">🎓</div>
+      <div>
+        Edutube Studio
+        <small data-i="tagline">منصة استخراج الدروس</small>
+      </div>
+    </div>
+    <div class="hspacer"></div>
+    <div class="pill" id="apiPill"><span class="dot"></span><span id="apiPillTxt" data-i="checking">فحص…</span></div>
+    <button class="btn ghost" id="langBtn">EN</button>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <h1 data-i="hero_h">حوِّل قوائم يوتيوب إلى <span class="grad">دروس JSON منظمة</span></h1>
+    <p data-i="hero_p">استخرج دروس الكورسات بصيغة LMS جاهزة: حوار بالترجمة العربية، تعبيرات مفتاحية، مفردات، ملاحظات، واختبار من 10 أسئلة — مع تحقق صارم من الجودة، واستئناف تلقائي، وتدوير بين نماذج Gemini.</p>
+  </div>
+
+  <div class="tabs" id="tabs">
+    <div class="tab active" data-tab="extract" data-i="tab_extract">🚀 الاستخراج</div>
+    <div class="tab" data-tab="lessons" data-i="tab_lessons">📚 الدروس</div>
+    <div class="tab" data-tab="validate" data-i="tab_validate">✅ التحقق</div>
+    <div class="tab" data-tab="settings" data-i="tab_settings">⚙️ الإعدادات</div>
+  </div>
+
+  <!-- ================= EXTRACT ================= -->
+  <section class="pane active" data-pane="extract">
+    <div class="grid cols-2">
+      <div class="card">
+        <h2 data-i="ex_h">مهمة استخراج جديدة</h2>
+        <p class="sub" data-i="ex_sub">الصق رابط قائمة تشغيل أو فيديو، أو مسار ملف CSV، ثم اختر قاعدة الكورس.</p>
+
+        <label class="field">
+          <span data-i="ex_src">المصدر</span>
+          <input id="srcUrl" dir="ltr" placeholder="https://www.youtube.com/playlist?list=PL... أو ./my-course.csv" />
+          <div class="hint" data-i="ex_src_hint">يدعم: رابط قائمة تشغيل، معرف قائمة، رابط فيديو واحد، أو ملف CSV محلي.</div>
+        </label>
+
+        <div data-i="ex_course">قاعدة الكورس</div>
+        <div class="presets" id="presets" style="margin-top:10px">
+          <div class="preset sel" data-course="conversation">
+            <div class="icon">💬</div><b data-i="p_conv_t">المحادثة</b>
+            <p data-i="p_conv_d">حوار كامل + تعبيرات مفتاحية + مفردات + اختبار متنوع.</p>
+          </div>
+          <div class="preset" data-course="phonetics">
+            <div class="icon">🔊</div><b data-i="p_phon_t">الصوتيات</b>
+            <p data-i="p_phon_d">أصوات مستهدفة + أزواج أدنى + تمارين نطق + اختبار صوتي.</p>
+          </div>
+          <div class="preset" data-course="writing">
+            <div class="icon">✍️</div><b data-i="p_wr_t">الكتابة</b>
+            <p data-i="p_wr_d">عصف ذهني + جمل موجهة + مسودة نهائية + اختبار كتابي.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <label class="field"><span data-i="ex_out">مجلد الإخراج</span>
+            <input id="outDir" dir="ltr" placeholder="./edutube-output" />
+          </label>
+          <label class="field"><span data-i="ex_max">أقصى عدد فيديوهات</span>
+            <input id="maxVideos" type="number" min="1" max="200" value="20" dir="ltr" />
+          </label>
+        </div>
+
+        <details class="adv">
+          <summary data-i="ex_adv">خيارات متقدمة (نموذج، برومبت مخصص، مخطط مخصص)</summary>
+          <div style="padding:10px 0 4px">
+            <div class="row">
+              <label class="field"><span data-i="ex_model">نموذج Gemini</span>
+                <input id="model" dir="ltr" placeholder="gemini-2.5-flash (تلقائي)" />
+              </label>
+            </div>
+            <label class="field"><span data-i="ex_prompt">برومبت استخراج مخصص (اختياري)</span>
+              <textarea id="analysisPrompt" placeholder="اتركه فارغاً لاستخدام برومبت القاعدة الافتراضي..."></textarea>
+            </label>
+            <label class="field"><span data-i="ex_schema">مخطط JSON مخصص (اختياري)</span>
+              <textarea id="schemaJson" dir="ltr" placeholder='{"type":"object", ...} — يُستبدل المخطط بالكامل'></textarea>
+            </label>
+          </div>
+        </details>
+
+        <div class="row" style="margin-top:6px">
+          <button class="btn primary" id="startBtn" data-i="ex_start">🚀 ابدأ الاستخراج</button>
+          <button class="btn danger" id="cancelBtn" disabled data-i="ex_cancel">إلغاء</button>
+        </div>
+        <div class="hint" id="keyWarning" style="display:none;color:var(--warn)" data-i="ex_nokey">⚠️ مفتاح GEMINI_API_KEY غير مضبوط — أضفه من تبويب الإعدادات قبل التشغيل.</div>
+      </div>
+
+      <div class="card">
+        <h2 data-i="job_h">حالة المهمة</h2>
+        <div class="jobstatus" style="margin-bottom:6px">
+          <span class="status-chip running" id="jobChip" data-i="job_idle">بانتظار البدء</span>
+          <span id="jobMsg"></span>
+        </div>
+        <div class="jobbar"><i id="jobFill"></i></div>
+        <div class="jobstatus"><span id="jobCount">0 / 0</span></div>
+        <h3 style="margin-top:18px" data-i="job_log">سجل النشاط</h3>
+        <div class="log" id="jobLog"><div class="info">—</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LESSONS ================= -->
+  <section class="pane" data-pane="lessons">
+    <div class="card" style="margin-bottom:16px">
+      <div class="row">
+        <label class="field"><span data-i="ls_dir">مجلد الدروس</span>
+          <input id="lessonsDir" dir="ltr" placeholder="./edutube-output" />
+        </label>
+        <label class="field"><span>&nbsp;</span>
+          <button class="btn primary" id="loadLessons" data-i="ls_load">📚 تحميل الدروس</button>
+        </label>
+      </div>
+    </div>
+    <div class="grid cols-2">
+      <div class="card">
+        <h2 data-i="ls_list">قائمة الدروس</h2>
+        <div class="lesson-list" id="lessonList"><div class="hint" data-i="ls_empty">لا توجد دروس بعد.</div></div>
+      </div>
+      <div class="card viewer" id="lessonViewer">
+        <h2 data-i="ls_view">عارض الدرس</h2>
+        <div class="hint" data-i="ls_pick">اختر درساً من القائمة لعرض محتواه.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= VALIDATE ================= -->
+  <section class="pane" data-pane="validate">
+    <div class="card" style="margin-bottom:16px">
+      <h2 data-i="val_h">التحقق الصارم من الدروس</h2>
+      <p class="sub" data-i="val_sub">يفحص كل درس مقابل عقد القاعدة: البيانات الوصفية، الترجمات العربية، المفردات، وشكل الاختبار.</p>
+      <div class="row">
+        <label class="field"><span data-i="val_dir">مجلد الدروس</span>
+          <input id="valDir" dir="ltr" placeholder="./edutube-output" />
+        </label>
+        <label class="field"><span data-i="val_course">قاعدة الكورس</span>
+          <select id="valCourse">
+            <option value="conversation">conversation — المحادثة</option>
+            <option value="phonetics">phonetics — الصوتيات</option>
+            <option value="writing">writing — الكتابة</option>
+          </select>
+        </label>
+        <label class="field"><span>&nbsp;</span>
+          <button class="btn primary" id="runValidate" data-i="val_run">✅ تشغيل التحقق</button>
+        </label>
+      </div>
+    </div>
+    <div class="card">
+      <div class="summary-row" id="valSummary"></div>
+      <div id="valReports"></div>
+    </div>
+  </section>
+
+  <!-- ================= SETTINGS ================= -->
+  <section class="pane" data-pane="settings">
+    <div class="grid cols-2">
+      <div class="card">
+        <h2 data-i="set_h">المفاتيح والاتصال</h2>
+        <p class="sub" data-i="set_sub">تُحفظ في ملف الإعدادات المحلي ولا تُعرض بعد الحفظ.</p>
+        <label class="field"><span>GEMINI_API_KEY *</span>
+          <input id="setGemini" type="password" dir="ltr" placeholder="AIza..." autocomplete="off" />
+        </label>
+        <label class="field"><span>YOUTUBE_API_KEY</span>
+          <input id="setYoutube" type="password" dir="ltr" placeholder="اختياري — للبيانات الوصفية واستيراد القوائم" autocomplete="off" />
+        </label>
+        <button class="btn primary" id="saveKeys" data-i="set_save">💾 حفظ المفاتيح</button>
+      </div>
+      <div class="card">
+        <h2 data-i="set_h2">إعدادات التشغيل</h2>
+        <label class="field"><span>GEMINI_MODEL</span>
+          <input id="setModel" dir="ltr" placeholder="gemini-2.5-pro" />
+        </label>
+        <label class="field"><span>EDUTUBE_OUTPUT_DIR</span>
+          <input id="setOut" dir="ltr" placeholder="./edutube-output" />
+        </label>
+        <label class="field"><span>YT_DLP_PATH</span>
+          <input id="setYtdlp" dir="ltr" placeholder="yt-dlp" />
+        </label>
+        <button class="btn primary" id="saveRuntime" data-i="set_save2">💾 حفظ الإعدادات</button>
+        <div class="hint" id="configPath"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div>Edutube Studio · جزء من <a href="https://github.com/engmohammeda/edutube-mcp" target="_blank" rel="noreferrer">Edutube MCP</a> · MIT</div>
+</footer>
+
+<div id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
