@@ -5,3 +5,6 @@ dist
 .npm-cache*
 .claude
 .codex-remote-check
+edutube-output
+*-output
+*-lessons

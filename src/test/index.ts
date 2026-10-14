@@ -1,6 +1,7 @@
 import { run as runServerAudioToolTests } from "./server-audio-tool.test.js";
 import { run as runServerCapabilitiesToolTests } from "./server-capabilities-tool.test.js";
 import { run as runServerDeadlineTests } from "./server-deadline.test.js";
+import { run as runServerEdutubeToolsTests } from "./server-edutube-tools.test.js";
 import { run as runServerFollowUpToolTests } from "./server-follow-up-tool.test.js";
 import { run as runServerFrameToolTests } from "./server-frame-tool.test.js";
 import { run as runServerLongJobToolTests } from "./server-long-job-tools.test.js";
@@ -13,6 +14,7 @@ const suites = [
   ["server-audio-tool", runServerAudioToolTests],
   ["server-capabilities-tool", runServerCapabilitiesToolTests],
   ["server-deadline", runServerDeadlineTests],
+  ["server-edutube-tools", runServerEdutubeToolsTests],
   ["server-follow-up-tool", runServerFollowUpToolTests],
   ["server-frame-tool", runServerFrameToolTests],
   ["server-long-job-tools", runServerLongJobToolTests],

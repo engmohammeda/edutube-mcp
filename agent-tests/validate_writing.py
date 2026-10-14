@@ -1,3 +1,5 @@
+# Legacy standalone validator (kept for Python-only environments).
+# Prefer the built-in command: edutube-mcp validate <dir> --course writing
 import json, sys, glob, os
 
 def has_ar(s): return any('؀' <= c <= 'ۿ' for c in (s or ''))

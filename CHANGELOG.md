@@ -4,6 +4,33 @@ All notable changes to this project are documented here.
 
 This project follows semantic versioning where practical.
 
+## 0.5.0 — Professional overhaul: presets, CSV import, strict validation
+
+### Added
+
+- **CSV playlist import**: `start_edutube_extraction` / `edutube-mcp extract` accept a local `.csv` file (`url[,title[,lesson_no]]`, flexible headers, quoted fields, BOM/CRLF). `lesson_no` pins both `lesson-NN.json` numbering and `metadata.lesson_no`. See `docs/csv-import.md` and `examples/playlist-template.csv`.
+- **Strict lesson validator**: `validateLesson` / `validateLessons` in `@engmohammeda/edutube-core` plus the `edutube-mcp validate <dir> [--course …]` CLI command — enforces the full preset contract (metadata, Arabic translations, zero-orphan vocabulary, exact quiz shape and mix) with a CI-friendly JSON report and non-zero exit on failure. Supersedes the standalone Python validators (kept for compatibility). See `docs/validation.md`.
+- **Custom schema support for lesson extraction**: `schemaJson` (MCP) / `--schema-file` (CLI) fully replaces the preset schema; windowed fallback merges custom windows generically and lessons are stored as-is. `--prompt-file` (CLI) loads a custom extraction prompt from a file.
+- `customLessonLooksValid`, `mergeGenericLessonWindows`, `stripMetadataFromSchema` core helpers.
+- New tests: `csv-playlist`, `lesson-validator`, `server-edutube-tools` suites; extended `lesson-merge` coverage.
+- Docs: `docs/course-presets.md`, `docs/csv-import.md`, `docs/validation.md`; rewritten `docs/tools.md` and `docs/cli.md`.
+
+### Fixed
+
+- **Resume bug**: cached `lesson-NN.json` files were validated against the conversation contract only, so valid `writing`/`phonetics` lessons were re-extracted on every run. Cached files are now validated against the chosen course (or generically for custom schemas).
+- `normalizeLesson` forced `level: 1` even when a level was present; it now preserves valid explicit levels.
+- CLI `--course` accepted unknown values silently and its help omitted `writing`; it is now validated against `conversation | phonetics | writing`.
+- `SERVER_INFO` still reported the pre-rebrand name `youtube-analyzer-gemini` and version `0.3.0`; it now reports `edutube-mcp` `0.5.0`.
+- `true_false` quiz validation now accepts the real-world contract (`options: null` **or** a 2-option pair containing the answer) instead of requiring `null`.
+- Edutube entry results now count preset-relevant `contentItems` (dialogue/expressions, sounds/pairs/scripts, sentences/draft) instead of dialogue-only.
+
+### Changed
+
+- `edutubeStartInputSchema`: `url` documents CSV paths, `course` documents all three presets; new optional `schemaJson`.
+- `EdutubeRunResult` gains `course` and per-entry `contentItems`; `source` now includes `csv_file`.
+- Extraction aborts promptly when the job signal fires (mid-batch), instead of finishing remaining videos.
+- Version bump: root `0.5.0`, `@engmohammeda/edutube-core` `0.2.0`.
+
 ## 0.4.0 — Edutube rebrand
 
 Project renamed to **Edutube MCP** (`@engmohammeda/edutube-mcp`, core `@engmohammeda/edutube-core`, binary `edutube-mcp`) and re-documented (bilingual README, new docs pages).

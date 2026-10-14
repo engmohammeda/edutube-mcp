@@ -485,7 +485,9 @@ export const edutubeStartInputSchema = {
     .string()
     .trim()
     .min(1)
-    .describe("YouTube playlist URL (…?list=…), bare playlist id, or a single video URL."),
+    .describe(
+      "Source to extract: YouTube playlist URL (…?list=…), bare playlist id, single video URL, or a local .csv playlist file path (columns url[,title[,lesson_no]])."
+    ),
   outputDir: z
     .string()
     .trim()
@@ -495,7 +497,9 @@ export const edutubeStartInputSchema = {
   course: z
     .enum(["conversation", "phonetics", "writing"])
     .optional()
-    .describe("Course preset controlling schema + default prompt: conversation (dialogue) or phonetics (sounds/minimal pairs/audio quiz)."),
+    .describe(
+      "Course preset controlling schema + default prompt: conversation (dialogue + key expressions), phonetics (focus sounds, minimal pairs, audio quiz) or writing (brainstorming, guided sentences, final draft, written-heavy quiz)."
+    ),
   maxVideos: z
     .number()
     .finite()
@@ -513,7 +517,16 @@ export const edutubeStartInputSchema = {
     .min(1)
     .max(6000)
     .optional()
-    .describe("Optional custom extraction prompt; defaults to the built-in LMS lesson schema prompt."),
+    .describe("Optional custom extraction prompt; defaults to the built-in preset prompt for the chosen course."),
+  schemaJson: z
+    .string()
+    .trim()
+    .min(2)
+    .max(20000)
+    .optional()
+    .describe(
+      "Optional custom JSON Schema (as a JSON string) that fully replaces the preset schema. When set, lessons are stored as-is (no metadata normalization) and resume checks become generic."
+    ),
 } satisfies z.ZodRawShape;
 
 export type EdutubeStartInput = z.infer<z.ZodObject<typeof edutubeStartInputSchema>>;

@@ -12,14 +12,16 @@ playlist URL ──▶ Edutube ──▶ lesson-01.json … lesson-NN.json + les
 
 ## Features
 
-- **Playlist import by URL** — paste any YouTube playlist URL (or playlist id, or a single video URL). Entries resolve via the YouTube Data API when `YOUTUBE_API_KEY` is set, otherwise automatically via `yt-dlp --flat-playlist` (no extra key needed).
-- **Structured lesson extraction** — built-in LMS schema (dialogue / key_expressions / global_vocabulary / lesson_notes / quiz) with a custom-schema option for your own format.
+- **Playlist import by URL or CSV** — paste any YouTube playlist URL (or playlist id, or a single video URL), or feed a local `.csv` playlist file with pinned `lesson_no` values. Entries resolve via the YouTube Data API when `YOUTUBE_API_KEY` is set, otherwise automatically via `yt-dlp --flat-playlist` (no extra key needed).
+- **Course presets** — `conversation` (dialogue + key expressions), `phonetics` (focus sounds, minimal pairs, audio quiz) and `writing` (brainstorming, guided sentences, final draft, written-heavy quiz), each with its own schema, prompt and quiz rules. Full reference: [docs/course-presets.md](docs/course-presets.md).
+- **Structured lesson extraction** — built-in LMS schema (dialogue / key_expressions / global_vocabulary / lesson_notes / quiz) with custom-prompt (`analysisPrompt` / `--prompt-file`) and custom-schema (`schemaJson` / `--schema-file`) options for your own format.
 - **Long-video pipeline with windowed fallback** — full-video pass first; if that fails (quota, deadlines, very long VODs) it automatically switches to 150-second windowed extraction with merge & dedupe.
 - **Automatic model rotation** — every Gemini model has its own free-tier quota pool. On `429 RESOURCE_EXHAUSTED` the same request transparently retries on the next available model. The model catalogue is discovered live from the Gemini API, so new models (e.g. `gemini-3.6-flash`, `gemini-3.7-*`) join the rotation without code changes.
 - **Multimodal analysis tools** — `analyze_youtube_video` (audio + visuals), `analyze_youtube_video_audio` (speech-first), exact JPEG frame extraction with `yt-dlp` + `ffmpeg`, metadata via YouTube Data API.
 - **Long VODs & sessions** — task-based `analyze_long_youtube_video`, reusable `sessionId` follow-ups, and compatibility background jobs (`start_long_youtube_analysis` → poll → result → cancel).
-- **Resume-safe batches** — already-valid lesson files are skipped; interrupted runs continue where they stopped.
-- **CLI mode** — `edutube-mcp extract <url>` works without any MCP client.
+- **Resume-safe batches** — already-valid lesson files are skipped (checked against the chosen course); interrupted runs continue where they stopped.
+- **Strict batch validation** — `edutube-mcp validate <dir> --course <preset>` enforces the full preset contract (metadata, Arabic translations, zero-orphan vocabulary, quiz shape) with a CI-friendly report. See [docs/validation.md](docs/validation.md).
+- **CLI mode** — `edutube-mcp extract <url|csv>` works without any MCP client.
 
 ## Requirements
 
@@ -63,6 +65,12 @@ edutube-mcp extract "https://www.youtube.com/playlist?list=PL..." --out ./edutub
 
 # or a single video
 edutube-mcp extract "https://www.youtube.com/watch?v=VIDEO_ID" --out ./lessons
+
+# a curated CSV playlist as writing-course lessons
+edutube-mcp extract ./my-course.csv --out ./writing-lessons --course writing
+
+# validate the extracted batch before publishing
+edutube-mcp validate ./writing-lessons --course writing
 ```
 
 Stdout is clean JSON (progress goes to stderr), so it pipes straight into scripts and LMS importers.
@@ -71,7 +79,7 @@ Stdout is clean JSON (progress goes to stderr), so it pipes straight into script
 
 | Tool | Purpose |
 |---|---|
-| `start_edutube_extraction` | **Paste a playlist/video URL** → background job that writes structured lessons to `outputDir` |
+| `start_edutube_extraction` | **Paste a playlist/video URL or CSV** → background job that writes structured lessons to `outputDir` (`course`: conversation / phonetics / writing) |
 | `get_edutube_job_status` / `get_edutube_job_result` / `cancel_edutube_job` | Poll, fetch, cancel edutube jobs |
 | `analyze_youtube_video` | Multimodal analysis (audio + visuals), custom prompts & JSON schemas, clip windows |
 | `analyze_youtube_video_audio` | Speech-first analysis with transcript segments |
@@ -130,9 +138,13 @@ env = { GEMINI_API_KEY = "..." }
 - [Configuration](docs/configuration.md)
 - [Tools](docs/tools.md)
 - [Playlist lessons (Edutube pipeline)](docs/edutube-playlist.md)
+- [Course presets (conversation / phonetics / writing)](docs/course-presets.md)
+- [CSV playlist import](docs/csv-import.md)
+- [Validation](docs/validation.md)
 - [Model rotation](docs/model-rotation.md)
 - [CLI](docs/cli.md)
 - [Long videos](docs/long-videos.md)
+- [Examples](docs/examples.md)
 - [Changelog](CHANGELOG.md)
 
 ## Privacy & Limits
@@ -150,9 +162,19 @@ MIT — see [LICENSE](LICENSE).
 **Edutube MCP** — حوِّل قوائم تشغيل وفيديوهات يوتيوب إلى دروس مهيكلة جاهزة للاستيراد في LMS: حوار كامل مع الترجمة العربية، التعبيرات المفتاحية، المفردات مع أمثلة إلزامية، ملاحظات ثقافية/نطق بالعربية، واختبار من 10 أسئلة بأنواع متعددة — مستخرج من الصوت **والصورة** فعليًا وليس من الترجمة النصية فقط.
 
 أبرز الميزات:
-- **استيراد قائمة تشغيل بلصق الرابط فقط** عبر أداة `start_edutube_extraction` (أو أمر CLI ‏`edutube-mcp extract`)، مع استئناف تلقائي يتخطى الدروس المكتملة.
+- **استيراد قائمة تشغيل بلصق الرابط** عبر أداة `start_edutube_extraction` (أو أمر CLI ‏`edutube-mcp extract`)، مع استئناف تلقائي يتخطى الدروس المكتملة، **أو استيراد ملف CSV جاهز** بقائمة فيديوهات محددة (`lesson_no` لكل درس).
+- **قواعد دروس جاهزة (Course Presets)**: `conversation` (المحادثة) و`phonetics` (الصوتيات) و`writing` (الكتابة) — لكل منها مخطط JSON وبرومبت وقواعد اختبار خاصة. التفاصيل الكاملة في [docs/course-presets.md](docs/course-presets.md).
+- **إمكانية تخصيص البرومبت والمخطط**: `analysisPrompt`/`--prompt-file` لاستبدال البرومبت مع الاحتفاظ بالمخطط، و`schemaJson`/`--schema-file` لاستبدال المخطط بالكامل بهيكلك الخاص.
+- **تحقق صارم من الدروس**: `edutube-mcp validate <dir> --course <preset>` يفحص كل درس (البيانات الوصفية، الترجمات العربية، المفردات بلا أيتام، شكل الاختبار) ويخرج بتقرير مناسب لـ CI. التفاصيل في [docs/validation.md](docs/validation.md).
 - **تدوير تلقائي بين نماذج Gemini**: عند استنفاد حصة أي نموذج (429) يُعاد الطلب على النموذج التالي تلقائيًا، مع اكتشاف ديناميكي لأي نماذج جديدة متاحة لمفتاحك.
 - مسار فيديو طويل + بديل نوافذ 150 ثانية عند الفشل، ودمج وإزالة تكرار.
 - 15 أداة MCP تشمل التحليل متعدد الوسائط، استخراج إطارات JPEG دقيقة، البيانات الوصفية، والوظائف الخلفية للعملاء ذات المهل الثابتة.
 
-التشغيل السريع: انسخ `.env.example` إلى `.env` وضع `GEMINI_API_KEY`، ثم `npm install && npm run build && npm start`، أو استخدم الـCLI مباشرة. راجع التوثيق أعلاه للتفاصيل والربط مع Claude Code وCursor وCodex.
+التشغيل السريع: انسخ `.env.example` إلى `.env` وضع `GEMINI_API_KEY`، ثم `npm install && npm run build && npm start`، أو استخدم الـCLI مباشرة:
+
+```bash
+edutube-mcp extract ./my-course.csv --out ./lessons --course writing
+edutube-mcp validate ./lessons --course writing
+```
+
+راجع التوثيق أعلاه للتفاصيل والربط مع Claude Code وCursor وCodex.

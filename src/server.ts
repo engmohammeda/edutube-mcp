@@ -5,6 +5,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import type { CallToolResult, GetTaskResult, Task } from "@modelcontextprotocol/sdk/types.js";
 
 import { createVideoAnalysisService, ManagedTaskStore } from "./platform-runtime/index.js";
+import type { GoogleGenAI } from "@google/genai";
 import {
   DEFAULT_TASK_TTL_MS,
   MCP_TOOL_DEADLINE_MS,
@@ -16,6 +17,9 @@ import {
   edutubeStartInputSchema,
   runLessonExtraction,
   type EdutubeStartInput,
+  type EdutubeRunOptions,
+  type EdutubeRunResult,
+  type AnalysisSessionStore,
   cancelLongAnalysisJobOutputSchema,
   audioToolInputSchema,
   audioToolOutputSchema,
@@ -79,11 +83,20 @@ type TaskCreateExtra = RequestExtra & {
   taskStore: NonNullable<RequestExtra["taskStore"]>;
 };
 
+export type LessonExtractor = (
+  options: EdutubeRunOptions,
+  context: AnalysisExecutionContext,
+  ai?: GoogleGenAI,
+  sessionStore?: AnalysisSessionStore
+) => Promise<EdutubeRunResult>;
+
 export type CreateServerOptions = {
   service?: VideoAnalysisServiceLike;
   taskStore?: ManagedTaskStore;
   longAnalysisJobStore?: LongAnalysisJobStore;
   capabilitiesProvider?: () => Promise<LongVideoRuntimeCapabilities>;
+  /** Override the lesson extraction runner (tests / custom pipelines). */
+  lessonExtractor?: LessonExtractor;
   deadlines?: {
     toolMs?: number;
   };
@@ -983,12 +996,12 @@ export function createServer(options: CreateServerOptions = {}): McpServer {
   server.registerTool(
     "start_edutube_extraction",
     {
-      title: "Start Edutube Lesson Extraction (playlist or video)",
+      title: "Start Edutube Lesson Extraction (playlist, video or CSV)",
       description: [
-        "Paste a YouTube PLAYLIST URL (or playlist id, or a single video URL) and this job extracts a structured lesson per video:",
-        "dialogue with Arabic translations, key expressions, vocabulary, Arabic notes, and a 10-question quiz, written as lesson-NN.json + lessons-all.json + summary.json into outputDir.",
-        "Uses the long-video path first and falls back to 150s windowed extraction. Skips already-valid lesson files (resume-safe).",
-        "Automatic Gemini model rotation applies on quota errors. Poll with get_edutube_job_status, read with get_edutube_job_result, cancel with cancel_edutube_job.",
+        "Paste a YouTube PLAYLIST URL (or playlist id, or a single video URL, or a local .csv playlist file) and this job extracts one structured lesson per video.",
+        "Course presets: conversation (dialogue + key expressions), phonetics (focus sounds, minimal pairs, audio quiz), writing (brainstorming, guided sentences, final draft, written-heavy quiz) — each with Arabic translations, vocabulary, Arabic notes and a 10-question quiz.",
+        "Outputs lesson-NN.json + lessons-all.json + summary.json into outputDir. Uses the long-video path first and falls back to 150s windowed extraction. Skips already-valid lesson files (resume-safe).",
+        "Pass analysisPrompt to override the preset prompt, or schemaJson to replace the schema entirely. Automatic Gemini model rotation applies on quota errors. Poll with get_edutube_job_status, read with get_edutube_job_result, cancel with cancel_edutube_job.",
       ].join(" "),
       inputSchema: edutubeStartInputSchema,
       outputSchema: startLongAnalysisJobOutputSchema,
@@ -997,7 +1010,7 @@ export function createServer(options: CreateServerOptions = {}): McpServer {
       const input = args as EdutubeStartInput;
       const logger = createRequestLogger("start_edutube_extraction");
       const startedAt = Date.now();
-      logger.info("tool.start", { url: input.url, maxVideos: input.maxVideos ?? null, outputDir: input.outputDir ?? null });
+      logger.info("tool.start", { url: input.url, maxVideos: input.maxVideos ?? null, outputDir: input.outputDir ?? null, course: input.course ?? null });
 
       try {
         const job = longAnalysisJobStore.createJob({ youtubeUrl: input.url } as LongToolInput, DEFAULT_TASK_TTL_MS);
@@ -1017,27 +1030,31 @@ export function createServer(options: CreateServerOptions = {}): McpServer {
               return;
             }
 
-            const ai = createAiClient();
-            const result = await runLessonExtraction(
-              ai,
-              new InMemoryAnalysisSessionStore(),
-              {
-                url: input.url,
-                outputDir: input.outputDir || process.env.EDUTUBE_OUTPUT_DIR || "edutube-output",
-                course: input.course,
-                maxVideos: input.maxVideos,
-                model: input.model,
-                chunkModel: input.chunkModel,
-                finalModel: input.finalModel,
-                analysisPrompt: input.analysisPrompt,
-              },
-              createExecutionContext(
-                "start_edutube_extraction",
-                logger,
-                currentJob.controller.signal,
-                createJobProgressReporter(longAnalysisJobStore, job.jobId, logger)
-              )
+            const runOptions: EdutubeRunOptions = {
+              url: input.url,
+              outputDir: input.outputDir || process.env.EDUTUBE_OUTPUT_DIR || "edutube-output",
+              course: input.course,
+              maxVideos: input.maxVideos,
+              model: input.model,
+              chunkModel: input.chunkModel,
+              finalModel: input.finalModel,
+              analysisPrompt: input.analysisPrompt,
+              schemaJson: input.schemaJson,
+            };
+            const context = createExecutionContext(
+              "start_edutube_extraction",
+              logger,
+              currentJob.controller.signal,
+              createJobProgressReporter(longAnalysisJobStore, job.jobId, logger)
             );
+            const result = options.lessonExtractor
+              ? await options.lessonExtractor(runOptions, context)
+              : await runLessonExtraction(
+                  createAiClient(),
+                  new InMemoryAnalysisSessionStore(),
+                  runOptions,
+                  context
+                );
 
             if (currentJob.controller.signal.aborted) {
               longAnalysisJobStore.cancelJob(job.jobId, "Edutube extraction job cancelled.");

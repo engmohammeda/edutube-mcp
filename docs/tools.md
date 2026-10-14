@@ -1,135 +1,104 @@
 # Tools
 
-This server exposes eleven MCP tools.
+This server exposes **fifteen** MCP tools in four groups:
 
-## `get_youtube_analyzer_capabilities`
+1. **Edutube lesson extraction** — playlist/video/CSV → structured lesson JSON files.
+2. **Video analysis** — Gemini multimodal, audio-first, and long-VOD analysis.
+3. **Frames & metadata** — exact JPEG frames and normalized YouTube metadata.
+4. **Runtime & compatibility** — capability probing and legacy job workflows.
 
-Checks the local runtime before long-video analysis.
+---
 
-Use it when:
+## Edutube lesson extraction
 
-- You want to analyze a long video or VOD.
-- You need to know whether `yt-dlp`, `ffmpeg`, and temp storage are available.
-- You want the server to recommend `uploaded_file` or `url_chunks`.
+### `start_edutube_extraction`
 
-## `get_youtube_video_metadata`
+**The main entry point.** Paste a source and get one structured lesson JSON per video.
 
-Fetches normalized public YouTube metadata with the YouTube Data API.
+- **Input:** `url` (playlist URL / playlist id / video URL / local `.csv` file), `outputDir`, `course` (`conversation` | `phonetics` | `writing`), `maxVideos`, `model` / `chunkModel` / `finalModel`, `analysisPrompt`, `schemaJson`.
+- **Returns:** `{ jobId, status: "queued" }` — a background job.
+- Writes `lesson-NN.json`, `lessons-all.json`, `summary.json` into `outputDir`.
+- Long-video single pass first; automatic 150s windowed fallback with merge & dedupe.
+- Resume-safe: already-valid lesson files are skipped (checked against the chosen course).
+- Automatic Gemini model rotation on quota errors.
 
-Use it when:
+Use it when: you want LMS-ready lessons from a course playlist — see [playlist lessons](edutube-playlist.md), [course presets](course-presets.md), [CSV import](csv-import.md).
 
-- You need title, channel, duration, publish date, or other metadata.
-- You want metadata without sending the video to Gemini.
+### `get_edutube_job_status` / `get_edutube_job_result` / `cancel_edutube_job`
 
-Requires `YOUTUBE_API_KEY`.
+Job controls for `start_edutube_extraction`:
 
-## `get_youtube_video_frame`
+- `get_edutube_job_status` — `{ jobId, status, progress, statusMessage, createdAt, updatedAt }`.
+- `get_edutube_job_result` — when `status == "done"`: the run summary (`source`, `course`, `outputDir`, `totals {ok, skipped, failed}`, per-entry results with `strategyUsed` and `contentItems`).
+- `cancel_edutube_job` — aborts a queued/running job.
 
-Extracts a high-resolution JPEG frame from a public YouTube video at a timestamp.
+---
 
-Use it when:
+## Video analysis
 
-- You need a visual reference, thumbnail candidate, or exact frame for downstream work.
-- You want the original available video resolution instead of the low-resolution media used for Gemini token budgeting.
-- `yt-dlp`, `ffmpeg`, and writable temp storage are available.
+### `analyze_youtube_video`
 
-Returns base64 JPEG data in structured content and an MCP `image/jpeg` content item. The tool only returns exact extracted frames; it does not use Gemini image generation as a fallback.
+Multimodal analysis (audio + visuals) of a public YouTube video.
 
-Optional timestamp refinement:
+Use it when: the video fits a normal tool call, you want visual + audio understanding, bounded clips (`startOffsetSeconds`/`endOffsetSeconds`), or structured JSON via a custom `responseSchemaJson`.
 
-- Pass `timestampRefinementPrompt` when `timestampSeconds` is approximate and you can describe the desired frame.
-- Gemini will inspect only a bounded window around `timestampSeconds` and return JSON with a refined timestamp.
-- The JPEG still comes only from local `yt-dlp` and `ffmpeg` extraction.
+### `analyze_youtube_video_audio`
 
-## `analyze_youtube_video`
+Speech-first analysis with transcript-like segments.
 
-Analyzes a public YouTube video with Gemini.
+Use it when: spoken content matters most (claims, arguments, action items, quotes) and the model must not rely on visual-only evidence.
 
-Use it when:
+### `analyze_long_youtube_video`
 
-- The video is short enough for a normal tool call.
-- You want visual and audio understanding.
-- You want to analyze a bounded clip with `startOffsetSeconds` and `endOffsetSeconds`.
-- You want structured JSON by passing a custom response schema.
+Long videos and VODs as a **required MCP task**; returns a reusable `sessionId`.
 
-## `analyze_youtube_video_audio`
+Use it when: the video is too long for a synchronous call and your client supports MCP tasks. Call `get_youtube_analyzer_capabilities` first. Do **not** call from clients with fixed synchronous timeouts (e.g. 120s) — use `start_long_youtube_analysis` instead.
 
-Analyzes a public YouTube video with audio-first instructions.
+### `continue_long_video_analysis`
 
-Use it when:
+Follow-up questions against a cached long-video session (`sessionId`), without re-analyzing the video.
 
-- Spoken content matters more than visuals.
-- You want transcript-like understanding, claims, arguments, action items, or quotes.
-- You want the model to avoid relying on visual-only evidence.
+---
 
-## `analyze_long_youtube_video`
+## Frames & metadata
 
-Analyzes long public YouTube videos and VODs as a required MCP task.
+### `get_youtube_video_frame`
 
-Use it when:
+Exact high-resolution JPEG frame at a timestamp (via `yt-dlp` + `ffmpeg`).
 
-- A video is too long for a normal short-video tool call.
-- Your MCP client supports tasks or long-running tool workflows.
-- You want a reusable `sessionId` for follow-up questions.
+- Returns base64 JPEG in structured content **and** an `image/jpeg` content item.
+- Optional Gemini **timestamp refinement**: pass `timestampRefinementPrompt` when `timestampSeconds` is approximate — Gemini inspects a bounded window and returns a refined timestamp; the JPEG bytes still come only from local extraction.
 
-Call `get_youtube_analyzer_capabilities` first.
+Use it when: you need a visual reference, a thumbnail candidate, or the exact frame for downstream work.
 
-Do not call this tool from a client that only supports synchronous tool calls with a fixed timeout such as 120 seconds. Use a task-capable client, or analyze shorter bounded windows with `analyze_youtube_video`.
+### `get_youtube_video_metadata`
 
-## `start_long_youtube_analysis`
+Normalized public metadata (title, channel, duration, publish date) via the YouTube Data API. Requires `YOUTUBE_API_KEY` (yt-dlp fallback covers the extraction pipeline itself).
 
-Starts long public YouTube video or VOD analysis as a server-managed background job and returns immediately.
+---
 
-Use it when:
+## Runtime & compatibility
 
-- Your MCP client does not support MCP tasks.
-- Your MCP client has a fixed synchronous timeout such as 120 seconds.
-- You can poll for status and result with separate tool calls.
+### `get_youtube_analyzer_capabilities`
 
-Call `get_youtube_analyzer_capabilities` first, then call this tool with the same input shape as `analyze_long_youtube_video`.
+Inspects the local runtime (`yt-dlp`, `ffmpeg`, temp storage) and recommends the long-video strategy (`uploaded_file` vs `url_chunks`). Call before long analysis.
 
-## `get_long_youtube_analysis_status`
+### `start_long_youtube_analysis` / `get_long_youtube_analysis_status` / `get_long_youtube_analysis_result` / `cancel_long_youtube_analysis`
 
-Returns the status and latest progress for a job created by `start_long_youtube_analysis`.
+Compatibility background-job workflow for clients that cannot run MCP tasks but can poll. Same analysis engine as `analyze_long_youtube_video`, wrapped in job handles.
 
-Statuses are `queued`, `running`, `done`, `error`, and `cancelled`.
+---
 
-## `get_long_youtube_analysis_result`
+## Choosing the right tool
 
-Returns the final result for a job created by `start_long_youtube_analysis`.
-
-While the job is still `queued` or `running`, `result` and `error` are null. When the job is `done`, `result` contains the long-video analysis output. When the job is `error`, `error` contains structured diagnostic information.
-
-## `cancel_long_youtube_analysis`
-
-Cancels a queued or running job created by `start_long_youtube_analysis`.
-
-## `continue_long_video_analysis`
-
-Asks follow-up questions against a previous long-video session as a required MCP task.
-
-Use it only after `analyze_long_youtube_video` returns a non-null `sessionId`.
-
-Example follow-ups:
-
-- "List every product mentioned with timestamps."
-- "Extract the speaker's recommendations as a checklist."
-- "Find contradictions in the previous analysis."
-- "Summarize only the Q&A section."
-
-## `start_edutube_extraction`
-
-Paste a YouTube playlist URL (or playlist id, or a single video URL) to start a background job that extracts one structured lesson per video into `outputDir` (`lesson-NN.json`, `lessons-all.json`, `summary.json`).
-
-Use it when:
-
-- You want LMS-ready lesson JSON (dialogue + Arabic translations, key expressions, vocabulary, notes, 10-question quiz).
-- You want resume-safe batch extraction over a playlist.
-
-Optional inputs: `outputDir`, `maxVideos`, `model`, `chunkModel`, `finalModel`, `analysisPrompt`.
-
-Poll with `get_edutube_job_status`, fetch with `get_edutube_job_result`, cancel with `cancel_edutube_job`. The same job ids also work with the generic long-job tools.
-
-## `get_edutube_job_status` / `get_edutube_job_result` / `cancel_edutube_job`
-
-Job controls for jobs created by `start_edutube_extraction`. Statuses are `queued`, `running`, `done`, `error`, `cancelled`. The result payload contains `totals`, per-entry `entries`, and `outputDir`.
+| Goal | Tool |
+|---|---|
+| Course playlist → lesson JSON files | `start_edutube_extraction` (+ job controls) |
+| One short video, visuals + audio | `analyze_youtube_video` |
+| One short video, speech only | `analyze_youtube_video_audio` |
+| Long VOD, task-capable client | `analyze_long_youtube_video` |
+| Long VOD, poll-only client | `start_long_youtube_analysis` (+ job controls) |
+| Follow-up on an analyzed VOD | `continue_long_video_analysis` |
+| Exact frame at a timestamp | `get_youtube_video_frame` |
+| Title/duration/channel | `get_youtube_video_metadata` |
+| Check local tooling | `get_youtube_analyzer_capabilities` |

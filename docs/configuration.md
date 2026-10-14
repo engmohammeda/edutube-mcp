@@ -7,8 +7,11 @@ Configuration can come from MCP client `env`, shell environment variables, a loc
 | Variable | Required | Description |
 | --- | --- | --- |
 | `GEMINI_API_KEY` | Yes | Google Gemini API key used by all analysis tools. |
-| `YOUTUBE_API_KEY` | No | YouTube Data API v3 key used by `get_youtube_video_metadata`. |
+| `GEMINI_API_KEYS` | No | Extra Gemini keys (comma-separated). Each key adds its own quota pools to the rotation. |
+| `YOUTUBE_API_KEY` | No | YouTube Data API v3 key used by `get_youtube_video_metadata` and faster playlist import. |
 | `GEMINI_MODEL` | No | Default model for short visual analysis. Defaults to `gemini-2.5-pro`. |
+| `GEMINI_MODEL_ROTATION` | No | Explicit model rotation order (comma-separated). When unset, all models available to the key are discovered and rotated automatically. |
+| `EDUTUBE_OUTPUT_DIR` | No | Default lesson output directory for `start_edutube_extraction` / `extract`. |
 | `YT_DLP_PATH` | No | Command or path for `yt-dlp`. Defaults to `yt-dlp`. |
 | `MCP_LOG_LEVEL` | No | `warn` by default. Use `info` for verbose logs or `silent` to suppress non-error logs. |
 | `MCP_TOOL_DEADLINE_MS` | No | Outer per-tool deadline. Defaults to `110000`. |

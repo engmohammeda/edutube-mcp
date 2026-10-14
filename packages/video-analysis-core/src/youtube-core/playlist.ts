@@ -1,9 +1,12 @@
 // Edutube feature: playlist import. Accepts a playlist URL (or bare playlist
-// id, or a single video URL) and resolves the ordered video entries. Uses the
-// YouTube Data API when YOUTUBE_API_KEY is configured, otherwise falls back to
-// yt-dlp --flat-playlist so the feature works without any extra key.
+// id, or a single video URL, or a local CSV playlist file) and resolves the
+// ordered video entries. Uses the YouTube Data API when YOUTUBE_API_KEY is
+// configured, otherwise falls back to yt-dlp --flat-playlist so the feature
+// works without any extra key. CSV files let operators hand-curated playlists
+// (url/title/lesson_no columns) without any network resolution at all.
 import process from "node:process";
 import { execFile } from "node:child_process";
+import { readFile } from "node:fs/promises";
 import { promisify } from "node:util";
 
 import { METADATA_TIMEOUT_MS } from "../lib/constants.js";
@@ -14,11 +17,14 @@ export type PlaylistEntry = {
   index: number;
   videoId: string;
   title: string | null;
+  lessonNo?: number | null;
 };
+
+export type PlaylistSource = "youtube_api" | "yt_dlp" | "single_video" | "csv_file";
 
 export type PlaylistInfo = {
   playlistId: string | null;
-  source: "youtube_api" | "yt_dlp" | "single_video";
+  source: PlaylistSource;
   entries: PlaylistEntry[];
 };
 
@@ -79,6 +85,156 @@ export function extractVideoId(input: string): string | null {
   }
   return null;
 }
+
+/* --------------------------------- CSV import --------------------------------- */
+
+/**
+ * Minimal RFC-4180-ish CSV splitter: supports quoted fields, escaped quotes
+ * (""), BOM, and both LF and CRLF line endings.
+ */
+export function parseCsvRows(text: string): string[][] {
+  const src = text.replace(/^\uFEFF/, "");
+  const rows: string[][] = [];
+  let row: string[] = [];
+  let field = "";
+  let inQuotes = false;
+
+  for (let i = 0; i < src.length; i += 1) {
+    const ch = src[i];
+    if (inQuotes) {
+      if (ch === '"') {
+        if (src[i + 1] === '"') {
+          field += '"';
+          i += 1;
+        } else {
+          inQuotes = false;
+        }
+      } else {
+        field += ch;
+      }
+      continue;
+    }
+    if (ch === '"') {
+      inQuotes = true;
+    } else if (ch === ",") {
+      row.push(field);
+      field = "";
+    } else if (ch === "\n") {
+      row.push(field);
+      field = "";
+      rows.push(row);
+      row = [];
+    } else if (ch === "\r") {
+      // handled on \n; tolerate lone \r as a line break too
+      if (src[i + 1] !== "\n") {
+        row.push(field);
+        field = "";
+        rows.push(row);
+        row = [];
+      }
+    } else {
+      field += ch;
+    }
+  }
+  if (field.length > 0 || row.length > 0) {
+    row.push(field);
+    rows.push(row);
+  }
+  return rows.filter((r) => r.some((cell) => cell.trim().length > 0));
+}
+
+const CSV_URL_COLUMNS = ["url", "video_url", "video_url_or_id", "link", "video", "video_id", "videoid", "id"];
+const CSV_TITLE_COLUMNS = ["title", "name", "video_title", "lesson_title"];
+const CSV_LESSON_NO_COLUMNS = ["lesson_no", "lessonno", "lesson", "no", "index", "position", "order"];
+
+function findColumn(header: string[], candidates: string[]): number {
+  return header.findIndex((h) => candidates.includes(h.trim().toLowerCase()));
+}
+
+/**
+ * Parse a CSV playlist. Flexible headers:
+ *   url | video_url | link | video_id | id   (required)
+ *   title | name | lesson_title               (optional)
+ *   lesson_no | lesson | index | position     (optional)
+ * A header-less CSV is also accepted: column order url[,title[,lesson_no]].
+ */
+export function parseCsvPlaylist(csvText: string): { playlistId: string | null; entries: PlaylistEntry[] } {
+  const rows = parseCsvRows(csvText);
+  if (rows.length === 0) {
+    throw new Error("CSV playlist is empty.");
+  }
+
+  let urlCol = 0;
+  let titleCol = 1;
+  let lessonNoCol = 2;
+  let dataRows = rows;
+
+  const first = rows[0].map((c) => c.trim().toLowerCase());
+  const headerUrlCol = findColumn(first, CSV_URL_COLUMNS);
+  if (headerUrlCol >= 0) {
+    urlCol = headerUrlCol;
+    titleCol = findColumn(first, CSV_TITLE_COLUMNS);
+    lessonNoCol = findColumn(first, CSV_LESSON_NO_COLUMNS);
+    dataRows = rows.slice(1);
+    if (dataRows.length === 0) {
+      throw new Error("CSV playlist has a header but no data rows.");
+    }
+  } else {
+    // header-less: assume column order url[,title[,lesson_no]]
+    titleCol = rows[0].length > 1 ? 1 : -1;
+    lessonNoCol = rows[0].length > 2 ? 2 : -1;
+  }
+
+  const entries: PlaylistEntry[] = [];
+  for (const row of dataRows) {
+    const rawUrl = (row[urlCol] ?? "").trim();
+    if (!rawUrl) continue;
+    const videoId = extractVideoId(rawUrl);
+    if (!videoId) {
+      throw new Error(`CSV row ${entries.length + 1}: cannot extract a YouTube video id from "${rawUrl.slice(0, 120)}".`);
+    }
+    const rawTitle = titleCol >= 0 ? (row[titleCol] ?? "").trim() : "";
+    const rawLessonNo = lessonNoCol >= 0 ? (row[lessonNoCol] ?? "").trim() : "";
+    const lessonNo = rawLessonNo ? Number(rawLessonNo) : null;
+    entries.push({
+      index: entries.length,
+      videoId,
+      title: rawTitle || null,
+      lessonNo: Number.isFinite(lessonNo as number) && (lessonNo as number) > 0 ? (lessonNo as number) : null,
+    });
+  }
+
+  if (entries.length === 0) {
+    throw new Error("CSV playlist contains no usable video rows.");
+  }
+
+  // Optional playlist id column or a playlist URL anywhere in the url column.
+  const playlistId = entries.map((e) => parsePlaylistId(e.videoId)).find(Boolean) ?? null;
+  return { playlistId, entries };
+}
+
+export function isCsvPlaylistPath(input: string): boolean {
+  const trimmed = input.trim();
+  return /\.csv$/i.test(trimmed) && !/^https?:\/\//i.test(trimmed);
+}
+
+async function loadCsvPlaylist(filePath: string, maxVideos: number): Promise<PlaylistInfo> {
+  let text: string;
+  try {
+    text = await readFile(filePath, "utf8");
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`Cannot read CSV playlist file "${filePath}": ${message}`);
+  }
+  const { playlistId, entries } = parseCsvPlaylist(text);
+  return {
+    playlistId,
+    source: "csv_file",
+    entries: entries.slice(0, maxVideos).map((e, i) => ({ ...e, index: i })),
+  };
+}
+
+/* -------------------------------- resolution -------------------------------- */
 
 async function fetchViaYouTubeApi(playlistId: string, maxVideos: number): Promise<PlaylistEntry[]> {
   const apiKey = process.env.YOUTUBE_API_KEY?.trim();
@@ -151,6 +307,10 @@ export async function resolvePlaylistEntries(options: {
   const timeoutMs = options.timeoutMs ?? Math.max(METADATA_TIMEOUT_MS, 120_000);
   const input = options.url.trim();
 
+  if (isCsvPlaylistPath(input)) {
+    return loadCsvPlaylist(input, maxVideos);
+  }
+
   const videoId = extractVideoId(input);
   if (videoId && !isPlaylistUrl(input)) {
     return {
@@ -163,7 +323,7 @@ export async function resolvePlaylistEntries(options: {
   const playlistId = parsePlaylistId(input);
   if (!playlistId) {
     throw new Error(
-      "Unrecognized input. Provide a YouTube playlist URL (…?list=…), a playlist id, or a video URL."
+      "Unrecognized input. Provide a YouTube playlist URL (…?list=…), a playlist id, a video URL, or a local .csv playlist file."
     );
   }
 

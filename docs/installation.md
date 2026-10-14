@@ -14,7 +14,7 @@ This package runs as an MCP stdio server. Most users should connect it to an MCP
 ```json
 {
   "mcpServers": {
-    "youtube-analyzer": {
+    "edutube": {
       "command": "npx",
       "args": ["-y", "@engmohammeda/edutube-mcp"],
       "env": {

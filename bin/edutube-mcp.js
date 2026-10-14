@@ -4,6 +4,7 @@ import process from "node:process";
 import { stdin as input, stdout as output } from "node:process";
 import { createInterface } from "node:readline/promises";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { homedir } from "node:os";
 
@@ -56,26 +57,61 @@ function printUsage() {
     "Usage:",
     "  edutube-mcp          Start the MCP stdio server",
     "  edutube-mcp setup    Save config for npm/global usage",
-    "  edutube-mcp extract <playlist-or-video-url> [--out DIR] [--max N] [--model M] [--course conversation|phonetics]",
-    "                       Extract structured lessons from a playlist/video without an MCP client",
+    "  edutube-mcp extract <playlist-url|video-url|playlist.csv> [flags]",
+    "                       Extract structured lessons without an MCP client",
+    "                       Flags:",
+    "                         --out DIR              output directory (default ./edutube-output)",
+    "                         --max N                cap playlist videos (default 50)",
+    "                         --model M              preferred Gemini model (rotation still applies)",
+    "                         --course NAME          conversation | phonetics | writing (default conversation)",
+    "                         --prompt-file FILE     custom extraction prompt loaded from a text file",
+    "                         --schema-file FILE     custom JSON schema that replaces the preset schema",
+    "  edutube-mcp validate <dir> [--course NAME]",
+    "                       Strictly validate extracted lesson-NN.json files against the course preset",
     "  edutube-mcp --help   Show this help",
   ].join("\n"));
 }
+
+const COURSE_PRESETS = ["conversation", "phonetics", "writing"];
 
 function flagValue(argv, flag) {
   const i = argv.indexOf(flag);
   return i >= 0 && argv[i + 1] ? argv[i + 1] : undefined;
 }
 
+function readOptionalFile(filePath, label) {
+  try {
+    return readFileSync(filePath, "utf8");
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`Cannot read ${label} "${filePath}": ${message}`);
+  }
+}
+
+function resolveCourseFlag(argv) {
+  const course = flagValue(argv, "--course");
+  if (course === undefined) return undefined;
+  if (!COURSE_PRESETS.includes(course)) {
+    throw new Error(`Invalid --course "${course}". Use one of: ${COURSE_PRESETS.join(", ")}.`);
+  }
+  return course;
+}
+
 async function runExtract(argv) {
   const url = argv.find((a) => !a.startsWith("--"));
   if (!url) {
-    throw new Error("Usage: edutube-mcp extract <playlist-or-video-url> [--out DIR] [--max N] [--model M]");
+    throw new Error("Usage: edutube-mcp extract <playlist-url|video-url|playlist.csv> [--out DIR] [--max N] [--model M] [--course NAME]");
   }
   const { configPath } = await loadRuntimeConfig();
   if (!process.env.GEMINI_API_KEY) {
     throw new Error(formatMissingApiKeyGuidance(configPath));
   }
+
+  const promptFile = flagValue(argv, "--prompt-file");
+  const schemaFile = flagValue(argv, "--schema-file");
+  const analysisPrompt = promptFile ? readOptionalFile(promptFile, "prompt file").trim() || undefined : undefined;
+  const schemaJson = schemaFile ? readOptionalFile(schemaFile, "schema file").trim() || undefined : undefined;
+  if (schemaJson) JSON.parse(schemaJson); // fail fast on malformed schemas
 
   const core = await import("@engmohammeda/edutube-core");
   const ai = core.createAiClient();
@@ -95,19 +131,52 @@ async function runExtract(argv) {
       url,
       outputDir: flagValue(argv, "--out") || process.env.EDUTUBE_OUTPUT_DIR || "edutube-output",
       maxVideos: Number(flagValue(argv, "--max") || 50),
-      course: flagValue(argv, "--course"),
+      course: resolveCourseFlag(argv),
       model: flagValue(argv, "--model"),
+      analysisPrompt,
+      schemaJson,
     },
     context
   );
 
   console.log(
     JSON.stringify(
-      { outputDir: result.outputDir, source: result.source, playlistId: result.playlistId, totals: result.totals, entries: result.entries },
+      { outputDir: result.outputDir, source: result.source, playlistId: result.playlistId, course: result.course, totals: result.totals, entries: result.entries },
       null,
       2
     )
   );
+}
+
+async function runValidate(argv) {
+  const dir = argv.find((a) => !a.startsWith("--"));
+  if (!dir) {
+    throw new Error("Usage: edutube-mcp validate <dir> [--course conversation|phonetics|writing]");
+  }
+  const course = resolveCourseFlag(argv) ?? "conversation";
+  const core = await import("@engmohammeda/edutube-core");
+  const { readdir, readFile: readLessonFile } = await import("node:fs/promises");
+
+  const files = (await readdir(dir))
+    .filter((f) => /^lesson-.*\.json$/i.test(f))
+    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+  if (files.length === 0) {
+    throw new Error(`No lesson-*.json files found in ${dir}`);
+  }
+
+  const reports = [];
+  for (const file of files) {
+    const lesson = JSON.parse(await readLessonFile(join(dir, file), "utf8"));
+    const match = file.match(/lesson-0*(\d+)/i);
+    const expectLessonNo = match ? Number(match[1]) : undefined;
+    const problems = core.validateLesson(lesson, { course, expectLessonNo });
+    reports.push({ file, ok: problems.length === 0, problems });
+  }
+
+  const failed = reports.filter((r) => !r.ok);
+  console.log(JSON.stringify({ dir, course, total: reports.length, ok: reports.length - failed.length, failed: failed.length, reports }, null, 2));
+  if (failed.length > 0) process.exitCode = 1;
 }
 
 function normalizePromptValue(value) {
@@ -214,6 +283,11 @@ async function run() {
 
   if (command === "extract") {
     await runExtract(process.argv.slice(3));
+    return;
+  }
+
+  if (command === "validate") {
+    await runValidate(process.argv.slice(3));
     return;
   }
 

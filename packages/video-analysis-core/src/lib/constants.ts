@@ -4,8 +4,8 @@ import path from "node:path";
 import process from "node:process";
 
 export const SERVER_INFO = {
-  name: "youtube-analyzer-gemini",
-  version: "0.3.0",
+  name: "edutube-mcp",
+  version: "0.5.0",
 } as const;
 
 export const DEFAULT_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-pro";

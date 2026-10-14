@@ -2,6 +2,7 @@ export * from "./analysis.js";
 export * from "./chunk-planner.js";
 export * from "./edutube-runner.js";
 export * from "./lesson.js";
+export * from "./lesson-validator.js";
 export * from "./playlist.js";
 export * from "./provider.js";
 export * from "./schemas.js";

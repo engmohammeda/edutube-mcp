@@ -1,7 +1,7 @@
 {
   "name": "@engmohammeda/edutube-mcp",
   "mcpName": "io.github.engmohammeda/edutube-mcp",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Edutube MCP: turn YouTube playlists and videos into structured lessons, analyses, frames and quizzes with Google Gemini and automatic model rotation",
   "repository": {
     "type": "git",
@@ -62,7 +62,7 @@
     "ajv-formats": "^3.0.1",
     "dotenv": "^16.6.1",
     "zod": "^4.1.12",
-    "@engmohammeda/edutube-core": "0.1.0"
+    "@engmohammeda/edutube-core": "0.2.0"
   },
   "devDependencies": {
     "@types/node": "^22.19.15",

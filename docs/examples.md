@@ -70,3 +70,32 @@ Example target shape:
   ]
 }
 ```
+
+## Lesson Extraction (Edutube)
+
+Extract a whole course playlist as structured lessons — one JSON per video:
+
+```text
+Extract structured lessons from this playlist using the writing course preset:
+https://www.youtube.com/playlist?list=PL...
+```
+
+The agent will call `start_edutube_extraction` with `course: "writing"`, poll `get_edutube_job_status`, and report `get_edutube_job_result`.
+
+```text
+Extract phonetics lessons from my CSV playlist at ./my-course.csv into ./phonetics-lessons
+```
+
+```text
+Validate the extracted lessons in ./writing-lessons against the writing preset
+```
+
+(Uses `edutube-mcp validate ./writing-lessons --course writing` — see [validation](validation.md).)
+
+Custom prompt + schema, keeping full control of the output shape:
+
+```text
+Extract lessons from https://www.youtube.com/watch?v=VIDEO_ID using my prompt in ./my-prompt.txt and my schema in ./my-schema.json
+```
+
+Real extracted samples for every preset: [`examples/lessons-all.json`](../examples/lessons-all.json) (conversation), [`examples/phonetics-lessons-all.json`](../examples/phonetics-lessons-all.json), [`examples/writing-lessons-all.json`](../examples/writing-lessons-all.json).

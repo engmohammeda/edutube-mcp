@@ -455,6 +455,67 @@ export function mergeLessonWindows(windows: LessonWindow[]): LessonWindow {
   return merged;
 }
 
+/**
+ * Remove a top-level `metadata` property from a response schema so windowed
+ * extraction never re-asks the model for per-window metadata.
+ */
+export function stripMetadataFromSchema(schema: Record<string, unknown>): Record<string, unknown> {
+  const properties = schema.properties;
+  if (!properties || typeof properties !== "object" || Array.isArray(properties)) return schema;
+  const { metadata: _metadata, ...rest } = properties as Record<string, unknown>;
+  return {
+    ...schema,
+    properties: rest,
+    required: Array.isArray(schema.required)
+      ? (schema.required as unknown[]).filter((k) => k !== "metadata")
+      : schema.required,
+  };
+}
+
+/**
+ * Generic deep merge for custom-schema windowed extraction: arrays are
+ * concatenated with JSON dedupe, objects merge recursively, and the first
+ * non-null scalar wins (longest string for text).
+ */
+export function mergeGenericLessonWindows(windows: Array<Record<string, unknown>>): Record<string, unknown> {
+  const merged: Record<string, unknown> = {};
+  const seenArrays = new Map<string, Set<string>>();
+
+  const mergeInto = (target: Record<string, unknown>, source: Record<string, unknown>): void => {
+    for (const [key, value] of Object.entries(source)) {
+      if (value === null || value === undefined) continue;
+      const existing = target[key];
+      if (Array.isArray(value)) {
+        const seen = seenArrays.get(key) ?? new Set<string>();
+        seenArrays.set(key, seen);
+        const list = Array.isArray(existing) ? (existing as unknown[]) : [];
+        for (const item of value) {
+          const dedupeKey = JSON.stringify(item ?? null);
+          if (!seen.has(dedupeKey)) {
+            seen.add(dedupeKey);
+            list.push(item);
+          }
+        }
+        target[key] = list;
+      } else if (value && typeof value === "object") {
+        const obj =
+          existing && typeof existing === "object" && !Array.isArray(existing)
+            ? (existing as Record<string, unknown>)
+            : {};
+        mergeInto(obj, value as Record<string, unknown>);
+        target[key] = obj;
+      } else if (typeof value === "string") {
+        if (typeof existing !== "string" || value.length > existing.length) target[key] = value;
+      } else if (existing === null || existing === undefined) {
+        target[key] = value;
+      }
+    }
+  };
+
+  for (const w of windows) mergeInto(merged, w);
+  return merged;
+}
+
 export function normalizeLesson(
   lesson: Record<string, unknown>,
   options: {
@@ -470,13 +531,30 @@ export function normalizeLesson(
       : {};
   metadata.course_id = options.courseId ?? "conversation";
   metadata.course_name_ar = options.courseNameAr ?? "المحادثة";
-  metadata.level = 1;
+  if (!Number.isInteger(metadata.level) || Number(metadata.level) < 1) metadata.level = 1;
   if (options.position !== undefined) metadata.lesson_no = options.position;
   else if (typeof metadata.lesson_no !== "number") metadata.lesson_no = options.position ?? 1;
   if (!metadata.title && options.fallbackTitle) metadata.title = options.fallbackTitle;
 
   const quiz = Array.isArray(lesson.quiz) ? (lesson.quiz as unknown[]).slice(0, 10) : [];
   return { ...lesson, metadata, quiz };
+}
+
+/**
+ * Generic validity check for custom-schema extractions: the result must be a
+ * JSON object that carries some actual content (non-empty arrays/objects or at
+ * least three populated keys).
+ */
+export function customLessonLooksValid(lesson: unknown): boolean {
+  if (!lesson || typeof lesson !== "object" || Array.isArray(lesson)) return false;
+  const record = lesson as Record<string, unknown>;
+  const values = Object.values(record);
+  if (values.length < 3) return false;
+  return values.some((v) => {
+    if (Array.isArray(v)) return v.length > 0;
+    if (v && typeof v === "object") return Object.values(v as Record<string, unknown>).some((x) => x != null && x !== "");
+    return typeof v === "string" && v.trim().length > 0;
+  });
 }
 
 export function lessonLooksValid(lesson: unknown, course: CoursePreset = "conversation"): boolean {
@@ -531,6 +609,8 @@ export async function extractLessonFromVideo(
     chunkModel?: string;
     finalModel?: string;
     analysisPrompt?: string;
+    /** Optional custom JSON-schema override (for fully custom lesson shapes). */
+    responseSchemaJson?: string;
     windowPromptFactory?: (start: number, end: number) => string;
     windowSeconds?: number;
   },
@@ -539,6 +619,11 @@ export async function extractLessonFromVideo(
   const course: CoursePreset = params.course ?? "conversation";
   const preset = getLessonPreset(course);
   const model = params.model || "gemini-2.5-flash";
+  const customSchemaJson = params.responseSchemaJson?.trim() || null;
+  const responseSchemaJson = customSchemaJson ?? JSON.stringify(preset.schema);
+  const isCustom = Boolean(customSchemaJson);
+  const looksValid = (analysis: unknown): boolean =>
+    isCustom ? customLessonLooksValid(analysis) : lessonLooksValid(analysis, course);
 
   try {
     const longResult = await analyzeLongVideo(
@@ -550,19 +635,21 @@ export async function extractLessonFromVideo(
         chunkModel: params.chunkModel ?? model,
         finalModel: params.finalModel ?? model,
         analysisPrompt: params.analysisPrompt ?? preset.prompt,
-        responseSchemaJson: JSON.stringify(preset.schema),
+        responseSchemaJson,
       },
       context
     );
     const analysis = longResult.analysis as Record<string, unknown> | undefined;
-    if (analysis && lessonLooksValid(analysis, course)) {
+    if (analysis && looksValid(analysis)) {
       return {
-        lesson: normalizeLesson(analysis, {
-          position: params.position,
-          fallbackTitle: params.fallbackTitle,
-          courseId: preset.courseId,
-          courseNameAr: preset.courseNameAr,
-        }),
+        lesson: isCustom
+          ? analysis
+          : normalizeLesson(analysis, {
+              position: params.position,
+              fallbackTitle: params.fallbackTitle,
+              courseId: preset.courseId,
+              courseNameAr: preset.courseNameAr,
+            }),
         strategyUsed: "long_single_pass",
       };
     }
@@ -587,6 +674,35 @@ export async function extractLessonFromVideo(
             `${preset.prompt}\n\nIMPORTANT: analyze ONLY the clip window ${start}s-${end}s of the video; content and quiz must cover this window only (max 3 quiz questions, audio_quiz preferred).`
         : DEFAULT_WINDOW_PROMPT);
 
+  const windowSchemaJson = isCustom
+    ? JSON.stringify(stripMetadataFromSchema(JSON.parse(customSchemaJson as string)))
+    : JSON.stringify(windowSchemaFor(course));
+
+  if (isCustom) {
+    const windowResults: Array<Record<string, unknown>> = [];
+    for (let start = 0; start < duration; start += step) {
+      const end = Math.min(start + step, duration);
+      const short = await analyzeShortVideo(
+        ai,
+        {
+          youtubeUrl: params.youtubeUrl,
+          startOffsetSeconds: start,
+          endOffsetSeconds: end,
+          model,
+          analysisPrompt: factory(start, end),
+          responseSchemaJson: windowSchemaJson,
+        },
+        context
+      );
+      windowResults.push((short.analysis ?? {}) as Record<string, unknown>);
+    }
+    return {
+      lesson: mergeGenericLessonWindows(windowResults),
+      strategyUsed: "windowed_fallback",
+      windowsProcessed: windowResults.length,
+    };
+  }
+
   const windows: LessonWindow[] = [];
   for (let start = 0; start < duration; start += step) {
     const end = Math.min(start + step, duration);
@@ -598,7 +714,7 @@ export async function extractLessonFromVideo(
         endOffsetSeconds: end,
         model,
         analysisPrompt: factory(start, end),
-        responseSchemaJson: JSON.stringify(windowSchemaFor(course)),
+        responseSchemaJson: windowSchemaJson,
       },
       context
     );

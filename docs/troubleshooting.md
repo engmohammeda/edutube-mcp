@@ -12,6 +12,12 @@ edutube-mcp setup
 
 `get_youtube_video_metadata` requires `YOUTUBE_API_KEY`. Analysis tools do not require this key.
 
+## CSV Playlist Import Fails
+
+- The path must end with `.csv` and must be a local file (not an `http(s)` URL).
+- Every row needs an extractable YouTube video id in the url column (a full video URL or the bare 11-char id). The error message names the offending row.
+- See [CSV import](csv-import.md) for the accepted column names.
+
 ## Long Videos Fail
 
 First call `get_youtube_analyzer_capabilities`.
