@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "course": { "type": "string" },
+        "level": { "type": "integer" },
+        "lesson_no": { "type": "integer" },
+        "title": { "type": "string" }
+      },
+      "required": ["course", "level", "lesson_no", "title"]
+    },
+    "global_vocabulary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "word": { "type": "string" },
+          "meaning": { "type": "string" },
+          "example_en": { "type": "string" },
+          "example_ar": { "type": "string" }
+        },
+        "required": ["word", "meaning", "example_en", "example_ar"]
+      }
+    },
+    "lesson_notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "quiz": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": { "type": "string" },
+          "question": { "type": "string" },
+          "options": { "type": "array", "items": { "type": "string" }, "nullable": true },
+          "answer": { "type": "string" },
+          "explanation_ar": { "type": "string" }
+        },
+        "required": ["type", "question", "answer", "explanation_ar"]
+      }
+    }
+  },
+  "required": ["metadata", "global_vocabulary", "lesson_notes", "quiz"]
+}

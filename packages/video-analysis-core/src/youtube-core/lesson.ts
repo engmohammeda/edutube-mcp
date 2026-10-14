@@ -516,6 +516,46 @@ export function mergeGenericLessonWindows(windows: Array<Record<string, unknown>
   return merged;
 }
 
+/**
+ * After a custom-schema windowed merge, backfill `metadata` fields the schema
+ * declares but windows cannot know (lesson_no, title, level) so the final
+ * lesson still carries a complete identity.
+ */
+export function fillCustomMetadata(
+  lesson: Record<string, unknown>,
+  options: {
+    schema: Record<string, unknown>;
+    position?: number;
+    fallbackTitle?: string;
+  }
+): void {
+  const schemaProps =
+    options.schema.properties && typeof options.schema.properties === "object"
+      ? (options.schema.properties as Record<string, unknown>)
+      : {};
+  const metaSchema = schemaProps.metadata;
+  const metaProps =
+    metaSchema && typeof metaSchema === "object"
+      ? (((metaSchema as Record<string, unknown>).properties as Record<string, unknown>) ?? {})
+      : {};
+  if (Object.keys(metaProps).length === 0) return;
+
+  const metadata =
+    lesson.metadata && typeof lesson.metadata === "object" && !Array.isArray(lesson.metadata)
+      ? (lesson.metadata as Record<string, unknown>)
+      : {};
+  if (metaProps.lesson_no !== undefined && (metadata.lesson_no === null || metadata.lesson_no === undefined) && options.position !== undefined) {
+    metadata.lesson_no = options.position;
+  }
+  if (metaProps.title !== undefined && !metadata.title && options.fallbackTitle) {
+    metadata.title = options.fallbackTitle;
+  }
+  if (metaProps.level !== undefined && (metadata.level === null || metadata.level === undefined)) {
+    metadata.level = 1;
+  }
+  lesson.metadata = metadata;
+}
+
 export function normalizeLesson(
   lesson: Record<string, unknown>,
   options: {
@@ -696,8 +736,14 @@ export async function extractLessonFromVideo(
       );
       windowResults.push((short.analysis ?? {}) as Record<string, unknown>);
     }
+    const mergedCustom = mergeGenericLessonWindows(windowResults);
+    fillCustomMetadata(mergedCustom, {
+      schema: JSON.parse(customSchemaJson as string) as Record<string, unknown>,
+      position: params.position,
+      fallbackTitle: params.fallbackTitle,
+    });
     return {
-      lesson: mergeGenericLessonWindows(windowResults),
+      lesson: mergedCustom,
       strategyUsed: "windowed_fallback",
       windowsProcessed: windowResults.length,
     };

@@ -4,6 +4,19 @@ All notable changes to this project are documented here.
 
 This project follows semantic versioning where practical.
 
+## 0.5.1 — Browser runner, custom-schema course package
+
+### Added
+
+- **Browser-side extraction** (GUI): the 🌐 card in the Extract tab calls Gemini directly from the browser with YouTube URLs (`file_data`) — no yt-dlp/ffmpeg needed; lessons are saved server-side (`POST /api/save-lesson`), resumable, quota-aware (429 backoff). New endpoints: `GET /api/course-files`, `GET /api/runtime-key`, `POST /api/save-lesson`, `POST /api/save-aggregate`.
+- `courses/english-from-zero-level1/` custom course package: the owner's «من الصفر» extraction prompt (`prompt.txt`) and JSON schema (`schema.json` — `metadata` + `global_vocabulary` with bilingual examples + `lesson_notes` + 10-item mixed quiz) alongside the 25-lesson `playlist.csv`.
+- GUI test suite `gui/test.mjs` (7 tests) with isolated HOME so the user config is never touched.
+
+### Fixed
+
+- Saved settings (`GEMINI_API_KEY` etc.) are now bootstrapped into `process.env` at GUI startup — the key used to vanish on every restart.
+- Custom-schema windowed fallback now backfills `metadata` (lesson_no / title / level) after merging windows.
+
 ## 0.5.0 — Professional overhaul: presets, CSV import, strict validation
 
 ### Added

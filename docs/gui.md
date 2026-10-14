@@ -59,6 +59,29 @@ The studio exposes a small JSON API under `/api/`:
 | POST | `/api/jobs/:id/cancel` | cancel a job |
 | GET | `/api/lessons?dir=` · `/api/lesson?dir=&file=` | browse / read lessons |
 | POST | `/api/validate` | `{dir, course}` → validation report |
+| GET | `/api/course-files?dir=` | read a course package (`prompt.txt`, `schema.json`, `playlist.csv`) |
+| GET | `/api/runtime-key` | stored Gemini key for the browser runner |
+| POST | `/api/save-lesson` | `{dir, file, lesson}` → persist one lesson JSON |
+| POST | `/api/save-aggregate` | `{dir, course, source}` → rebuild `lessons-all.json` + `summary.json` |
+
+## Browser-side extraction (no yt-dlp / ffmpeg)
+
+The **🌐 الاستخراج المباشر عبر المتصفح** card in the Extract tab calls the Gemini API
+directly from your browser (`generativelanguage.googleapis.com`) with YouTube URLs as
+`file_data` — Gemini fetches the video server-side, so no local download tools are needed.
+
+1. Fill **مجلد حزمة الكورس** (a package like `courses/english-from-zero-level1` containing
+   `prompt.txt` + `schema.json` + `playlist.csv`) and click **تحميل الحزمة**.
+2. Click **🚀 ابدأ الاستخراج عبر المتصفح**. Each lesson is extracted with the package's
+   custom prompt and schema, saved under `<package>/lessons/lesson-NN.json`, and listed
+   in the Browse tab immediately. Completed files are skipped on re-runs (resume).
+3. Lesson metadata is pinned from the CSV (`lesson_no`, `title`) plus the fixed
+   `course` / `level` hint appended to the prompt.
+
+Notes: the stored `GEMINI_API_KEY` is sent to Google from your browser for these calls
+(see [Configuration](configuration.md)); quota limits follow your Gemini plan — 429s wait
+and retry automatically. On a locked-down network, if the browser also cannot reach
+`generativelanguage.googleapis.com`, use the CLI/GUI server path or GitHub Actions instead.
 
 ## Notes
 

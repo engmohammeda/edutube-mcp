@@ -113,6 +113,32 @@
         <div class="log" id="jobLog"><div class="info">—</div></div>
       </div>
     </div>
+
+    <!-- ============ BROWSER RUNNER ============ -->
+    <div class="card" style="margin-top:16px">
+      <h2 data-i="br_h">🌐 الاستخراج المباشر عبر المتصفح (Gemini API)</h2>
+      <p class="sub" data-i="br_sub">يستدعي Gemini مباشرة من متصفحك (دون حاجة لـ yt-dlp أو ffmpeg) باستخدام روابط يوتيوب، ثم يحفظ الدروس على الخادم فوراً. مثالي للتشغيل من أي جهاز.</p>
+      <div class="row">
+        <label class="field"><span data-i="br_dir">مجلد حزمة الكورس</span>
+          <input id="brDir" dir="ltr" value="courses/english-from-zero-level1" />
+        </label>
+        <label class="field"><span data-i="br_model">النموذج</span>
+          <input id="brModel" dir="ltr" value="gemini-2.5-flash" />
+        </label>
+        <label class="field"><span>&nbsp;</span>
+          <button class="btn" id="brLoad" data-i="br_load">📦 تحميل الحزمة</button>
+        </label>
+      </div>
+      <div class="hint" id="brInfo" data-i="br_hint">حمّل الحزمة (prompt.txt + schema.json + playlist.csv) ثم ابدأ. الملفات المكتملة تُتخطى تلقائياً (استئناف).</div>
+      <div class="row" style="margin-top:8px">
+        <button class="btn primary" id="brStart" disabled data-i="br_start">🚀 ابدأ الاستخراج عبر المتصفح</button>
+        <button class="btn danger" id="brStop" disabled data-i="br_stop">إيقاف</button>
+      </div>
+      <div class="jobbar" style="margin-top:14px"><i id="brFill"></i></div>
+      <div class="jobstatus"><span id="brCount">0 / 0</span><span id="brState"></span></div>
+      <h3 style="margin-top:14px" data-i="br_log">سجل الاستخراج</h3>
+      <div class="log" id="brLog"><div class="info">—</div></div>
+    </div>
   </section>
 
   <!-- ================= LESSONS ================= -->

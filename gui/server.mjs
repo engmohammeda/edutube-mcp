@@ -418,6 +418,73 @@ async function handleApi(req, res, url) {
     return json(res, 200, { dir, course, total: reports.length, ok: reports.length - failed, failed, reports });
   }
 
+  if (req.method === "GET" && pathname === "/api/runtime-key") {
+    // The browser runner calls Gemini directly from the user's browser; it
+    // needs the stored key for the x-goog-api-key header (user's own machine).
+    return json(res, 200, {
+      GEMINI_API_KEY: process.env.GEMINI_API_KEY || "",
+      YOUTUBE_API_KEY: process.env.YOUTUBE_API_KEY || "",
+    });
+  }
+
+  if (req.method === "GET" && pathname === "/api/course-files") {
+    const dir = path.resolve(url.searchParams.get("dir") || "courses/english-from-zero-level1");
+    const readMaybe = async (name) => {
+      try {
+        return await fs.readFile(path.join(dir, name), "utf8");
+      } catch {
+        return null;
+      }
+    };
+    return json(res, 200, {
+      dir,
+      prompt: await readMaybe("prompt.txt"),
+      schema: await readMaybe("schema.json"),
+      csv: await readMaybe("playlist.csv"),
+    });
+  }
+
+  if (req.method === "POST" && pathname === "/api/save-lesson") {
+    const body = await readBody(req);
+    const dir = path.resolve(body.dir || "edutube-output");
+    const file = String(body.file || "");
+    if (!/^lesson-[\w.-]+\.json$/i.test(file)) return json(res, 400, { error: "invalid file name" });
+    if (!body.lesson || typeof body.lesson !== "object" || Array.isArray(body.lesson)) {
+      return json(res, 400, { error: "lesson must be a JSON object" });
+    }
+    await fs.mkdir(dir, { recursive: true });
+    await fs.writeFile(path.join(dir, file), `${JSON.stringify(body.lesson, null, 2)}\n`, "utf8");
+    return json(res, 200, { ok: true, dir, file });
+  }
+
+  if (req.method === "POST" && pathname === "/api/save-aggregate") {
+    const body = await readBody(req);
+    const dir = path.resolve(body.dir || "edutube-output");
+    const files = await listLessonFiles(dir);
+    const lessons = [];
+    for (const file of files) {
+      try {
+        lessons.push(JSON.parse(await fs.readFile(path.join(dir, file), "utf8")));
+      } catch {
+        /* skip unreadable */
+      }
+    }
+    await fs.writeFile(path.join(dir, "lessons-all.json"), `${JSON.stringify(lessons, null, 2)}\n`, "utf8");
+    const summary = {
+      source: body.source ?? null,
+      course: body.course ?? null,
+      outputDir: dir,
+      totals: {
+        ok: lessons.length,
+        skipped: 0,
+        failed: files.length - lessons.length,
+      },
+      entries: files.map((file) => ({ file })),
+    };
+    await fs.writeFile(path.join(dir, "summary.json"), `${JSON.stringify(summary, null, 2)}\n`, "utf8");
+    return json(res, 200, { ok: true, dir, lessons: lessons.length });
+  }
+
   return json(res, 404, { error: "not found" });
 }
 
@@ -454,6 +521,12 @@ const server = http.createServer(async (req, res) => {
     json(res, 500, { error: message });
   }
 });
+
+/* bootstrap: saved config (e.g. GEMINI_API_KEY) must survive restarts */
+const bootstrapConfig = await readUserConfig();
+for (const [k, v] of Object.entries(bootstrapConfig)) {
+  if (typeof v === "string" && v.length > 0 && process.env[k] === undefined) process.env[k] = v;
+}
 
 server.listen(PORT, HOST, () => {
   console.log(`Edutube Studio running at http://${HOST}:${PORT}`);

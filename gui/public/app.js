@@ -37,7 +37,12 @@
       sec_vocab: "المفردات", sec_notes: "ملاحظات المعلم", sec_quiz: "الاختبار",
       q_question: "السؤال", q_answer: "الإجابة", q_explain: "الشرح",
       reports_pass: "مطابق", reports_fail: "يحتاج مراجعة", reports_total: "إجمالي",
-      view_json: "عرض JSON الخام"
+      view_json: "عرض JSON الخام",
+      br_h: "🌐 الاستخراج المباشر عبر المتصفح (Gemini API)",
+      br_sub: "يستدعي Gemini مباشرة من متصفحك (دون حاجة لـ yt-dlp أو ffmpeg) باستخدام روابط يوتيوب، ثم يحفظ الدروس على الخادم فوراً. مثالي للتشغيل من أي جهاز.",
+      br_dir: "مجلد حزمة الكورس", br_model: "النموذج", br_load: "📦 تحميل الحزمة",
+      br_hint: "حمّل الحزمة (prompt.txt + schema.json + playlist.csv) ثم ابدأ. الملفات المكتملة تُتخطى تلقائياً (استئناف).",
+      br_start: "🚀 ابدأ الاستخراج عبر المتصفح", br_stop: "إيقاف", br_log: "سجل الاستخراج"
     },
     en: {
       tagline: "Lesson extraction studio", checking: "checking…",
@@ -72,7 +77,12 @@
       sec_vocab: "Vocabulary", sec_notes: "Teacher notes", sec_quiz: "Quiz",
       q_question: "Q", q_answer: "Answer", q_explain: "Why",
       reports_pass: "passing", reports_fail: "need review", reports_total: "total",
-      view_json: "View raw JSON"
+      view_json: "View raw JSON",
+      br_h: "🌐 Browser-side extraction (Gemini API)",
+      br_sub: "Calls Gemini directly from your browser (no yt-dlp or ffmpeg needed) using YouTube URLs, then saves lessons on the server instantly. Perfect for any machine.",
+      br_dir: "Course package dir", br_model: "Model", br_load: "📦 Load package",
+      br_hint: "Load the package (prompt.txt + schema.json + playlist.csv) then start. Completed files are skipped automatically (resume).",
+      br_start: "🚀 Start browser extraction", br_stop: "Stop", br_log: "Extraction log"
     }
   };
 
@@ -397,6 +407,203 @@
       toast(t("saved"));
       loadConfig();
     } catch (e) { toast("⚠ " + e.message); }
+  });
+
+  /* ------------------------------ browser runner ------------------------------ */
+  var br = { rows: [], prompt: "", schema: null, dir: "", running: false, stopped: false };
+
+  function toGeminiSchema(node) {
+    if (Array.isArray(node)) return node.map(toGeminiSchema);
+    if (node && typeof node === "object") {
+      var out = {};
+      Object.keys(node).forEach(function (k) {
+        if (k === "type" && typeof node[k] === "string") out.type = node[k].toUpperCase();
+        else out[k] = toGeminiSchema(node[k]);
+      });
+      return out;
+    }
+    return node;
+  }
+
+  function brLog(level, msg) {
+    var el = $("brLog");
+    var line = document.createElement("div");
+    line.className = level;
+    line.innerHTML = '<span class="t">' + new Date().toTimeString().slice(0, 8) + "</span>" + esc(msg);
+    el.appendChild(line);
+    el.scrollTop = el.scrollHeight;
+  }
+
+  function parseCsvBrowser(text) {
+    // char-by-char CSV rows (RFC-4180-ish), then map columns
+    var rows = [];
+    var row = [], field = "", inQ = false, src = text.replace(/^\uFEFF/, "");
+    function pushCell() { row.push(field); field = ""; }
+    function pushRow() { pushCell(); if (row.some(function (c) { return c.trim(); })) rows.push(row); row = []; }
+    for (var i = 0; i < src.length; i++) {
+      var ch = src[i];
+      if (inQ) {
+        if (ch === '"') { if (src[i + 1] === '"') { field += '"'; i++; } else inQ = false; }
+        else field += ch;
+      } else if (ch === '"') inQ = true;
+      else if (ch === ",") pushCell();
+      else if (ch === "\n") pushRow();
+      else if (ch !== "\r") field += ch;
+    }
+    if (field.length || row.length) pushRow();
+    if (!rows.length) return [];
+    var first = rows[0].map(function (c) { return c.trim().toLowerCase(); });
+    var hasHeader = first.some(function (c) { return c === "url" || c.indexOf("video") === 0 || c === "link"; });
+    var out = [];
+    var start = hasHeader ? 1 : 0;
+    var urlCol = hasHeader ? Math.max(first.indexOf("url"), first.indexOf("video_url"), first.indexOf("videourl"), 0) : 0;
+    var titleCol = hasHeader ? first.indexOf("title") : 1;
+    var noCol = hasHeader ? (first.indexOf("lesson_no") >= 0 ? first.indexOf("lesson_no") : first.indexOf("#") >= 0 ? first.indexOf("#") : first.indexOf("position")) : 2;
+    for (var r = start; r < rows.length; r++) {
+      var cells = rows[r];
+      var m = String(cells[urlCol] || "").match(/(?:v=|youtu\.be\/|shorts\/)([\w-]{11})/);
+      if (!m) continue;
+      var no = Number(noCol >= 0 ? cells[noCol] : r);
+      out.push({
+        no: Number.isFinite(no) && no > 0 ? no : r,
+        title: titleCol >= 0 ? (cells[titleCol] || "") : "",
+        url: "https://www.youtube.com/watch?v=" + m[1],
+      });
+    }
+    return out;
+  }
+
+  $("brLoad").addEventListener("click", async function () {
+    br.dir = $("brDir").value.trim();
+    if (!br.dir) return toast(t("need_dir"));
+    try {
+      var files = await api("api/course-files?dir=" + encodeURIComponent(br.dir));
+      if (!files.csv) throw new Error("playlist.csv not found in " + br.dir);
+      br.prompt = files.prompt || "";
+      br.schema = files.schema ? JSON.parse(files.schema) : null;
+      br.rows = parseCsvBrowser(files.csv);
+      var existing = await api("api/lessons?dir=" + encodeURIComponent(br.dir + "/lessons"));
+      br.done = {};
+      (existing.lessons || []).forEach(function (l) { br.done[l.file] = true; });
+      $("brInfo").textContent = (lang === "ar"
+        ? "تم تحميل " + br.rows.length + " درساً · المكتمل مسبقاً: " + Object.keys(br.done).length + " · البرومبت: " + (br.prompt ? "جاهز" : "غير موجود") + " · المخطط: " + (br.schema ? "جاهز" : "غير موجود")
+        : br.rows.length + " lessons loaded · already done: " + Object.keys(br.done).length + " · prompt: " + (br.prompt ? "ready" : "missing") + " · schema: " + (br.schema ? "ready" : "missing"));
+      $("brStart").disabled = !br.rows.length || !br.prompt || !br.schema;
+      brLog("info", (lang === "ar" ? "حمّلت الحزمة: " : "package loaded: ") + br.rows.length + " lessons");
+    } catch (e) {
+      toast("⚠ " + e.message);
+    }
+  });
+
+  $("brStart").addEventListener("click", async function () {
+    if (br.running || !br.rows.length) return;
+    var key;
+    try {
+      var k = await api("api/runtime-key");
+      key = k.GEMINI_API_KEY;
+    } catch (e) { /* ignore */ }
+    if (!key) {
+      key = (window.prompt(lang === "ar" ? "أدخل GEMINI_API_KEY" : "Enter GEMINI_API_KEY") || "").trim();
+      if (!key) return toast("GEMINI_API_KEY required");
+    }
+    var model = $("brModel").value.trim() || "gemini-2.5-flash";
+    br.running = true;
+    br.stopped = false;
+    $("brStart").disabled = true;
+    $("brStop").disabled = false;
+
+    var schema = toGeminiSchema(br.schema);
+    var total = br.rows.length;
+    var doneCount = 0;
+    var okCount = 0;
+
+    for (var i = 0; i < br.rows.length; i++) {
+      if (br.stopped) break;
+      var row = br.rows[i];
+      var file = "lesson-" + String(row.no).padStart(2, "0") + ".json";
+      $("brFill").style.width = Math.round((doneCount / total) * 100) + "%";
+      $("brCount").textContent = doneCount + " / " + total;
+      if (br.done[file]) {
+        brLog("info", file + " — " + (lang === "ar" ? "مكتمل مسبقاً، تخطٍ" : "already done, skip"));
+        doneCount++; okCount++;
+        continue;
+      }
+      var hint = "\n\n# Lesson Metadata (use EXACTLY these values in the metadata object)\n" +
+        '- course: "من الصفر"\n- level: 1\n- lesson_no: ' + row.no + "\n- title: " + (row.title || row.url) + "\n";
+      $("brState").textContent = (lang === "ar" ? "يعالج الدرس " : "processing ") + row.no + "…";
+      brLog("progress", (lang === "ar" ? "الدرس " : "lesson ") + row.no + " — " + (row.title || "").slice(0, 60));
+
+      var attempt = 0;
+      var saved = false;
+      while (attempt < 3 && !br.stopped && !saved) {
+        attempt++;
+        try {
+          var res = await fetch("https://generativelanguage.googleapis.com/v1beta/models/" + encodeURIComponent(model) + ":generateContent", {
+            method: "POST",
+            headers: { "content-type": "application/json", "x-goog-api-key": key },
+            body: JSON.stringify({
+              contents: [{ role: "user", parts: [
+                { file_data: { file_uri: row.url } },
+                { text: br.prompt + hint },
+              ] }],
+              generationConfig: { responseMimeType: "application/json", responseSchema: schema },
+            }),
+          });
+          if (res.status === 429) {
+            brLog("warn", "429 quota — " + (lang === "ar" ? "انتظار 30 ثانية…" : "waiting 30s…"));
+            await new Promise(function (r) { setTimeout(r, 30000); });
+            continue;
+          }
+          if (!res.ok) {
+            var errText = await res.text();
+            throw new Error("HTTP " + res.status + " " + errText.slice(0, 160));
+          }
+          var data = await res.json();
+          var parts = data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts;
+          var textOut = parts && parts[0] && parts[0].text;
+          if (!textOut) throw new Error("empty model response");
+          var lesson = JSON.parse(textOut);
+          await api("api/save-lesson", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({ dir: br.dir + "/lessons", file: file, lesson: lesson }),
+          });
+          br.done[file] = true;
+          saved = true;
+          okCount++;
+          brLog("success", file + " ✓ " + (lang === "ar" ? "حُفظ" : "saved") + " (" + ((lesson.global_vocabulary || []).length) + " " + t("vocab") + ", " + ((lesson.quiz || []).length) + " " + t("quiz") + ")");
+        } catch (e) {
+          if (br.stopped) break;
+          brLog("error", file + " ✗ " + e.message);
+          if (attempt < 3) await new Promise(function (r) { setTimeout(r, 5000); });
+        }
+      }
+      doneCount++;
+      $("brFill").style.width = Math.round((doneCount / total) * 100) + "%";
+      $("brCount").textContent = doneCount + " / " + total;
+    }
+
+    try {
+      await api("api/save-aggregate", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ dir: br.dir + "/lessons", course: "من الصفر", source: br.dir }),
+      });
+    } catch (e) { /* ignore */ }
+
+    br.running = false;
+    $("brStart").disabled = false;
+    $("brStop").disabled = true;
+    $("brState").textContent = br.stopped
+      ? (lang === "ar" ? "أُوقف" : "stopped")
+      : (lang === "ar" ? "اكتمل — " : "done — ") + okCount + "/" + total;
+    brLog(br.stopped ? "warn" : "success", (lang === "ar" ? "انتهى. النجاح: " : "finished. ok: ") + okCount + "/" + total);
+    toast((lang === "ar" ? "انتهى الاستخراج ✅ " : "extraction finished ✅ ") + okCount + "/" + total);
+  });
+
+  $("brStop").addEventListener("click", function () {
+    br.stopped = true;
+    $("brState").textContent = lang === "ar" ? "جارٍ الإيقاف…" : "stopping…";
   });
 
   /* ------------------------------ boot ------------------------------ */
